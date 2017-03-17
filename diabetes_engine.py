@@ -81,6 +81,7 @@ def get_query(q, common_diabetes_questions,N):
      -detects the target of the relation described by ans type
      
     """
+    
     #A question may belong to multiple ans types, this list
     #will store all of them
     ans_types = []
@@ -301,6 +302,8 @@ def get_query(q, common_diabetes_questions,N):
     ##OUTLOOK(PROGNOSIS)
     syn_outlook = obtain_synonyms("outlook")
     syn_outlook.extend(obtain_synonyms("prognosis"))
+    syn_outlook.extend(obtain_synonyms("perspective"))
+    
     re_out= ".+(?:outlook)"
     for w in syn_outlook:
         if idf(w,N,common_diabetes_questions) > 1:
@@ -310,7 +313,7 @@ def get_query(q, common_diabetes_questions,N):
         ans_types.append( "outlook")
 
 
-    ##FUCTION
+    ##FUNCTION
     syn_fun = obtain_synonyms("function")
     re_fun= ".+(?:function)"
     for w in syn_fun:
@@ -323,19 +326,28 @@ def get_query(q, common_diabetes_questions,N):
     ##CONTACTING MEDICAL PROFESSIONAL
     syn_prof = obtain_synonyms("professional")
     syn_contact = obtain_synonyms("contact")
-    syn_contact.extend( obtain_synonyms("cal") )
-    re_prof= ".+(?:contact.+medical.+professional)"
-    for q in syn_contact:
-        if idf(q,N,common_diabetes_questions) > 1:
+    syn_contact.extend( obtain_synonyms("call") )
+    re_prof= ".*(?:contact.*medical.*professional)"
+    for k in syn_contact:
+        if idf(k,N,common_diabetes_questions) > 1:
             for w in syn_prof:
                 if idf(w,N,common_diabetes_questions) > 1:
-                    re_prof =  re_prof + "|(?:" +q+".+medical.+"+ st.stem( w.replace("_", " ") ) + ")"
-    re_prof = re_prof + ".+"
-  
-    
+                    re_prof =  re_prof + "|(?:" +k+".*medical.*"+ st.stem( w.replace("_", " ")+".*" ) + ")"
+    re_prof = re_prof + ".*"
+
     if findall(re_prof,q ) != []:
-        ans_types.append( "when to contact a medical professional")
-   
+        ans_types =[ "when to contact a medical professional"]
+        target = ""
+
+   ##COMPLICATIONS
+    syn_com = obtain_synonyms("complications")
+    re_com = ".+(?:complications)"
+    for w in syn_com:
+        if idf(w,N,common_diabetes_questions) > 1:
+            re_com =  re_com + "|(?:"+ st.stem( w.replace("_", " ") ) + ")"
+    re_com = re_com + ".+"
+    if findall(re_com,q ) != []:
+        ans_types.append( "possible complications")
         
     ##INTRO
     if ans_types == []:
@@ -391,6 +403,33 @@ def extract_information(q,list_types,focus,target, dataFile, common_diabetes_que
 
     the dataset, retreieve the ans pertaining to the query formed by the first three arguments
     """
+    #check to see if the focus appears some where in the name of an article
+    focusWords = (focus).split(" ")
+
+    focusWords2 = []
+    for w in focusWords:
+        focusWords2.extend(obtain_synonyms(w))
+
+    focusWords3 = []
+    for w in focusWords2:
+        focusWords3.append(st.stem(w))
+        
+    focusWords.extend(focusWords2)
+    focusWords.extend(focusWords3)
+
+
+    targetWords = (target).split(" ")
+
+    targetWords2 = []
+    for w in targetWords:
+        targetWords2.extend(obtain_synonyms(w))
+        
+    targetWords3 = []
+    for w in targetWords:
+        targetWords3.append(st.stem(w))
+
+    targetWords.extend(targetWords2)
+    targetWords.extend(targetWords3)
     with open(dataFile, "rb") as f:
         candidate_answers = []
         candidate_rows = []
@@ -412,73 +451,52 @@ def extract_information(q,list_types,focus,target, dataFile, common_diabetes_que
             title_syns.extend(title_syns2)    
             #we are going to have one key to each article from the pass on data in parse_file()
 
-            #check to see if the focus appears some where in the name of an article
-            focusWords = (focus).split(" ")
-
-            focusWords2 = []
-            for w in focusWords:
-                focusWords2.extend(obtain_synonyms(w))
-
-            focusWords3 = []
-            for w in focusWords2:
-                focusWords3.append(st.stem(w))
-                
-            focusWords.extend(focusWords2)
-            focusWords.extend(focusWords3)
-
-
-            targetWords = (target).split(" ")
-
-            targetWords2 = []
-            for w in targetWords:
-                targetWords2.extend(obtain_synonyms(w))
-                
-            targetWords3 = []
-            for w in targetWords:
-                targetWords3.append(st.stem(w))
-
-            targetWords.extend(targetWords2)
-            targetWords.extend(targetWords3)
+            
              
             common_words = list ( set(title_syns).intersection(set(focusWords)) )
             num_common_words = len(common_words)
             
             #focus is just one word
-            if  common_words != []:
+            if num_common_words > 0:
                 
                 #if there the article title indeed pertains to the focus
                 #procure the entire row about that article, as a dictionary
-                
+                article = row_dic["article_section"]
+                       
+             
+                  #once the ans type has atleast a partial match,
+                  # we use the following metrics to score the candidate passage
+
+                  #number of words in common with the target
+                  #article = article.lower()
+                article = remove_p_tags(article.lower())
+
+                articleWordsSet =  set(article.split(' '))
+
+                commons_focus_articles =  list( articleWordsSet.intersection(set(focusWords)) )
+
+                CFA = len(commons_focus_articles)
+                  
+                commons_target_articles =  list( articleWordsSet.intersection(set(targetWords)) )
+                  
+                while '' in commons_target_articles:
+                      commons_target_articles.remove('')
+                      
+                CTA = len(commons_target_articles)
+               
+                  #how close do the words inside the question appear in the article
+                P = proximity(q, article)
+                ans_category =  row_dic["section_title"]
+                ans_category =  ans_category.lower()
+
                 for ans_type in list_types:
                     #for each ans type (causes, recommendations, intro) obtained from the query
                     #check which one that is atleast (exact matches for cases like causes and causes and partial for intro and _intro_) a partial match 
                     #to the section title
                     
-                    ans_category =  row_dic["section_title"]
-                    ans_category =  ans_category.lower()
-                    
+                                       
                     if ans_type in ans_category:
-                          article = row_dic["article_section"]
-                       
                          
-                          #once the ans type has atleast a partial match,
-                          # we use the following metrics to score the candidate passage
-
-                          #number of words in common with the target
-                          #article = article.lower()
-                          article = remove_p_tags(article.lower())
-
-                          articleWordsSet =  set(article.split(' '))
-                          
-                          commons_target_articles =  list( articleWordsSet.intersection(set(targetWords)) )
-                          
-                          while '' in commons_target_articles:
-                              commons_target_articles.remove('')
-                              
-                          CTA = len(commons_target_articles)
-                          
-                          #how close do the words inside the question appear in the article
-                          P = proximity(q, article)
 
                           list_types_candidatePassage, focus_candidatePassage,target_candidatePassage, candidatePassage_and_tags = get_query(article, common_diabetes_questions_as_a_string,N) #treat each candidate passage as a question
                           #and obtain ans types,etc for the candidate passage.
@@ -498,6 +516,9 @@ def extract_information(q,list_types,focus,target, dataFile, common_diabetes_que
         if candidate_answers == []:
             return ""
         return max( candidate_answers )[2]
+
+
+
 def test_extract_information(input_filename, output_filename, num_questions):
     """
     string*string*int -> file
@@ -552,18 +573,18 @@ while(True):
     common_diabetes_questions_as_a_string, N, questions = collect_diabetes_questions("diabetes_questions.csv")
     list_types,focus,target ,words_tags  = get_query(q,common_diabetes_questions_as_a_string,N )
     ans = extract_information(q,list_types,focus,target, "articles.csv", common_diabetes_questions_as_a_string, N)
-##    print "ANS TYPE:"
-##    for t in list_types:
-##        print t
-##    print "FOCUS:"
-##    print focus
-##
-##    print "TARGET:"
-##    print target
-##
-##    print "POS:\n"
-##    pprint(words_tags)
-##    print "CHOSEN ANS:"
+    print "ANS TYPE:"
+    for t in list_types:
+        print t
+    print "FOCUS:"
+    print focus
+
+    print "TARGET:"
+    print target
+
+    print "POS:\n"
+    pprint(words_tags)
+    print "CHOSEN ANS:"
     pprint(ans)
     print
 
