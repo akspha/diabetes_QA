@@ -1,0 +1,800 @@
+question_text
+ANS TYPE:
+intro 
+FOCUS:
+diabetes
+TARGET:
+
+-------------------------------------
+can you please talk about of the early signs of adult on set diabetes
+ANS TYPE:
+symptoms 
+FOCUS:
+diabetes
+TARGET:
+please talk early signs adult set 
+-------------------------------------
+what test do doctors conduct to see if i have gestational diabetes
+ANS TYPE:
+treatment tests 
+FOCUS:
+gestational diabetes
+TARGET:
+test doctors conduct see i gestational 
+-------------------------------------
+i eat crazy amounts of sweets. so is it possible to get diabetes from this
+ANS TYPE:
+causes 
+FOCUS:
+diabetes
+TARGET:
+i crazy amounts sweets possible get 
+-------------------------------------
+how can i get tested for diabetes
+ANS TYPE:
+causes tests 
+FOCUS:
+tested diabetes
+TARGET:
+i get 
+-------------------------------------
+does taking midodrine affect someone with diabetes
+ANS TYPE:
+symptoms 
+FOCUS:
+diabetes
+TARGET:
+midodrine affect someone 
+-------------------------------------
+what to do if i have type 2 diabetes and high blood pressure how can i loose weight
+ANS TYPE:
+intro 
+FOCUS:
+type 2 diabetes
+TARGET:
+do i high blood pressure i loose weight 
+-------------------------------------
+say you are not obese, and do not have diabetes (type 1 or 2) and take 2000of metformin(at once), what would happen
+ANS TYPE:
+intro 
+FOCUS:
+diabetes
+TARGET:
+say not obese not have type take metformin happen 
+-------------------------------------
+does a glucose fasting level of 130 june/'13 and again nov/'13 confirm i have type2 diabetes? what is the criteria
+ANS TYPE:
+symptoms support groups 
+FOCUS:
+type2 diabetes
+TARGET:
+glucose level june/'13 nov/'13 nov/'13 confirm i criteria 
+-------------------------------------
+can you tell me about gestational diabetes- where is my sugar supposed to be
+ANS TYPE:
+intro 
+FOCUS:
+diabetes
+TARGET:
+tell gestational diabetes- sugar be 
+-------------------------------------
+what is your opinion about a breast augmentation over the long term if i have risk of diabetes
+ANS TYPE:
+treatment recommendations 
+FOCUS:
+diabetes
+TARGET:
+opinion breast augmentation long term i risk 
+-------------------------------------
+pain under right side of rib cage female 47, 5'8 300 lbs high blood presure no diabetes
+ANS TYPE:
+intro 
+FOCUS:
+diabetes
+TARGET:
+pain right side rib cage female lbs high blood presure no 
+-------------------------------------
+how to control diabetes adjunct with drugs as my mother 55 yrs is diabetic nd also asthmatic nd takes medicine for both
+ANS TYPE:
+treatment 
+FOCUS:
+diabetes
+TARGET:
+control drugs mother yrs diabetic nd asthmatic nd medicine 
+-------------------------------------
+my mother has type 2 diabetes and lately frequent stomach upsets for no reason. should we be worried
+ANS TYPE:
+causes support groups 
+FOCUS:
+type 2 diabetes
+TARGET:
+mother frequent stomach upsets no reason be 
+-------------------------------------
+can diabetes cause insomnia
+ANS TYPE:
+causes 
+FOCUS:
+diabetes
+TARGET:
+diabetes cause insomnia 
+-------------------------------------
+i'm a  fit 45 year old male who sometimes smokes. my immediate family history includes diabetes and heart disease. what tests should i ask my doc for
+ANS TYPE:
+tests 
+FOCUS:
+diabetes
+TARGET:
+i fit year old male smokes immediate family history heart disease i ask doc 
+-------------------------------------
+can ketones in urine mean diabetes
+ANS TYPE:
+intro 
+FOCUS:
+diabetes
+TARGET:
+ketones urine mean 
+-------------------------------------
+what do you suggest if my foot hurts a lot lately, is it diabetes
+ANS TYPE:
+recommendations 
+FOCUS:
+diabetes
+TARGET:
+suggest foot lot 
+-------------------------------------
+can high cholesterol cause type ii diabetes mellitus
+ANS TYPE:
+causes 
+FOCUS:
+diabetes
+TARGET:
+high cholesterol cause type ii mellitus 
+-------------------------------------
+what happens if i accidently hit a vein while giving myself my insulin injection for diabetes
+ANS TYPE:
+treatment 
+FOCUS:
+diabetes
+TARGET:
+hit vein insulin injection 
+-------------------------------------
+is type 1 diabetes common
+ANS TYPE:
+intro 
+FOCUS:
+1 diabetes
+TARGET:
+type common 
+-------------------------------------
+multiple sclerosis (ms) vs type 1 diabetes. which is more serious
+ANS TYPE:
+intro 
+FOCUS:
+1 diabetes
+TARGET:
+multiple sclerosis ms vs serious 
+-------------------------------------
+what is the normal blood sugar levels fasting and one hour after meals with gestational diabetes
+ANS TYPE:
+symptoms 
+FOCUS:
+gestational diabetes
+TARGET:
+normal normal blood sugar levels hour meals gestational 
+-------------------------------------
+does diabetes type 2 correlate with slow wound healing
+ANS TYPE:
+symptoms treatment 
+FOCUS:
+diabetes
+TARGET:
+type correlate slow wound healing 
+-------------------------------------
+what to do if i want to do a sugar free diet to prevent diabetes
+ANS TYPE:
+symptoms prevention 
+FOCUS:
+diabetes
+TARGET:
+do i do sugar free diet prevent 
+-------------------------------------
+do i have a chance for getting type 2 diabetes? my grandfather got diabetes at 63. at that time he was eating very poorly, and was overweight. his doctor told him that it was not hereditary. can anyone give me any second opinions on this matter
+ANS TYPE:
+causes treatment recommendations 
+FOCUS:
+2 diabetes
+TARGET:
+i chance type grandfather diabetes time doctor not hereditary anyone give second opinions matter 
+-------------------------------------
+could you tell me how much fiber is needed if i have high cholesterol and high diabetes as well
+ANS TYPE:
+intro 
+FOCUS:
+high diabetes
+TARGET:
+tell much fiber i high cholesterol high 
+-------------------------------------
+what causes pre-diabetic or having diabetes
+ANS TYPE:
+causes 
+FOCUS:
+diabetes
+TARGET:
+pre-diabetic 
+-------------------------------------
+how does sublexation of the spine relate to diabetes, heart disease, or obesity
+ANS TYPE:
+intro 
+FOCUS:
+diabetes
+TARGET:
+sublexation spine relate heart disease obesity 
+-------------------------------------
+i am 27 weeks pregnant and have gestational diabetes what is a normal blood sugar level should be. i tested this morning and it was 141
+ANS TYPE:
+symptoms tests 
+FOCUS:
+gestational diabetes
+TARGET:
+i weeks pregnant normal normal blood sugar level be i morning 
+-------------------------------------
+is nephrogenic diabetes insipidus similiar to children's diabetes or not
+ANS TYPE:
+intro 
+FOCUS:
+nephrogenic diabetes
+TARGET:
+nephrogenic similiar children diabetes not 
+-------------------------------------
+what to do if i had read some issues regarding lipitor that may lead to type 2 diabetes. is it true
+ANS TYPE:
+symptoms 
+FOCUS:
+2 diabetes
+TARGET:
+do i issues lipitor lead type true 
+-------------------------------------
+my hemoglobin a1c was 11.1 on 2/07. can that be lowered by losing weight and changing my eating habits? can you get rid of diabetes
+ANS TYPE:
+causes 
+FOCUS:
+diabetes
+TARGET:
+hemoglobin a1c be weight habits get rid 
+-------------------------------------
+can you tell me if someone has had diabetes for 24 years and have retinopathy .could they get an insulin pump from the diabetes clinic
+ANS TYPE:
+causes treatment 
+FOCUS:
+had diabetes
+TARGET:
+tell someone years retinopathy insulin pump diabetes 
+-------------------------------------
+what are the main symptoms of diabetes 2
+ANS TYPE:
+symptoms 
+FOCUS:
+diabetes
+TARGET:
+main symptoms 
+-------------------------------------
+could use your help docs! my fasting glucose is 107 and my triglycerides are 296. my doctor mentioned prediabetes, should i worry
+ANS TYPE:
+tests 
+FOCUS:
+diabetes
+TARGET:
+use help docs glucose triglycerides doctor prediabetes i worry 
+-------------------------------------
+do you experience double vision when you have type 2 diabetes
+ANS TYPE:
+intro 
+FOCUS:
+type 2 diabetes
+TARGET:
+do experience double vision 
+-------------------------------------
+could you recommend tablet for swelling in legs due to diabetes
+ANS TYPE:
+recommendations 
+FOCUS:
+diabetes
+TARGET:
+recommend tablet legs due 
+-------------------------------------
+at risk for diabetes. how many grams of carbs daily to aid in weight loss
+ANS TYPE:
+intro 
+FOCUS:
+diabetes
+TARGET:
+risk many grams carbs daily aid weight loss 
+-------------------------------------
+can u please recommend a diet or product that helps lose weight 4 acute mild chf/type 2 diabetes dats not too restrictive &amp; not 2 slow
+ANS TYPE:
+treatment tests recommendations 
+FOCUS:
+2 diabetes
+TARGET:
+u please recommend diet product lose weight acute mild chf/type dats not restrictive amp not slow 
+-------------------------------------
+what do you suggest if i'm diagnosed with pregnancy diabetes .i am always hungry and losing weight.
+ANS TYPE:
+recommendations 
+FOCUS:
+diagnosed diabetes
+TARGET:
+suggest i diagnosed pregnancy hungry losing weight 
+-------------------------------------
+how much sugar can a child with diabetes safely have each day
+ANS TYPE:
+intro 
+FOCUS:
+diabetes
+TARGET:
+much sugar child day 
+-------------------------------------
+can gestational diabetes untreated cause false positive for any drugs or drug at delivery
+ANS TYPE:
+causes treatment support groups 
+FOCUS:
+diabetes
+TARGET:
+gestational untreated cause false positive drugs drug delivery 
+-------------------------------------
+is an improved vision change ever a concern at age 59. is it possible the onset of diabetes could cause it
+ANS TYPE:
+causes symptoms tests 
+FOCUS:
+diabetes
+TARGET:
+improved vision change concern age possible onset cause 
+-------------------------------------
+if you have type two diabetes should you see a diabetes specialist or a regular m.d.
+ANS TYPE:
+treatment 
+FOCUS:
+type two diabetes
+TARGET:
+see diabetes specialist regular m.d 
+-------------------------------------
+how can i prevent kidney failure if i have diabetes
+ANS TYPE:
+symptoms prevention 
+FOCUS:
+diabetes
+TARGET:
+i prevent kidney failure i 
+-------------------------------------
+why diabetes can cause defective neutrophil chemotaxis
+ANS TYPE:
+causes treatment 
+FOCUS:
+diabetes
+TARGET:
+cause defective neutrophil chemotaxis 
+-------------------------------------
+what are the symptoms of the early onset of diabetes
+ANS TYPE:
+symptoms 
+FOCUS:
+diabetes
+TARGET:
+symptoms early onset 
+-------------------------------------
+my friend has diabetes and i don't know anything about it so can someone tell me what it is please
+ANS TYPE:
+treatment 
+FOCUS:
+diabetes
+TARGET:
+friend i know know anything someone tell please 
+-------------------------------------
+i am 4 months away from turning 50. i am 274 lbs., 5'4, and have been pretty healthily most of my life. in june of this year i was put in the hospital with early warning signs of a heart attack. i did not have high bp, no diabetes, no high cholesterol. fo
+ANS TYPE:
+symptoms treatment 
+FOCUS:
+diabetes
+TARGET:
+i months i lbs. life june year i hospital early warning signs heart attack i not have high bp no no high cholesterol fo 
+-------------------------------------
+my father diabetes is 298 after meals. for this insulins is best or medicines are best.
+ANS TYPE:
+intro 
+FOCUS:
+diabetes
+TARGET:
+father meals medicines 
+-------------------------------------
+im getting frequent boils on my body , my diabetes is under control but again its coming
+ANS TYPE:
+causes treatment 
+FOCUS:
+diabetes
+TARGET:
+im frequent boils body control 
+-------------------------------------
+how can i switch from diabetes type 2 to diabetes 1
+ANS TYPE:
+intro 
+FOCUS:
+diabetes
+TARGET:
+i switch diabetes 
+-------------------------------------
+how can diabetes be prevented
+ANS TYPE:
+symptoms prevention 
+FOCUS:
+diabetes
+TARGET:
+be 
+-------------------------------------
+what is the difference between diabetes mellitus and type 1 diabetes
+ANS TYPE:
+intro 
+FOCUS:
+diabetes
+TARGET:
+difference mellitus diabetes 
+-------------------------------------
+does someone with type 1 diabetes have a poor immune system
+ANS TYPE:
+intro 
+FOCUS:
+1 diabetes
+TARGET:
+someone type poor immune system 
+-------------------------------------
+please provide a tip on how to ask your doctor about living with diabetes type 2.
+ANS TYPE:
+support groups tests 
+FOCUS:
+diabetes
+TARGET:
+please provide tip ask doctor living 
+-------------------------------------
+my brother was diagnosed with non-insulin dependent diabetes mellitus. what does this mean
+ANS TYPE:
+intro 
+FOCUS:
+diabetes
+TARGET:
+brother diagnosed non-insulin non-insulin dependent mean 
+-------------------------------------
+is metformin dangerous with diet-induced(not diabetes-induced)ketosis?like would a ketogenic diet+metf cause metabolic acidosis?(2000mgmet a day btw)
+ANS TYPE:
+causes recommendations 
+FOCUS:
+diabetes
+TARGET:
+dangerous diet-induced not ketosis ketogenic diet+metf cause metabolic acidosis day btw 
+-------------------------------------
+can you tell me is diabetes type 2 hyper or hypo secretion
+ANS TYPE:
+intro 
+FOCUS:
+diabetes
+TARGET:
+tell type hyper hypo secretion 
+-------------------------------------
+i have this sweet taste in my mouth the past two days.  no i do not have diabetes,  what else causes this
+ANS TYPE:
+causes 
+FOCUS:
+diabetes
+TARGET:
+i sweet taste mouth past days no i not have else 
+-------------------------------------
+what caused the sudden debilitation, and why can't he recover?  its been over a month, and he still can't even stand up. dad, 80 years old, has type 2 diabetes, high cholesterol, and high bp, all controlled with oral meds.  he has never had a heart attack
+ANS TYPE:
+causes symptoms treatment support groups 
+FOCUS:
+type 2 diabetes
+TARGET:
+sudden debilitation recover month stand dad years old high cholesterol high bp oral meds heart attack 
+-------------------------------------
+what are the effects of drinking alcohol and using insulin for diabetes
+ANS TYPE:
+symptoms 
+FOCUS:
+diabetes
+TARGET:
+effects drinking alcohol insulin 
+-------------------------------------
+my husband has multiple myeloma, and is taking interferon twice a week, he says his arms hurt and are cold, even the hair on them, also has diabetes.
+ANS TYPE:
+symptoms 
+FOCUS:
+diabetes
+TARGET:
+husband multiple myeloma interferon week arms hurt hair 
+-------------------------------------
+how soon can a newborn be tested for diabetes.
+ANS TYPE:
+tests 
+FOCUS:
+tested diabetes
+TARGET:
+newborn be 
+-------------------------------------
+sometimes after i eat i get tired nauseous and i feel like im about to pass out i can barely walk. my uncle has diabetes but my blood tests are normal
+ANS TYPE:
+causes prevention tests recommendations 
+FOCUS:
+diabetes
+TARGET:
+i eat i nauseous i im pass i walk uncle blood tests normal normal 
+-------------------------------------
+why are more children being diagnosed with type 2 diabetes now
+ANS TYPE:
+intro 
+FOCUS:
+2 diabetes
+TARGET:
+children diagnosed type now 
+-------------------------------------
+how does diabetes affect my skin health
+ANS TYPE:
+symptoms treatment 
+FOCUS:
+diabetes
+TARGET:
+affect skin health 
+-------------------------------------
+most women are screened for gestational diabetes around 26 weeks. but what happens if the test comes back positive
+ANS TYPE:
+treatment support groups tests 
+FOCUS:
+screened gestational diabetes
+TARGET:
+women gestational weeks test positive 
+-------------------------------------
+help, what to do if you found out that you have type 1 diabetes
+ANS TYPE:
+intro 
+FOCUS:
+type 1 diabetes
+TARGET:
+help do 
+-------------------------------------
+have there been any success using gene therapy to cure diabetes
+ANS TYPE:
+treatment 
+FOCUS:
+diabetes
+TARGET:
+success gene therapy cure 
+-------------------------------------
+my mri report is clear but i have only symptom is double vision from last 5 weeks. is there any chance of ms. thyroid and diabetes test is normal
+ANS TYPE:
+symptoms tests 
+FOCUS:
+diabetes
+TARGET:
+mri report clear i symptom double vision last weeks chance ms. thyroid test normal normal 
+-------------------------------------
+how do doctors check for gestational diabetes
+ANS TYPE:
+treatment 
+FOCUS:
+gestational diabetes
+TARGET:
+do doctors check gestational 
+-------------------------------------
+i have diabetes insipidus,should i take my nazal spray(antidiurethic) before op(i'm scheduled for microdiscectomy)
+ANS TYPE:
+treatment 
+FOCUS:
+diabetes
+TARGET:
+i insipidus i take nazal spray antidiurethic op i microdiscectomy 
+-------------------------------------
+how many types of diabetes are there
+ANS TYPE:
+intro 
+FOCUS:
+diabetes
+TARGET:
+many types 
+-------------------------------------
+if gestational diabetes is controlled is there still an increased risk for stillbirth
+ANS TYPE:
+treatment 
+FOCUS:
+gestational diabetes
+TARGET:
+gestational risk stillbirth 
+-------------------------------------
+i've heard about a mobile app to reverse prediabetes called personalmedicine+ how does it work
+ANS TYPE:
+symptoms 
+FOCUS:
+diabetes
+TARGET:
+mobile app reverse prediabetes personalmedicine+ work 
+-------------------------------------
+can diabetes be fatal
+ANS TYPE:
+intro 
+FOCUS:
+diabetes
+TARGET:
+be fatal 
+-------------------------------------
+how to know if your diabetes is under control
+ANS TYPE:
+treatment 
+FOCUS:
+diabetes
+TARGET:
+know know control 
+-------------------------------------
+i was wondering is diabetes type 2 hyper or hypo secretion
+ANS TYPE:
+intro 
+FOCUS:
+diabetes
+TARGET:
+i type hyper hypo secretion 
+-------------------------------------
+what causes the discoloration on the neck from diabetes
+ANS TYPE:
+causes 
+FOCUS:
+diabetes
+TARGET:
+discoloration neck 
+-------------------------------------
+i have diabetes and have been feeling dizzy and having bad headaches lately. why
+ANS TYPE:
+recommendations 
+FOCUS:
+diabetes
+TARGET:
+i dizzy bad headaches 
+-------------------------------------
+how can i convince my husband to take his prediabetes seriously? he just doesn't care
+ANS TYPE:
+intro 
+FOCUS:
+diabetes
+TARGET:
+i convince husband take prediabetes care 
+-------------------------------------
+can a heart murmur lead to diabetes and celiac disease
+ANS TYPE:
+intro 
+FOCUS:
+diabetes
+TARGET:
+heart murmur lead celiac disease 
+-------------------------------------
+i'm prone to diabetes because of my mother, but is there any way i can prevent it
+ANS TYPE:
+causes symptoms prevention 
+FOCUS:
+diabetes
+TARGET:
+i prone mother way i prevent 
+-------------------------------------
+what tests are used to diagnose my type 2 diabetes
+ANS TYPE:
+tests 
+FOCUS:
+2 diabetes
+TARGET:
+tests diagnose diagnose type 
+-------------------------------------
+my dad is on streoids for colitus and has been diagnosed with diabetes. he still hasnt got any medication for his colitus. what do you recommend
+ANS TYPE:
+treatment recommendations 
+FOCUS:
+been diagnosed diabetes
+TARGET:
+dad streoids colitus diagnosed medication colitus recommend 
+-------------------------------------
+how to find put you have diabetes, or signs of diabetes
+ANS TYPE:
+symptoms recommendations 
+FOCUS:
+diabetes
+TARGET:
+find put signs diabetes 
+-------------------------------------
+does everyone with diabetes mellitus have glycosuria
+ANS TYPE:
+symptoms 
+FOCUS:
+diabetes
+TARGET:
+everyone mellitus glycosuria 
+-------------------------------------
+has anyone gotten diabetes from long term ssri use, like &gt;8yrs
+ANS TYPE:
+intro 
+FOCUS:
+diabetes
+TARGET:
+anyone long term ssri use gt 
+-------------------------------------
+how are type a and type b diabetes distinguished from each other
+ANS TYPE:
+intro 
+FOCUS:
+diabetes
+TARGET:
+type b other 
+-------------------------------------
+how do physicians tell gestational diabetes from other diabetes
+ANS TYPE:
+intro 
+FOCUS:
+gestational diabetes
+TARGET:
+do physicians tell gestational other diabetes 
+-------------------------------------
+water filled blisters (one about 1cm and one 0.5cm) on my foot over night, no diabetes, no itching, no redness and no friction during the day.
+ANS TYPE:
+intro 
+FOCUS:
+diabetes
+TARGET:
+water blisters foot night no no itching no redness no friction day 
+-------------------------------------
+my dad is 53 years old with no previous hx of diabetes. should he be concerned with a blood sugar of 131, 2 hours after eating
+ANS TYPE:
+symptoms prevention 
+FOCUS:
+diabetes
+TARGET:
+dad years old no previous hx be blood sugar hours 
+-------------------------------------
+how can you reduce the risk of diabetes while taking antipsychotics
+ANS TYPE:
+treatment 
+FOCUS:
+diabetes
+TARGET:
+reduce risk antipsychotics 
+-------------------------------------
+how does getting pancreas transplants could cure diabetes
+ANS TYPE:
+causes treatment 
+FOCUS:
+diabetes
+TARGET:
+pancreas transplants cure 
+-------------------------------------
+if you get diagnosed with type ii diabetes, but then blood tests show you are in normal range, &amp; md says stop meds, what should be done going forward
+ANS TYPE:
+causes treatment tests 
+FOCUS:
+diabetes
+TARGET:
+diagnosed type ii blood tests normal normal range amp stop meds be 
+-------------------------------------
+what is the biggest cause of diabetes
+ANS TYPE:
+causes 
+FOCUS:
+diabetes
+TARGET:
+cause 
+-------------------------------------
+can stiches help in healing prosses in diabetes patient?like c section wound with stiches will heal better?as compare to normal wound
+ANS TYPE:
+treatment 
+FOCUS:
+diabetes
+TARGET:
+stiches help prosses patient c section stiches heal compare normal normal wound 
+-------------------------------------
+great toes have been numb with occasional stabbing pain for years(mystery to dr) it 's not gout or diabetes.  should i see a chiro. for pinched nerve
+ANS TYPE:
+causes treatment 
+FOCUS:
+diabetes
+TARGET:
+great toes numb occasional pain years mystery dr not gout i see chiro pinched nerve 
+-------------------------------------

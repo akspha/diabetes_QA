@@ -1,0 +1,226 @@
+Python 2.7.11 (v2.7.11:6d1b6a68f775, Dec  5 2015, 20:32:19) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+=========== RESTART: J:\MedWhat\diabetes_engine\diabetes_engine.py ===========
+
+Warning (from warnings module):
+  File "C:\Python27\lib\site-packages\numpy\core\fromnumeric.py", line 2652
+    VisibleDeprecationWarning)
+VisibleDeprecationWarning: `rank` is deprecated; use the `ndim` attribute or function instead. To find the rank of a matrix see `numpy.linalg.matrix_rank`.
+Enter your question ?
+what ae the causes of gestational diabetes
+
+Traceback (most recent call last):
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 574, in <module>
+    list_types,focus,target ,words_tags  = get_query(q,common_diabetes_questions_as_a_string,N )
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 168, in get_query
+    syn_causes = obtain_synonyms("causes")
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 29, in obtain_synonyms
+    list_of_synsets = wn.synsets(word)
+  File "C:\Python27\lib\site-packages\nltk\corpus\util.py", line 99, in __getattr__
+    self.__load()
+  File "C:\Python27\lib\site-packages\nltk\corpus\util.py", line 67, in __load
+    corpus = self.__reader_cls(root, *self.__args, **self.__kwargs)
+  File "C:\Python27\lib\site-packages\nltk\corpus\reader\wordnet.py", line 1055, in __init__
+    self._load_lemma_pos_offset_map()
+  File "C:\Python27\lib\site-packages\nltk\corpus\reader\wordnet.py", line 1129, in _load_lemma_pos_offset_map
+    _ = [_next_token() for _ in xrange(n_pointers)]
+  File "C:\Python27\lib\site-packages\nltk\corpus\reader\wordnet.py", line 1116, in <lambda>
+    _next_token = lambda: next(_iter)
+KeyboardInterrupt
+>>> 
+=========== RESTART: J:\MedWhat\diabetes_engine\diabetes_engine.py ===========
+
+Warning (from warnings module):
+  File "C:\Python27\lib\site-packages\numpy\core\fromnumeric.py", line 2652
+    VisibleDeprecationWarning)
+VisibleDeprecationWarning: `rank` is deprecated; use the `ndim` attribute or function instead. To find the rank of a matrix see `numpy.linalg.matrix_rank`.
+Enter your question ?
+what are the causes of gestational diabetes
+ANS TYPE:
+causes
+function
+FOCUS:
+gestational  diabetes 
+TARGET:
+causes gestational 
+POS:
+
+[('what', 'WDT'),
+ ('are', 'VBP'),
+ ('the', 'DT'),
+ ('causes', 'NNS'),
+ ('of', 'IN'),
+ ('gestational', 'JJ'),
+ ('diabetes', 'NNS')]
+CHOSEN ANS:
+"pregnancy hormones can block insulin from doing its job. when this happens, glucose levels may increase in a pregnant woman's blood. you are at greater risk for gestational diabetes if you: <ul><li>are older than 25 when you are pregnant</li><li>have a family history of diabetes</li><li>gave birth to a baby that weighed more than 9 pounds or had a birth defect</li><li>have high blood pressure</li><li>have too much amniotic fluid</li><li>have had an unexplained miscarriage or stillbirth</li><li>were overweight before your pregnancy</li></ul>"
+
+Enter your question ?
+I eat a lot of sweets, am i at the risk of catchig diabetes
+ANS TYPE:
+intro
+FOCUS:
+ diabetes 
+TARGET:
+i lot sweets i risk catchig 
+POS:
+
+[('i', 'NN'),
+ ('eat', 'VBP'),
+ ('a', 'DT'),
+ ('lot', 'NN'),
+ ('of', 'IN'),
+ ('sweets', 'NNS'),
+ (',', ','),
+ ('am', 'VBP'),
+ ('i', 'NN'),
+ ('at', 'IN'),
+ ('the', 'DT'),
+ ('risk', 'NN'),
+ ('of', 'IN'),
+ ('catchig', 'NN'),
+ ('diabetes', 'NNS')]
+CHOSEN ANS:
+'until recently, the common type of diabetes in children and teens was type 1. it was called juvenile diabetes. with type 1 diabetes, the pancreas does not make insulin. insulin is a hormone that helps glucose,or sugar, get into your cells to give them energy. without insulin, too much sugar stays in the blood. but now younger people are also getting type 2 diabetes.  type 2 diabetes used to be called adult-onset diabetes. but now it is becoming more common in children and teens, due to more obesity. with type 2 diabetes, the body does not make or use insulin well. children have a higher risk of type 2 diabetes if they are obese, have a family history of diabetes, or are not active, and do not eat well.  to lower the risk of type 2 diabetes in children <ul><li>have them maintain a healthy weight</li><li>be sure they are physically active</li><li>have them eat smaller portions of healthy foods</li><li>limit time with the tv, computer, and video</li></ul>children and teens with type 1 diabetes may need to take insulin. type 2 diabetes may be  controlled with diet and exercise. if not, patients will need to take oral diabetes medicines or insulin. '
+
+Enter your question ?
+I eat a lot of sweets, am i going to catch diabetes
+ANS TYPE:
+function
+FOCUS:
+ diabetes 
+TARGET:
+i lot sweets catch 
+POS:
+
+[('i', 'NN'),
+ ('eat', 'VBP'),
+ ('a', 'DT'),
+ ('lot', 'NN'),
+ ('of', 'IN'),
+ ('sweets', 'NNS'),
+ (',', ','),
+ ('am', 'VBP'),
+ ('i', 'RB'),
+ ('going', 'VBG'),
+ ('to', 'TO'),
+ ('catch', 'VB'),
+ ('diabetes', 'NNS')]
+CHOSEN ANS:
+'your main focus is on keeping your blood sugar (glucose) level in your target range.to help manage your blood sugar, follow a meal plan that has: <ul><li>food from all the food groups</li><li>fewer calories</li><li>about the same amount of carbohydratesat each meal and snack</li><li>healthy fats</li></ul>along with healthy eating, you can keep your blood sugar in target range by maintaining a healthy weight. persons with type 2 diabetes are often overweight. losing just 10 pounds can help you manage your diabetes better. eating healthy foods and staying active (for example, 30 minutes of walking per day) can help you meet and maintain your weight loss goal.  how carbohydrates affect blood sugar carbohydrates in food give your body energy. you need to eat carbohydrates to maintain your energy. but carbohydrates also raise your blood sugar higher and faster than other kinds of food. the main kinds of carbohydrates are starches, sugars, and fiber. learn which foods have carbohydrates. this will help with meal planning so that you can keep your blood sugar in your target range. meal planning for children with type 2 diabetes meal plans should consider the amount of calories children need to grow. in general, three small meals and three snacks a day can help meet calorie needs. many children with type 2 diabetes are overweight. the goal should be a healthy weight by eating healthy foods and getting more activity (60 minutes each day). work with a registered dietitian to design a meal plan for your child. a registered dietitian is an expert in food and nutrition. the following tips can help your child stay on track: <ul><li>no food is off-limits. knowing how different foods affect your childs blood sugar helps you and your child keep it in target range.</li><li>help your child learn how much food is a healthy amount. this is called portion control.</li><li>have your family gradually switch from drinking soda and other sugary drinks, such as sports drinks and juices, to plain water or low-fat milk. </li></ul>planning meals everyone has individual needs. work with your doctor, registered dietitian, or diabetes educator to develop a meal plan that works for you. when shopping, read food labels to make better food choices. a good way to make sure you get all the nutrients you need during meals is to use the plate method. this is a visual food guide that helps you choose the best types and right amounts of food to eat. it encourages larger portions of non-starchy vegetables (half the plate) and moderate portions of protein (one quarter of the plate) and starch (one quarter of the plate). you can find more information about the plate method at the american diabetes association website: http://www.diabetes.org/food-and-fitness/food/planning-meals/create-your-plate. eat a variety of foods eating a wide variety of foods helps you stay healthy. try to include foods from all the food groups at each meal.  vegetables (2 to 3 cups a day) choose fresh or frozen vegetables without added sauces, fats, or salt. non-starchy vegetables include dark green and deep yellow vegetables, such as spinach, broccoli, romaine lettuce, cabbage, chard, and bell peppers. starchy vegetables include corn, green peas, lima beans, potatoes, and taro. fruits (1 to 2 cups a day) choose fresh, frozen, canned (without added sugar), or dried fruits. try apples, bananas, berries, cherries, fruit cocktail, grapes, melon, oranges, peaches, pears, papaya, pineapple, raisins. drink juices that are 100% fruit with no added sweeteners or syrups. grains (3 to 4 ounces a day) there are two types of grains: <ul><li>whole grains are unprocessed and have the entire grain kernel. examples are whole-wheat flour, oatmeal, whole cornmeal, amaranth, barley, brown and wild rice, buckwheat, and quinoa.</li><li>refined grains have been processed (milled) to remove the bran and germ. examples are white flour, de-germed cornmeal, white bread, and white rice.</li></ul>grains have starch, a type of carbohydrate. carbohydrates raise your blood sugar level. so, for healthy eating, make sure half of the grains you eat each day are whole grains. whole grains have lots of fiber. fiber in the diet keeps your blood sugar level from rising too fast.  protein foods (5 to 6 ounces a day) protein foods include meat, poultry, seafood, eggs, beans and peas, nuts, seeds, and processed soy foods.eat fish and poultry more often. remove the skin from chicken and turkey. select lean cuts of beef, veal, pork, or wild game. trim all visible fat from meat. bake, roast, broil, grill, or boil instead of frying. dairy (3 cups a day) choose low-fat or nonfat dairy products. be aware that milk, yogurt, and other dairy foods have natural sugar even when they do not contain added sugar. take this into account when planning meals to stay in your blood sugar target range. <br><br>oils/fats (no more than 7 teaspoons a day) oils are not considered a food group. but they have nutrients that help your body stay healthy. oils are different from fats in that oils remain liquid at room temperature. fats remain solid at room temperature. limit your intake of fatty foods, especially those high in saturated fat, such as hamburgers, deep-fried foods, bacon, and butter.  instead, choose foods that are high in polyunsaturated or monounsaturated fats. these include fish, nuts, and vegetable oils. oils can raise your blood sugar, but not as fast as starch. oils are also high in calories. try to use no more than the recommended daily limit of 7 teaspoons. what about alcohol and sweets? if you choose to drink alcohol, limit the amount and have it with a meal. check with your health care provider about how alcohol will affect your blood sugar and to determine a safe amount for you. sweets are high in fat and sugar. keep portion sizes small.  here are tips to help avoid eating too many sweets: <ul><li>ask for extra spoons and forks and split your dessert with others.</li><li>eat sweets that are sugar-free.</li><li>always ask for the smallest serving size or childrens size.</li></ul>'
+
+Enter your question ?
+I have blurry vision, do i have diabetes
+ANS TYPE:
+intro
+FOCUS:
+ diabetes 
+TARGET:
+i vision i 
+POS:
+
+[('i', 'NNS'),
+ ('have', 'VBP'),
+ ('blurry', 'VBN'),
+ ('vision', 'NN'),
+ (',', ','),
+ ('do', 'VBP'),
+ ('i', 'NNS'),
+ ('have', 'VBP'),
+ ('diabetes', 'NNS')]
+CHOSEN ANS:
+"diabetes insipidus (di) causes frequent urination. you become extremely thirsty, so you drink. then you urinate. this cycle can keep you from sleeping or even make you wet the bed. your body produces lots of urine that is almost all water. di is different from diabetes mellitus (dm), which involves insulin problems and high blood sugar. the symptoms can be similar. however, di is related to how your kidneys handle fluids. it's much less common than dm. urine and blood tests can show which one you have. usually, di is caused by a problem with your pituitary gland or your kidneys. treatment depends on the cause of the problem.  medicines can often help. nih: national institute of diabetes and digestive and kidney diseases "
+
+Enter your question ?
+can diabetes cause blurry vision
+ANS TYPE:
+causes
+function
+FOCUS:
+ diabetes 
+TARGET:
+diabetes cause blurry vision 
+POS:
+
+[('can', 'MD'),
+ ('diabetes', 'VB'),
+ ('cause', 'NN'),
+ ('blurry', 'NN'),
+ ('vision', 'NN')]
+CHOSEN ANS:
+'your main focus is on keeping your blood sugar (glucose) level in your target range.to help manage your blood sugar, follow a meal plan that has: <ul><li>food from all the food groups</li><li>fewer calories</li><li>about the same amount of carbohydratesat each meal and snack</li><li>healthy fats</li></ul>along with healthy eating, you can keep your blood sugar in target range by maintaining a healthy weight. persons with type 2 diabetes are often overweight. losing just 10 pounds can help you manage your diabetes better. eating healthy foods and staying active (for example, 30 minutes of walking per day) can help you meet and maintain your weight loss goal.  how carbohydrates affect blood sugar carbohydrates in food give your body energy. you need to eat carbohydrates to maintain your energy. but carbohydrates also raise your blood sugar higher and faster than other kinds of food. the main kinds of carbohydrates are starches, sugars, and fiber. learn which foods have carbohydrates. this will help with meal planning so that you can keep your blood sugar in your target range. meal planning for children with type 2 diabetes meal plans should consider the amount of calories children need to grow. in general, three small meals and three snacks a day can help meet calorie needs. many children with type 2 diabetes are overweight. the goal should be a healthy weight by eating healthy foods and getting more activity (60 minutes each day). work with a registered dietitian to design a meal plan for your child. a registered dietitian is an expert in food and nutrition. the following tips can help your child stay on track: <ul><li>no food is off-limits. knowing how different foods affect your childs blood sugar helps you and your child keep it in target range.</li><li>help your child learn how much food is a healthy amount. this is called portion control.</li><li>have your family gradually switch from drinking soda and other sugary drinks, such as sports drinks and juices, to plain water or low-fat milk. </li></ul>planning meals everyone has individual needs. work with your doctor, registered dietitian, or diabetes educator to develop a meal plan that works for you. when shopping, read food labels to make better food choices. a good way to make sure you get all the nutrients you need during meals is to use the plate method. this is a visual food guide that helps you choose the best types and right amounts of food to eat. it encourages larger portions of non-starchy vegetables (half the plate) and moderate portions of protein (one quarter of the plate) and starch (one quarter of the plate). you can find more information about the plate method at the american diabetes association website: http://www.diabetes.org/food-and-fitness/food/planning-meals/create-your-plate. eat a variety of foods eating a wide variety of foods helps you stay healthy. try to include foods from all the food groups at each meal.  vegetables (2 to 3 cups a day) choose fresh or frozen vegetables without added sauces, fats, or salt. non-starchy vegetables include dark green and deep yellow vegetables, such as spinach, broccoli, romaine lettuce, cabbage, chard, and bell peppers. starchy vegetables include corn, green peas, lima beans, potatoes, and taro. fruits (1 to 2 cups a day) choose fresh, frozen, canned (without added sugar), or dried fruits. try apples, bananas, berries, cherries, fruit cocktail, grapes, melon, oranges, peaches, pears, papaya, pineapple, raisins. drink juices that are 100% fruit with no added sweeteners or syrups. grains (3 to 4 ounces a day) there are two types of grains: <ul><li>whole grains are unprocessed and have the entire grain kernel. examples are whole-wheat flour, oatmeal, whole cornmeal, amaranth, barley, brown and wild rice, buckwheat, and quinoa.</li><li>refined grains have been processed (milled) to remove the bran and germ. examples are white flour, de-germed cornmeal, white bread, and white rice.</li></ul>grains have starch, a type of carbohydrate. carbohydrates raise your blood sugar level. so, for healthy eating, make sure half of the grains you eat each day are whole grains. whole grains have lots of fiber. fiber in the diet keeps your blood sugar level from rising too fast.  protein foods (5 to 6 ounces a day) protein foods include meat, poultry, seafood, eggs, beans and peas, nuts, seeds, and processed soy foods.eat fish and poultry more often. remove the skin from chicken and turkey. select lean cuts of beef, veal, pork, or wild game. trim all visible fat from meat. bake, roast, broil, grill, or boil instead of frying. dairy (3 cups a day) choose low-fat or nonfat dairy products. be aware that milk, yogurt, and other dairy foods have natural sugar even when they do not contain added sugar. take this into account when planning meals to stay in your blood sugar target range. <br><br>oils/fats (no more than 7 teaspoons a day) oils are not considered a food group. but they have nutrients that help your body stay healthy. oils are different from fats in that oils remain liquid at room temperature. fats remain solid at room temperature. limit your intake of fatty foods, especially those high in saturated fat, such as hamburgers, deep-fried foods, bacon, and butter.  instead, choose foods that are high in polyunsaturated or monounsaturated fats. these include fish, nuts, and vegetable oils. oils can raise your blood sugar, but not as fast as starch. oils are also high in calories. try to use no more than the recommended daily limit of 7 teaspoons. what about alcohol and sweets? if you choose to drink alcohol, limit the amount and have it with a meal. check with your health care provider about how alcohol will affect your blood sugar and to determine a safe amount for you. sweets are high in fat and sugar. keep portion sizes small.  here are tips to help avoid eating too many sweets: <ul><li>ask for extra spoons and forks and split your dessert with others.</li><li>eat sweets that are sugar-free.</li><li>always ask for the smallest serving size or childrens size.</li></ul>'
+
+Enter your question ?
+does diabetes affect vision
+ANS TYPE:
+symptoms
+FOCUS:
+ diabetes 
+TARGET:
+affect vision 
+POS:
+
+[('does', 'VBZ'), ('diabetes', 'NNS'), ('affect', 'VB'), ('vision', 'NN')]
+CHOSEN ANS:
+'usually there are no symptoms, or the symptoms are mild and not life threatening to the pregnant woman. the blood sugar (glucose) level usually returns to normal after delivery. symptoms may include: <ul><li>blurred vision</li><li>fatigue</li><li>frequent infections, including those of the bladder, vagina, and skin</li><li>increased thirst</li><li>increased urination</li><li>nausea and vomiting</li><li>weight loss despite increased appetite</li></ul>'
+
+Enter your question ?
+what tests are conducted for pregnant women
+ANS TYPE:
+tests
+FOCUS:
+ diabetes are conducted 
+TARGET:
+tests pregnant women 
+POS:
+
+[('what', 'WP'),
+ ('tests', 'NNS'),
+ ('are', 'VBP'),
+ ('conducted', 'VBN'),
+ ('for', 'IN'),
+ ('pregnant', 'JJ'),
+ ('women', 'NNS')]
+CHOSEN ANS:
+'gestational diabetes usually starts halfway through the pregnancy. all pregnant women should receive an oral glucose tolerance test between the 24th and 28th week of pregnancy to screen for the condition. women who have risk factors for gestational diabetes may have this test earlier in the pregnancy. once you are diagnosed with gestational diabetes, you can see how well you are doing by testing your glucose level at home. the most common way involves pricking your finger and putting a drop of your blood on a machine that will give you a glucose reading. '
+
+Enter your question ?
+i have back pain
+ANS TYPE:
+support groups
+FOCUS:
+ diabetes have 
+TARGET:
+pain 
+POS:
+
+[('i', 'NNS'), ('have', 'VBP'), ('back', 'RB'), ('pain', 'NN')]
+CHOSEN ANS:
+'there are many diabetes resources that can help you understand more about type 2 diabetes.you can also learn ways to manage your condition so you can live well with diabetes. '
+
+Enter your question ?
+where do i look for references about type 1 diabetes
+ANS TYPE:
+references
+FOCUS:
+1  diabetes 
+TARGET:
+i look references type 
+POS:
+
+[('where', 'WRB'),
+ ('do', 'VBP'),
+ ('i', 'VB'),
+ ('look', 'NN'),
+ ('for', 'IN'),
+ ('references', 'NNS'),
+ ('about', 'IN'),
+ ('type', 'NN'),
+ ('1', 'CD'),
+ ('diabetes', 'NNS')]
+CHOSEN ANS:
+"alemzadeh r, ali o. diabetes mellitus. in: kliegman rm, ed. <em>kliegman:</em><em>nelson textbook of pediatrics</em>. 19th ed. philadelphia, pa: elsevier saunders; 2011:chap 583. american diabetes association. standards of medical care in diabetes -- 2013. <em>diabetes care</em>. 2013;36 suppl 1:s11-s66. eisenbarth gs, buse jb. type 1 diabetes mellitus. in: melmed s, polonsky ks, larsen pr, kronenberg hm, eds. <em>williams textbook of endocrinology</em>. 12th ed. philadelphia, pa: elsevier saunders; 2011:chap 32. inzucchi se, sherwin rs. type 1 diabetes mellitus. in: goldman l, schafer ai, eds. <em>goldman's cecil medicine</em>. 24th ed. philadelphia, pa: elsevier saunders; 2011:chap 236. "
+
+Enter your question ?
+

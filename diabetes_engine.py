@@ -3,9 +3,14 @@
 ## Akshay Surendra Phadnis
 
 ##Dependencies:
+
 ##Python 2.7
+
 ##NLTK library
+##PyMongo Library
+
 ##diabetes_questions.csv # a csv file bearing one diabetes related question in each row
+
 
 ##
 ##
@@ -18,6 +23,9 @@ from nltk.corpus import wordnet as wn
 from pprint import pprint
 import csv
 import sys
+
+
+
 
 st = LancasterStemmer()
 
@@ -146,8 +154,11 @@ def get_query(q, common_diabetes_questions,N):
 
     ## Get rid of trailing space, if any
     target.strip(" ")
-    
-    focus = prefix + " diabetes "+ suffix
+    if "diabetes" in q:
+        mid = " diabetes "
+    else:
+        mid = ""
+    focus = prefix + mid + suffix
     ##print "Focus: ", focus
     ##print "Target: ", target
     ##pprint(questionWords_and_tags)
@@ -219,6 +230,7 @@ def get_query(q, common_diabetes_questions,N):
     syn_treat.extend( obtain_synonyms("cure") )
     syn_treat.extend( obtain_synonyms("control") )
     syn_treat.extend( obtain_synonyms("reduce") )
+    syn_treat.extend( obtain_synonyms("care") )
     re_treat =  ".+(?:treat)"
     for w in syn_treat:
         if idf(w,N,common_diabetes_questions) > 1:
@@ -267,6 +279,9 @@ def get_query(q, common_diabetes_questions,N):
     syn_rec.extend(obtain_synonyms("suggest"))
     syn_rec.extend(obtain_synonyms("prescribe"))
     syn_rec.extend(obtain_synonyms("opinion"))
+    syn_rec.append("what can")
+    syn_rec.append("what should")
+    syn_rec.append("what shall")
     for w in syn_rec:
         if idf(w,N,common_diabetes_questions) > 1:
             re_recommendations = re_recommendations + "|(?:"+st.stem( w.replace("_", " ") )+")"
@@ -313,16 +328,6 @@ def get_query(q, common_diabetes_questions,N):
         ans_types.append( "outlook")
 
 
-    ##FUNCTION
-    syn_fun = obtain_synonyms("function")
-    re_fun= ".+(?:function)"
-    for w in syn_fun:
-        if idf(w,N,common_diabetes_questions) > 1:
-            re_fun =  re_fun + "|(?:"+ st.stem( w.replace("_", " ") ) + ")"
-    re_fun = re_fun + ".+"
-    if findall(re_fun,q ) != []:
-        ans_types.append( "function")
-
     ##CONTACTING MEDICAL PROFESSIONAL
     syn_prof = obtain_synonyms("professional")
     syn_contact = obtain_synonyms("contact")
@@ -360,7 +365,7 @@ def get_query(q, common_diabetes_questions,N):
 
 
 
-
+    
 def proximity(q, passage):
     """
     string*string -> int
@@ -386,30 +391,38 @@ def proximity(q, passage):
     while i < n-1:
         proximity = proximity + ( abs(indices[i+1] - indices[i]) )
         i = i + 1
+        
     if proximity  == 0:
         return -100000000
+    
     return 1.0/proximity
 
-def remove_p_tags(s):
+def remove_tags(s):
     """ string -> string
         Return the input string after removing <p> and </p> tags from the string 
     """
-    return s.replace("<p>","").replace("</p>"," ")
+    from bs4 import BeautifulSoup as bs
+    return str(bs(s,"html.parser").get_text().encode('utf-8'))
     
-def extract_information(q,list_types,focus,target, dataFile, common_diabetes_questions_as_a_string, N):
+def extract_information(q,list_types,focus,target, common_diabetes_questions_as_a_string, N, articles):
     """
-    list_of_strings*string*string*string -> string
+    
     Given the ans types, focus and target, along with the name of the file bearing
 
     the dataset, retreieve the ans pertaining to the query formed by the first three arguments
     """
+
+    
+    
     #check to see if the focus appears some where in the name of an article
     focusWords = (focus).split(" ")
-
+    
+    #collect synonyms of words in focus
     focusWords2 = []
     for w in focusWords:
         focusWords2.extend(obtain_synonyms(w))
-
+        
+    #collect word roots of words in focus
     focusWords3 = []
     for w in focusWords2:
         focusWords3.append(st.stem(w))
@@ -419,24 +432,26 @@ def extract_information(q,list_types,focus,target, dataFile, common_diabetes_que
 
 
     targetWords = (target).split(" ")
-
+    
+    #collect synonyms of words in target
     targetWords2 = []
     for w in targetWords:
         targetWords2.extend(obtain_synonyms(w))
         
+    #collect word roots of words in target    
     targetWords3 = []
     for w in targetWords:
         targetWords3.append(st.stem(w))
 
     targetWords.extend(targetWords2)
     targetWords.extend(targetWords3)
-    with open(dataFile, "rb") as f:
-        candidate_answers = []
-        candidate_rows = []
-        r = csv.DictReader(f)
-        for row_dic in r:
-           
-           
+
+   
+    
+    candidate_answers = []
+    
+    for row_dic in articles:
+        
             title_words = row_dic["article_title"].split(' ')
             title_syns = []
             for w in title_words:
@@ -451,13 +466,19 @@ def extract_information(q,list_types,focus,target, dataFile, common_diabetes_que
             title_syns.extend(title_syns2)    
             #we are going to have one key to each article from the pass on data in parse_file()
 
-            
+            P_q_article_title = proximity(q,row_dic["article_title"])
              
-            common_words = list ( set(title_syns).intersection(set(focusWords)) )
-            num_common_words = len(common_words)
+            raw_common_words = list ( set(title_syns).intersection(set(focusWords)) )
+            common_words = []
+            for i in raw_common_words:
+                if not i == '':
+                    common_words.append(i)
+                
+
+            num_common_words_focus_title = len(common_words)
             
             #focus is just one word
-            if num_common_words > 0:
+            if num_common_words_focus_title > 0:
                 
                 #if there the article title indeed pertains to the focus
                 #procure the entire row about that article, as a dictionary
@@ -469,13 +490,11 @@ def extract_information(q,list_types,focus,target, dataFile, common_diabetes_que
 
                   #number of words in common with the target
                   #article = article.lower()
-                article = remove_p_tags(article.lower())
+                article = remove_tags(article.lower().replace(u'\xa0', '').replace(u'\0xe2', u'').decode('latin1').encode("utf8")) #<----------------------------
 
                 articleWordsSet =  set(article.split(' '))
 
-                commons_focus_articles =  list( articleWordsSet.intersection(set(focusWords)) )
 
-                CFA = len(commons_focus_articles)
                   
                 commons_target_articles =  list( articleWordsSet.intersection(set(targetWords)) )
                   
@@ -483,11 +502,14 @@ def extract_information(q,list_types,focus,target, dataFile, common_diabetes_que
                       commons_target_articles.remove('')
                       
                 CTA = len(commons_target_articles)
-               
-                  #how close do the words inside the question appear in the article
-                P = proximity(q, article)
+                #CTA = proximity((' '.join(commons_target_articles)).encode('utf-8'), article)
+                #CTA = len(commons_target_articles)
+                
+                #how close do the words inside the question appear in the article
+                P_q_article = proximity(q, article)
                 ans_category =  row_dic["section_title"]
                 ans_category =  ans_category.lower()
+                overlap_section_title_ans_type =  len( set(ans_category.split(' ')).intersection(set(list_types)))
 
                 for ans_type in list_types:
                     #for each ans type (causes, recommendations, intro) obtained from the query
@@ -499,96 +521,62 @@ def extract_information(q,list_types,focus,target, dataFile, common_diabetes_que
                          
 
                           list_types_candidatePassage, focus_candidatePassage,target_candidatePassage, candidatePassage_and_tags = get_query(article, common_diabetes_questions_as_a_string,N) #treat each candidate passage as a question
-                          #and obtain ans types,etc for the candidate passage.
-
+                
                           overlap_focii = len( set(focus_candidatePassage).intersection(set(focusWords)))
                           overlap_targets = len( set(target_candidatePassage).intersection(set( targetWords)))
-                          overlap_anstypes = len( set(list_types_candidatePassage).intersection(list_types))
-
-                          score =  10*num_common_words + CTA+ P + overlap_focii  + overlap_targets+ overlap_anstypes
-                          #When there is no target, CTA willbe zero and CTA*P will make the score 0, therefore, N+ P is chosen
-
-                          candidate_answers.append( (score,1.0/P,article) )
+                          overlap_anstypes = len( set(list_types_candidatePassage).intersection(set(list_types)))
                           
+
+##                          pprint(article)
+##
+##                          print "num_common_words_focus_title ", 1*num_common_words_focus_title
+##                          print "CTA ", 1000.0*P_q_article_title*(CTA+1)  
+##                          print "P_q_article_title ", 1000.0*P_q_article_title*(CTA+1)  
+##                          print "P_q_article", P_q_article
+##                          print "overlap_focii ", overlap_focii
+##                          print "overlap_targets ", overlap_targets
+##                          print "overlap_anstypes ", overlap_anstypes 
+##                          print "overlap_section_title_ans_type ", overlap_section_title_ans_type == 1
+                          score =  num_common_words_focus_title+ 1000.0*P_q_article_title*(CTA/100.0+1)  + P_q_article +  overlap_targets + overlap_focii   + overlap_anstypes
+                          #score =  10*num_common_words_focus_title + 1*CTA+ P + overlap_focii  + overlap_targets + (overlap_anstypes==1) + (overlap_section_title_ans_type == 1)
+                          #When there is no target, CTA willbe zero and CTA*P will make the score 0, therefore, N+ P is chosen
+                          #score =  10*num_common_words_focus_title+ 1000*P_q_article_title  + P_q_article + CTA
+                          #print score
+                          candidate_answers.append( (score,1.0/P_q_article_title,article) )
+                          #print "________________________________________________________"
                 
-         #  
+          
         #return the passage with the highest score
-        if candidate_answers == []:
-            return ""
-        return max( candidate_answers )[2]
-
-
-
-def test_extract_information(input_filename, output_filename, num_questions):
-    """
-    string*string*int -> file
-    Given diabetes questions in a csv, write the queries generated for first num_questions
-    in the output file
-    """
-    common_diabetes_questions_as_a_string, N, questions = collect_diabetes_questions(input_filename)
-    g =  open(output_filename,"w")
-    i = 0
-    for q in questions:
-        
-        if i == num_questions :
-            break
-        list_types,focus,target ,words_tags  = get_query(q,common_diabetes_questions_as_a_string,N )
-        #note: N is the number of questions in the file diabetes_questions.csv, which is a context related / domain
-        #specific corpus n this case
-        #num_questions is the numbr of questions in the input file, roughly equal to  number of reads we have
-        #to make from the file
+    if candidate_answers == []:
+        return "No answer found!"
    
-        
-        g.write(q+"\n")
-        
-        g.write("ANS TYPE:\n")
-        for a_type in list_types:
-            g.write(a_type+" ")
-        g.write("\n")
-
-        g.write("FOCUS:\n")
-        g.write(focus)
-        g.write("\n")
-        
-        g.write("TARGET:\n")
-        g.write(target)
-        g.write("\n")
-
-        g.write("CHOSEN ANS: \n")
-        g.write( extract_information(q,list_types,focus,target, "articles.csv",common_diabetes_questions_as_a_string,N) )
-        g.write("\n")
-        
-        g.write("-------------------------------------\n")
-
-        
-        
-        i = i + 1
-        
-    g.close()
-
-while(True):
-    q  = raw_input("Enter your question ?\n")
-    if q == "quit":
-        break
-    common_diabetes_questions_as_a_string, N, questions = collect_diabetes_questions("diabetes_questions.csv")
-    list_types,focus,target ,words_tags  = get_query(q,common_diabetes_questions_as_a_string,N )
-    ans = extract_information(q,list_types,focus,target, "articles.csv", common_diabetes_questions_as_a_string, N)
-    print "ANS TYPE:"
-    for t in list_types:
-        print t
-    print "FOCUS:"
-    print focus
-
-    print "TARGET:"
-    print target
-
-    print "POS:\n"
-    pprint(words_tags)
-    print "CHOSEN ANS:"
-    pprint(ans)
-    print
+    return max( candidate_answers )[2]
 
 
 
 
-#test_extract_information("diabetes_questions.csv", "diabetes_questions_answers.txt", 100)
+##
+##
+##while(True):
+##    q  = raw_input("Enter your question ?\n")
+##    if q == "quit":
+##        break
+##    db = get_db()
+##    common_diabetes_questions_as_a_string, N, questions = collect_diabetes_questions("diabetes_questions.csv")
+##    list_types,focus,target ,words_tags  = get_query(q,common_diabetes_questions_as_a_string,N )
+##    ans = extract_information(q,list_types,focus,target, db, common_diabetes_questions_as_a_string, N)
+##    print "ANS TYPE:"
+##    for t in list_types:
+##        print t
+##    print "FOCUS:"
+##    print focus
+##
+##    print "TARGET:"
+##    print target
+##
+##    print "POS:\n"
+##    pprint(words_tags)
+##    print "CHOSEN ANS:"
+##    pprint(ans)
+##    print
+    

@@ -1,0 +1,15 @@
+@akshaysurendraphadnis I've set up a powerful GPU PC, specially build for machine learning tasks:
+
+OS Linux (Debian 8)
+NVIDIA GeForce 980 graphic card
+CUDA libraries
+all Python ML, NLP stuff (NLTK, Keras, Tensorflow, etc.)
+git, of course
+Your user account is akshay (password sent by email). Please use the directory /data/workspace/akshay to runt/develop your code
+
+SSH console connection settings:
+
+host: mwdl.ddns.net
+SSH port: 443 (not 22 as usual)
+
+Please let me know if you experience some trouble working in a such environment. Maybe is not so fancy as Windows, but the performance is not comparable.

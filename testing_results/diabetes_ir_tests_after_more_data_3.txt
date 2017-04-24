@@ -1,0 +1,160 @@
+Python 2.7.11 (v2.7.11:6d1b6a68f775, Dec  5 2015, 20:32:19) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+=========== RESTART: J:\MedWhat\diabetes_engine\diabetes_engine.py ===========
+Enter your question ?
+what is gestational diabetes
+==================================================
+ANS TYPE:
+intro
+FOCUS:
+gestational  diabetes 
+TARGET:
+gestational 
+POS:
+
+[('what', 'WP'), ('is', 'VBZ'), ('gestational', 'JJ'), ('diabetes', 'NNS')]
+CHOSEN ANS:
+'gestational diabetes is high blood sugar (diabetes) that starts or is first diagnosed during pregnancy.'
+
+Enter your question ?
+what causes gestational diabetes
+==================================================
+ANS TYPE:
+causes
+FOCUS:
+gestational  diabetes 
+TARGET:
+gestational 
+POS:
+
+[('what', 'WP'), ('causes', 'VBZ'), ('gestational', 'JJ'), ('diabetes', 'NNS')]
+CHOSEN ANS:
+"pregnancy hormones can block insulin from doing its job. when this happens, glucose levels may increase in a pregnant woman's blood.you are at greater risk for gestational diabetes if you:are older than 25 when you are pregnanthave a family history of diabetesgave birth to a baby that weighed more than 9 pounds or had a birth defecthave high blood pressurehave too much amniotic fluidhave had an unexplained miscarriage or stillbirthwere overweight before your pregnancy"
+
+Enter your question ?
+What are the symptoms of diabetes
+==================================================
+ANS TYPE:
+symptoms
+FOCUS:
+ diabetes 
+TARGET:
+symptoms 
+POS:
+
+[('what', 'WDT'),
+ ('are', 'VBP'),
+ ('the', 'DT'),
+ ('symptoms', 'NNS'),
+ ('of', 'IN'),
+ ('diabetes', 'NNS')]
+CHOSEN ANS:
+'symptoms of di include: excessive thirst that may be intense or uncontrollable, usually with the need to drink large amounts of water or craving for ice waterexcessive urine volumeexcessive urination, often needing to urinate every hour throughout the day and night '
+
+Enter your question ?
+what are the symptoms of gestational diabetess
+==================================================
+ANS TYPE:
+symptoms
+FOCUS:
+ diabetes are 
+TARGET:
+symptoms gestational diabetess 
+POS:
+
+[('what', 'WDT'),
+ ('are', 'VBP'),
+ ('the', 'DT'),
+ ('symptoms', 'NNS'),
+ ('of', 'IN'),
+ ('gestational', 'JJ'),
+ ('diabetess', 'NN')]
+CHOSEN ANS:
+' gestational diabetes is a type of diabetes that develops during pregnancy. most of the time, gestational diabetes goes away after your baby is born. even if your gestational diabetes goes away, you still have a greater chance of developing type 2 diabetes within 5 to 10 years. your child may also be more likely to become obese and develop type 2 diabetes later in life. making healthy choices helps the whole family and may protect your child from becoming obese or developing diabetes.\n here are steps you should take for yourself and your child if you had gestational diabetes:\n get tested for diabetes 6 to 12 weeks after your baby is born. if your blood glucose is still high, you may have type 2 diabetes. if your blood glucose is normal, you should get tested every 3 years to see if you have developed type 2 diabetes.  \n    be more active and make healthy food choices to get back to a healthy weight.  \n    breastfeed your baby. breastfeeding gives your baby the right balance of nutrients and helps you burn calories.\n     ask your doctor if you should take the diabetes drug metformin to help prevent type 2 diabetes.1'
+
+Enter your question ?
+what are the symptoms of gestational diabetes
+==================================================
+ANS TYPE:
+symptoms
+FOCUS:
+gestational  diabetes 
+TARGET:
+symptoms gestational 
+POS:
+
+[('what', 'WDT'),
+ ('are', 'VBP'),
+ ('the', 'DT'),
+ ('symptoms', 'NNS'),
+ ('of', 'IN'),
+ ('gestational', 'JJ'),
+ ('diabetes', 'NNS')]
+CHOSEN ANS:
+'usually there are no symptoms, or the symptoms are mild and not life threatening to the pregnant woman. the blood sugar (glucose) level usually returns to normal after delivery.symptoms may include:blurred visionfatiguefrequent infections, including those of the bladder, vagina, and skinincreased thirstincreased urinationnausea and vomitingweight loss despite increased appetite'
+
+Enter your question ?
+what are the symptoms of gestational diabetes
+==================================================
+ANS TYPE:
+symptoms
+FOCUS:
+gestational  diabetes 
+TARGET:
+symptoms gestational 
+POS:
+
+[('what', 'WDT'),
+ ('are', 'VBP'),
+ ('the', 'DT'),
+ ('symptoms', 'NNS'),
+ ('of', 'IN'),
+ ('gestational', 'JJ'),
+ ('diabetes', 'NNS')]
+CHOSEN ANS:
+'usually there are no symptoms, or the symptoms are mild and not life threatening to the pregnant woman. the blood sugar (glucose) level usually returns to normal after delivery.symptoms may include:blurred visionfatiguefrequent infections, including those of the bladder, vagina, and skinincreased thirstincreased urinationnausea and vomitingweight loss despite increased appetite'
+
+Enter your question ?
+what are the symptoms of gestational diabetes
+==================================================
+ANS TYPE:
+symptoms
+FOCUS:
+gestational  diabetes 
+TARGET:
+symptoms gestational 
+POS:
+
+[('what', 'WDT'),
+ ('are', 'VBP'),
+ ('the', 'DT'),
+ ('symptoms', 'NNS'),
+ ('of', 'IN'),
+ ('gestational', 'JJ'),
+ ('diabetes', 'NNS')]
+CHOSEN ANS:
+'usually there are no symptoms, or the symptoms are mild and not life threatening to the pregnant woman. the blood sugar (glucose) level usually returns to normal after delivery.symptoms may include:blurred visionfatiguefrequent infections, including those of the bladder, vagina, and skinincreased thirstincreased urinationnausea and vomitingweight loss despite increased appetite'
+
+Enter your question ?
+what are the symptoms of gestational diabetes
+==================================================
+ANS TYPE:
+symptoms
+FOCUS:
+gestational  diabetes 
+TARGET:
+symptoms gestational 
+POS:
+
+[('what', 'WDT'),
+ ('are', 'VBP'),
+ ('the', 'DT'),
+ ('symptoms', 'NNS'),
+ ('of', 'IN'),
+ ('gestational', 'JJ'),
+ ('diabetes', 'NNS')]
+CHOSEN ANS:
+'usually there are no symptoms, or the symptoms are mild and not life threatening to the pregnant woman. the blood sugar (glucose) level usually returns to normal after delivery.symptoms may include:blurred visionfatiguefrequent infections, including those of the bladder, vagina, and skinincreased thirstincreased urinationnausea and vomitingweight loss despite increased appetite'
+
+Enter your question ?

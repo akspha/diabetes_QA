@@ -1,0 +1,285 @@
+Python 2.7.11 (v2.7.11:6d1b6a68f775, Dec  5 2015, 20:32:19) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+===== RESTART: J:\MedWhat\diabetes_engine\temporal_entity_recognizer2.py =====
+-------------------------------------------------------
+She has been sick from 03/05/1991 to 03/15/1991
+['03/05/1991', '03/15/1991']
+None
+-------------------------------------------------------
+She has been sick from 03/05/1991 to 5 December 1991
+['03/05/1991', '5 December 1991']
+None
+-------------------------------------------------------
+She has been sick from 03/05/1991 to 5 December
+['03/05/1991', '5 December']
+None
+-------------------------------------------------------
+She has been sick from 03/05/1991 to 5th December
+['03/05/1991', '5th December']
+None
+-------------------------------------------------------
+She has been sick from 5th December 1992 to 03/05/1993
+['5th December 1992', '03/05/1993']
+None
+-------------------------------------------------------
+She has been sick from 5th October  to  December
+['5th October', 'December']
+None
+-------------------------------------------------------
+She has been sick from 03/05/1991 to 03 15 1991
+['03/05/1991', '03 15 1991']
+None
+-------------------------------------------------------
+She has been sick from 03/05/1991 to 03/05/1991
+['03/05/1991', '03/05/1991']
+None
+-------------------------------------------------------
+She has been sick from 03/05/1991 to 04/05/1991
+['03/05/1991', '04/05/1991']
+None
+-------------------------------------------------------
+She has been sick from 03/05/1991 to 03/05/1992
+['03/05/1991', '03/05/1992']
+None
+-------------------------------------------------------
+She has been sick from 03/05/1992 to 03/05/1992
+['03/05/1992', '03/05/1992']
+None
+-------------------------------------------------------
+She has been sick from Fall 15 to 03/05/1992
+['Fall 15', '03/05/1992']
+None
+-------------------------------------------------------
+She has been sick from Fall 2015 to 03/05/1992
+['Fall 2015', '03/05/1992']
+None
+-------------------------------------------------------
+She has been sick since 03/06/1991
+['03/06/1991']
+None
+-------------------------------------------------------
+She has been sick since 03/02/2017
+['03/02/2017']
+None
+-------------------------------------------------------
+She has been sick since 03/20/2017
+['03/20/2017']
+None
+-------------------------------------------------------
+She has been sick since 03/02/2018
+['03/02/2018']
+None
+-------------------------------------------------------
+it's been like this since December
+['December']
+None
+-------------------------------------------------------
+she suffered through December
+['December']
+None
+-------------------------------------------------------
+I have been 18 since December
+['December']
+None
+-------------------------------------------------------
+I have been 18 since January
+['January']
+None
+-------------------------------------------------------
+I have been ill since January
+['January']
+None
+-------------------------------------------------------
+She has suffered from diabetes since February
+['February']
+None
+-------------------------------------------------------
+She has suffered from diabetes since April
+['April']
+None
+-------------------------------------------------------
+
+[]
+None
+-------------------------------------------------------
+Penicilin was discoveredin May
+['May']
+None
+-------------------------------------------------------
+It is my birthday in february
+['february']
+None
+-------------------------------------------------------
+
+[]
+None
+-------------------------------------------------------
+I have been having this problem since 12-02-2015
+['12-02-2015']
+None
+-------------------------------------------------------
+I have been having this problem since 12-02-2018
+['12-02-2018']
+None
+-------------------------------------------------------
+I have been having this problem since 03-18-2017
+['03-18-2017']
+None
+-------------------------------------------------------
+My birthday was in December 2008 and since February, I i have been ill
+['December 2008', 'February']
+None
+-------------------------------------------------------
+My birthday was in December 2008 and since February 2009, I i have been ill
+['December 2008', 'February 2009']
+None
+-------------------------------------------------------
+My birthday was in December 2008 and since February 2019, I i have been ill
+['December 2008', 'February 2019']
+None
+-------------------------------------------------------
+I had a heart attacks from  January 2009 to February 2009 
+['January 2009', 'February 2009']
+None
+-------------------------------------------------------
+I had a heart attack in  January 2017 and since then I have had mild tremors
+['January 2017']
+None
+-------------------------------------------------------
+I had a heart attack in  December 2018 and since then I have had mild tremors
+['December 2018']
+None
+-------------------------------------------------------
+I had a heart attack in  December 2017 and since then I have had mild tremors
+['December 2017']
+None
+-------------------------------------------------------
+I had a heart attacks from  December 2008 to February 2008 
+['December 2008', 'February 2008']
+None
+-------------------------------------------------------
+I have been having pain since March started
+['March']
+None
+-------------------------------------------------------
+I have been having pain since January started
+['January']
+None
+-------------------------------------------------------
+I have been having pain since April started
+['April']
+None
+-------------------------------------------------------
+I had a heart attack in  March 2017 and since then I have had mild tremors
+['March 2017']
+None
+-------------------------------------------------------
+My birthday was in December 2008 and since then, I i have been ill
+['December 2008']
+None
+-------------------------------------------------------
+I had a heart attack in  December 2008 and since then I have had mild tremors
+['December 2008']
+None
+-------------------------------------------------------
+I had a heart attack in  February 2017 and since then I have had mild tremors
+['February 2017']
+None
+-------------------------------------------------------
+I had a heart attack in  February 2050 and since then I have had mild tremors
+['February 2050']
+None
+-------------------------------------------------------
+I had a heart attacks throughout  December 2008 
+['December 2008']
+None
+-------------------------------------------------------
+I had a heart attacks from  December 2008 to February 2009 
+['December 2008', 'February 2009']
+None
+-------------------------------------------------------
+I had a heart attacks from  January 2009 to February 2009 
+['January 2009', 'February 2009']
+None
+-------------------------------------------------------
+I had a heart attack in  January 2017 and since then I have had mild tremors
+['January 2017']
+None
+-------------------------------------------------------
+I had a heart attack in  December 2018 and since then I have had mild tremors
+['December 2018']
+None
+-------------------------------------------------------
+I had a heart attack in  December 2017 and since then I have had mild tremors
+['December 2017']
+None
+-------------------------------------------------------
+I had a heart attacks from  December 2008 to February 2008 
+['December 2008', 'February 2008']
+None
+-------------------------------------------------------
+I had a heart attack in  March 2017 and since then I have had mild tremors
+['March 2017']
+None
+-------------------------------------------------------
+since December 8th i have been ill
+['December 8th']
+None
+-------------------------------------------------------
+since December 8 i have been ill
+['December 8']
+None
+-------------------------------------------------------
+since January 8 i have been ill
+['January 8']
+None
+-------------------------------------------------------
+since 8 January i have been ill
+['8 January']
+None
+-------------------------------------------------------
+since 8 June i have been ill
+['8 June']
+None
+-------------------------------------------------------
+since 8 June 8 i have been ill
+['8 June']
+None
+-------------------------------------------------------
+since 8 June 2016 i have been ill
+['8 June 2016']
+None
+-------------------------------------------------------
+since 2 March 2017 I have been ill
+['2 March 2017']
+None
+-------------------------------------------------------
+since 28 March 2017 I have been ill
+['28 March 2017']
+None
+-------------------------------------------------------
+since 8th June 8 i have been ill
+['8th June']
+None
+-------------------------------------------------------
+since 8th June 2016 i have been ill
+['8th June 2016']
+None
+-------------------------------------------------------
+since 2nd March 2017 I have been ill
+['2nd March 2017']
+None
+-------------------------------------------------------
+since 28th March 2017 I have been ill
+['28th March 2017']
+None
+-------------------------------------------------------
+since 1st March 2017 I have been ill
+['1st March 2017']
+None
+-------------------------------------------------------
+I had a heart attack in  March 2017 and since 01 January 2015 I have had mild tremors
+['March 2017', '01 January 2015']
+None
+>>> 

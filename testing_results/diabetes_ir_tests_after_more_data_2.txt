@@ -1,0 +1,2048 @@
+Python 2.7.11 (v2.7.11:6d1b6a68f775, Dec  5 2015, 20:32:19) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+=========== RESTART: J:\MedWhat\diabetes_engine\diabetes_engine.py ===========
+Enter your question ?
+how to prevent gestational diabetes
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[u'diabet', u'diabetes']
+*****************************************
+*****************************************
+[u'diabet', u'diabetes']
+*****************************************
+*****************************************
+[u'diabet', u'diabetes']
+*****************************************
+'high blood sugar level can cause several symptoms, including:blurry visionexcess thirstfatiguehungerurinating oftenweight lossbecause type 2 diabetes develops slowly, some people with high blood sugar have no symptoms.symptoms of type 1 diabetes develop over a short period. people may be very sick by the time they are diagnosed.after many years, diabetes can lead to other serious problems. these problems are known as diabetes complications and include:eye problems, including trouble seeing (especially at night), light sensitivity, blindness in the futurepainful sores and infections of the leg or foot, which if left untreated, leads to removal of the foot or leg nerves in the body can become damaged, causing pain, tingling, and a loss of feeling, problems digesting food, erectile dysfunctionkidney problems, which can lead to kidney failureweakened immune system, which can lead to more frequent infectionsincreased chance of having a heart attackor stroke'
+common words  2
+CTA  -100000000
+CFA  1
+P  3.3333359e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  True
+________________________________________________________
+*****************************************
+[u'diabet', u'diabetes']
+*****************************************
+*****************************************
+[u'diabet', u'diabetes']
+*****************************************
+*****************************************
+[u'diabet', u'diabetes']
+*****************************************
+*****************************************
+[u'diabet', u'diabetes']
+*****************************************
+'keeping an ideal body weight and an active lifestyle may prevent type 2 diabetes.type 1 diabetes cannot be prevented.'
+common words  2
+CTA  -100000000
+CFA  1
+P  3.3333354e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+*****************************************
+[u'diabet', u'diabetes']
+*****************************************
+*****************************************
+[u'gest', u'diabet', 'diabetes']
+*****************************************
+*****************************************
+['gestational', u'gest', u'diabet', 'diabetes']
+*****************************************
+*****************************************
+['gestational', u'gest', u'diabet', 'diabetes']
+*****************************************
+*****************************************
+['gestational', u'gest', u'diabet', 'diabetes']
+*****************************************
+*****************************************
+['gestational', u'gest', u'diabet', 'diabetes']
+*****************************************
+*****************************************
+['gestational', u'gest', u'diabet', 'diabetes']
+*****************************************
+*****************************************
+['gestational', u'gest', u'diabet', 'diabetes']
+*****************************************
+*****************************************
+['gestational', u'gest', u'diabet', 'diabetes']
+*****************************************
+*****************************************
+['gestational', u'gest', u'diabet', 'diabetes']
+*****************************************
+'usually there are no symptoms, or the symptoms are mild and not life threatening to the pregnant woman. the blood sugar (glucose) level usually returns to normal after delivery.symptoms may include:blurred visionfatiguefrequent infections, including those of the bladder, vagina, and skinincreased thirstincreased urinationnausea and vomitingweight loss despite increased appetite'
+common words  4
+CTA  -100000000
+CFA  0
+P  5.00000125e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  True
+________________________________________________________
+*****************************************
+['gestational', u'gest', u'diabet', 'diabetes']
+*****************************************
+*****************************************
+['gestational', u'gest', u'diabet', 'diabetes']
+*****************************************
+*****************************************
+['gestational', u'gest', u'diabet', 'diabetes']
+*****************************************
+*****************************************
+['gestational', u'gest', u'diabet', 'diabetes']
+*****************************************
+*****************************************
+['gestational', u'gest', u'diabet', 'diabetes']
+*****************************************
+'beginning prenatal care early and having regular prenatal visits helps improve your health and the health of your baby. having prenatal screening at 24 - 28 weeks into the pregnancy will help detect gestational diabetes early.if you are overweight, decreasing your body mass index (bmi) to a normal range before you get pregnant will decrease your risk of developing gestational diabetes.'
+common words  4
+CTA  -100000000
+CFA  2
+P  3.33333907779e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  True
+________________________________________________________
+*****************************************
+['gestational', u'gest', u'diabet', 'diabetes']
+*****************************************
+*****************************************
+['gestational', u'gest', u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', u'diabetes']
+*****************************************
+*****************************************
+[u'diabet', u'diabetes']
+*****************************************
+*****************************************
+[u'diabet', u'diabetes']
+*****************************************
+'high blood sugar level can cause several symptoms, including:blurry visionexcess thirstfatiguehungerurinating oftenweight lossbecause type 2 diabetes develops slowly, some people with high blood sugar have no symptoms.symptoms of type 1 diabetes develop over a short period. people may be very sick by the time they are diagnosed.after many years, diabetes can lead to other serious problems. these problems are known as diabetes complications and include:eye problems, including trouble seeing (especially at night), light sensitivity, blindness in the futurepainful sores and infections of the leg or foot, which if left untreated, leads to removal of the foot or leg nerves in the body can become damaged, causing pain, tingling, and a loss of feeling, problems digesting food, erectile dysfunctionkidney problems, which can lead to kidney failureweakened immune system, which can lead to more frequent infectionsincreased chance of having a heart attackor stroke'
+common words  2
+CTA  -100000000
+CFA  1
+P  3.3333359e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  True
+________________________________________________________
+*****************************************
+[u'diabet', u'diabetes']
+*****************************************
+*****************************************
+[u'diabet', u'diabetes']
+*****************************************
+*****************************************
+[u'diabet', u'diabetes']
+*****************************************
+*****************************************
+[u'diabet', u'diabetes']
+*****************************************
+'keeping an ideal body weight and an active lifestyle may prevent type 2 diabetes.type 1 diabetes cannot be prevented.'
+common words  2
+CTA  -100000000
+CFA  1
+P  3.3333354e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+*****************************************
+[u'diabet', u'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+'high blood sugarthese symptoms may be the first signs of type 1 diabetes, or they may occur when blood sugar is high:being very thirstyfeeling hungryfeeling tired all the time  having blurry eyesightfeeling numbnessor feeling tingling in your feetlosing weight without tryingurinating more oftenfor other people, these serious warning symptoms may be the first signs of type 1 diabetes, or they may happen when blood sugar is very high (diabetic ketoacidosis):deep, rapid breathingdry skin and mouthflushed facefruity breath odornausea or vomiting, inability to keep down fluidsstomach painlow blood sugarlow blood sugar (hypoglycemia) can develop quickly in people with diabetes who are taking insulin. symptoms usually appear when blood sugar level falls below 70 mg/dl. watch for:headachehungernervousnessrapid heartbeat (palpitations)shakingsweatingweakness'
+common words  2
+CTA  -100000000
+CFA  2
+P  3.33333462222e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+'type 1 diabetes cannot be prevented. there is no screening test for type 1 diabetes in people who have no symptoms.'
+common words  2
+CTA  -100000000
+CFA  1
+P  3.33333398889e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+'people with type 2 diabetes often have no symptoms at first. they may not have symptoms for many years.early symptoms of diabetes may include:bladder, kidney, skin, or other infections that are more frequent or heal slowlyfatiguehungerincreased thirstincreased urinationthe first symptom may also be:blurred visionerectile dysfunctionpain or numbness in the feet or hands'
+common words  2
+CTA  -100000000
+CFA  1
+P  3.33333456667e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  True
+________________________________________________________
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+'you can help prevent type 2 diabetes by keeping a healthy body weight and an active lifestyle.'
+common words  2
+CTA  -100000000
+CFA  1
+P  3.33333393333e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+'symptoms of di include: excessive thirst that may be intense or uncontrollable, usually with the need to drink large amounts of water or craving for ice waterexcessive urine volumeexcessive urination, often needing to urinate every hour throughout the day and night '
+common words  2
+CTA  -100000000
+CFA  1
+P  5.0000002e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  True
+________________________________________________________
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+'symptoms of central diabetes insipidus include:increased urine productionexcessive thirstconfusion and changes in alertness due to dehydration and higher than normal sodium level in the body, if the person is unable to drink '
+common words  2
+CTA  -100000000
+CFA  2
+P  3.33333364444e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  True
+________________________________________________________
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+'many of the cases may not be preventable. prompt treatment of infections, tumors, and injuries may reduce risk.'
+common words  2
+CTA  -100000000
+CFA  0
+P  5.00000145e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+'there is no known way to prevent congenital nephrogenic diabetes insipidus.treating the disorders that can lead to the acquired form of the condition may prevent it from developing in some cases. medications should only be used under the supervision of the health care provider.'
+common words  2
+CTA  -100000000
+CFA  1
+P  3.33333444444e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+' perhaps you have learned that you have a high chance of developing type 2 diabetes, the most common type of diabetes. you might be overweight or have a parent, brother, or sister with type 2 diabetes. maybe you had gestational diabetes, which is diabetes that develops during pregnancy. these are just a few examples of factors that can raise your chances of developing type 2 diabetes.\n diabetes can cause serious health problems, such as heart disease, stroke, and eye and foot problems.  prediabetes also can cause health problems. the good news is that type 2 diabetes can be delayed or even prevented. the longer you have diabetes, the more likely you are to develop health problems, so delaying diabetes by even a few years will benefit your health. you can help prevent or delay type 2 diabetes by losing a modest amount of weight by following a reduced-calorie eating plan and being physically active most days of the week. ask your doctor if you should take the diabetes drug metformin to help prevent or delay type 2 diabetes.1\n \r\n        this content is provided as a service of the national institute of diabetes and digestive and kidney diseases\n(niddk), part of the national institutes of health. the niddk translates and disseminates research findings\nthrough its clearinghouses and education programs to increase knowledge and understanding about health and\ndisease among patients, health professionals, and the public. content produced by the niddk is carefully\nreviewed by niddk scientists and other experts.\r\n    '
+common words  2
+CTA  0.00262467191601
+CFA  3
+P  9.99995290022e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+' perhaps you have learned that you have a high chance of developing type 2 diabetes, the most common type of diabetes. you might be overweight or have a parent, brother, or sister with type 2 diabetes. maybe you had gestational diabetes, which is diabetes that develops during pregnancy. these are just a few examples of factors that can raise your chances of developing type 2 diabetes.\n diabetes can cause serious health problems, such as heart disease, stroke, and eye and foot problems.  prediabetes also can cause health problems. the good news is that type 2 diabetes can be delayed or even prevented. the longer you have diabetes, the more likely you are to develop health problems, so delaying diabetes by even a few years will benefit your health. you can help prevent or delay type 2 diabetes by losing a modest amount of weight by following a reduced-calorie eating plan and being physically active most days of the week. ask your doctor if you should take the diabetes drug metformin to help prevent or delay type 2 diabetes.1\n \r\n        this content is provided as a service of the national institute of diabetes and digestive and kidney diseases\n(niddk), part of the national institutes of health. the niddk translates and disseminates research findings\nthrough its clearinghouses and education programs to increase knowledge and understanding about health and\ndisease among patients, health professionals, and the public. content produced by the niddk is carefully\nreviewed by niddk scientists and other experts.\r\n    '
+common words  2
+CTA  0.00262467191601
+CFA  3
+P  9.99995290022e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+' perhaps you have learned that you have a high chance of developing type 2 diabetes, the most common type of diabetes. you might be overweight or have a parent, brother, or sister with type 2 diabetes. maybe you had gestational diabetes, which is diabetes that develops during pregnancy. these are just a few examples of factors that can raise your chances of developing type 2 diabetes.\n diabetes can cause serious health problems, such as heart disease, stroke, and eye and foot problems.  prediabetes also can cause health problems. the good news is that type 2 diabetes can be delayed or even prevented. the longer you have diabetes, the more likely you are to develop health problems, so delaying diabetes by even a few years will benefit your health. you can help prevent or delay type 2 diabetes by losing a modest amount of weight by following a reduced-calorie eating plan and being physically active most days of the week. ask your doctor if you should take the diabetes drug metformin to help prevent or delay type 2 diabetes.1\n \r\n        this content is provided as a service of the national institute of diabetes and digestive and kidney diseases\n(niddk), part of the national institutes of health. the niddk translates and disseminates research findings\nthrough its clearinghouses and education programs to increase knowledge and understanding about health and\ndisease among patients, health professionals, and the public. content produced by the niddk is carefully\nreviewed by niddk scientists and other experts.\r\n    '
+common words  2
+CTA  0.00262467191601
+CFA  3
+P  9.99995290022e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+' perhaps you have learned that you have a high chance of developing type 2 diabetes, the most common type of diabetes. you might be overweight or have a parent, brother, or sister with type 2 diabetes. maybe you had gestational diabetes, which is diabetes that develops during pregnancy. these are just a few examples of factors that can raise your chances of developing type 2 diabetes.\n diabetes can cause serious health problems, such as heart disease, stroke, and eye and foot problems.  prediabetes also can cause health problems. the good news is that type 2 diabetes can be delayed or even prevented. the longer you have diabetes, the more likely you are to develop health problems, so delaying diabetes by even a few years will benefit your health. you can help prevent or delay type 2 diabetes by losing a modest amount of weight by following a reduced-calorie eating plan and being physically active most days of the week. ask your doctor if you should take the diabetes drug metformin to help prevent or delay type 2 diabetes.1\n \r\n        this content is provided as a service of the national institute of diabetes and digestive and kidney diseases\n(niddk), part of the national institutes of health. the niddk translates and disseminates research findings\nthrough its clearinghouses and education programs to increase knowledge and understanding about health and\ndisease among patients, health professionals, and the public. content produced by the niddk is carefully\nreviewed by niddk scientists and other experts.\r\n    '
+common words  2
+CTA  0.00262467191601
+CFA  3
+P  9.99995290022e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+' perhaps you have learned that you have a high chance of developing type 2 diabetes, the most common type of diabetes. you might be overweight or have a parent, brother, or sister with type 2 diabetes. maybe you had gestational diabetes, which is diabetes that develops during pregnancy. these are just a few examples of factors that can raise your chances of developing type 2 diabetes.\n diabetes can cause serious health problems, such as heart disease, stroke, and eye and foot problems.  prediabetes also can cause health problems. the good news is that type 2 diabetes can be delayed or even prevented. the longer you have diabetes, the more likely you are to develop health problems, so delaying diabetes by even a few years will benefit your health. you can help prevent or delay type 2 diabetes by losing a modest amount of weight by following a reduced-calorie eating plan and being physically active most days of the week. ask your doctor if you should take the diabetes drug metformin to help prevent or delay type 2 diabetes.1\n \r\n        this content is provided as a service of the national institute of diabetes and digestive and kidney diseases\n(niddk), part of the national institutes of health. the niddk translates and disseminates research findings\nthrough its clearinghouses and education programs to increase knowledge and understanding about health and\ndisease among patients, health professionals, and the public. content produced by the niddk is carefully\nreviewed by niddk scientists and other experts.\r\n    '
+common words  2
+CTA  0.00262467191601
+CFA  3
+P  9.99995290022e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+' perhaps you have learned that you have a high chance of developing type 2 diabetes, the most common type of diabetes. you might be overweight or have a parent, brother, or sister with type 2 diabetes. maybe you had gestational diabetes, which is diabetes that develops during pregnancy. these are just a few examples of factors that can raise your chances of developing type 2 diabetes.\n diabetes can cause serious health problems, such as heart disease, stroke, and eye and foot problems.  prediabetes also can cause health problems. the good news is that type 2 diabetes can be delayed or even prevented. the longer you have diabetes, the more likely you are to develop health problems, so delaying diabetes by even a few years will benefit your health. you can help prevent or delay type 2 diabetes by losing a modest amount of weight by following a reduced-calorie eating plan and being physically active most days of the week. ask your doctor if you should take the diabetes drug metformin to help prevent or delay type 2 diabetes.1\n \r\n        this content is provided as a service of the national institute of diabetes and digestive and kidney diseases\n(niddk), part of the national institutes of health. the niddk translates and disseminates research findings\nthrough its clearinghouses and education programs to increase knowledge and understanding about health and\ndisease among patients, health professionals, and the public. content produced by the niddk is carefully\nreviewed by niddk scientists and other experts.\r\n    '
+common words  2
+CTA  0.00262467191601
+CFA  3
+P  9.99995290022e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+' perhaps you have learned that you have a high chance of developing type 2 diabetes, the most common type of diabetes. you might be overweight or have a parent, brother, or sister with type 2 diabetes. maybe you had gestational diabetes, which is diabetes that develops during pregnancy. these are just a few examples of factors that can raise your chances of developing type 2 diabetes.\n diabetes can cause serious health problems, such as heart disease, stroke, and eye and foot problems.  prediabetes also can cause health problems. the good news is that type 2 diabetes can be delayed or even prevented. the longer you have diabetes, the more likely you are to develop health problems, so delaying diabetes by even a few years will benefit your health. you can help prevent or delay type 2 diabetes by losing a modest amount of weight by following a reduced-calorie eating plan and being physically active most days of the week. ask your doctor if you should take the diabetes drug metformin to help prevent or delay type 2 diabetes.1\n \r\n        this content is provided as a service of the national institute of diabetes and digestive and kidney diseases\n(niddk), part of the national institutes of health. the niddk translates and disseminates research findings\nthrough its clearinghouses and education programs to increase knowledge and understanding about health and\ndisease among patients, health professionals, and the public. content produced by the niddk is carefully\nreviewed by niddk scientists and other experts.\r\n    '
+common words  2
+CTA  0.00262467191601
+CFA  3
+P  9.99995290022e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+' perhaps you have learned that you have a high chance of developing type 2 diabetes, the most common type of diabetes. you might be overweight or have a parent, brother, or sister with type 2 diabetes. maybe you had gestational diabetes, which is diabetes that develops during pregnancy. these are just a few examples of factors that can raise your chances of developing type 2 diabetes.\n diabetes can cause serious health problems, such as heart disease, stroke, and eye and foot problems.  prediabetes also can cause health problems. the good news is that type 2 diabetes can be delayed or even prevented. the longer you have diabetes, the more likely you are to develop health problems, so delaying diabetes by even a few years will benefit your health. you can help prevent or delay type 2 diabetes by losing a modest amount of weight by following a reduced-calorie eating plan and being physically active most days of the week. ask your doctor if you should take the diabetes drug metformin to help prevent or delay type 2 diabetes.1\n \r\n        this content is provided as a service of the national institute of diabetes and digestive and kidney diseases\n(niddk), part of the national institutes of health. the niddk translates and disseminates research findings\nthrough its clearinghouses and education programs to increase knowledge and understanding about health and\ndisease among patients, health professionals, and the public. content produced by the niddk is carefully\nreviewed by niddk scientists and other experts.\r\n    '
+common words  2
+CTA  0.00262467191601
+CFA  3
+P  9.99995290022e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+' perhaps you have learned that you have a high chance of developing type 2 diabetes, the most common type of diabetes. you might be overweight or have a parent, brother, or sister with type 2 diabetes. maybe you had gestational diabetes, which is diabetes that develops during pregnancy. these are just a few examples of factors that can raise your chances of developing type 2 diabetes.\n diabetes can cause serious health problems, such as heart disease, stroke, and eye and foot problems.  prediabetes also can cause health problems. the good news is that type 2 diabetes can be delayed or even prevented. the longer you have diabetes, the more likely you are to develop health problems, so delaying diabetes by even a few years will benefit your health. you can help prevent or delay type 2 diabetes by losing a modest amount of weight by following a reduced-calorie eating plan and being physically active most days of the week. ask your doctor if you should take the diabetes drug metformin to help prevent or delay type 2 diabetes.1\n \r\n        this content is provided as a service of the national institute of diabetes and digestive and kidney diseases\n(niddk), part of the national institutes of health. the niddk translates and disseminates research findings\nthrough its clearinghouses and education programs to increase knowledge and understanding about health and\ndisease among patients, health professionals, and the public. content produced by the niddk is carefully\nreviewed by niddk scientists and other experts.\r\n    '
+common words  2
+CTA  0.00262467191601
+CFA  3
+P  9.99995290022e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+' perhaps you have learned that you have a high chance of developing type 2 diabetes, the most common type of diabetes. you might be overweight or have a parent, brother, or sister with type 2 diabetes. maybe you had gestational diabetes, which is diabetes that develops during pregnancy. these are just a few examples of factors that can raise your chances of developing type 2 diabetes.\n diabetes can cause serious health problems, such as heart disease, stroke, and eye and foot problems.  prediabetes also can cause health problems. the good news is that type 2 diabetes can be delayed or even prevented. the longer you have diabetes, the more likely you are to develop health problems, so delaying diabetes by even a few years will benefit your health. you can help prevent or delay type 2 diabetes by losing a modest amount of weight by following a reduced-calorie eating plan and being physically active most days of the week. ask your doctor if you should take the diabetes drug metformin to help prevent or delay type 2 diabetes.1\n \r\n        this content is provided as a service of the national institute of diabetes and digestive and kidney diseases\n(niddk), part of the national institutes of health. the niddk translates and disseminates research findings\nthrough its clearinghouses and education programs to increase knowledge and understanding about health and\ndisease among patients, health professionals, and the public. content produced by the niddk is carefully\nreviewed by niddk scientists and other experts.\r\n    '
+common words  2
+CTA  0.00262467191601
+CFA  3
+P  9.99995290022e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+' perhaps you have learned that you have a high chance of developing type 2 diabetes, the most common type of diabetes. you might be overweight or have a parent, brother, or sister with type 2 diabetes. maybe you had gestational diabetes, which is diabetes that develops during pregnancy. these are just a few examples of factors that can raise your chances of developing type 2 diabetes.\n diabetes can cause serious health problems, such as heart disease, stroke, and eye and foot problems.  prediabetes also can cause health problems. the good news is that type 2 diabetes can be delayed or even prevented. the longer you have diabetes, the more likely you are to develop health problems, so delaying diabetes by even a few years will benefit your health. you can help prevent or delay type 2 diabetes by losing a modest amount of weight by following a reduced-calorie eating plan and being physically active most days of the week. ask your doctor if you should take the diabetes drug metformin to help prevent or delay type 2 diabetes.1\n \r\n        this content is provided as a service of the national institute of diabetes and digestive and kidney diseases\n(niddk), part of the national institutes of health. the niddk translates and disseminates research findings\nthrough its clearinghouses and education programs to increase knowledge and understanding about health and\ndisease among patients, health professionals, and the public. content produced by the niddk is carefully\nreviewed by niddk scientists and other experts.\r\n    '
+common words  2
+CTA  0.00262467191601
+CFA  3
+P  9.99995290022e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+' perhaps you have learned that you have a high chance of developing type 2 diabetes, the most common type of diabetes. you might be overweight or have a parent, brother, or sister with type 2 diabetes. maybe you had gestational diabetes, which is diabetes that develops during pregnancy. these are just a few examples of factors that can raise your chances of developing type 2 diabetes.\n diabetes can cause serious health problems, such as heart disease, stroke, and eye and foot problems.  prediabetes also can cause health problems. the good news is that type 2 diabetes can be delayed or even prevented. the longer you have diabetes, the more likely you are to develop health problems, so delaying diabetes by even a few years will benefit your health. you can help prevent or delay type 2 diabetes by losing a modest amount of weight by following a reduced-calorie eating plan and being physically active most days of the week. ask your doctor if you should take the diabetes drug metformin to help prevent or delay type 2 diabetes.1\n \r\n        this content is provided as a service of the national institute of diabetes and digestive and kidney diseases\n(niddk), part of the national institutes of health. the niddk translates and disseminates research findings\nthrough its clearinghouses and education programs to increase knowledge and understanding about health and\ndisease among patients, health professionals, and the public. content produced by the niddk is carefully\nreviewed by niddk scientists and other experts.\r\n    '
+common words  2
+CTA  0.00262467191601
+CFA  3
+P  9.99995290022e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+' perhaps you have learned that you have a high chance of developing type 2 diabetes, the most common type of diabetes. you might be overweight or have a parent, brother, or sister with type 2 diabetes. maybe you had gestational diabetes, which is diabetes that develops during pregnancy. these are just a few examples of factors that can raise your chances of developing type 2 diabetes.\n diabetes can cause serious health problems, such as heart disease, stroke, and eye and foot problems.  prediabetes also can cause health problems. the good news is that type 2 diabetes can be delayed or even prevented. the longer you have diabetes, the more likely you are to develop health problems, so delaying diabetes by even a few years will benefit your health. you can help prevent or delay type 2 diabetes by losing a modest amount of weight by following a reduced-calorie eating plan and being physically active most days of the week. ask your doctor if you should take the diabetes drug metformin to help prevent or delay type 2 diabetes.1\n \r\n        this content is provided as a service of the national institute of diabetes and digestive and kidney diseases\n(niddk), part of the national institutes of health. the niddk translates and disseminates research findings\nthrough its clearinghouses and education programs to increase knowledge and understanding about health and\ndisease among patients, health professionals, and the public. content produced by the niddk is carefully\nreviewed by niddk scientists and other experts.\r\n    '
+common words  2
+CTA  0.00262467191601
+CFA  3
+P  9.99995290022e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+' perhaps you have learned that you have a high chance of developing type 2 diabetes, the most common type of diabetes. you might be overweight or have a parent, brother, or sister with type 2 diabetes. maybe you had gestational diabetes, which is diabetes that develops during pregnancy. these are just a few examples of factors that can raise your chances of developing type 2 diabetes.\n diabetes can cause serious health problems, such as heart disease, stroke, and eye and foot problems.  prediabetes also can cause health problems. the good news is that type 2 diabetes can be delayed or even prevented. the longer you have diabetes, the more likely you are to develop health problems, so delaying diabetes by even a few years will benefit your health. you can help prevent or delay type 2 diabetes by losing a modest amount of weight by following a reduced-calorie eating plan and being physically active most days of the week. ask your doctor if you should take the diabetes drug metformin to help prevent or delay type 2 diabetes.1\n \r\n        this content is provided as a service of the national institute of diabetes and digestive and kidney diseases\n(niddk), part of the national institutes of health. the niddk translates and disseminates research findings\nthrough its clearinghouses and education programs to increase knowledge and understanding about health and\ndisease among patients, health professionals, and the public. content produced by the niddk is carefully\nreviewed by niddk scientists and other experts.\r\n    '
+common words  2
+CTA  0.00262467191601
+CFA  3
+P  9.99995290022e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+' perhaps you have learned that you have a high chance of developing type 2 diabetes, the most common type of diabetes. you might be overweight or have a parent, brother, or sister with type 2 diabetes. maybe you had gestational diabetes, which is diabetes that develops during pregnancy. these are just a few examples of factors that can raise your chances of developing type 2 diabetes.\n diabetes can cause serious health problems, such as heart disease, stroke, and eye and foot problems.  prediabetes also can cause health problems. the good news is that type 2 diabetes can be delayed or even prevented. the longer you have diabetes, the more likely you are to develop health problems, so delaying diabetes by even a few years will benefit your health. you can help prevent or delay type 2 diabetes by losing a modest amount of weight by following a reduced-calorie eating plan and being physically active most days of the week. ask your doctor if you should take the diabetes drug metformin to help prevent or delay type 2 diabetes.1\n \r\n        this content is provided as a service of the national institute of diabetes and digestive and kidney diseases\n(niddk), part of the national institutes of health. the niddk translates and disseminates research findings\nthrough its clearinghouses and education programs to increase knowledge and understanding about health and\ndisease among patients, health professionals, and the public. content produced by the niddk is carefully\nreviewed by niddk scientists and other experts.\r\n    '
+common words  2
+CTA  0.00262467191601
+CFA  3
+P  9.99995290022e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+' perhaps you have learned that you have a high chance of developing type 2 diabetes, the most common type of diabetes. you might be overweight or have a parent, brother, or sister with type 2 diabetes. maybe you had gestational diabetes, which is diabetes that develops during pregnancy. these are just a few examples of factors that can raise your chances of developing type 2 diabetes.\n diabetes can cause serious health problems, such as heart disease, stroke, and eye and foot problems.  prediabetes also can cause health problems. the good news is that type 2 diabetes can be delayed or even prevented. the longer you have diabetes, the more likely you are to develop health problems, so delaying diabetes by even a few years will benefit your health. you can help prevent or delay type 2 diabetes by losing a modest amount of weight by following a reduced-calorie eating plan and being physically active most days of the week. ask your doctor if you should take the diabetes drug metformin to help prevent or delay type 2 diabetes.1\n \r\n        this content is provided as a service of the national institute of diabetes and digestive and kidney diseases\n(niddk), part of the national institutes of health. the niddk translates and disseminates research findings\nthrough its clearinghouses and education programs to increase knowledge and understanding about health and\ndisease among patients, health professionals, and the public. content produced by the niddk is carefully\nreviewed by niddk scientists and other experts.\r\n    '
+common words  2
+CTA  0.00262467191601
+CFA  3
+P  9.99995290022e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+' perhaps you have learned that you have a high chance of developing type 2 diabetes, the most common type of diabetes. you might be overweight or have a parent, brother, or sister with type 2 diabetes. maybe you had gestational diabetes, which is diabetes that develops during pregnancy. these are just a few examples of factors that can raise your chances of developing type 2 diabetes.\n diabetes can cause serious health problems, such as heart disease, stroke, and eye and foot problems.  prediabetes also can cause health problems. the good news is that type 2 diabetes can be delayed or even prevented. the longer you have diabetes, the more likely you are to develop health problems, so delaying diabetes by even a few years will benefit your health. you can help prevent or delay type 2 diabetes by losing a modest amount of weight by following a reduced-calorie eating plan and being physically active most days of the week. ask your doctor if you should take the diabetes drug metformin to help prevent or delay type 2 diabetes.1\n \r\n        this content is provided as a service of the national institute of diabetes and digestive and kidney diseases\n(niddk), part of the national institutes of health. the niddk translates and disseminates research findings\nthrough its clearinghouses and education programs to increase knowledge and understanding about health and\ndisease among patients, health professionals, and the public. content produced by the niddk is carefully\nreviewed by niddk scientists and other experts.\r\n    '
+common words  2
+CTA  0.00262467191601
+CFA  3
+P  9.99995290022e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+' perhaps you have learned that you have a high chance of developing type 2 diabetes, the most common type of diabetes. you might be overweight or have a parent, brother, or sister with type 2 diabetes. maybe you had gestational diabetes, which is diabetes that develops during pregnancy. these are just a few examples of factors that can raise your chances of developing type 2 diabetes.\n diabetes can cause serious health problems, such as heart disease, stroke, and eye and foot problems.  prediabetes also can cause health problems. the good news is that type 2 diabetes can be delayed or even prevented. the longer you have diabetes, the more likely you are to develop health problems, so delaying diabetes by even a few years will benefit your health. you can help prevent or delay type 2 diabetes by losing a modest amount of weight by following a reduced-calorie eating plan and being physically active most days of the week. ask your doctor if you should take the diabetes drug metformin to help prevent or delay type 2 diabetes.1\n \r\n        this content is provided as a service of the national institute of diabetes and digestive and kidney diseases\n(niddk), part of the national institutes of health. the niddk translates and disseminates research findings\nthrough its clearinghouses and education programs to increase knowledge and understanding about health and\ndisease among patients, health professionals, and the public. content produced by the niddk is carefully\nreviewed by niddk scientists and other experts.\r\n    '
+common words  2
+CTA  0.00262467191601
+CFA  3
+P  9.99995290022e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+' perhaps you have learned that you have a high chance of developing type 2 diabetes, the most common type of diabetes. you might be overweight or have a parent, brother, or sister with type 2 diabetes. maybe you had gestational diabetes, which is diabetes that develops during pregnancy. these are just a few examples of factors that can raise your chances of developing type 2 diabetes.\n diabetes can cause serious health problems, such as heart disease, stroke, and eye and foot problems.  prediabetes also can cause health problems. the good news is that type 2 diabetes can be delayed or even prevented. the longer you have diabetes, the more likely you are to develop health problems, so delaying diabetes by even a few years will benefit your health. you can help prevent or delay type 2 diabetes by losing a modest amount of weight by following a reduced-calorie eating plan and being physically active most days of the week. ask your doctor if you should take the diabetes drug metformin to help prevent or delay type 2 diabetes.1\n \r\n        this content is provided as a service of the national institute of diabetes and digestive and kidney diseases\n(niddk), part of the national institutes of health. the niddk translates and disseminates research findings\nthrough its clearinghouses and education programs to increase knowledge and understanding about health and\ndisease among patients, health professionals, and the public. content produced by the niddk is carefully\nreviewed by niddk scientists and other experts.\r\n    '
+common words  2
+CTA  0.00262467191601
+CFA  3
+P  9.99995290022e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+' perhaps you have learned that you have a high chance of developing type 2 diabetes, the most common type of diabetes. you might be overweight or have a parent, brother, or sister with type 2 diabetes. maybe you had gestational diabetes, which is diabetes that develops during pregnancy. these are just a few examples of factors that can raise your chances of developing type 2 diabetes.\n diabetes can cause serious health problems, such as heart disease, stroke, and eye and foot problems.  prediabetes also can cause health problems. the good news is that type 2 diabetes can be delayed or even prevented. the longer you have diabetes, the more likely you are to develop health problems, so delaying diabetes by even a few years will benefit your health. you can help prevent or delay type 2 diabetes by losing a modest amount of weight by following a reduced-calorie eating plan and being physically active most days of the week. ask your doctor if you should take the diabetes drug metformin to help prevent or delay type 2 diabetes.1\n \r\n        this content is provided as a service of the national institute of diabetes and digestive and kidney diseases\n(niddk), part of the national institutes of health. the niddk translates and disseminates research findings\nthrough its clearinghouses and education programs to increase knowledge and understanding about health and\ndisease among patients, health professionals, and the public. content produced by the niddk is carefully\nreviewed by niddk scientists and other experts.\r\n    '
+common words  2
+CTA  0.00262467191601
+CFA  3
+P  9.99995290022e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+' perhaps you have learned that you have a high chance of developing type 2 diabetes, the most common type of diabetes. you might be overweight or have a parent, brother, or sister with type 2 diabetes. maybe you had gestational diabetes, which is diabetes that develops during pregnancy. these are just a few examples of factors that can raise your chances of developing type 2 diabetes.\n diabetes can cause serious health problems, such as heart disease, stroke, and eye and foot problems.  prediabetes also can cause health problems. the good news is that type 2 diabetes can be delayed or even prevented. the longer you have diabetes, the more likely you are to develop health problems, so delaying diabetes by even a few years will benefit your health. you can help prevent or delay type 2 diabetes by losing a modest amount of weight by following a reduced-calorie eating plan and being physically active most days of the week. ask your doctor if you should take the diabetes drug metformin to help prevent or delay type 2 diabetes.1\n \r\n        this content is provided as a service of the national institute of diabetes and digestive and kidney diseases\n(niddk), part of the national institutes of health. the niddk translates and disseminates research findings\nthrough its clearinghouses and education programs to increase knowledge and understanding about health and\ndisease among patients, health professionals, and the public. content produced by the niddk is carefully\nreviewed by niddk scientists and other experts.\r\n    '
+common words  2
+CTA  0.00262467191601
+CFA  3
+P  9.99995290022e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+' perhaps you have learned that you have a high chance of developing type 2 diabetes, the most common type of diabetes. you might be overweight or have a parent, brother, or sister with type 2 diabetes. maybe you had gestational diabetes, which is diabetes that develops during pregnancy. these are just a few examples of factors that can raise your chances of developing type 2 diabetes.\n diabetes can cause serious health problems, such as heart disease, stroke, and eye and foot problems.  prediabetes also can cause health problems. the good news is that type 2 diabetes can be delayed or even prevented. the longer you have diabetes, the more likely you are to develop health problems, so delaying diabetes by even a few years will benefit your health. you can help prevent or delay type 2 diabetes by losing a modest amount of weight by following a reduced-calorie eating plan and being physically active most days of the week. ask your doctor if you should take the diabetes drug metformin to help prevent or delay type 2 diabetes.1\n \r\n        this content is provided as a service of the national institute of diabetes and digestive and kidney diseases\n(niddk), part of the national institutes of health. the niddk translates and disseminates research findings\nthrough its clearinghouses and education programs to increase knowledge and understanding about health and\ndisease among patients, health professionals, and the public. content produced by the niddk is carefully\nreviewed by niddk scientists and other experts.\r\n    '
+common words  2
+CTA  0.00262467191601
+CFA  3
+P  9.99995290022e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+' perhaps you have learned that you have a high chance of developing type 2 diabetes, the most common type of diabetes. you might be overweight or have a parent, brother, or sister with type 2 diabetes. maybe you had gestational diabetes, which is diabetes that develops during pregnancy. these are just a few examples of factors that can raise your chances of developing type 2 diabetes.\n diabetes can cause serious health problems, such as heart disease, stroke, and eye and foot problems.  prediabetes also can cause health problems. the good news is that type 2 diabetes can be delayed or even prevented. the longer you have diabetes, the more likely you are to develop health problems, so delaying diabetes by even a few years will benefit your health. you can help prevent or delay type 2 diabetes by losing a modest amount of weight by following a reduced-calorie eating plan and being physically active most days of the week. ask your doctor if you should take the diabetes drug metformin to help prevent or delay type 2 diabetes.1\n \r\n        this content is provided as a service of the national institute of diabetes and digestive and kidney diseases\n(niddk), part of the national institutes of health. the niddk translates and disseminates research findings\nthrough its clearinghouses and education programs to increase knowledge and understanding about health and\ndisease among patients, health professionals, and the public. content produced by the niddk is carefully\nreviewed by niddk scientists and other experts.\r\n    '
+common words  2
+CTA  0.00262467191601
+CFA  3
+P  9.99995290022e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+' perhaps you have learned that you have a high chance of developing type 2 diabetes, the most common type of diabetes. you might be overweight or have a parent, brother, or sister with type 2 diabetes. maybe you had gestational diabetes, which is diabetes that develops during pregnancy. these are just a few examples of factors that can raise your chances of developing type 2 diabetes.\n diabetes can cause serious health problems, such as heart disease, stroke, and eye and foot problems.  prediabetes also can cause health problems. the good news is that type 2 diabetes can be delayed or even prevented. the longer you have diabetes, the more likely you are to develop health problems, so delaying diabetes by even a few years will benefit your health. you can help prevent or delay type 2 diabetes by losing a modest amount of weight by following a reduced-calorie eating plan and being physically active most days of the week. ask your doctor if you should take the diabetes drug metformin to help prevent or delay type 2 diabetes.1\n \r\n        this content is provided as a service of the national institute of diabetes and digestive and kidney diseases\n(niddk), part of the national institutes of health. the niddk translates and disseminates research findings\nthrough its clearinghouses and education programs to increase knowledge and understanding about health and\ndisease among patients, health professionals, and the public. content produced by the niddk is carefully\nreviewed by niddk scientists and other experts.\r\n    '
+common words  2
+CTA  0.00262467191601
+CFA  3
+P  9.99995290022e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+' perhaps you have learned that you have a high chance of developing type 2 diabetes, the most common type of diabetes. you might be overweight or have a parent, brother, or sister with type 2 diabetes. maybe you had gestational diabetes, which is diabetes that develops during pregnancy. these are just a few examples of factors that can raise your chances of developing type 2 diabetes.\n diabetes can cause serious health problems, such as heart disease, stroke, and eye and foot problems.  prediabetes also can cause health problems. the good news is that type 2 diabetes can be delayed or even prevented. the longer you have diabetes, the more likely you are to develop health problems, so delaying diabetes by even a few years will benefit your health. you can help prevent or delay type 2 diabetes by losing a modest amount of weight by following a reduced-calorie eating plan and being physically active most days of the week. ask your doctor if you should take the diabetes drug metformin to help prevent or delay type 2 diabetes.1\n \r\n        this content is provided as a service of the national institute of diabetes and digestive and kidney diseases\n(niddk), part of the national institutes of health. the niddk translates and disseminates research findings\nthrough its clearinghouses and education programs to increase knowledge and understanding about health and\ndisease among patients, health professionals, and the public. content produced by the niddk is carefully\nreviewed by niddk scientists and other experts.\r\n    '
+common words  2
+CTA  0.00262467191601
+CFA  3
+P  9.99995290022e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+' perhaps you have learned that you have a high chance of developing type 2 diabetes, the most common type of diabetes. you might be overweight or have a parent, brother, or sister with type 2 diabetes. maybe you had gestational diabetes, which is diabetes that develops during pregnancy. these are just a few examples of factors that can raise your chances of developing type 2 diabetes.\n diabetes can cause serious health problems, such as heart disease, stroke, and eye and foot problems.  prediabetes also can cause health problems. the good news is that type 2 diabetes can be delayed or even prevented. the longer you have diabetes, the more likely you are to develop health problems, so delaying diabetes by even a few years will benefit your health. you can help prevent or delay type 2 diabetes by losing a modest amount of weight by following a reduced-calorie eating plan and being physically active most days of the week. ask your doctor if you should take the diabetes drug metformin to help prevent or delay type 2 diabetes.1\n \r\n        this content is provided as a service of the national institute of diabetes and digestive and kidney diseases\n(niddk), part of the national institutes of health. the niddk translates and disseminates research findings\nthrough its clearinghouses and education programs to increase knowledge and understanding about health and\ndisease among patients, health professionals, and the public. content produced by the niddk is carefully\nreviewed by niddk scientists and other experts.\r\n    '
+common words  2
+CTA  0.00262467191601
+CFA  3
+P  9.99995290022e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+' perhaps you have learned that you have a high chance of developing type 2 diabetes, the most common type of diabetes. you might be overweight or have a parent, brother, or sister with type 2 diabetes. maybe you had gestational diabetes, which is diabetes that develops during pregnancy. these are just a few examples of factors that can raise your chances of developing type 2 diabetes.\n diabetes can cause serious health problems, such as heart disease, stroke, and eye and foot problems.  prediabetes also can cause health problems. the good news is that type 2 diabetes can be delayed or even prevented. the longer you have diabetes, the more likely you are to develop health problems, so delaying diabetes by even a few years will benefit your health. you can help prevent or delay type 2 diabetes by losing a modest amount of weight by following a reduced-calorie eating plan and being physically active most days of the week. ask your doctor if you should take the diabetes drug metformin to help prevent or delay type 2 diabetes.1\n \r\n        this content is provided as a service of the national institute of diabetes and digestive and kidney diseases\n(niddk), part of the national institutes of health. the niddk translates and disseminates research findings\nthrough its clearinghouses and education programs to increase knowledge and understanding about health and\ndisease among patients, health professionals, and the public. content produced by the niddk is carefully\nreviewed by niddk scientists and other experts.\r\n    '
+common words  2
+CTA  0.00262467191601
+CFA  3
+P  9.99995290022e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+' perhaps you have learned that you have a high chance of developing type 2 diabetes, the most common type of diabetes. you might be overweight or have a parent, brother, or sister with type 2 diabetes. maybe you had gestational diabetes, which is diabetes that develops during pregnancy. these are just a few examples of factors that can raise your chances of developing type 2 diabetes.\n diabetes can cause serious health problems, such as heart disease, stroke, and eye and foot problems.  prediabetes also can cause health problems. the good news is that type 2 diabetes can be delayed or even prevented. the longer you have diabetes, the more likely you are to develop health problems, so delaying diabetes by even a few years will benefit your health. you can help prevent or delay type 2 diabetes by losing a modest amount of weight by following a reduced-calorie eating plan and being physically active most days of the week. ask your doctor if you should take the diabetes drug metformin to help prevent or delay type 2 diabetes.1\n \r\n        this content is provided as a service of the national institute of diabetes and digestive and kidney diseases\n(niddk), part of the national institutes of health. the niddk translates and disseminates research findings\nthrough its clearinghouses and education programs to increase knowledge and understanding about health and\ndisease among patients, health professionals, and the public. content produced by the niddk is carefully\nreviewed by niddk scientists and other experts.\r\n    '
+common words  2
+CTA  0.00262467191601
+CFA  3
+P  9.99995290022e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+' research such as the diabetes prevention program shows that you can do a lot to reduce your chances of developing type 2 diabetes. here are some things you can change to lower your risk:\n lose weight and keep it off. you may be able to prevent or delay diabetes by losing 5 to 7 percent of your starting weight.1 for instance, if you weigh 200 pounds, your goal would be to lose about 10 to 14 pounds.\n     move more. get at least 30 minutes of physical activity 5 days a week. if you have not been active, talk with your health care professional about which activities are best. start slowly to build up to your goal.\n     eat healthy foods most of the time. eat smaller portions to reduce the amount of calories you eat each day and help you lose weight. choosing foods with less fat is another way to reduce calories. drink water instead of sweetened beverages.\n     \nask your health care professional about what other changes you can make to prevent or delay type 2 diabetes.\n'
+common words  2
+CTA  0.00574712643678
+CFA  2
+P  4.999999475e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+['gestational', 'diabetes', u'diabet', u'gest']
+*****************************************
+' gestational diabetes is a type of diabetes that develops during pregnancy. most of the time, gestational diabetes goes away after your baby is born. even if your gestational diabetes goes away, you still have a greater chance of developing type 2 diabetes within 5 to 10 years. your child may also be more likely to become obese and develop type 2 diabetes later in life. making healthy choices helps the whole family and may protect your child from becoming obese or developing diabetes.\n here are steps you should take for yourself and your child if you had gestational diabetes:\n get tested for diabetes 6 to 12 weeks after your baby is born. if your blood glucose is still high, you may have type 2 diabetes. if your blood glucose is normal, you should get tested every 3 years to see if you have developed type 2 diabetes.  \n    be more active and make healthy food choices to get back to a healthy weight.  \n    breastfeed your baby. breastfeeding gives your baby the right balance of nutrients and helps you burn calories.\n     ask your doctor if you should take the diabetes drug metformin to help prevent type 2 diabetes.1'
+common words  4
+CTA  0.000904159132007
+CFA  3
+P  9.99983070287e-09
+overlap_focii  0
+overlap_targets  0
+overlap_anstypes  False
+________________________________________________________
+*****************************************
+['gestational', 'diabetes', u'diabet', u'gest']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+['gestational', 'diabetes', u'diabet', u'gest']
+*****************************************
+*****************************************
+['gestational', 'diabetes', u'diabet', u'gest']
+*****************************************
+*****************************************
+['gestational', 'diabetes', u'diabet', u'gest']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+*****************************************
+[]
+*****************************************
+*****************************************
+[u'diabet', 'diabetes']
+*****************************************
+==================================================
+ANS TYPE:
+symptoms
+prevention
+FOCUS:
+gestational  diabetes 
+TARGET:
+prevent gestational 
+POS:
+
+[('how', 'WRB'),
+ ('to', 'TO'),
+ ('prevent', 'VB'),
+ ('gestational', 'JJ'),
+ ('diabetes', 'NNS')]
+CHOSEN ANS:
+' gestational diabetes is a type of diabetes that develops during pregnancy. most of the time, gestational diabetes goes away after your baby is born. even if your gestational diabetes goes away, you still have a greater chance of developing type 2 diabetes within 5 to 10 years. your child may also be more likely to become obese and develop type 2 diabetes later in life. making healthy choices helps the whole family and may protect your child from becoming obese or developing diabetes.\n here are steps you should take for yourself and your child if you had gestational diabetes:\n get tested for diabetes 6 to 12 weeks after your baby is born. if your blood glucose is still high, you may have type 2 diabetes. if your blood glucose is normal, you should get tested every 3 years to see if you have developed type 2 diabetes.  \n    be more active and make healthy food choices to get back to a healthy weight.  \n    breastfeed your baby. breastfeeding gives your baby the right balance of nutrients and helps you burn calories.\n     ask your doctor if you should take the diabetes drug metformin to help prevent type 2 diabetes.1'
+
+Enter your question ?
+
+=========== RESTART: J:\MedWhat\diabetes_engine\diabetes_engine.py ===========
+Enter your question ?
+what is gestational diabees
+
+Traceback (most recent call last):
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 613, in <module>
+    list_types,focus,target ,words_tags  = get_query(q,common_diabetes_questions_as_a_string,N )
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 181, in get_query
+    syn_causes = obtain_synonyms("causes")
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 39, in obtain_synonyms
+    list_of_synsets = wn.synsets(word)
+  File "C:\Python27\lib\site-packages\nltk\corpus\util.py", line 99, in __getattr__
+    self.__load()
+  File "C:\Python27\lib\site-packages\nltk\corpus\util.py", line 67, in __load
+    corpus = self.__reader_cls(root, *self.__args, **self.__kwargs)
+  File "C:\Python27\lib\site-packages\nltk\corpus\reader\wordnet.py", line 1055, in __init__
+    self._load_lemma_pos_offset_map()
+  File "C:\Python27\lib\site-packages\nltk\corpus\reader\wordnet.py", line 1129, in _load_lemma_pos_offset_map
+    _ = [_next_token() for _ in xrange(n_pointers)]
+KeyboardInterrupt
+>>> 
+=========== RESTART: J:\MedWhat\diabetes_engine\diabetes_engine.py ===========
+Enter your question ?
+what is gestational diabetes
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+==================================================
+ANS TYPE:
+intro
+FOCUS:
+gestational  diabetes 
+TARGET:
+gestational 
+POS:
+
+[('what', 'WP'), ('is', 'VBZ'), ('gestational', 'JJ'), ('diabetes', 'NNS')]
+CHOSEN ANS:
+'gestational diabetes is high blood sugar (diabetes) that starts or is first diagnosed during pregnancy.'
+
+Enter your question ?
+what causes gestational diabees
+ANS TYPE:
+causes
+FOCUS:
+
+TARGET:
+gestational diabees 
+POS:
+
+[('what', 'WP'), ('causes', 'VBZ'), ('gestational', 'JJ'), ('diabees', 'NNS')]
+CHOSEN ANS:
+''
+
+Enter your question ?
+what causes gestational diabetes
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+==================================================
+ANS TYPE:
+causes
+FOCUS:
+gestational  diabetes 
+TARGET:
+gestational 
+POS:
+
+[('what', 'WP'), ('causes', 'VBZ'), ('gestational', 'JJ'), ('diabetes', 'NNS')]
+CHOSEN ANS:
+"pregnancy hormones can block insulin from doing its job. when this happens, glucose levels may increase in a pregnant woman's blood.you are at greater risk for gestational diabetes if you:are older than 25 when you are pregnanthave a family history of diabetesgave birth to a baby that weighed more than 9 pounds or had a birth defecthave high blood pressurehave too much amniotic fluidhave had an unexplained miscarriage or stillbirthwere overweight before your pregnancy"
+
+Enter your question ?
+what causes diabetes
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+==================================================
+ANS TYPE:
+causes
+FOCUS:
+ diabetes 
+TARGET:
+
+POS:
+
+[('what', 'WP'), ('causes', 'VBZ'), ('diabetes', 'NNS')]
+CHOSEN ANS:
+'type 1 diabetes can occur at any age. it is most often diagnosed in children, adolescents, or young adults.insulin is a hormone produced in the pancreas by special cells, called beta cells. the pancreas is behind the stomach. insulin is needed to move blood sugar (glucose) into cells. there, it is stored and later used for energy. in type 1 diabetes, beta cells produce little or no insulin.without enough insulin, glucose builds up in the bloodstream instead of going into the cells. the body is unable to use this glucose for energy. this leads to the symptoms of type 1 diabetes.the exact cause of type 1 diabetes is unknown. most likely it is an autoimmune disorder.this is a condition that occurs when the immune system mistakenly attacks and destroys healthy body tissue. with type 1 diabetes, an infection or another trigger causes the body to mistakenly attack the cells in the pancreas that make insulin. type 1 diabetes can be passed down through families.'
+
+Enter your question ?
+what are the symptoms of diabetes
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+==================================================
+ANS TYPE:
+symptoms
+FOCUS:
+ diabetes 
+TARGET:
+symptoms 
+POS:
+
+[('what', 'WDT'),
+ ('are', 'VBP'),
+ ('the', 'DT'),
+ ('symptoms', 'NNS'),
+ ('of', 'IN'),
+ ('diabetes', 'NNS')]
+CHOSEN ANS:
+'high blood sugar level can cause several symptoms, including:blurry visionexcess thirstfatiguehungerurinating oftenweight lossbecause type 2 diabetes develops slowly, some people with high blood sugar have no symptoms.symptoms of type 1 diabetes develop over a short period. people may be very sick by the time they are diagnosed.after many years, diabetes can lead to other serious problems. these problems are known as diabetes complications and include:eye problems, including trouble seeing (especially at night), light sensitivity, blindness in the futurepainful sores and infections of the leg or foot, which if left untreated, leads to removal of the foot or leg nerves in the body can become damaged, causing pain, tingling, and a loss of feeling, problems digesting food, erectile dysfunctionkidney problems, which can lead to kidney failureweakened immune system, which can lead to more frequent infectionsincreased chance of having a heart attackor stroke'
+
+Enter your question ?
+how to treat diabetes insipidus
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+==================================================
+ANS TYPE:
+treatment
+FOCUS:
+ diabetes insipidus 
+TARGET:
+treat 
+POS:
+
+[('how', 'WRB'),
+ ('to', 'TO'),
+ ('treat', 'VB'),
+ ('diabetes', 'NNS'),
+ ('insipidus', 'VBP')]
+CHOSEN ANS:
+"because type 1 diabetes can start quickly and the symptoms can be severe, people who have just been diagnosed may need to stay in the hospital.if you have just been diagnosed with type 1 diabetes, youmay need tohave a checkup each week until you have good control over your blood sugar. your health care provider will review the results of your home blood sugar monitoring and urine testing. your provider will also look at your diary of meals, snacks, and insulin injections. it may take a few weeks to match the insulin doses to your meal and activity schedule.as the disease gets more stable, you will have fewer follow-up visits. visiting your health care provider is very important so you can monitor any long-term problems from diabetes.you are the most important person in managing your diabetes. you should know the basic steps to diabetes management:how to recognize and treat low blood sugar (hypoglycemia)how to recognize and treat high blood sugar (hyperglycemia)diabetes meal planninghow to give insulinhow to check blood glucose and urine ketoneshow to adjust insulin and food when you exercisehow to handle sick dayswhere to buy diabetes supplies and how to store theminsulininsulin lowers blood sugar by allowing it to leave the bloodstream and enter cells. everyone with type 1 diabetes must take insulin every day.insulin must be injected under the skin using a syringe, insulin pen or pump. it cannot be taken by mouth because the acid in the stomach destroys insulin.insulin types differ in how fast they start to work and how long they last. the health care provider will choose the best type of insulin for you and will tell you at what time of day to use it.sometypesof insulin may be mixed together in an injection to get the best blood glucose control. other types of insulin should never be mixed. you may need insulin shots from one to four times a day.your health care provider or diabetes nurse educator will teach you how to give insulin injections. at first, a child's injections may be given by a parent or other adult. by age 14, most children can give their own injections.people with diabetes need to know how to adjust the amount of insulin they are taking:when they exercisewhen they are sickwhen they will be eating more or less food and calorieswhen they are traveling   diet and exerciseby testing their blood sugar level, people with type 1 diabetes learn which foods and activities raise or lower their sugar level most. this helps them adjust their insulin doses to specific meals or activities to prevent blood sugar from becoming too high or low. the american diabetes association and the american dietetic association have information for planning healthy, balanced meals. it can help to talk with a registered dietitian or nutrition counselor.regular exercise helps control the amount of sugar in the blood. it also helps burn extra calories and fat to reach a healthy weight.talk toyour health care provider before starting any exercise program. people with type 1 diabetes must take special steps before, during, and after physical activity or exercise.managing your blood sugarchecking your blood sugar levelyourself and writing down the results tells you how well you are managing your diabetes. talk to your doctor and diabetes educator about how often to check.to check your blood sugar level, you use adevice called a glucose meter. usually, you prick your finger with a small needle called a lancet to get a tiny drop of blood. you place the blood on a test strip and put the strip into the meter. the meter gives you a reading that tells you the level of your blood sugar.keep a record of your blood sugar for yourself and your doctor or nurse. the numberswill help if you have problems managing your diabetes. you and your doctor should set a target goal for your blood sugar level at different times during the day. you should also plan what to do when your blood sugar is too low or high.low blood sugar is called hypoglycemia. blood sugar levels below 70 mg/dl are too low and can harm you.foot carepeople with diabetes are more likely than those without diabetes to have foot problems. diabetes damages the nerves. this can make you less able to feel pressure on the foot. you may not notice a foot injury until you get a severe infection.diabetes can also damage blood vessels. small sores or breaks in the skin may become deeper skin sores (ulcers). the affected limb may need to be amputated if these skin ulcers do not heal or become larger, deeper, or infected.to prevent problems with your feet:stop smoking if you smoke.improve control of your blood sugar.get a foot exam by your health care provider at least twice a year and learn whether you have nerve damage.check and care for your feet every day. this is very important when you already have nerve or blood vessel damage or foot problems.make sure you wear the right kind of shoes. ask your health care provider what is right for you.preventing complicationsyour doctor may prescribe medicines or other treatments to reduce your chance of developing eye disease, kidney disease, and other conditions that are common in people with diabetes. these conditions are called complications of diabetes."
+
+Enter your question ?
+how to prevent diabetes
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+==================================================
+ANS TYPE:
+symptoms
+prevention
+FOCUS:
+ diabetes 
+TARGET:
+prevent 
+POS:
+
+[('how', 'WRB'), ('to', 'TO'), ('prevent', 'VB'), ('diabetes', 'NNS')]
+CHOSEN ANS:
+' research such as the diabetes prevention program shows that you can do a lot to reduce your chances of developing type 2 diabetes. here are some things you can change to lower your risk:\n lose weight and keep it off. you may be able to prevent or delay diabetes by losing 5 to 7 percent of your starting weight.1 for instance, if you weigh 200 pounds, your goal would be to lose about 10 to 14 pounds.\n     move more. get at least 30 minutes of physical activity 5 days a week. if you have not been active, talk with your health care professional about which activities are best. start slowly to build up to your goal.\n     eat healthy foods most of the time. eat smaller portions to reduce the amount of calories you eat each day and help you lose weight. choosing foods with less fat is another way to reduce calories. drink water instead of sweetened beverages.\n     \nask your health care professional about what other changes you can make to prevent or delay type 2 diabetes.\n'
+
+Enter your question ?
+how to prevent gestational diabetes
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+==================================================
+ANS TYPE:
+symptoms
+prevention
+FOCUS:
+gestational  diabetes 
+TARGET:
+prevent gestational 
+POS:
+
+[('how', 'WRB'),
+ ('to', 'TO'),
+ ('prevent', 'VB'),
+ ('gestational', 'JJ'),
+ ('diabetes', 'NNS')]
+CHOSEN ANS:
+' gestational diabetes is a type of diabetes that develops during pregnancy. most of the time, gestational diabetes goes away after your baby is born. even if your gestational diabetes goes away, you still have a greater chance of developing type 2 diabetes within 5 to 10 years. your child may also be more likely to become obese and develop type 2 diabetes later in life. making healthy choices helps the whole family and may protect your child from becoming obese or developing diabetes.\n here are steps you should take for yourself and your child if you had gestational diabetes:\n get tested for diabetes 6 to 12 weeks after your baby is born. if your blood glucose is still high, you may have type 2 diabetes. if your blood glucose is normal, you should get tested every 3 years to see if you have developed type 2 diabetes.  \n    be more active and make healthy food choices to get back to a healthy weight.  \n    breastfeed your baby. breastfeeding gives your baby the right balance of nutrients and helps you burn calories.\n     ask your doctor if you should take the diabetes drug metformin to help prevent type 2 diabetes.1'
+
+Enter your question ?
+what is diabetes in children
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+________________________________________________________
+
+Traceback (most recent call last):
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 614, in <module>
+    ans = extract_information(q,list_types,focus,target, db, common_diabetes_questions_as_a_string, N)
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 511, in extract_information
+    CTA = proximity(' '.join(commons_target_articles), article)
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 393, in proximity
+    if w in passage:
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 82: ordinal not in range(128)
+>>> 
+=========== RESTART: J:\MedWhat\diabetes_engine\diabetes_engine.py ===========
+Enter your question ?
+what is diabetes in children
+==================================================
+ANS TYPE:
+intro
+FOCUS:
+ diabetes 
+TARGET:
+children 
+POS:
+
+[('what', 'WP'),
+ ('is', 'VBZ'),
+ ('diabetes', 'VBZ'),
+ ('in', 'IN'),
+ ('children', 'NNS')]
+CHOSEN ANS:
+'gestational diabetes is high blood sugar (diabetes) that starts or is first diagnosed during pregnancy.'
+
+Enter your question ?
+what is juvenile diabetes
+==================================================
+ANS TYPE:
+intro
+FOCUS:
+juvenile  diabetes 
+TARGET:
+juvenile 
+POS:
+
+[('what', 'WP'), ('is', 'VBZ'), ('juvenile', 'JJ'), ('diabetes', 'NNS')]
+CHOSEN ANS:
+'until recently, the common type of diabetes in children and teens was type 1. it was called juvenile diabetes. with type 1 diabetes, the pancreas does not make insulin. insulin is a hormone that helps glucose,or sugar, get into your cells to give them energy. without insulin, too much sugar stays in the blood.but now younger people are also getting type 2 diabetes.  type 2 diabetes used to be called adult-onset diabetes. but now it is becoming more common in children and teens, due to more obesity. with type 2 diabetes, the body does not make or use insulin well.children have a higher risk of type 2 diabetes if they are obese, have a family history of diabetes, or are not active, and do not eat well.  to lower the risk of type 2 diabetes in childrenhave them maintain a healthy weightbe sure they are physically activehave them eat smaller portions of healthy foodslimit time with the tv, computer, and videochildren and teens with type 1 diabetes may need to take insulin. type 2 diabetes may be  controlled with diet and exercise. if not, patients will need to take oral diabetes medicines or insulin.'
+
+Enter your question ?
+type 2 diabetes meal plan
+==================================================
+ANS TYPE:
+intro
+FOCUS:
+2  diabetes meal 
+TARGET:
+type meal plan 
+POS:
+
+[('type', 'NN'),
+ ('2', 'CD'),
+ ('diabetes', 'NNS'),
+ ('meal', 'JJ'),
+ ('plan', 'NN')]
+CHOSEN ANS:
+'when you have type 2 diabetes, taking time to plan your meals goes a long way toward controlling your blood sugar and weight.'
+
+Enter your question ?
+How to prevent diabetes insipidus
+==================================================
+ANS TYPE:
+symptoms
+prevention
+FOCUS:
+ diabetes insipidus 
+TARGET:
+prevent 
+POS:
+
+[('how', 'WRB'),
+ ('to', 'TO'),
+ ('prevent', 'VB'),
+ ('diabetes', 'NNS'),
+ ('insipidus', 'VBP')]
+CHOSEN ANS:
+' research such as the diabetes prevention program shows that you can do a lot to reduce your chances of developing type 2 diabetes. here are some things you can change to lower your risk:\n lose weight and keep it off. you may be able to prevent or delay diabetes by losing 5 to 7 percent of your starting weight.1 for instance, if you weigh 200 pounds, your goal would be to lose about 10 to 14 pounds.\n     move more. get at least 30 minutes of physical activity 5 days a week. if you have not been active, talk with your health care professional about which activities are best. start slowly to build up to your goal.\n     eat healthy foods most of the time. eat smaller portions to reduce the amount of calories you eat each day and help you lose weight. choosing foods with less fat is another way to reduce calories. drink water instead of sweetened beverages.\n     \nask your health care professional about what other changes you can make to prevent or delay type 2 diabetes.\n'
+
+Enter your question ?
+how to cure type 1 diabetes
+==================================================
+ANS TYPE:
+treatment
+FOCUS:
+1  diabetes 
+TARGET:
+cure type 
+POS:
+
+[('how', 'WRB'),
+ ('to', 'TO'),
+ ('cure', 'VB'),
+ ('type', 'JJ'),
+ ('1', 'CD'),
+ ('diabetes', 'NNS')]
+CHOSEN ANS:
+"because type 1 diabetes can start quickly and the symptoms can be severe, people who have just been diagnosed may need to stay in the hospital.if you have just been diagnosed with type 1 diabetes, youmay need tohave a checkup each week until you have good control over your blood sugar. your health care provider will review the results of your home blood sugar monitoring and urine testing. your provider will also look at your diary of meals, snacks, and insulin injections. it may take a few weeks to match the insulin doses to your meal and activity schedule.as the disease gets more stable, you will have fewer follow-up visits. visiting your health care provider is very important so you can monitor any long-term problems from diabetes.you are the most important person in managing your diabetes. you should know the basic steps to diabetes management:how to recognize and treat low blood sugar (hypoglycemia)how to recognize and treat high blood sugar (hyperglycemia)diabetes meal planninghow to give insulinhow to check blood glucose and urine ketoneshow to adjust insulin and food when you exercisehow to handle sick dayswhere to buy diabetes supplies and how to store theminsulininsulin lowers blood sugar by allowing it to leave the bloodstream and enter cells. everyone with type 1 diabetes must take insulin every day.insulin must be injected under the skin using a syringe, insulin pen or pump. it cannot be taken by mouth because the acid in the stomach destroys insulin.insulin types differ in how fast they start to work and how long they last. the health care provider will choose the best type of insulin for you and will tell you at what time of day to use it.sometypesof insulin may be mixed together in an injection to get the best blood glucose control. other types of insulin should never be mixed. you may need insulin shots from one to four times a day.your health care provider or diabetes nurse educator will teach you how to give insulin injections. at first, a child's injections may be given by a parent or other adult. by age 14, most children can give their own injections.people with diabetes need to know how to adjust the amount of insulin they are taking:when they exercisewhen they are sickwhen they will be eating more or less food and calorieswhen they are traveling   diet and exerciseby testing their blood sugar level, people with type 1 diabetes learn which foods and activities raise or lower their sugar level most. this helps them adjust their insulin doses to specific meals or activities to prevent blood sugar from becoming too high or low. the american diabetes association and the american dietetic association have information for planning healthy, balanced meals. it can help to talk with a registered dietitian or nutrition counselor.regular exercise helps control the amount of sugar in the blood. it also helps burn extra calories and fat to reach a healthy weight.talk toyour health care provider before starting any exercise program. people with type 1 diabetes must take special steps before, during, and after physical activity or exercise.managing your blood sugarchecking your blood sugar levelyourself and writing down the results tells you how well you are managing your diabetes. talk to your doctor and diabetes educator about how often to check.to check your blood sugar level, you use adevice called a glucose meter. usually, you prick your finger with a small needle called a lancet to get a tiny drop of blood. you place the blood on a test strip and put the strip into the meter. the meter gives you a reading that tells you the level of your blood sugar.keep a record of your blood sugar for yourself and your doctor or nurse. the numberswill help if you have problems managing your diabetes. you and your doctor should set a target goal for your blood sugar level at different times during the day. you should also plan what to do when your blood sugar is too low or high.low blood sugar is called hypoglycemia. blood sugar levels below 70 mg/dl are too low and can harm you.foot carepeople with diabetes are more likely than those without diabetes to have foot problems. diabetes damages the nerves. this can make you less able to feel pressure on the foot. you may not notice a foot injury until you get a severe infection.diabetes can also damage blood vessels. small sores or breaks in the skin may become deeper skin sores (ulcers). the affected limb may need to be amputated if these skin ulcers do not heal or become larger, deeper, or infected.to prevent problems with your feet:stop smoking if you smoke.improve control of your blood sugar.get a foot exam by your health care provider at least twice a year and learn whether you have nerve damage.check and care for your feet every day. this is very important when you already have nerve or blood vessel damage or foot problems.make sure you wear the right kind of shoes. ask your health care provider what is right for you.preventing complicationsyour doctor may prescribe medicines or other treatments to reduce your chance of developing eye disease, kidney disease, and other conditions that are common in people with diabetes. these conditions are called complications of diabetes."
+
+Enter your question ?
+What are the symptoms of type 1 diabetes
+==================================================
+ANS TYPE:
+symptoms
+FOCUS:
+1  diabetes 
+TARGET:
+symptoms type 
+POS:
+
+[('what', 'WDT'),
+ ('are', 'VBP'),
+ ('the', 'DT'),
+ ('symptoms', 'NNS'),
+ ('of', 'IN'),
+ ('type', 'NN'),
+ ('1', 'CD'),
+ ('diabetes', 'NNS')]
+CHOSEN ANS:
+'high blood sugarthese symptoms may be the first signs of type 1 diabetes, or they may occur when blood sugar is high:being very thirstyfeeling hungryfeeling tired all the time  having blurry eyesightfeeling numbnessor feeling tingling in your feetlosing weight without tryingurinating more oftenfor other people, these serious warning symptoms may be the first signs of type 1 diabetes, or they may happen when blood sugar is very high (diabetic ketoacidosis):deep, rapid breathingdry skin and mouthflushed facefruity breath odornausea or vomiting, inability to keep down fluidsstomach painlow blood sugarlow blood sugar (hypoglycemia) can develop quickly in people with diabetes who are taking insulin. symptoms usually appear when blood sugar level falls below 70 mg/dl. watch for:headachehungernervousnessrapid heartbeat (palpitations)shakingsweatingweakness'
+
+Enter your question ?
+I have diabetes and I am pregnant should I do an oral glucose test
+
+Traceback (most recent call last):
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 614, in <module>
+    ans = extract_information(q,list_types,focus,target, db, common_diabetes_questions_as_a_string, N)
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 527, in extract_information
+    list_types_candidatePassage, focus_candidatePassage,target_candidatePassage, candidatePassage_and_tags = get_query(article, common_diabetes_questions_as_a_string,N) #treat each candidate passage as a question
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 103, in get_query
+    questionWords_and_tags = pos_tag((word_tokenize((q))))
+  File "C:\Python27\lib\site-packages\nltk\tokenize\__init__.py", line 106, in word_tokenize
+    return [token for sent in sent_tokenize(text, language)
+  File "C:\Python27\lib\site-packages\nltk\tokenize\__init__.py", line 91, in sent_tokenize
+    return tokenizer.tokenize(text)
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1226, in tokenize
+    return list(self.sentences_from_text(text, realign_boundaries))
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1274, in sentences_from_text
+    return [text[s:e] for s, e in self.span_tokenize(text, realign_boundaries)]
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1265, in span_tokenize
+    return [(sl.start, sl.stop) for sl in slices]
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1304, in _realign_boundaries
+    for sl1, sl2 in _pair_iter(slices):
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 311, in _pair_iter
+    for el in it:
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1280, in _slices_from_text
+    if self.text_contains_sentbreak(context):
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1325, in text_contains_sentbreak
+    for t in self._annotate_tokens(self._tokenize_words(text)):
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1460, in _annotate_second_pass
+    for t1, t2 in _pair_iter(tokens):
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 310, in _pair_iter
+    prev = next(it)
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 577, in _annotate_first_pass
+    for aug_tok in tokens:
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 542, in _tokenize_words
+    for line in plaintext.split('\n'):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 20: ordinal not in range(128)
+>>> 
+=========== RESTART: J:\MedWhat\diabetes_engine\diabetes_engine.py ===========
+Enter your question ?
+I have diabetes and I am pregnant should I do an oral glucose test
+
+Traceback (most recent call last):
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 615, in <module>
+    ans = extract_information(q,list_types,focus,target, db, common_diabetes_questions_as_a_string, N)
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 530, in extract_information
+    target_candidatePassage = target_candidatePassage.encode('utf-8')
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 228: ordinal not in range(128)
+>>> 
+=========== RESTART: J:\MedWhat\diabetes_engine\diabetes_engine.py ===========
+Enter your question ?
+I get very thirsty, but I also urinate often, the urine is almost all water, do I have diabetes
+==================================================
+ANS TYPE:
+causes
+FOCUS:
+ diabetes 
+TARGET:
+i thirsty i urinate urine water i 
+POS:
+
+[('i', 'JJ'),
+ ('get', 'VBP'),
+ ('very', 'RB'),
+ ('thirsty', 'JJ'),
+ (',', ','),
+ ('but', 'CC'),
+ ('i', 'NN'),
+ ('also', 'RB'),
+ ('urinate', 'JJ'),
+ ('often', 'RB'),
+ (',', ','),
+ ('the', 'DT'),
+ ('urine', 'NN'),
+ ('is', 'VBZ'),
+ ('almost', 'RB'),
+ ('all', 'DT'),
+ ('water', 'NN'),
+ (',', ','),
+ ('do', 'VBP'),
+ ('i', 'NNS'),
+ ('have', 'VBP'),
+ ('diabetes', 'NNS')]
+CHOSEN ANS:
+'during the day, your kidneys filter all your blood many times. normally, most of the water is reabsorbed, and only a small amount of concentrated urine is excreted. di occurs when the kidneys cannot concentrate the urine normally, and a large amount of dilute urine is excreted. the amount of water excreted in the urine is controlled by antidiuretic hormone (adh). adh is also called vasopressin. adh is produced in a part of the brain called the hypothalamus. it is then stored and released from the pituitary gland. this is a small gland at the base of the brain.di caused by a lack of adh is called central diabetes insipidus. when di is caused by a failure of the kidneys to respond to adh, the condition is called nephrogenic diabetes insipidus.central diabetes insipidus can be caused by damage to the hypothalamus or pituitary gland as a result of:genetic problemshead injuryinfectionloss of blood supply to the glandsurgerytumor nephrogenic di involves a defect in the kidneys. as a result, the kidneys do not respond to adh. like central di, nephrogenic di is very rare. nephrogenic di may be caused by:certain drugs (such as lithium)genetic problemshigh level of calcium in the body (hypercalcemia)kidney disease (such as polycystic kidney disease) '
+
+Enter your question ?
+Which type of diabetes is common among children
+
+Traceback (most recent call last):
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 615, in <module>
+    ans = extract_information(q,list_types,focus,target, db, common_diabetes_questions_as_a_string, N)
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 529, in extract_information
+    focus_candidatePassage = focus_candidatePassage.encode('utf-8')
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 35: ordinal not in range(128)
+>>> "0xe2".encode('utf-8')
+'0xe2'
+>>> str("0xe2".encode('utf-8'))
+'0xe2'
+>>> "0xe2".decode('utf-8')
+u'0xe2'
+>>> 
+=========== RESTART: J:\MedWhat\diabetes_engine\diabetes_engine.py ===========
+Enter your question ?
+can diabetes lead to a heart attack
+
+Traceback (most recent call last):
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 615, in <module>
+    ans = extract_information(q,list_types,focus,target, db, common_diabetes_questions_as_a_string, N)
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 529, in extract_information
+    focus_candidatePassage = focus_candidatePassage.encode('utf-8')
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 35: ordinal not in range(128)
+>>> 
+=========== RESTART: J:\MedWhat\diabetes_engine\diabetes_engine.py ===========
+Enter your question ?
+What tests are used to diagnose diabetes and prediabetes?
+
+Traceback (most recent call last):
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 615, in <module>
+    ans = extract_information(q,list_types,focus,target, db, common_diabetes_questions_as_a_string, N)
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 530, in extract_information
+    target_candidatePassage = target_candidatePassage.encode('utf-8')
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 228: ordinal not in range(128)
+>>> 
+=========== RESTART: J:\MedWhat\diabetes_engine\diabetes_engine.py ===========
+Enter your question ?
+What tests are used to diagnose diabetes and prediabetes?
+
+Traceback (most recent call last):
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 615, in <module>
+    ans = extract_information(q,list_types,focus,target, db, common_diabetes_questions_as_a_string, N)
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 527, in extract_information
+    list_types_candidatePassage, focus_candidatePassage,target_candidatePassage, candidatePassage_and_tags = get_query(article, common_diabetes_questions_as_a_string,N) #treat each candidate passage as a question
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 103, in get_query
+    questionWords_and_tags = pos_tag((word_tokenize((q))))
+  File "C:\Python27\lib\site-packages\nltk\tokenize\__init__.py", line 106, in word_tokenize
+    return [token for sent in sent_tokenize(text, language)
+  File "C:\Python27\lib\site-packages\nltk\tokenize\__init__.py", line 91, in sent_tokenize
+    return tokenizer.tokenize(text)
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1226, in tokenize
+    return list(self.sentences_from_text(text, realign_boundaries))
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1274, in sentences_from_text
+    return [text[s:e] for s, e in self.span_tokenize(text, realign_boundaries)]
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1265, in span_tokenize
+    return [(sl.start, sl.stop) for sl in slices]
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1304, in _realign_boundaries
+    for sl1, sl2 in _pair_iter(slices):
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 311, in _pair_iter
+    for el in it:
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1280, in _slices_from_text
+    if self.text_contains_sentbreak(context):
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1325, in text_contains_sentbreak
+    for t in self._annotate_tokens(self._tokenize_words(text)):
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1460, in _annotate_second_pass
+    for t1, t2 in _pair_iter(tokens):
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 310, in _pair_iter
+    prev = next(it)
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 577, in _annotate_first_pass
+    for aug_tok in tokens:
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 542, in _tokenize_words
+    for line in plaintext.split('\n'):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 20: ordinal not in range(128)
+>>> 
+=========== RESTART: J:\MedWhat\diabetes_engine\diabetes_engine.py ===========
+Enter your question ?
+can diabetes lead to a heart attack
+==================================================
+ANS TYPE:
+intro
+FOCUS:
+ diabetes 
+TARGET:
+lead heart attack 
+POS:
+
+[('can', 'MD'),
+ ('diabetes', 'VBZ'),
+ ('lead', 'VB'),
+ ('to', 'TO'),
+ ('a', 'DT'),
+ ('heart', 'NN'),
+ ('attack', 'NN')]
+CHOSEN ANS:
+'if you have diabetes, your blood glucose, or blood sugar, levels are too high. over time, this can cause problems with other body functions, such as your kidneys, nerves, feet, and eyes. having diabetes can also put you at a higher risk for heart disease and bone and joint disorders.  other long-term complications of diabetes include skin problems, digestive problems, sexual dysfunction, and problems with your teeth and gums.  very high or very low blood sugar levels can also lead to emergencies in people with diabetes. the cause can be an underlying infection, certain medicines, or even the medicines you take to control your diabetes. if you feel nauseated, sluggish or shaky, seek emergency care.nih: national institute of diabetes and digestive and kidney diseases'
+
+Enter your question ?
+Fasting plasma glucose
+ANS TYPE:
+intro
+FOCUS:
+
+TARGET:
+plasma glucose 
+POS:
+
+[('fasting', 'VBG'), ('plasma', 'NN'), ('glucose', 'NN')]
+CHOSEN ANS:
+''
+
+Enter your question ?
+what is an fpg test
+ANS TYPE:
+tests
+FOCUS:
+
+TARGET:
+fpg test 
+POS:
+
+[('what', 'WP'), ('is', 'VBZ'), ('an', 'DT'), ('fpg', 'JJ'), ('test', 'NN')]
+CHOSEN ANS:
+''
+
+Enter your question ?
+what tests are recommended for gestational diabetes
+
+Traceback (most recent call last):
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 615, in <module>
+    ans = extract_information(q,list_types,focus,target, db, common_diabetes_questions_as_a_string, N)
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 527, in extract_information
+    list_types_candidatePassage, focus_candidatePassage,target_candidatePassage, candidatePassage_and_tags = get_query(article, common_diabetes_questions_as_a_string,N) #treat each candidate passage as a question
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 103, in get_query
+    questionWords_and_tags = pos_tag((word_tokenize((q))))
+  File "C:\Python27\lib\site-packages\nltk\tokenize\__init__.py", line 106, in word_tokenize
+    return [token for sent in sent_tokenize(text, language)
+  File "C:\Python27\lib\site-packages\nltk\tokenize\__init__.py", line 91, in sent_tokenize
+    return tokenizer.tokenize(text)
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1226, in tokenize
+    return list(self.sentences_from_text(text, realign_boundaries))
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1274, in sentences_from_text
+    return [text[s:e] for s, e in self.span_tokenize(text, realign_boundaries)]
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1265, in span_tokenize
+    return [(sl.start, sl.stop) for sl in slices]
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1304, in _realign_boundaries
+    for sl1, sl2 in _pair_iter(slices):
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 311, in _pair_iter
+    for el in it:
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1280, in _slices_from_text
+    if self.text_contains_sentbreak(context):
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1325, in text_contains_sentbreak
+    for t in self._annotate_tokens(self._tokenize_words(text)):
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1460, in _annotate_second_pass
+    for t1, t2 in _pair_iter(tokens):
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 310, in _pair_iter
+    prev = next(it)
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 577, in _annotate_first_pass
+    for aug_tok in tokens:
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 542, in _tokenize_words
+    for line in plaintext.split('\n'):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 20: ordinal not in range(128)
+>>> 
+=========== RESTART: J:\MedWhat\diabetes_engine\diabetes_engine.py ===========
+Enter your question ?
+what tests are done for gestational diabetes
+
+Traceback (most recent call last):
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 615, in <module>
+    ans = extract_information(q,list_types,focus,target, db, common_diabetes_questions_as_a_string, N)
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 527, in extract_information
+    list_types_candidatePassage, focus_candidatePassage,target_candidatePassage, candidatePassage_and_tags = get_query(article, common_diabetes_questions_as_a_string,N) #treat each candidate passage as a question
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 103, in get_query
+    questionWords_and_tags = pos_tag((word_tokenize((q))))
+  File "C:\Python27\lib\site-packages\nltk\tokenize\__init__.py", line 106, in word_tokenize
+    return [token for sent in sent_tokenize(text, language)
+  File "C:\Python27\lib\site-packages\nltk\tokenize\__init__.py", line 91, in sent_tokenize
+    return tokenizer.tokenize(text)
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1226, in tokenize
+    return list(self.sentences_from_text(text, realign_boundaries))
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1274, in sentences_from_text
+    return [text[s:e] for s, e in self.span_tokenize(text, realign_boundaries)]
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1265, in span_tokenize
+    return [(sl.start, sl.stop) for sl in slices]
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1304, in _realign_boundaries
+    for sl1, sl2 in _pair_iter(slices):
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 311, in _pair_iter
+    for el in it:
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1280, in _slices_from_text
+    if self.text_contains_sentbreak(context):
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1325, in text_contains_sentbreak
+    for t in self._annotate_tokens(self._tokenize_words(text)):
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1460, in _annotate_second_pass
+    for t1, t2 in _pair_iter(tokens):
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 310, in _pair_iter
+    prev = next(it)
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 577, in _annotate_first_pass
+    for aug_tok in tokens:
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 542, in _tokenize_words
+    for line in plaintext.split('\n'):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 20: ordinal not in range(128)
+>>> 
+=========== RESTART: J:\MedWhat\diabetes_engine\diabetes_engine.py ===========
+Enter your question ?
+who should be tested for diabetes
+
+Traceback (most recent call last):
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 615, in <module>
+    ans = extract_information(q,list_types,focus,target, db, common_diabetes_questions_as_a_string, N)
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 527, in extract_information
+    list_types_candidatePassage, focus_candidatePassage,target_candidatePassage, candidatePassage_and_tags = get_query(article, common_diabetes_questions_as_a_string,N) #treat each candidate passage as a question
+  File "J:\MedWhat\diabetes_engine\diabetes_engine.py", line 103, in get_query
+    questionWords_and_tags = pos_tag((word_tokenize((q))))
+  File "C:\Python27\lib\site-packages\nltk\tokenize\__init__.py", line 106, in word_tokenize
+    return [token for sent in sent_tokenize(text, language)
+  File "C:\Python27\lib\site-packages\nltk\tokenize\__init__.py", line 91, in sent_tokenize
+    return tokenizer.tokenize(text)
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1226, in tokenize
+    return list(self.sentences_from_text(text, realign_boundaries))
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1274, in sentences_from_text
+    return [text[s:e] for s, e in self.span_tokenize(text, realign_boundaries)]
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1265, in span_tokenize
+    return [(sl.start, sl.stop) for sl in slices]
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1304, in _realign_boundaries
+    for sl1, sl2 in _pair_iter(slices):
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 311, in _pair_iter
+    for el in it:
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1280, in _slices_from_text
+    if self.text_contains_sentbreak(context):
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1325, in text_contains_sentbreak
+    for t in self._annotate_tokens(self._tokenize_words(text)):
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 1460, in _annotate_second_pass
+    for t1, t2 in _pair_iter(tokens):
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 310, in _pair_iter
+    prev = next(it)
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 577, in _annotate_first_pass
+    for aug_tok in tokens:
+  File "C:\Python27\lib\site-packages\nltk\tokenize\punkt.py", line 542, in _tokenize_words
+    for line in plaintext.split('\n'):
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 20: ordinal not in range(128)
+
+>>> 
+=========== RESTART: J:\MedWhat\diabetes_engine\diabetes_engine.py ===========
+Enter your question ?
+How can I lower my chances of developing type 2 diabetes?
+==================================================
+ANS TYPE:
+symptoms
+treatment
+recommendations
+FOCUS:
+2  diabetes 
+TARGET:
+i chances type 
+POS:
+
+[('how', 'WRB'),
+ ('can', 'MD'),
+ ('i', 'VB'),
+ ('lower', 'JJR'),
+ ('my', 'PRP$'),
+ ('chances', 'NNS'),
+ ('of', 'IN'),
+ ('developing', 'VBG'),
+ ('type', 'JJ'),
+ ('2', 'CD'),
+ ('diabetes', 'NNS')]
+CHOSEN ANS:
+' research such as the diabetes prevention program shows that you can do a lot to reduce your chances of developing type 2 diabetes. here are some things you can change to lower your risk:\n lose weight and keep it off. you may be able to prevent or delay diabetes by losing 5 to 7 percent of your starting weight.1 for instance, if you weigh 200 pounds, your goal would be to lose about 10 to 14 pounds.\n     move more. get at least 30 minutes of physical activity 5 days a week. if you have not been active, talk with your health care professional about which activities are best. start slowly to build up to your goal.\n     eat healthy foods most of the time. eat smaller portions to reduce the amount of calories you eat each day and help you lose weight. choosing foods with less fat is another way to reduce calories. drink water instead of sweetened beverages.\n     \nask your health care professional about what other changes you can make to prevent or delay type 2 diabetes.\n'
+
+Enter your question ?
+What should I do if my health care professional told me I have prediabetes?
+==================================================
+ANS TYPE:
+treatment
+recommendations
+FOCUS:
+ diabetes do have 
+TARGET:
+i health care professional i prediabetes 
+POS:
+
+[('what', 'WP'),
+ ('should', 'MD'),
+ ('i', 'VB'),
+ ('do', 'VBP'),
+ ('if', 'IN'),
+ ('my', 'PRP$'),
+ ('health', 'NN'),
+ ('care', 'NN'),
+ ('professional', 'JJ'),
+ ('told', 'VBD'),
+ ('me', 'PRP'),
+ ('i', 'NN'),
+ ('have', 'VBP'),
+ ('prediabetes', 'NNS')]
+CHOSEN ANS:
+' prediabetes is when your blood glucose, also called blood sugar, levels are higher than normal, but not high enough to be called diabetes. having prediabetes is serious because it raises your chance of developing type 2 diabetes. many of the same factors that raise your chance of developing type 2 diabetes put you at risk for prediabetes.\n other names for prediabetes include impaired fasting glucose or impaired glucose tolerance. some people call prediabetes â\x80œborderline diabetes.â\x80\x9d\n about 1 in 3 americans has prediabetes, according to recent diabetes statistics from the centers for disease control and prevention. you wonâ\x80\x99t know if you have prediabetes unless you are tested.  \nif you have prediabetes, you can lower your chance of developing type 2 diabetes. lose weight if you need to, become more physically active, and follow a reduced-calorie eating plan.\n'
+
+Enter your question ?
+If I had gestational diabetes when I was pregnant, how can I lower my chances of developing type 2 diabetes?
+==================================================
+ANS TYPE:
+symptoms
+treatment
+recommendations
+FOCUS:
+i gestational  diabetes 2 
+TARGET:
+gestational i pregnant i chances type diabetes 
+POS:
+
+[('if', 'IN'),
+ ('i', 'VBN'),
+ ('had', 'VBD'),
+ ('gestational', 'JJ'),
+ ('diabetes', 'NNS'),
+ ('when', 'WRB'),
+ ('i', 'NN'),
+ ('was', 'VBD'),
+ ('pregnant', 'JJ'),
+ (',', ','),
+ ('how', 'WRB'),
+ ('can', 'MD'),
+ ('i', 'VB'),
+ ('lower', 'JJR'),
+ ('my', 'PRP$'),
+ ('chances', 'NNS'),
+ ('of', 'IN'),
+ ('developing', 'VBG'),
+ ('type', 'JJ'),
+ ('2', 'CD'),
+ ('diabetes', 'NNS')]
+CHOSEN ANS:
+' gestational diabetes is a type of diabetes that develops during pregnancy. most of the time, gestational diabetes goes away after your baby is born. even if your gestational diabetes goes away, you still have a greater chance of developing type 2 diabetes within 5 to 10 years. your child may also be more likely to become obese and develop type 2 diabetes later in life. making healthy choices helps the whole family and may protect your child from becoming obese or developing diabetes.\n here are steps you should take for yourself and your child if you had gestational diabetes:\n get tested for diabetes 6 to 12 weeks after your baby is born. if your blood glucose is still high, you may have type 2 diabetes. if your blood glucose is normal, you should get tested every 3 years to see if you have developed type 2 diabetes.  \n    be more active and make healthy food choices to get back to a healthy weight.  \n    breastfeed your baby. breastfeeding gives your baby the right balance of nutrients and helps you burn calories.\n     ask your doctor if you should take the diabetes drug metformin to help prevent type 2 diabetes.1'
+
+Enter your question ?
+I eat lots of sweets , does that put me at a risk of diabetes
+==================================================
+ANS TYPE:
+intro
+FOCUS:
+ diabetes 
+TARGET:
+i lots sweets put risk 
+POS:
+
+[('i', 'JJ'),
+ ('eat', 'VBP'),
+ ('lots', 'NNS'),
+ ('of', 'IN'),
+ ('sweets', 'NNS'),
+ (',', ','),
+ ('does', 'VBZ'),
+ ('that', 'IN'),
+ ('put', 'VB'),
+ ('me', 'PRP'),
+ ('at', 'IN'),
+ ('a', 'DT'),
+ ('risk', 'NN'),
+ ('of', 'IN'),
+ ('diabetes', 'NNS')]
+CHOSEN ANS:
+'if you have diabetes, your blood glucose, or blood sugar, levels are too high. over time, this can cause problems with other body functions, such as your kidneys, nerves, feet, and eyes. having diabetes can also put you at a higher risk for heart disease and bone and joint disorders.  other long-term complications of diabetes include skin problems, digestive problems, sexual dysfunction, and problems with your teeth and gums.  very high or very low blood sugar levels can also lead to emergencies in people with diabetes. the cause can be an underlying infection, certain medicines, or even the medicines you take to control your diabetes. if you feel nauseated, sluggish or shaky, seek emergency care.nih: national institute of diabetes and digestive and kidney diseases'
+
+Enter your question ?
+

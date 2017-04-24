@@ -1,0 +1,829 @@
+Python 2.7.11 (v2.7.11:6d1b6a68f775, Dec  5 2015, 20:32:19) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+===== RESTART: J:\MedWhat\diabetes_engine\scraping\scrape_diabetes_3.py =====
+_____________________________________________
+
+<h1 itemprop="name">Preventing Type 2 Diabetes</h1>
+{'article_section': ' perhaps you have learned that you have a high chance of developing type 2 diabetes, the most common type of diabetes. you might be overweight or have a parent, brother, or sister with type 2 diabetes. maybe you had gestational diabetes, which is diabetes that develops during pregnancy. these are just a few examples of factors that can raise your chances of developing type 2 diabetes.\n diabetes can cause serious health problems, such as heart disease, stroke, and eye and foot problems.  prediabetes also can cause health problems. the good news is that type 2 diabetes can be delayed or even prevented. the longer you have diabetes, the more likely you are to develop health problems, so delaying diabetes by even a few years will benefit your health. you can help prevent or delay type 2 diabetes by losing a modest amount of weight by following a reduced-calorie eating plan and being physically active most days of the week. ask your doctor if you should take the diabetes drug metformin to help prevent or delay type 2 diabetes.1\n \r\n        this content is provided as a service of the national institute of diabetes and digestive and kidney diseases\n(niddk), part of the national institutes of health. the niddk translates and disseminates research findings\nthrough its clearinghouses and education programs to increase knowledge and understanding about health and\ndisease among patients, health professionals, and the public. content produced by the niddk is carefully\nreviewed by niddk scientists and other experts.\r\n    ',
+ 'article_title': 'preventing  2 type diabetes',
+ 'date_scraped': datetime.datetime(2017, 4, 11, 23, 45, 26, 193000),
+ 'section_title': 'symptoms prevention',
+ 'url': 'https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-type-2-diabetes'}
+_____________________________________________
+_____________________________________________
+
+<h2>How can I lower my chances of developing type 2 diabetes?</h2>
+{'article_section': ' research such as the diabetes prevention program shows that you can do a lot to reduce your chances of developing type 2 diabetes. here are some things you can change to lower your risk:\n lose weight and keep it off. you may be able to prevent or delay diabetes by losing 5 to 7 percent of your starting weight.1â\xa0for instance, if you weigh 200 pounds, your goal would be to lose about 10 to 14 pounds.\n     move more. get at least 30 minutes of physical activity 5 days a week. if you have not been active, talk with your health care professional about which activities are best. start slowly to build up to your goal.\n     eat healthy foods most of the time. eat smaller portions to reduce the amount of calories you eat each day and help you lose weight. choosing foods with less fat is another way to reduce calories. drink water instead of sweetened beverages.\n     \nask your health care professional about what other changes you can make to prevent or delay type 2 diabetes.\n',
+ 'article_title': ' lower developing i of how 2 can chances type my diabetes',
+ 'date_scraped': datetime.datetime(2017, 4, 11, 23, 45, 29, 788000),
+ 'section_title': 'symptoms treatment recommendations function',
+ 'url': 'https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-type-2-diabetes'}
+
+Traceback (most recent call last):
+  File "J:\MedWhat\diabetes_engine\scraping\scrape_diabetes_3.py", line 159, in <module>
+    get_data("https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-type-2-diabetes") # ..ok
+  File "J:\MedWhat\diabetes_engine\scraping\scrape_diabetes_3.py", line 149, in get_data
+    db.articles.insert(dic)
+  File "C:\Python27\lib\site-packages\pymongo\collection.py", line 2469, in insert
+    check_keys, manipulate, write_concern)
+  File "C:\Python27\lib\site-packages\pymongo\collection.py", line 562, in _insert
+    check_keys, manipulate, write_concern, op_id, bypass_doc_val)
+  File "C:\Python27\lib\site-packages\pymongo\collection.py", line 543, in _insert_one
+    check_keys=check_keys)
+  File "C:\Python27\lib\site-packages\pymongo\pool.py", line 424, in command
+    self._raise_connection_failure(error)
+  File "C:\Python27\lib\site-packages\pymongo\pool.py", line 552, in _raise_connection_failure
+    raise error
+InvalidStringData: strings in documents must be valid UTF-8: ' research such as the diabetes prevention program shows that you can do a lot to reduce your chances of developing type 2 diabetes. here are some things you can change to lower your risk:\n lose weight and keep it off. you may be able to prevent or delay diabetes by losing 5 to 7 percent of your starting weight.1\xe2\xa0for instance, if you weigh 200 pounds, your goal would be to lose about 10 to 14 pounds.\n     move more. get at least 30 minutes of physical activity 5 days a week. if you have not been active, talk with your health care professional about which activities are best. start slowly to build up to your goal.\n     eat healthy foods most of the time. eat smaller portions to reduce the amount of calories you eat each day and help you lose weight. choosing foods with less fat is another way to reduce calories. drink water instead of sweetened beverages.\n     \nask your health care professional about what other changes you can make to prevent or delay type 2 diabetes.\n'
+>>> unicode(ght.1\xe2\xa0for instance")
+	
+SyntaxError: invalid syntax
+>>> unicode("ght.1\xe2\xa0for instance")
+
+Traceback (most recent call last):
+  File "<pyshell#1>", line 1, in <module>
+    unicode("ght.1\xe2\xa0for instance")
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 5: ordinal not in range(128)
+>>> unicode("hl")
+u'hl'
+>>> 
+===== RESTART: J:\MedWhat\diabetes_engine\scraping\scrape_diabetes_3.py =====
+_____________________________________________
+
+<h1 itemprop="name">Preventing Type 2 Diabetes</h1>
+{'article_section': ' perhaps you have learned that you have a high chance of developing type 2 diabetes, the most common type of diabetes. you might be overweight or have a parent, brother, or sister with type 2 diabetes. maybe you had gestational diabetes, which is diabetes that develops during pregnancy. these are just a few examples of factors that can raise your chances of developing type 2 diabetes.\n diabetes can cause serious health problems, such as heart disease, stroke, and eye and foot problems.  prediabetes also can cause health problems. the good news is that type 2 diabetes can be delayed or even prevented. the longer you have diabetes, the more likely you are to develop health problems, so delaying diabetes by even a few years will benefit your health. you can help prevent or delay type 2 diabetes by losing a modest amount of weight by following a reduced-calorie eating plan and being physically active most days of the week. ask your doctor if you should take the diabetes drug metformin to help prevent or delay type 2 diabetes.1\n \r\n        this content is provided as a service of the national institute of diabetes and digestive and kidney diseases\n(niddk), part of the national institutes of health. the niddk translates and disseminates research findings\nthrough its clearinghouses and education programs to increase knowledge and understanding about health and\ndisease among patients, health professionals, and the public. content produced by the niddk is carefully\nreviewed by niddk scientists and other experts.\r\n    ',
+ 'article_title': 'preventing  2 type diabetes',
+ 'date_scraped': datetime.datetime(2017, 4, 11, 23, 52, 2, 897000),
+ 'section_title': 'symptoms prevention',
+ 'url': 'https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-type-2-diabetes'}
+_____________________________________________
+_____________________________________________
+
+<h2>How can I lower my chances of developing type 2 diabetes?</h2>
+{'article_section': ' research such as the diabetes prevention program shows that you can do a lot to reduce your chances of developing type 2 diabetes. here are some things you can change to lower your risk:\n lose weight and keep it off. you may be able to prevent or delay diabetes by losing 5 to 7 percent of your starting weight.1 for instance, if you weigh 200 pounds, your goal would be to lose about 10 to 14 pounds.\n     move more. get at least 30 minutes of physical activity 5 days a week. if you have not been active, talk with your health care professional about which activities are best. start slowly to build up to your goal.\n     eat healthy foods most of the time. eat smaller portions to reduce the amount of calories you eat each day and help you lose weight. choosing foods with less fat is another way to reduce calories. drink water instead of sweetened beverages.\n     \nask your health care professional about what other changes you can make to prevent or delay type 2 diabetes.\n',
+ 'article_title': ' lower developing i of how 2 can chances type my diabetes',
+ 'date_scraped': datetime.datetime(2017, 4, 11, 23, 52, 6, 453000),
+ 'section_title': 'symptoms treatment recommendations function',
+ 'url': 'https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-type-2-diabetes'}
+_____________________________________________
+_____________________________________________
+
+<h2>
+<a name="prediabetes"></a>What should I do if my health care professional told me I have prediabetes?
+</h2>
+{'article_section': ' prediabetes is when your blood glucose, also called blood sugar, levels are higher than normal, but not high enough to be called diabetes. having prediabetes is serious because it raises your chance of developing type 2 diabetes. many of the same factors that raise your chance of developing type 2 diabetes put you at risk for prediabetes.\n other names for prediabetes include impaired fasting glucose or impaired glucose tolerance. some people call prediabetes â\x80œborderline diabetes.â\x80\x9d\n about 1 in 3 americans has prediabetes, according to recent diabetes statistics from the centers for disease control and prevention. you wonâ\x80\x99t know if you have prediabetes unless you are tested.  \nif you have prediabetes, you can lower your chance of developing type 2 diabetes. lose weight if you need to, become more physically active, and follow a reduced-calorie eating plan.\n',
+ 'article_title': 'me do what  prediabetes i diabetes told should health have professional care my if',
+ 'date_scraped': datetime.datetime(2017, 4, 11, 23, 52, 9, 984000),
+ 'section_title': 'treatment recommendations',
+ 'url': 'https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-type-2-diabetes'}
+_____________________________________________
+_____________________________________________
+
+<h2>
+If I had gestational diabetes when I was pregnant, how can I lower my chances of developing type 2 diabetes?
+</h2>
+{'article_section': ' gestational diabetes is a type of diabetes that develops during pregnancy. most of the time, gestational diabetes goes away after your baby is born. even if your gestational diabetes goes away, you still have a greater chance of developing type 2 diabetes within 5 to 10 years. your child may also be more likely to become obese and develop type 2 diabetes later in life. making healthy choices helps the whole family and may protect your child from becoming obese or developing diabetes.\n here are steps you should take for yourself and your child if you had gestational diabetes:\n get tested for diabetes 6 to 12 weeks after your baby is born. if your blood glucose is still high, you may have type 2 diabetes. if your blood glucose is normal, you should get tested every 3 years to see if you have developed type 2 diabetes.  \n    be more active and make healthy food choices to get back to a healthy weight.  \n    breastfeed your baby. breastfeeding gives your baby the right balance of nutrients and helps you burn calories.\n     ask your doctor if you should take the diabetes drug metformin to help prevent type 2 diabetes.1',
+ 'article_title': 'gestational  lower type how i had developing when pregnant, 2 can chances of my if was diabetes',
+ 'date_scraped': datetime.datetime(2017, 4, 11, 23, 52, 13, 602000),
+ 'section_title': 'symptoms treatment recommendations function',
+ 'url': 'https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-type-2-diabetes'}
+_____________________________________________
+_____________________________________________
+
+<h2>References</h2>
+{'article_section': ' 1diabetes prevention program research group. long-term effects of lifestyle intervention or metformin on diabetes development and microvascular complications over 15-year follow-up: the diabetes prevention program outcomes study. the lancet diabetes & endocrinology. 2015;3(11):866â\x80\x92875. you can find more information about this study at the diabetes prevention program outcomes study website.',
+ 'article_title': 'gestational  i 2 references diabetes',
+ 'date_scraped': datetime.datetime(2017, 4, 11, 23, 52, 17, 200000),
+ 'section_title': 'references',
+ 'url': 'https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-type-2-diabetes'}
+_____________________________________________
+_____________________________________________
+
+<h3>Follow Us</h3>
+_____________________________________________
+_____________________________________________
+
+<h3>
+<a href="/research-funding">Research &amp; Funding</a><i class="i-plus"></i>
+</h3>
+_____________________________________________
+_____________________________________________
+
+<h3>
+<a href="/health-information">Health Information</a><i class="i-plus"></i>
+</h3>
+_____________________________________________
+_____________________________________________
+
+<h3>
+<a href="https://www.niddk.nih.gov/about-niddk/Pages/default.aspx">About NIDDK</a><i class="i-plus"></i>
+</h3>
+_____________________________________________
+_____________________________________________
+
+<h3>
+<a href="https://www.niddk.nih.gov/news/Pages/news-releases.aspx">News</a><i class="i-plus"></i>
+</h3>
+_____________________________________________
+>>> 
+===== RESTART: J:\MedWhat\diabetes_engine\scraping\scrape_diabetes_3.py =====
+_____________________________________________
+
+<h1 itemprop="name">Diabetes Tests &amp; Diagnosis</h1>
+{'article_section': ' do not try to diagnose yourself if you think you might have diabetes. testing equipment that you can buy over the counter, such as a blood glucose meter, cannot diagnose diabetes.\n \r\n        this content is provided as a service of the national institute of diabetes and digestive and kidney diseases\n(niddk), part of the national institutes of health. the niddk translates and disseminates research findings\nthrough its clearinghouses and education programs to increase knowledge and understanding about health and\ndisease among patients, health professionals, and the public. content produced by the niddk is carefully\nreviewed by niddk scientists and other experts.\r\n    ',
+ 'article_title': ' tests & diagnosis diabetes',
+ 'date_scraped': datetime.datetime(2017, 4, 11, 23, 53, 52, 251000),
+ 'section_title': 'tests',
+ 'url': 'https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis'}
+_____________________________________________
+_____________________________________________
+
+<h2>Who should be tested for diabetes?</h2>
+{'article_section': ' \ntesting also allows health care professionals to find prediabetes. making lifestyle changes to lose a modest amount of weight if you are overweight may help you delay or prevent type 2 diabetes.\n',
+ 'article_title': ' be for who should tested diabetes',
+ 'date_scraped': datetime.datetime(2017, 4, 11, 23, 53, 55, 730000),
+ 'section_title': 'tests',
+ 'url': 'https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis'}
+_____________________________________________
+_____________________________________________
+
+<h2>Type 1 diabetes</h2>
+{'article_section': ' most often, testing for type 1 diabetes occurs in people with diabetes symptoms. doctors usually diagnose type 1 diabetes in children and young adults. because type 1 diabetes can run in families, a study called trialnet offers free testing to family members of people with the disease, even if they donâ\x80\x99t have symptoms.',
+ 'article_title': '1  type diabetes',
+ 'date_scraped': datetime.datetime(2017, 4, 11, 23, 53, 59, 176000),
+ 'section_title': 'intro',
+ 'url': 'https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis'}
+_____________________________________________
+_____________________________________________
+
+<h2>Type 2 diabetes</h2>
+{'article_section': ' experts recommend routine testing for type 2 diabetes if you are age 45 or older are a woman who had gestational diabetes1  \nmedicare covers the cost of diabetes tests for people with certain risk factors for diabetes. if you have medicare, find out if you qualify for coverage. if you have different insurance, ask your insurance company if it covers diabetes tests.  \nthough type 2 diabetes most often develops in adults, children also can develop type 2 diabetes. experts recommend testing children between the ages of 10 and 18 who are overweight or obese and have at least two other risk factors for developing diabetes.1 a mother who had diabetes while pregnant with them',
+ 'article_title': ' 2 type diabetes',
+ 'date_scraped': datetime.datetime(2017, 4, 11, 23, 54, 2, 643000),
+ 'section_title': 'intro',
+ 'url': 'https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis'}
+_____________________________________________
+_____________________________________________
+
+<h2>Gestational diabetes
+</h2>
+_____________________________________________
+_____________________________________________
+
+<h2>What tests are used to diagnose diabetes and prediabetes?
+</h2>
+{'article_section': ' health care professionals most often use the fasting plasma glucose (fpg) test or the a1c test to diagnose diabetes. in some cases, they may use a random plasma glucose (rpg) test.\n',
+ 'article_title': 'diagnose and what used  prediabetes tests to are diabetes',
+ 'date_scraped': datetime.datetime(2017, 4, 11, 23, 54, 9, 510000),
+ 'section_title': 'tests function',
+ 'url': 'https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis'}
+_____________________________________________
+_____________________________________________
+
+<h3>Fasting plasma glucose (FPG) test
+</h3>
+{'article_section': ' the fpg blood test measures your blood glucose level at a single point in time. for the most reliable results, it is best to have this test in the morning, after you fast for at least 8 hours. fasting means having nothing to eat or drink except sips of water.',
+ 'article_title': ' fasting used (fpg) test diabetes plasma glucose',
+ 'date_scraped': datetime.datetime(2017, 4, 11, 23, 54, 12, 968000),
+ 'section_title': 'tests',
+ 'url': 'https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis'}
+_____________________________________________
+_____________________________________________
+
+<h3>
+<a name="a1c"></a>A1C test
+</h3>
+{'article_section': ' \nthe a1c test is a blood test that provides your average levels of blood glucose over the past 3 months. other names for the a1c test are hemoglobin a1c, hba1c, glycated hemoglobin, and glycosylated hemoglobin test. you can eat and drink before this test. when it comes to using the a1c to diagnose diabetes, your doctor will consider factors such as your age and whether you have anemia or another problem with your blood.1 the a1c test is not accurate in people with anemia.\n your health care professional will report your a1c test result as a percentage, such as an a1c of 7 percent. the higher the percentage, the higher your average blood glucose levels.\n',
+ 'article_title': 'test  used a1c diabetes',
+ 'date_scraped': datetime.datetime(2017, 4, 11, 23, 54, 16, 426000),
+ 'section_title': 'tests',
+ 'url': 'https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis'}
+_____________________________________________
+_____________________________________________
+
+<h3>
+Random plasma glucose (RPG) test
+</h3>
+{'article_section': ' sometimes health care professionals use the rpg test to diagnose diabetes when diabetes symptoms are present and they do not want to wait until you have fasted. you do not need to fast overnight for the rpg test. you may have this blood test at any time.\n',
+ 'article_title': ' random (rpg) used test diabetes plasma glucose',
+ 'date_scraped': datetime.datetime(2017, 4, 11, 23, 54, 19, 903000),
+ 'section_title': 'tests',
+ 'url': 'https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis'}
+_____________________________________________
+_____________________________________________
+
+<h2>What tests are used to diagnose gestational diabetes?
+</h2>
+{'article_section': ' pregnant women may have the glucose challenge test, the oral glucose tolerance test, or both. these tests show how well your body handles glucose.',
+ 'article_title': 'diagnose gestational what used  tests to are diabetes',
+ 'date_scraped': datetime.datetime(2017, 4, 11, 23, 54, 23, 363000),
+ 'section_title': 'tests function',
+ 'url': 'https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis'}
+_____________________________________________
+_____________________________________________
+
+<h3 id="glucose challenge">Glucose challenge test </h3>
+{'article_section': ' \nif you are pregnant and a health care professional is checking you for gestational diabetes, you may first receive the glucose challenge test. another name for this test is the glucose screening test. in this test, a health care professional will draw your blood 1 hour after you drink a sweet liquid containing glucose. you do not need to fast for this test. if your blood glucose is too highâ\x80\x94135 to 140 or moreâ\x80\x94you may need to return for an oral glucose tolerance test while fasting. ',
+ 'article_title': ' gestational challenge test glucose diabetes',
+ 'date_scraped': datetime.datetime(2017, 4, 11, 23, 54, 26, 811000),
+ 'section_title': 'tests',
+ 'url': 'https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis'}
+_____________________________________________
+_____________________________________________
+
+<h3>
+Oral glucose tolerance test (OGTT)
+</h3>
+{'article_section': ' the ogtt measures blood glucose after you fast for at least 8 hours. first, a health care professional will draw your blood. then you will drink the liquid containing glucose. for diagnosing gestational diabetes, you will need your blood drawn every hour for 2 to 3 hours.\n high blood glucose levels at any two or more blood test times during the ogttâ\x80\x94fasting, 1 hour, 2 hours, or 3 hoursâ\x80\x94mean you have gestational diabetes. your health care team will explain what your ogtt results mean. \nhealth care professionals also can use the ogtt to diagnose type 2 diabetes and prediabetes in people who are not pregnant. the ogtt helps health care professionals detect type 2 diabetes and prediabetes better than the fpg test. however, the ogtt is a more expensive test and is not as easy to give. to diagnose type 2 diabetes and prediabetes, a health care professional will need to draw your blood 1 hour after you drink the liquid containing glucose and again after 2 hours.',
+ 'article_title': 'gestational  oral (ogtt) test diabetes tolerance glucose',
+ 'date_scraped': datetime.datetime(2017, 4, 11, 23, 54, 30, 317000),
+ 'section_title': 'tests',
+ 'url': 'https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis'}
+_____________________________________________
+_____________________________________________
+
+<h2>
+What test numbers tell me if I have diabetes or prediabetes?
+</h2>
+{'article_section': ' each test to detect diabetes and prediabetes uses a different measurement. usually, the same test method needs to be repeated on a second day to diagnose diabetes. your doctor may also use a second test method to confirm that you have diabetes.\n the following table helps you understand what your test numbers mean if you are not pregnant. aglucose values are in milligrams per deciliter, or mg/dl. bat 2 hours after drinking 75 grams of glucose. to diagnose gestational diabetes, health care professionals give more glucose to drink and use different numbers as cutoffs. source: adapted from american diabetes association. classification and diagnosis of diabetes. diabetes care. 2016;39(1):s14â\x80\x93s20, tables 2.1, 2.3.',
+ 'article_title': 'me  what prediabetes i or numbers have test diabetes tell if',
+ 'date_scraped': datetime.datetime(2017, 4, 11, 23, 54, 33, 883000),
+ 'section_title': 'tests',
+ 'url': 'https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis'}
+_____________________________________________
+_____________________________________________
+
+<h2>Which tests help my health care professional know what kind of diabetes I have?
+</h2>
+{'article_section': ' even though the tests described here can confirm that you have diabetes, they canâ\x80\x99t identify what type you have. sometimes health care professionals are unsure if diabetes is type 1 or type 2. a rare type of diabetes that can occur in babies, called monogenic diabetes, can also be mistaken for type 1 diabetes. treatment depends on the type of diabetes, so knowing which type you have is important.  \nto find out if your diabetes is type 1, your health care professional may look for certain autoantibodies. autoantibodies are antibodies that mistakenly attack your healthy tissues and cells. the presence of one or more of several types of autoantibodies specific to diabetes is common in type 1 diabetes, but not in type 2 or monogenic diabetes. a health care professional will have to draw your blood for this test.\n if you had diabetes while you were pregnant, you should get tested 6 to 12 weeks after your baby is born to see if you have type 2 diabetes. ',
+ 'article_title': ' tests help i of what have health know which professional diabetes my kind care',
+ 'date_scraped': datetime.datetime(2017, 4, 11, 23, 54, 37, 411000),
+ 'section_title': 'treatment tests recommendations',
+ 'url': 'https://www.niddk.nih.gov/health-information/diabetes/overview/tests-diagnosis'}
+_____________________________________________
+_____________________________________________
+
+<h2>References</h2>
+_____________________________________________
+_____________________________________________
+
+<h3>Follow Us</h3>
+_____________________________________________
+_____________________________________________
+
+<h3>
+<a href="/research-funding">Research &amp; Funding</a><i class="i-plus"></i>
+</h3>
+_____________________________________________
+_____________________________________________
+
+<h3>
+<a href="/health-information">Health Information</a><i class="i-plus"></i>
+</h3>
+_____________________________________________
+_____________________________________________
+
+<h3>
+<a href="https://www.niddk.nih.gov/about-niddk/Pages/default.aspx">About NIDDK</a><i class="i-plus"></i>
+</h3>
+_____________________________________________
+_____________________________________________
+
+<h3>
+<a href="https://www.niddk.nih.gov/news/Pages/news-releases.aspx">News</a><i class="i-plus"></i>
+</h3>
+_____________________________________________
+>>> 
+===== RESTART: J:\MedWhat\diabetes_engine\scraping\scrape_diabetes_3.py =====
+_____________________________________________
+
+<h3>Print or Order Publications</h3>
+{'article_section': ' information from ndep is available by topic:',
+ 'article_title': 'print  publications or order',
+ 'date_scraped': datetime.datetime(2017, 4, 11, 23, 55, 59, 585000),
+ 'section_title': 'recommendations',
+ 'url': 'https://www.niddk.nih.gov/health-information/health-communication-programs/ndep/living-with-diabetes/youth-teens/what-diabetes/Pages/publicationdetail.aspx'}
+_____________________________________________
+_____________________________________________
+
+<h3 class="ms-standardheader ms-WPTitle" style="text-align:justify;">Â <span>Alternate Versions</span><span id="WebPartCaptionWPQ10"></span></h3>
+_____________________________________________
+_____________________________________________
+
+<h3 class="ms-standardheader ms-WPTitle" style="text-align:justify;">Â <span>Additional Links</span><span id="WebPartCaptionWPQ9"></span></h3>
+_____________________________________________
+_____________________________________________
+
+<h3>HealthSense</h3>
+_____________________________________________
+_____________________________________________
+
+<h1 class="pagetitle twocolumntitle">
+Tips for Teens with Diabetes: What is Diabetes?</h1>
+_____________________________________________
+_____________________________________________
+
+<h2 class="niddkElement-h2content, .niddkElement-h2">What is diabetes?</h2>
+{'article_section': ' diabetes is a serious disease. it means that your blood glucose, also called blood sugar, is too high. having too much glucose in your blood is not healthy. there are different types of diabetes: with type 1 diabetes, your body cannot make insulin. you need insulin to use the food you eat for energy. with this type of diabetes, you need to get insulin from shots or a pump. your genes and other factors may cause a person to get type 1 diabetes. with type 2 diabetes, your body cannot use the insulin it makes. teens are more likely to get type 2 if they weigh too much, are not active, or have a family member with diabetes. you are also more likely to get diabetes if you are a hispanic/latino, american indian, african american, asian american or pacific islander.  gestational diabetes is a type of diabetes that some women get when they are pregnant. it increases the chances of both the mother and her child getting diabetes later on.',
+ 'article_title': ' what is diabetes',
+ 'date_scraped': datetime.datetime(2017, 4, 11, 23, 56, 16, 741000),
+ 'section_title': 'intro',
+ 'url': 'https://www.niddk.nih.gov/health-information/health-communication-programs/ndep/living-with-diabetes/youth-teens/what-diabetes/Pages/publicationdetail.aspx'}
+_____________________________________________
+_____________________________________________
+
+<h2 class="niddkElement-h2content, .niddkElement-h2">Why should I take care of my diabetes?</h2>
+{'article_section': ' if you take care of your diabetes, you will feel better, will have more energy, and can lower your risk for other health problems. many people with diabetes have high blood pressure and high cholesterolâ\x80\x94these can harm blood vessels and cause heart attacks or strokes. too high blood glucose can damage your eyes and kidneys and cause problems with your toes or feet, and your gums or teeth. the good news is that when you take care of your diabetes you can avoid or reduce these problems.',
+ 'article_title': ' i of should take diabetes my why care',
+ 'date_scraped': datetime.datetime(2017, 4, 11, 23, 56, 20, 350000),
+ 'section_title': 'treatment',
+ 'url': 'https://www.niddk.nih.gov/health-information/health-communication-programs/ndep/living-with-diabetes/youth-teens/what-diabetes/Pages/publicationdetail.aspx'}
+_____________________________________________
+_____________________________________________
+
+<h2 class="niddkElement-h2content, .niddkElement-h2">What can I do to take care of my diabetes?</h2>
+{'article_section': ' the key to taking care of your diabetes is to keep your blood glucose as close to normal as you can. your doctor will tell you what blood glucose level is right for you. your doctor will teach you how to check your blood glucose with a glucose meter. learn what makes your blood glucose too high or too low. carbohydrates, or carbs for short, are a good source of energy for our bodies. but if you eat too many at one time, they make your blood glucose get too high. good carb choices are whole grain foods, nonfat or low-fat milk, and fresh fruits and vegetables. being sick and stress make your blood glucose go up too. insulin or pills and being active help to lower your blood glucose. if you weigh too much, losing weight can bring your blood glucose down too.',
+ 'article_title': ' do what i of to take diabetes care my can',
+ 'date_scraped': datetime.datetime(2017, 4, 11, 23, 56, 23, 974000),
+ 'section_title': 'treatment recommendations',
+ 'url': 'https://www.niddk.nih.gov/health-information/health-communication-programs/ndep/living-with-diabetes/youth-teens/what-diabetes/Pages/publicationdetail.aspx'}
+_____________________________________________
+_____________________________________________
+
+<h2 class="niddkElement-h2content">Take care of your diabetes to live a long and healthy life and do all the things your friends do.</h2>
+_____________________________________________
+_____________________________________________
+
+<h3 class="niddkElement-h3">Make healthy food choicesÂ <img alt="Girl riding bike " class="niddkPosition-2" height="249" src="/health-information/health-communication-programs/ndep/living-with-diabetes/youth-teens/what-diabetes/PublishingImages/girl_bicycle_180x249.jpg" width="180"/></h3>
+
+Traceback (most recent call last):
+  File "J:\MedWhat\diabetes_engine\scraping\scrape_diabetes_3.py", line 166, in <module>
+    get_data("https://www.niddk.nih.gov/health-information/health-communication-programs/ndep/living-with-diabetes/youth-teens/what-diabetes/Pages/publicationdetail.aspx") #!!! LSF referenced without assignment
+  File "J:\MedWhat\diabetes_engine\scraping\scrape_diabetes_3.py", line 146, in get_data
+    dic = {"article_section": answers_under_h.lower(), "section_title": " ".join(list_types).encode('utf-8'), "article_title":h_text.encode('utf-8'), "date_scraped":datetime.datetime.today(), "url": url.encode('utf-8')}
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 11: ordinal not in range(128)
+>>> 
+===== RESTART: J:\MedWhat\diabetes_engine\scraping\scrape_diabetes_3.py =====
+_____________________________________________
+
+<h3>Print or Order Publications</h3>
+{'article_section': ' information from ndep is available by topic:',
+ 'article_title': 'print  publications or order',
+ 'date_scraped': datetime.datetime(2017, 4, 11, 23, 58, 9, 425000),
+ 'section_title': 'recommendations',
+ 'url': 'https://www.niddk.nih.gov/health-information/health-communication-programs/ndep/partnership-community-outreach/campaigns/diabetes-heart-health/Pages/default.aspx'}
+_____________________________________________
+_____________________________________________
+
+<h3>HealthSense</h3>
+_____________________________________________
+_____________________________________________
+
+<h1 class="pagetitle twocolumntitle">
+Diabetes and Heart Health</h1>
+{'article_section': ' many people with diabetes do not realize that having diabetes increases their chances of having a heart attack or stroke. research has shown that people with diabetes can lower their risk for heart disease and other heart problems by managing the abcâ\x80\x99s of diabeteâ\x80\x8bsâ\x80\x94a1c, blood pressure, cholesterolâ\x80\x94and stopping smoking. ndep provides educational resources for people with diabetes and health care professionals to raise awareness of the effect of diabetes on heart health.',
+ 'article_title': 'and heart  health \r\ndiabetes diabetes',
+ 'date_scraped': datetime.datetime(2017, 4, 11, 23, 58, 16, 910000),
+ 'section_title': 'treatment',
+ 'url': 'https://www.niddk.nih.gov/health-information/health-communication-programs/ndep/partnership-community-outreach/campaigns/diabetes-heart-health/Pages/default.aspx'}
+_____________________________________________
+_____________________________________________
+
+<h2>Resources for Managing Your Diabetes ABCs</h2>
+_____________________________________________
+_____________________________________________
+
+<h3 style="margin:25px 0px 5px">Promotional Materialsâ€‹</h3>
+_____________________________________________
+_____________________________________________
+
+<h3 style="margin:15px 0px 5px">Patient Education Materials</h3>
+_____________________________________________
+_____________________________________________
+
+<h3 style="margin:15px 0px 5px">Professional Resources</h3>
+_____________________________________________
+_____________________________________________
+
+<h3>Print or Order Publications</h3>
+{'article_section': ' information from ndep is available by topic:',
+ 'article_title': ' order publications abcs print or diabetes',
+ 'date_scraped': datetime.datetime(2017, 4, 11, 23, 58, 34, 347000),
+ 'section_title': 'recommendations',
+ 'url': 'https://www.niddk.nih.gov/health-information/health-communication-programs/ndep/partnership-community-outreach/campaigns/diabetes-heart-health/Pages/default.aspx'}
+_____________________________________________
+_____________________________________________
+
+<h3>HealthSense</h3>
+_____________________________________________
+_____________________________________________
+
+<h2>Contact the NIDDK Health Information Center</h2>
+{'article_section': ' phone: 1-800-860-8747 | tty: 1-866-569-1162 | email: healthinfo@niddk.nih.gov | hours: 8:30 a.m. to 5 p.m. eastern time, m-f',
+ 'article_title': ' information center niddk contact health abcs the diabetes',
+ 'date_scraped': datetime.datetime(2017, 4, 11, 23, 58, 41, 248000),
+ 'section_title': 'treatment',
+ 'url': 'https://www.niddk.nih.gov/health-information/health-communication-programs/ndep/partnership-community-outreach/campaigns/diabetes-heart-health/Pages/default.aspx'}
+_____________________________________________
+>>>  b'\xe2'.decode('latin1')
+ 
+  File "<pyshell#3>", line 2
+    b'\xe2'.decode('latin1')
+    ^
+IndentationError: unexpected indent
+>>> b'\xe2'.decode('latin1')
+u'\xe2'
+>>> '\xe2'.decode('latin1')
+u'\xe2'
+>>> '\xe2'.decode('latin1').encode('utf-8')
+'\xc3\xa2'
+>>> '\xe2'.decode('latin1').decode('utf-8')
+
+Traceback (most recent call last):
+  File "<pyshell#7>", line 1, in <module>
+    '\xe2'.decode('latin1').decode('utf-8')
+  File "C:\Python27\lib\encodings\utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xe2' in position 0: ordinal not in range(128)
+>>> '\xe2\xa0'.decode('latin1').decode('utf-8')
+
+Traceback (most recent call last):
+  File "<pyshell#8>", line 1, in <module>
+    '\xe2\xa0'.decode('latin1').decode('utf-8')
+  File "C:\Python27\lib\encodings\utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
+>>> '\xe2\xa0'.decode('latin1')
+u'\xe2\xa0'
+>>> '\xe2\xa0'.decode('latin1').encode('utf-8')
+'\xc3\xa2\xc2\xa0'
+>>> 
+===== RESTART: J:\MedWhat\diabetes_engine\scraping\scrape_diabetes_3.py =====
+_____________________________________________
+
+<h3>Print or Order Publications</h3>
+{'article_section': ' information from ndep is available by topic:',
+ 'article_title': 'print  publications or order',
+ 'date_scraped': datetime.datetime(2017, 4, 12, 0, 1, 50, 865000),
+ 'section_title': 'recommendations',
+ 'url': 'https://www.niddk.nih.gov/health-information/health-communication-programs/ndep/living-with-diabetes/youth-teens/what-diabetes/Pages/publicationdetail.aspx'}
+_____________________________________________
+_____________________________________________
+
+<h3 class="ms-standardheader ms-WPTitle" style="text-align:justify;">Â <span>Alternate Versions</span><span id="WebPartCaptionWPQ10"></span></h3>
+_____________________________________________
+_____________________________________________
+
+<h3 class="ms-standardheader ms-WPTitle" style="text-align:justify;">Â <span>Additional Links</span><span id="WebPartCaptionWPQ9"></span></h3>
+_____________________________________________
+_____________________________________________
+
+<h3>HealthSense</h3>
+_____________________________________________
+_____________________________________________
+
+<h1 class="pagetitle twocolumntitle">
+Tips for Teens with Diabetes: What is Diabetes?</h1>
+_____________________________________________
+_____________________________________________
+
+<h2 class="niddkElement-h2content, .niddkElement-h2">What is diabetes?</h2>
+{'article_section': ' diabetes is a serious disease. it means that your blood glucose, also called blood sugar, is too high. having too much glucose in your blood is not healthy. there are different types of diabetes: with type 1 diabetes, your body cannot make insulin. you need insulin to use the food you eat for energy. with this type of diabetes, you need to get insulin from shots or a pump. your genes and other factors may cause a person to get type 1 diabetes. with type 2 diabetes, your body cannot use the insulin it makes. teens are more likely to get type 2 if they weigh too much, are not active, or have a family member with diabetes. you are also more likely to get diabetes if you are a hispanic/latino, american indian, african american, asian american or pacific islander.  gestational diabetes is a type of diabetes that some women get when they are pregnant. it increases the chances of both the mother and her child getting diabetes later on.',
+ 'article_title': ' what is diabetes',
+ 'date_scraped': datetime.datetime(2017, 4, 12, 0, 2, 7, 885000),
+ 'section_title': 'intro',
+ 'url': 'https://www.niddk.nih.gov/health-information/health-communication-programs/ndep/living-with-diabetes/youth-teens/what-diabetes/Pages/publicationdetail.aspx'}
+_____________________________________________
+_____________________________________________
+
+<h2 class="niddkElement-h2content, .niddkElement-h2">Why should I take care of my diabetes?</h2>
+
+Traceback (most recent call last):
+  File "J:\MedWhat\diabetes_engine\scraping\scrape_diabetes_3.py", line 166, in <module>
+    get_data("https://www.niddk.nih.gov/health-information/health-communication-programs/ndep/living-with-diabetes/youth-teens/what-diabetes/Pages/publicationdetail.aspx") # ..ok
+  File "J:\MedWhat\diabetes_engine\scraping\scrape_diabetes_3.py", line 109, in get_data
+    answers_under_h = answers_under_h  +  " " +  sib.get_text().replace(u'\xa0', u' ').decode('latin1').encode("utf-8")
+UnicodeEncodeError: 'ascii' codec can't encode character u'\u2014' in position 202: ordinal not in range(128)
+>>> 
+=========== RESTART: J:\MedWhat\diabetes_engine\diabetes_engine.py ===========
+Enter your question ?
+what are the risk factors in type 2 diabetes
+ANS TYPE:
+intro
+FOCUS:
+2  diabetes 
+TARGET:
+risk factors type 
+POS:
+
+[('what', 'WDT'),
+ ('are', 'VBP'),
+ ('the', 'DT'),
+ ('risk', 'NN'),
+ ('factors', 'NNS'),
+ ('in', 'IN'),
+ ('type', 'NN'),
+ ('2', 'CD'),
+ ('diabetes', 'NNS')]
+CHOSEN ANS:
+u' experts recommend routine testing for type 2 diabetes if you are age 45 or older are a woman who had gestational diabetes1  \nmedicare covers the cost of diabetes tests for people with certain risk factors for diabetes. if you have medicare, find out if you qualify for coverage. if you have different insurance, ask your insurance company if it covers diabetes tests.  \nthough type 2 diabetes most often develops in adults, children also can develop type 2 diabetes. experts recommend testing children between the ages of 10 and 18 who are overweight or obese and have at least two other risk factors for developing diabetes.1 a mother who had diabetes while pregnant with them'
+
+Enter your question ?
+
+what is gestational diabetes
+ANS TYPE:
+intro
+FOCUS:
+
+TARGET:
+
+POS:
+
+[]
+CHOSEN ANS:
+u' most often, testing for type 1 diabetes occurs in people with diabetes symptoms. doctors usually diagnose type 1 diabetes in children and young adults. because type 1 diabetes can run in families, a study called trialnet offers free testing to family members of people with the disease, even if they don\u2019t have symptoms.'
+
+Enter your question ?
+ANS TYPE:
+intro
+FOCUS:
+gestational  diabetes 
+TARGET:
+gestational 
+POS:
+
+[('what', 'WP'), ('is', 'VBZ'), ('gestational', 'JJ'), ('diabetes', 'NNS')]
+CHOSEN ANS:
+u'gestational diabetes is high blood sugar (diabetes) that starts or is first diagnosed during pregnancy. '
+
+Enter your question ?
+What causes gestational diabetes
+ANS TYPE:
+causes
+function
+FOCUS:
+gestational  diabetes 
+TARGET:
+gestational 
+POS:
+
+[('what', 'WP'), ('causes', 'VBZ'), ('gestational', 'JJ'), ('diabetes', 'NNS')]
+CHOSEN ANS:
+u' gestational diabetes is a type of diabetes that develops during pregnancy. most of the time, gestational diabetes goes away after your baby is born. even if your gestational diabetes goes away, you still have a greater chance of developing type 2 diabetes within 5 to 10 years. your child may also be more likely to become obese and develop type 2 diabetes later in life. making healthy choices helps the whole family and may protect your child from becoming obese or developing diabetes.\n here are steps you should take for yourself and your child if you had gestational diabetes:\n get tested for diabetes 6 to 12 weeks after your baby is born. if your blood glucose is still high, you may have type 2 diabetes. if your blood glucose is normal, you should get tested every 3 years to see if you have developed type 2 diabetes.  \n    be more active and make healthy food choices to get back to a healthy weight.  \n    breastfeed your baby. breastfeeding gives your baby the right balance of nutrients and helps you burn calories.\n     ask your doctor if you should take the diabetes drug metformin to help prevent type 2 diabetes.1'
+
+Enter your question ?
+what are the symptoms of diabetes
+ANS TYPE:
+symptoms
+FOCUS:
+ diabetes 
+TARGET:
+symptoms 
+POS:
+
+[('what', 'WDT'),
+ ('are', 'VBP'),
+ ('the', 'DT'),
+ ('symptoms', 'NNS'),
+ ('of', 'IN'),
+ ('diabetes', 'NNS')]
+CHOSEN ANS:
+u' research such as the diabetes prevention program shows that you can do a lot to reduce your chances of developing type 2 diabetes. here are some things you can change to lower your risk:\n lose weight and keep it off. you may be able to prevent or delay diabetes by losing 5 to 7 percent of your starting weight.1 for instance, if you weigh 200 pounds, your goal would be to lose about 10 to 14 pounds.\n     move more. get at least 30 minutes of physical activity 5 days a week. if you have not been active, talk with your health care professional about which activities are best. start slowly to build up to your goal.\n     eat healthy foods most of the time. eat smaller portions to reduce the amount of calories you eat each day and help you lose weight. choosing foods with less fat is another way to reduce calories. drink water instead of sweetened beverages.\n     \nask your health care professional about what other changes you can make to prevent or delay type 2 diabetes.\n'
+
+Enter your question ?
+what are the symptoms of gestational diabetes
+ANS TYPE:
+symptoms
+FOCUS:
+gestational  diabetes 
+TARGET:
+symptoms gestational 
+POS:
+
+[('what', 'WDT'),
+ ('are', 'VBP'),
+ ('the', 'DT'),
+ ('symptoms', 'NNS'),
+ ('of', 'IN'),
+ ('gestational', 'JJ'),
+ ('diabetes', 'NNS')]
+CHOSEN ANS:
+u' gestational diabetes is a type of diabetes that develops during pregnancy. most of the time, gestational diabetes goes away after your baby is born. even if your gestational diabetes goes away, you still have a greater chance of developing type 2 diabetes within 5 to 10 years. your child may also be more likely to become obese and develop type 2 diabetes later in life. making healthy choices helps the whole family and may protect your child from becoming obese or developing diabetes.\n here are steps you should take for yourself and your child if you had gestational diabetes:\n get tested for diabetes 6 to 12 weeks after your baby is born. if your blood glucose is still high, you may have type 2 diabetes. if your blood glucose is normal, you should get tested every 3 years to see if you have developed type 2 diabetes.  \n    be more active and make healthy food choices to get back to a healthy weight.  \n    breastfeed your baby. breastfeeding gives your baby the right balance of nutrients and helps you burn calories.\n     ask your doctor if you should take the diabetes drug metformin to help prevent type 2 diabetes.1'
+
+Enter your question ?
+As a diabetes 2 patient, how do you suggest, I plan my meals
+ANS TYPE:
+recommendations
+FOCUS:
+ diabetes 2 do 
+TARGET:
+patient suggest i plan meals 
+POS:
+
+[('as', 'IN'),
+ ('a', 'DT'),
+ ('diabetes', 'VBZ'),
+ ('2', 'CD'),
+ ('patient', 'NN'),
+ (',', ','),
+ ('how', 'WRB'),
+ ('do', 'VBP'),
+ ('you', 'PRP'),
+ ('suggest', 'VB'),
+ (',', ','),
+ ('i', 'NN'),
+ ('plan', 'NN'),
+ ('my', 'PRP$'),
+ ('meals', 'NNS')]
+CHOSEN ANS:
+u' prediabetes is when your blood glucose, also called blood sugar, levels are higher than normal, but not high enough to be called diabetes. having prediabetes is serious because it raises your chance of developing type 2 diabetes. many of the same factors that raise your chance of developing type 2 diabetes put you at risk for prediabetes.\n other names for prediabetes include impaired fasting glucose or impaired glucose tolerance. some people call prediabetes \u201cborderline diabetes.\u201d\n about 1 in 3 americans has prediabetes, according to recent diabetes statistics from the centers for disease control and prevention. you won\u2019t know if you have prediabetes unless you are tested.  \nif you have prediabetes, you can lower your chance of developing type 2 diabetes. lose weight if you need to, become more physically active, and follow a reduced-calorie eating plan.\n'
+
+Enter your question ?
+How to treat diabetes insipidus
+ANS TYPE:
+treatment
+function
+FOCUS:
+ diabetes insipidus 
+TARGET:
+treat 
+POS:
+
+[('how', 'WRB'),
+ ('to', 'TO'),
+ ('treat', 'VB'),
+ ('diabetes', 'NNS'),
+ ('insipidus', 'VBP')]
+CHOSEN ANS:
+u'the cause of the underlying condition will be treated when possible. central diabetes insipidus may be controlled with vasopressin (desmopressin, ddavp). you take vasopressin as either an injection, a nasal spray, or tablets. if nephrogenic di is caused by medication, stopping the medication may help restore normal kidney function. but with some medications, such as lithium, after many years of use, nephrogenic di can be permanent. hereditary nephrogenic di and lithium-induced nephrogenic di are treated by drinking enough fluids to match urine output. medicines that lower urine output also need to be taken.  nephrogenic di is treated with anti-inflammatory medicines and diuretics (water pills). '
+
+Enter your question ?
+What should I do if my health care professional told me I have prediabetes?
+ANS TYPE:
+treatment
+recommendations
+FOCUS:
+ diabetes do have 
+TARGET:
+i health care professional i prediabetes 
+POS:
+
+[('what', 'WP'),
+ ('should', 'MD'),
+ ('i', 'VB'),
+ ('do', 'VBP'),
+ ('if', 'IN'),
+ ('my', 'PRP$'),
+ ('health', 'NN'),
+ ('care', 'NN'),
+ ('professional', 'JJ'),
+ ('told', 'VBD'),
+ ('me', 'PRP'),
+ ('i', 'NN'),
+ ('have', 'VBP'),
+ ('prediabetes', 'NNS')]
+CHOSEN ANS:
+u' prediabetes is when your blood glucose, also called blood sugar, levels are higher than normal, but not high enough to be called diabetes. having prediabetes is serious because it raises your chance of developing type 2 diabetes. many of the same factors that raise your chance of developing type 2 diabetes put you at risk for prediabetes.\n other names for prediabetes include impaired fasting glucose or impaired glucose tolerance. some people call prediabetes \u201cborderline diabetes.\u201d\n about 1 in 3 americans has prediabetes, according to recent diabetes statistics from the centers for disease control and prevention. you won\u2019t know if you have prediabetes unless you are tested.  \nif you have prediabetes, you can lower your chance of developing type 2 diabetes. lose weight if you need to, become more physically active, and follow a reduced-calorie eating plan.\n'
+
+Enter your question ?
+If I had gestational diabetes when I was pregnant, how can I lower my chances of developing type 2 diabetes?
+ANS TYPE:
+symptoms
+treatment
+recommendations
+function
+FOCUS:
+i gestational  diabetes 2 
+TARGET:
+gestational i pregnant i chances type diabetes 
+POS:
+
+[('if', 'IN'),
+ ('i', 'VBN'),
+ ('had', 'VBD'),
+ ('gestational', 'JJ'),
+ ('diabetes', 'NNS'),
+ ('when', 'WRB'),
+ ('i', 'NN'),
+ ('was', 'VBD'),
+ ('pregnant', 'JJ'),
+ (',', ','),
+ ('how', 'WRB'),
+ ('can', 'MD'),
+ ('i', 'VB'),
+ ('lower', 'JJR'),
+ ('my', 'PRP$'),
+ ('chances', 'NNS'),
+ ('of', 'IN'),
+ ('developing', 'VBG'),
+ ('type', 'JJ'),
+ ('2', 'CD'),
+ ('diabetes', 'NNS')]
+CHOSEN ANS:
+u' gestational diabetes is a type of diabetes that develops during pregnancy. most of the time, gestational diabetes goes away after your baby is born. even if your gestational diabetes goes away, you still have a greater chance of developing type 2 diabetes within 5 to 10 years. your child may also be more likely to become obese and develop type 2 diabetes later in life. making healthy choices helps the whole family and may protect your child from becoming obese or developing diabetes.\n here are steps you should take for yourself and your child if you had gestational diabetes:\n get tested for diabetes 6 to 12 weeks after your baby is born. if your blood glucose is still high, you may have type 2 diabetes. if your blood glucose is normal, you should get tested every 3 years to see if you have developed type 2 diabetes.  \n    be more active and make healthy food choices to get back to a healthy weight.  \n    breastfeed your baby. breastfeeding gives your baby the right balance of nutrients and helps you burn calories.\n     ask your doctor if you should take the diabetes drug metformin to help prevent type 2 diabetes.1'
+
+Enter your question ?
+What tests are used to diagnose diabetes and prediabetes?
+ANS TYPE:
+tests
+function
+FOCUS:
+used  diabetes 
+TARGET:
+tests diagnose diagnose prediabetes 
+POS:
+
+[('what', 'WP'),
+ ('tests', 'NNS'),
+ ('are', 'VBP'),
+ ('used', 'VBN'),
+ ('to', 'TO'),
+ ('diagnose', 'VB'),
+ ('diabetes', 'NNS'),
+ ('and', 'CC'),
+ ('prediabetes', 'NNS')]
+CHOSEN ANS:
+u' sometimes health care professionals use the rpg test to diagnose diabetes when diabetes symptoms are present and they do not want to wait until you have fasted. you do not need to fast overnight for the rpg test. you may have this blood test at any time.\n'
+
+Enter your question ?
+what is a1c test
+ANS TYPE:
+tests
+FOCUS:
+
+TARGET:
+a1c test 
+POS:
+
+[('what', 'WP'), ('is', 'VBZ'), ('a1c', 'JJ'), ('test', 'NN')]
+CHOSEN ANS:
+u' health care professionals most often use the fasting plasma glucose (fpg) test or the a1c test to diagnose diabetes. in some cases, they may use a random plasma glucose (rpg) test.\n'
+
+Enter your question ?
+Oral glucose tolerance test
+ANS TYPE:
+tests
+FOCUS:
+glucose 
+TARGET:
+glucose tolerance test 
+POS:
+
+[('oral', 'JJ'), ('glucose', 'JJ'), ('tolerance', 'NN'), ('test', 'NN')]
+CHOSEN ANS:
+u' \nif you are pregnant and a health care professional is checking you for gestational diabetes, you may first receive the glucose challenge test. another name for this test is the glucose screening test. in this test, a health care professional will draw your blood 1 hour after you drink a sweet liquid containing glucose. you do not need to fast for this test. if your blood glucose is too high\u2014135 to 140 or more\u2014you may need to return for an oral glucose tolerance test while fasting. '
+
+Enter your question ?
+can diabetes cause heart attack
+ANS TYPE:
+causes
+function
+FOCUS:
+ diabetes 
+TARGET:
+diabetes cause heart attack 
+POS:
+
+[('can', 'MD'),
+ ('diabetes', 'VB'),
+ ('cause', 'VB'),
+ ('heart', 'NN'),
+ ('attack', 'NN')]
+CHOSEN ANS:
+u' research such as the diabetes prevention program shows that you can do a lot to reduce your chances of developing type 2 diabetes. here are some things you can change to lower your risk:\n lose weight and keep it off. you may be able to prevent or delay diabetes by losing 5 to 7 percent of your starting weight.1 for instance, if you weigh 200 pounds, your goal would be to lose about 10 to 14 pounds.\n     move more. get at least 30 minutes of physical activity 5 days a week. if you have not been active, talk with your health care professional about which activities are best. start slowly to build up to your goal.\n     eat healthy foods most of the time. eat smaller portions to reduce the amount of calories you eat each day and help you lose weight. choosing foods with less fat is another way to reduce calories. drink water instead of sweetened beverages.\n     \nask your health care professional about what other changes you can make to prevent or delay type 2 diabetes.\n'
+
+Enter your question ?
+diabetes and heart health
+ANS TYPE:
+treatment
+FOCUS:
+ diabetes 
+TARGET:
+heart health 
+POS:
+
+[('diabetes', 'NNS'), ('and', 'CC'), ('heart', 'NN'), ('health', 'NN')]
+CHOSEN ANS:
+u' if you take care of your diabetes, you will feel better, will have more energy, and can lower your risk for other health problems. many people with diabetes have high blood pressure and high cholesterol\u2014these can harm blood vessels and cause heart attacks or strokes. too high blood glucose can damage your eyes and kidneys and cause problems with your toes or feet, and your gums or teeth. the good news is that when you take care of your diabetes you can avoid or reduce these problems.'
+
+Enter your question ?
+how to prevent gestational diabetes
+ANS TYPE:
+symptoms
+prevention
+FOCUS:
+gestational  diabetes 
+TARGET:
+prevent gestational 
+POS:
+
+[('how', 'WRB'),
+ ('to', 'TO'),
+ ('prevent', 'VB'),
+ ('gestational', 'JJ'),
+ ('diabetes', 'NNS')]
+CHOSEN ANS:
+u' gestational diabetes is a type of diabetes that develops during pregnancy. most of the time, gestational diabetes goes away after your baby is born. even if your gestational diabetes goes away, you still have a greater chance of developing type 2 diabetes within 5 to 10 years. your child may also be more likely to become obese and develop type 2 diabetes later in life. making healthy choices helps the whole family and may protect your child from becoming obese or developing diabetes.\n here are steps you should take for yourself and your child if you had gestational diabetes:\n get tested for diabetes 6 to 12 weeks after your baby is born. if your blood glucose is still high, you may have type 2 diabetes. if your blood glucose is normal, you should get tested every 3 years to see if you have developed type 2 diabetes.  \n    be more active and make healthy food choices to get back to a healthy weight.  \n    breastfeed your baby. breastfeeding gives your baby the right balance of nutrients and helps you burn calories.\n     ask your doctor if you should take the diabetes drug metformin to help prevent type 2 diabetes.1'
+
+Enter your question ?
