@@ -2,167 +2,224 @@ what is gestational diabetes
 
 ANS TYPE:
 intro 
+re_ans_type:
+[Ii]ntro
 FOCUS:
-gestational  diabetes 
+gest diabetes 
+re_focus:
+(?:[gG]est.*[Dd]iabetes.*(?:(?:.*))?.*)|(?:.*[gG]est.*(?:(?:.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[gG]est.*(?:(?:.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:.*))?.*[gG]est.*)|(?:.*(?:(?:.*))?.*[gG]est.*[Dd]iabetes.*)|(?:.*(?:(?:.*))?.*[Dd]iabetes.*[gG]est.*)
 TARGET:
-gestational 
+gestational
 CHOSEN ANS: 
- pregnant women who have never had diabetes before but who have high blood glucose (sugar) levels during pregnancy are said to have gestational diabetes. according to a 2014 analysis by the centers for disease control and prevention, the prevalence of gestational diabetes is as high as 9.2%. we don't know what causes gestational diabetes, but we have some clues. the placenta supports the baby as it grows. hormones from the placenta help the baby develop. but these hormones also block the action of the mother's insulin in her body. this problem is called insulin resistance. insulin resistance makes it hard for the mother's body to use insulin. she may need up to three times as much insulin. gestational diabetes starts when your body is not able to make and use all the insulin it needs for pregnancy. without enough insulin, glucose cannot leave the blood and be changed to energy. glucose builds up in the blood to high levels. this is called hyperglycemia. you may also be interested in our book, diabetes & pregnancy: a guide to a healthy pregnancy.
+gestational diabetes is high blood sugar (glucose) that starts or is first diagnosed during pregnancy. eating a balanced diet is an important part of any pregnancy. diet is even more important if you have diabetes. this article discusses the diet recommendations for women with gestational diabetes who do not take insulin.
 -------------------------------------
 what causes gestational diabetes
 
 ANS TYPE:
 causes 
+re_ans_type:
+[Cc]auses
 FOCUS:
-gestational  diabetes 
+gest diabetes 
+re_focus:
+(?:[gG]est.*[Dd]iabetes.*(?:(?:.*))?.*)|(?:.*[gG]est.*(?:(?:.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[gG]est.*(?:(?:.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:.*))?.*[gG]est.*)|(?:.*(?:(?:.*))?.*[gG]est.*[Dd]iabetes.*)|(?:.*(?:(?:.*))?.*[Dd]iabetes.*[gG]est.*)
 TARGET:
-gestational 
+gestational
 CHOSEN ANS: 
- the centers for disease control and prevention's podcast tells expectant moms more about diabetes during pregnancy, or gestational diabetes (gdm). learn about managing gdm, its impact on your future health, and what you can do to lower your risk for type 2 diabetes after you've had gdm. last reviewed: june 7, 2013 last edited: november 21, 2016
+pregnancy hormones can block insulin from doing its job. when this happens, glucose levels may increase in a pregnant woman's blood.you are at greater risk for gestational diabetes if you:are older than 25 when you are pregnanthave a family history of diabetesgave birth to a baby that weighed more than 9 pounds or had a birth defecthave high blood pressurehave too much amniotic fluidhave had an unexplained miscarriage or stillbirthwere overweight before your pregnancy
 -------------------------------------
 what are the symptomsof diabetes
 
 ANS TYPE:
 symptoms 
+re_ans_type:
+[Ss]ymptoms
 FOCUS:
  diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[sS]ymptomsof.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[sS]ymptomsof.*)
 TARGET:
-symptomsof 
+symptomsof
 CHOSEN ANS: 
- the kidneys work hard to make up for the failing capillaries so kidney disease produces no symptoms until almost all function is gone. also, the symptoms of kidney disease are not specific. the first symptom of kidney disease is often fluid buildup. other symptoms of kidney disease include loss of sleep, poor appetite, upset stomach, weakness, and difficulty concentrating. it is vital to see a doctor regularly. the doctor can check blood pressure, urine (for protein), blood (for waste products), and organs for other complications of diabetes.
+high blood sugar level can cause several symptoms, including:blurry visionexcess thirstfatiguehungerurinating oftenweight lossbecause type 2 diabetes develops slowly, some people with high blood sugar have no symptoms.symptoms of type 1 diabetes develop over a short period. people may be very sick by the time they are diagnosed.after many years, diabetes can lead to other serious problems. these problems are known as diabetes complications and include:eye problems, including trouble seeing (especially at night), light sensitivity, blindness in the futurepainful sores and infections of the leg or foot, which if left untreated, leads to removal of the foot or leg nerves in the body can become damaged, causing pain, tingling, and a loss of feeling, problems digesting food, erectile dysfunctionkidney problems, which can lead to kidney failureweakened immune system, which can lead to more frequent infectionsincreased chance of having a heart attackor stroke
 -------------------------------------
 what are the symptoms of gestational diabetes
 
 ANS TYPE:
 symptoms 
+re_ans_type:
+[Ss]ymptoms
 FOCUS:
-gestational  diabetes 
+gest diabetes 
+re_focus:
+(?:[gG]est.*[Dd]iabetes.*(?:(?:.*))?.*)|(?:.*[gG]est.*(?:(?:.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[gG]est.*(?:(?:.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:.*))?.*[gG]est.*)|(?:.*(?:(?:.*))?.*[gG]est.*[Dd]iabetes.*)|(?:.*(?:(?:.*))?.*[Dd]iabetes.*[gG]est.*)
 TARGET:
-symptoms gestational 
+symptoms gestational
 CHOSEN ANS: 
- gestational diabetes affects the mother in late pregnancy, after the baby's body has been formed, but while the baby is busy growing. because of this, gestational diabetes does not cause the kinds of birth defects sometimes seen in babies whose mothers had diabetes before pregnancy. however, untreated or poorly controlled gestational diabetes can hurt your baby. when you have gestational diabetes, your pancreas works overtime to produce insulin, but the insulin does not lower your blood glucose levels. although insulin does not cross the placenta, glucose and other nutrients do. so extra blood glucose goes through the placenta, giving the baby high blood glucose levels. this causes the baby's pancreas to make extra insulin to get rid of the blood glucose. since the baby is getting more energy than it needs to grow and develop, the extra energy is stored as fat. this can lead to macrosomia, or a "fat" baby. babies with macrosomia face health problems of their own, including damage to their shoulders during birth. because of the extra insulin made by the baby's pancreas, newborns may have very low blood glucose levels at birth and are also at higher risk for breathing problems. babies with excess insulin become children who are at risk for obesity and adults who are at risk for type 2 diabetes.
+usually there are no symptoms, or the symptoms are mild and not life threatening to the pregnant woman. the blood sugar (glucose) level usually returns to normal after delivery.symptoms may include:blurred visionfatiguefrequent infections, including those of the bladder, vagina, and skinincreased thirstincreased urinationnausea and vomitingweight loss despite increased appetite
 -------------------------------------
 As a diabetes 2 patient, how do you suggest, I plan my meals
 
 ANS TYPE:
 recommendations 
+re_ans_type:
+[Rr]ecommendations
 FOCUS:
- diabetes 2 do 
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[pP]aty.*suggest.*i.*plan.*meal.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[pP]aty.*suggest.*i.*plan.*meal.*)
 TARGET:
-patient suggest i plan meals 
+patient suggest i plan meals
 CHOSEN ANS: 
-a registered dietitian can help you decide how to balance the carbohydrates, protein, and fat in your diet. here are some general guidelines:the amount of each type of food you eat depends on:your dietyour weighthow often you exerciseyour other health riskseveryone has individual needs. work with your doctor, and possibly a dietitian, to develop a meal plan that works for you.the diabetes food pyramid, which resembles the old usda food guide pyramid, splits foods into six groups in a range of serving sizes. in the diabetes food pyramid, food groups are based on carbohydrate and protein content instead of their food type. a person with diabetes should eat more of the foods in the bottom of the pyramid (grains, beans, vegetables) than those on the top (fats and sweets). this diet will help keep your heart and body systems healthy.another method, similar to the new "plate" usda food guide, encourages larger portions of vegetables (half the plate) and moderate portions of protein (one-quarter of the plate) and starch (one-quarter of the plate).grains, beans, and starchy vegetables(6 or more servings a day)foods like bread, grains, beans, rice, pasta, and starchy vegetables are at the bottom of the pyramid because they should serve as the foundation of your diet. as a group, these foods are loaded with vitamins, minerals, fiber, and healthy carbohydrates.it is important, however, to eat foods with plenty of fiber. choose whole-grain foods such as whole-grain bread or crackers, tortillas, bran cereal, brown rice, or beans. use whole-wheat or other whole-grain flours in cooking and baking. choose low-fat breads, such as bagels, tortillas, english muffins, and pita bread.vegetables(3 - 5 servings a day)choose fresh or frozen vegetables without added sauces, fats, or salt. opt for more dark green and deep yellow vegetables, such as spinach, broccoli, romaine lettuce, carrots, and peppers.fruits(2 - 4 servings a day)choose whole fruits more often than juices. whole fruits have more fiber. citrus fruits, such as oranges, grapefruits, and tangerines, are best. drink fruit juices that do not have added sweeteners or syrups.milk(2 - 3 servings a day)choose low-fat or nonfat milk or yogurt. yogurt has natural sugar in it, but it can also contain added sugar or artificial sweeteners. yogurt with artificial sweeteners has fewer calories than yogurt with added sugar.meat and fish(2 - 3 servings a day)eat fish and poultry more often. remove the skin from chicken and turkey. select lean cuts of beef, veal, pork, or wild game. trim all visible fat from meat. bake, roast, broil, grill, or boil instead of frying.fats, alcohol, and sweetsin general, you should limit your intake of fatty foods, especially those high in saturated fat, such as hamburgers, cheese, bacon, and butter.if you choose to drink alcohol, limit the amount and have it with a meal. check with your health care provider about how alcohol will affect your blood sugar, and to determine a safe amount for you.sweets are high in fat and sugar, so keep portion sizes small. here are some tips to help avoid eating too many sweets:ask for extra spoons and forks and split your dessert with others.eat sweets that are sugar-free.always ask for the small serving size.learn how to read food labels, and consult them when making food decisions.
+No answer found!
 -------------------------------------
 How to treat diabetes insipidus
 
 ANS TYPE:
 treatment 
+re_ans_type:
+[Tt]reatment
 FOCUS:
- diabetes insipidus 
+ diabetes insipid
+re_focus:
+(?:[Dd]iabetes.*(?:(?:insipid.*))?.*)|(?:.*(?:(?:insipid.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*.*(?:(?:insipid.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:insipid.*))?.*)|(?:.*(?:(?:insipid.*))?.*.*[Dd]iabetes.*)|(?:.*(?:(?:insipid.*))?.*[Dd]iabetes.*)
 TARGET:
-treat 
+treat
 CHOSEN ANS: 
-because type 1 diabetes can start quickly and the symptoms can be severe, people who have just been diagnosed may need to stay in the hospital.if you have just been diagnosed with type 1 diabetes, youmay need tohave a checkup each week until you have good control over your blood sugar. your health care provider will review the results of your home blood sugar monitoring and urine testing. your provider will also look at your diary of meals, snacks, and insulin injections. it may take a few weeks to match the insulin doses to your meal and activity schedule.as the disease gets more stable, you will have fewer follow-up visits. visiting your health care provider is very important so you can monitor any long-term problems from diabetes.you are the most important person in managing your diabetes. you should know the basic steps to diabetes management:how to recognize and treat low blood sugar (hypoglycemia)how to recognize and treat high blood sugar (hyperglycemia)diabetes meal planninghow to give insulinhow to check blood glucose and urine ketoneshow to adjust insulin and food when you exercisehow to handle sick dayswhere to buy diabetes supplies and how to store theminsulininsulin lowers blood sugar by allowing it to leave the bloodstream and enter cells. everyone with type 1 diabetes must take insulin every day.insulin must be injected under the skin using a syringe, insulin pen or pump. it cannot be taken by mouth because the acid in the stomach destroys insulin.insulin types differ in how fast they start to work and how long they last. the health care provider will choose the best type of insulin for you and will tell you at what time of day to use it.sometypesof insulin may be mixed together in an injection to get the best blood glucose control. other types of insulin should never be mixed. you may need insulin shots from one to four times a day.your health care provider or diabetes nurse educator will teach you how to give insulin injections. at first, a child's injections may be given by a parent or other adult. by age 14, most children can give their own injections.people with diabetes need to know how to adjust the amount of insulin they are taking:when they exercisewhen they are sickwhen they will be eating more or less food and calorieswhen they are traveling   diet and exerciseby testing their blood sugar level, people with type 1 diabetes learn which foods and activities raise or lower their sugar level most. this helps them adjust their insulin doses to specific meals or activities to prevent blood sugar from becoming too high or low. the american diabetes association and the american dietetic association have information for planning healthy, balanced meals. it can help to talk with a registered dietitian or nutrition counselor.regular exercise helps control the amount of sugar in the blood. it also helps burn extra calories and fat to reach a healthy weight.talk toyour health care provider before starting any exercise program. people with type 1 diabetes must take special steps before, during, and after physical activity or exercise.managing your blood sugarchecking your blood sugar levelyourself and writing down the results tells you how well you are managing your diabetes. talk to your doctor and diabetes educator about how often to check.to check your blood sugar level, you use adevice called a glucose meter. usually, you prick your finger with a small needle called a lancet to get a tiny drop of blood. you place the blood on a test strip and put the strip into the meter. the meter gives you a reading that tells you the level of your blood sugar.keep a record of your blood sugar for yourself and your doctor or nurse. the numberswill help if you have problems managing your diabetes. you and your doctor should set a target goal for your blood sugar level at different times during the day. you should also plan what to do when your blood sugar is too low or high.low blood sugar is called hypoglycemia. blood sugar levels below 70 mg/dl are too low and can harm you.foot carepeople with diabetes are more likely than those without diabetes to have foot problems. diabetes damages the nerves. this can make you less able to feel pressure on the foot. you may not notice a foot injury until you get a severe infection.diabetes can also damage blood vessels. small sores or breaks in the skin may become deeper skin sores (ulcers). the affected limb may need to be amputated if these skin ulcers do not heal or become larger, deeper, or infected.to prevent problems with your feet:stop smoking if you smoke.improve control of your blood sugar.get a foot exam by your health care provider at least twice a year and learn whether you have nerve damage.check and care for your feet every day. this is very important when you already have nerve or blood vessel damage or foot problems.make sure you wear the right kind of shoes. ask your health care provider what is right for you.preventing complicationsyour doctor may prescribe medicines or other treatments to reduce your chance of developing eye disease, kidney disease, and other conditions that are common in people with diabetes. these conditions are called complications of diabetes.
+the goal of treatment at first is to lower your high blood glucose levels. long-term goals are to prevent problems from diabetes.the most important way totreat and managetype 2 diabetes isactivity and nutrition.learn these skillslearning diabetes management skills will help you live well with diabetes. these skills help prevent healthproblems and the need for medical care. skills include:how to test and record your blood glucosewhat to eat and whenhow to take medications, if neededhow to recognize and treat low and high blood sugarhow to handle sick dayswhere to buy diabetes supplies and how to store them it may take several months to learn these skills. keep learning about diabetes, its complications, and how to control and live with the disease. stay up-to-date on new research and treatments.managing your blood sugarchecking your blood sugar levelsyourself and writing down the results tells you how well you are managing your diabetes. talk to your doctor and diabetes educator about how often to check.to check your blood sugar level, you use a device called a glucose meter. usually, you prick your finger with a small needle called a lancet. this gives you a tiny drop of blood. you place the blood on a test strip and put the strip into the meter. the meter gives you a reading that tells you the level of your blood sugar.yourhealth care provider or diabetes educator will help set up a testing schedule for you. your doctor will help you seta target range for your blood sugar numbers. keep these factors in mind:most people with type 2 diabetes only need to check their blood sugar once or twice a day.if your blood sugar level isunder control, you may only need to checkit a few times a week.you may test yourself when you wake up, before meals, and at bedtime.you may need to test more often when you are sick or under stress. keep a record of your blood sugar for yourself and your health care provider. based on your numbers, changes may need to be made to your meals, activity or medicines to keep your blood sugar level in the right range. diet and weight controlwork closely with your doctor, nurse, and dietitian to learn how much fat, protein, and carbohydrates you need in your diet. your meal plans should fit your lifestyle and habits and should include foods that you like.managing your weight and having a well-balanced diet are important. some people with type 2 diabetes can stop taking medicines after losing weight. this does not mean that their diabetes is cured. they still have diabetes.very obese patients whose diabetes is not well managed with diet and medicine may consider weight loss (bariatric) surgery.regular physical activityregularactivity is important for everyone. it is even more importantwhen you have diabetes. reasons why exercise is good for your health:lowers your blood sugar level without medicineburns extra calories and fat to help manage your weightimproves blood flow and blood pressureincreases your energy levelimproves your ability to handle stresstalk to your health care provider before starting any exercise program. people with type 2 diabetes may need to take special steps before, during, and after physical activity or exercise.medications to treat diabetesif diet and exercise do not help keep your blood sugar at normal or near-normal levels, your doctor may prescribe medication. since these drugs help lower your blood sugar levels in different ways, your doctor may have you take more than one drug.some of the most common types of medication are listed below. they are taken by mouth or injection.alpha-glucosidase inhibitors biguanidesdpp iv inhibitorsinjectable medicines meglitinides sulfonylureas thiazolidinediones you may need to take insulin if your blood sugar cannot be controlled with any of the above medicines. insulin must be injected under the skin using a syringe, insulin pen, or pump. it cannot be taken by mouth because the acid in the stomach destroys insulin.preventing complicationsyour doctor may prescribe medicines or other treatments to reduce your chance of developing eye disease, kidney disease, and other conditions that are common in people with diabetes. these conditions are called complications of diabetes.foot carepeople with diabetes are more likely than those without diabetesto have foot problems. diabetes damages thenerves.this can make you less able to feel pressure on the foot. you many not notice a foot injury until you get a severe infection.diabetes can also damage blood vessels. small sores or breaks in the skin may become deeper skin sores (ulcers). the affected limb may need to be amputated if these skin ulcers do not heal or become larger, deeper or infected.to prevent problems with your feet:stop smoking if you smoke.improve control of your blood sugar.get a foot exam by your health care provider at least twice a year and learnif you have nerve damage.check and care for your feet every day. this is very important when you already have nerve or blood vessel damage or foot problems. make sure you wear the right kind of shoes. ask your health care provider what is right for you.
 -------------------------------------
 how to prevent gestational diabetes
 
 ANS TYPE:
 symptoms prevention 
+re_ans_type:
+[Ss]ymptoms|[Pp]revention
 FOCUS:
-gestational  diabetes 
+gest diabetes 
+re_focus:
+(?:[gG]est.*[Dd]iabetes.*(?:(?:.*))?.*)|(?:.*[gG]est.*(?:(?:.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[gG]est.*(?:(?:.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:.*))?.*[gG]est.*)|(?:.*(?:(?:.*))?.*[gG]est.*[Dd]iabetes.*)|(?:.*(?:(?:.*))?.*[Dd]iabetes.*[gG]est.*)
 TARGET:
-prevent gestational 
+prevent gestational
 CHOSEN ANS: 
- gestational diabetes affects the mother in late pregnancy, after the baby's body has been formed, but while the baby is busy growing. because of this, gestational diabetes does not cause the kinds of birth defects sometimes seen in babies whose mothers had diabetes before pregnancy. however, untreated or poorly controlled gestational diabetes can hurt your baby. when you have gestational diabetes, your pancreas works overtime to produce insulin, but the insulin does not lower your blood glucose levels. although insulin does not cross the placenta, glucose and other nutrients do. so extra blood glucose goes through the placenta, giving the baby high blood glucose levels. this causes the baby's pancreas to make extra insulin to get rid of the blood glucose. since the baby is getting more energy than it needs to grow and develop, the extra energy is stored as fat. this can lead to macrosomia, or a "fat" baby. babies with macrosomia face health problems of their own, including damage to their shoulders during birth. because of the extra insulin made by the baby's pancreas, newborns may have very low blood glucose levels at birth and are also at higher risk for breathing problems. babies with excess insulin become children who are at risk for obesity and adults who are at risk for type 2 diabetes.
+beginning prenatal care early and having regular prenatal visits helps improve your health and the health of your baby. having prenatal screening at 24 - 28 weeks into the pregnancy will help detect gestational diabetes early.if you are overweight, decreasing your body mass index (bmi) to a normal range before you get pregnant will decrease your risk of developing gestational diabetes.
 -------------------------------------
 Is there any support group for diabetes
 
 ANS TYPE:
 support groups 
+re_ans_type:
+[Ss]upport groups
 FOCUS:
  diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[sS]upport.*group.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[sS]upport.*group.*)
 TARGET:
-support group 
+support group
 CHOSEN ANS: 
- emotional support, while not often initially considered, plays a key role in diabetes care. connecting with other people living with diabetes that understand the daily grind of counting carbohydrates, testing blood glucose multiple times each day and dealing with the various highs and lows (both physical and emotional) of life with diabetes can make all the difference. talking with people who "get it" is important, and our online community offers a place for people living with and affected by diabetes to find that support. our family link program connects parents of children with type 1 diabetes.
+american diabetes association|www.diabetes.org
 -------------------------------------
 How to prevent diabetes
 
 ANS TYPE:
 symptoms prevention 
+re_ans_type:
+[Ss]ymptoms|[Pp]revention
 FOCUS:
  diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[pP]rev.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[pP]rev.*)
 TARGET:
-prevent 
+prevent
 CHOSEN ANS: 
- given the extraordinary burden of diabetes on patients, their families, the medical community, society, and the economy, the national diabetes education program (ndep) has prepared this toolkit to provide health care professionals and teams with evidence and resources to identify, counsel, and support patients to prevent or delay the onset of type 2 diabetes.
+keeping an ideal body weight and an active lifestyle may prevent type 2 diabetes.type 1 diabetes cannot be prevented.
 -------------------------------------
 How can diabetes be prevented
 
 ANS TYPE:
 symptoms prevention 
+re_ans_type:
+[Ss]ymptoms|[Pp]revention
 FOCUS:
- diabetes prevented 
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[bB]e.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[bB]e.*)
 TARGET:
-be 
+be
 CHOSEN ANS: 
- diabetic kidney disease can be prevented by keeping blood glucose in your target range. research has shown that tight blood glucose control reduces the risk of microalbuminuria by one third. in people who already had microalbuminuria, the risk of progressing to macroalbuminuria was cut in half. other studies have suggested that tight control can reverse microalbuminuria.
+keeping an ideal body weight and an active lifestyle may prevent type 2 diabetes.type 1 diabetes cannot be prevented.
 -------------------------------------
 What is diabetes in children
 
 ANS TYPE:
 intro 
+re_ans_type:
+[Ii]ntro
 FOCUS:
  diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[cC]hildr.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[cC]hildr.*)
 TARGET:
-children 
+children
 CHOSEN ANS: 
- some women get diabetes when they are pregnant. doctors call this gestational (jes-tay-shun-al) diabetes. most of the time, it goes away after your baby is born. even if the diabetes goes away, you still have a greater chance of getting diabetes later in life. your child may also have a greater chance of being obese and getting type 2 diabetes later in life. use this tip sheet to learn what you can do for yourself and your child.
+until recently, the common type of diabetes in children and teens was type 1. it was called juvenile diabetes. with type 1 diabetes, the pancreas does not make insulin. insulin is a hormone that helps glucose,or sugar, get into your cells to give them energy. without insulin, too much sugar stays in the blood.but now younger people are also getting type 2 diabetes.  type 2 diabetes used to be called adult-onset diabetes. but now it is becoming more common in children and teens, due to more obesity. with type 2 diabetes, the body does not make or use insulin well.children have a higher risk of type 2 diabetes if they are obese, have a family history of diabetes, or are not active, and do not eat well.  to lower the risk of type 2 diabetes in childrenhave them maintain a healthy weightbe sure they are physically activehave them eat smaller portions of healthy foodslimit time with the tv, computer, and videochildren and teens with type 1 diabetes may need to take insulin. type 2 diabetes may be  controlled with diet and exercise. if not, patients will need to take oral diabetes medicines or insulin.
 -------------------------------------
 What is juvenile diabetes
 
 ANS TYPE:
 intro 
+re_ans_type:
+[Ii]ntro
 FOCUS:
-juvenile  diabetes 
+juvenil diabetes 
+re_focus:
+(?:[jJ]uvenil.*[Dd]iabetes.*(?:(?:.*))?.*)|(?:.*[jJ]uvenil.*(?:(?:.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[jJ]uvenil.*(?:(?:.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:.*))?.*[jJ]uvenil.*)|(?:.*(?:(?:.*))?.*[jJ]uvenil.*[Dd]iabetes.*)|(?:.*(?:(?:.*))?.*[Dd]iabetes.*[jJ]uvenil.*)
 TARGET:
-juvenile 
+juvenile
 CHOSEN ANS: 
- 
-my health advisor
-your path to good health just got a lot easier. enter some basic health information and my health advisor will calculate your risk for type 2 diabetes, heart disease and stroke.
- your path to good health just got a lot easier. enter some basic health information and my health advisor will calculate your risk for type 2 diabetes, heart disease and stroke.
+No answer found!
 -------------------------------------
 What diet is recommended for pregnant women with diabetes
 
 ANS TYPE:
 recommendations 
+re_ans_type:
+[Rr]ecommendations
 FOCUS:
  diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[dD]iet.*pregn.*wom.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[dD]iet.*pregn.*wom.*)
 TARGET:
-diet pregnant women 
+diet pregnant women
 CHOSEN ANS: 
-the best way to improve your diet is by eating a variety of healthy foods. you should learn how to read food labels, and consult them when making food decisions. talk to your doctor or dietitian if you are a vegetarian or on some other special diet.in general, your diet should be: moderate in fat and proteinprovide controlled levels of carbohydrates through foods including fruits, vegetables, and complex carbohydrates (such as bread, cereal, pasta, and rice)lower in foods that have a lot of sugar, such as soft drinks, fruit juices, and pastriesyou will be asked to eat three small- to moderate- sized meals and one or more snacks each day. do not skip meals and snacks. keep the amount and types of food (carbohydrates, fats, and proteins) the same from day to day.carbohydratescarbohydrates should make up less than half of the calories you eat.most carbohydrates are found in starchy or sugary foods, such as bread, rice, pasta, cereal, potatoes, peas, corn, fruit, fruit juice, milk, yogurt, cookies, candy, soda, and other sweets.high-fiber, whole-grain carbohydrates are healthier choices.vegetables (such as carrots, broccoli, and spinach) add much more to your health than to your blood sugar. enjoy lots of them.carbohydrates in food are measured in grams. you can learn to count the carbohydrates in the foods that you like and that you eat.grains, beans, and startchy vegetableseat 6 or more servings a day: one serving equals 1 slice bread, 1 ounce ready-to-eat cereal, 1/2 cup cooked rice or pasta, or 1 english muffin.foods like bread, grains, beans, rice, pasta, and starchy vegetables are loaded with vitamins, minerals, fiber, and healthy carbohydrates.choosecarbohydrate sources with plenty of fiber. eat whole-grain foods such as whole-grain bread or crackers, tortillas, bran cereal, brown rice, or beans. use whole-wheat or other whole-grain flours in cooking and baking.eat more low-fat breads, such as tortillas, english muffins, and pita bread.vegetableseat 3 - 5 servings a day: one serving equals 1 cup leafy, green vegetables; 1 cup cooked or chopped raw leafy vegetables; 3/4 cup vegetable juice; or 1/2 cup of chopped vegetables, cooked or raw.choose fresh or frozen vegetables without added sauces, fats, or salt. you should opt for more dark green and deep yellow vegetables, such as spinach, broccoli, romaine, carrots, and peppers.fruitseat 2 - 4 servings a day: one serving equals 1 medium whole fruit (such as a banana, apple, or orange); 1/2 cup chopped, frozen, cooked, or canned fruit; or 3/4 cup fruit juice.choose whole fruits more often than juices. they have more fiber. citrus fruits, such as oranges, grapefruits, and tangerines, are best. opt for fruit juices without added sweeteners or syrups.choose fresh fruits and juices, which retain more of their nutritional value than frozen or canned varieties.milk and dairyeat 4 servings a day: one serving equals 1 cup milk or yogurt, 1 1/2 oz. natural cheese, or 2 oz. processed cheese.choose low-fat or nonfat milk or yogurt. yogurt has natural sugar in it, but avoid yogurt with added sugar or artificial sweeteners.dairy products are a great source of protein, calcium, and phosphorus (to keep calories and cholesterol in check, though, choose low-fat dairy products).protein (meat, fish, dry beans, eggs, and nuts)eat 2 - 3 servings a day: one serving equals 2-3 oz. cooked meat, poultry, or fish; 1/2 cup cooked beans; 1 egg; or 2 tablespoons peanut butterchoose fish and poultry more often. remove the skin from chicken and turkey. select lean cuts of beef, veal, pork or wild game.trim all visible fat from meat. bake, roast, broil, grill, or boil instead of frying.foods from this group are excellent sources of b vitamins, protein, iron, and zinc.sweetssweets are high in fat and sugar, so keep portion sizes small.eat sweets that are sugar-free.ask for extra spoons and forks and split your dessert with others.fatsgo easy on butter, margarine, salad dressing, cooking oil, and desserts. but don't cut fats and oils from your diet entirely. they provide long-term energy for growth and are essential for brain development.in general, you should limit your intake of fatty foods, especially those high in saturated fat such as hamburger, cheese, bacon, and butter.other lifestyle changesyour doctor may also suggest a safe exercise plan. walking is usually the easiest type of exercise, but swimming or other low-impact exercises can work just as well. exercise is an important way to keep blood sugar in control.
+No answer found!
 -------------------------------------
 What can be a diet for pregnant women with diabetes?
 
 ANS TYPE:
 recommendations 
+re_ans_type:
+[Rr]ecommendations
 FOCUS:
  diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[bB]e.*diet.*pregn.*wom.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[bB]e.*diet.*pregn.*wom.*)
 TARGET:
-be diet pregnant women 
+be diet pregnant women
 CHOSEN ANS: 
-the best way to improve your diet is by eating a variety of healthy foods. you should learn how to read food labels, and consult them when making food decisions. talk to your doctor or dietitian if you are a vegetarian or on some other special diet.in general, your diet should be: moderate in fat and proteinprovide controlled levels of carbohydrates through foods including fruits, vegetables, and complex carbohydrates (such as bread, cereal, pasta, and rice)lower in foods that have a lot of sugar, such as soft drinks, fruit juices, and pastriesyou will be asked to eat three small- to moderate- sized meals and one or more snacks each day. do not skip meals and snacks. keep the amount and types of food (carbohydrates, fats, and proteins) the same from day to day.carbohydratescarbohydrates should make up less than half of the calories you eat.most carbohydrates are found in starchy or sugary foods, such as bread, rice, pasta, cereal, potatoes, peas, corn, fruit, fruit juice, milk, yogurt, cookies, candy, soda, and other sweets.high-fiber, whole-grain carbohydrates are healthier choices.vegetables (such as carrots, broccoli, and spinach) add much more to your health than to your blood sugar. enjoy lots of them.carbohydrates in food are measured in grams. you can learn to count the carbohydrates in the foods that you like and that you eat.grains, beans, and startchy vegetableseat 6 or more servings a day: one serving equals 1 slice bread, 1 ounce ready-to-eat cereal, 1/2 cup cooked rice or pasta, or 1 english muffin.foods like bread, grains, beans, rice, pasta, and starchy vegetables are loaded with vitamins, minerals, fiber, and healthy carbohydrates.choosecarbohydrate sources with plenty of fiber. eat whole-grain foods such as whole-grain bread or crackers, tortillas, bran cereal, brown rice, or beans. use whole-wheat or other whole-grain flours in cooking and baking.eat more low-fat breads, such as tortillas, english muffins, and pita bread.vegetableseat 3 - 5 servings a day: one serving equals 1 cup leafy, green vegetables; 1 cup cooked or chopped raw leafy vegetables; 3/4 cup vegetable juice; or 1/2 cup of chopped vegetables, cooked or raw.choose fresh or frozen vegetables without added sauces, fats, or salt. you should opt for more dark green and deep yellow vegetables, such as spinach, broccoli, romaine, carrots, and peppers.fruitseat 2 - 4 servings a day: one serving equals 1 medium whole fruit (such as a banana, apple, or orange); 1/2 cup chopped, frozen, cooked, or canned fruit; or 3/4 cup fruit juice.choose whole fruits more often than juices. they have more fiber. citrus fruits, such as oranges, grapefruits, and tangerines, are best. opt for fruit juices without added sweeteners or syrups.choose fresh fruits and juices, which retain more of their nutritional value than frozen or canned varieties.milk and dairyeat 4 servings a day: one serving equals 1 cup milk or yogurt, 1 1/2 oz. natural cheese, or 2 oz. processed cheese.choose low-fat or nonfat milk or yogurt. yogurt has natural sugar in it, but avoid yogurt with added sugar or artificial sweeteners.dairy products are a great source of protein, calcium, and phosphorus (to keep calories and cholesterol in check, though, choose low-fat dairy products).protein (meat, fish, dry beans, eggs, and nuts)eat 2 - 3 servings a day: one serving equals 2-3 oz. cooked meat, poultry, or fish; 1/2 cup cooked beans; 1 egg; or 2 tablespoons peanut butterchoose fish and poultry more often. remove the skin from chicken and turkey. select lean cuts of beef, veal, pork or wild game.trim all visible fat from meat. bake, roast, broil, grill, or boil instead of frying.foods from this group are excellent sources of b vitamins, protein, iron, and zinc.sweetssweets are high in fat and sugar, so keep portion sizes small.eat sweets that are sugar-free.ask for extra spoons and forks and split your dessert with others.fatsgo easy on butter, margarine, salad dressing, cooking oil, and desserts. but don't cut fats and oils from your diet entirely. they provide long-term energy for growth and are essential for brain development.in general, you should limit your intake of fatty foods, especially those high in saturated fat such as hamburger, cheese, bacon, and butter.other lifestyle changesyour doctor may also suggest a safe exercise plan. walking is usually the easiest type of exercise, but swimming or other low-impact exercises can work just as well. exercise is an important way to keep blood sugar in control.
+No answer found!
 -------------------------------------
 Type 2 diabetes meal plan
 
 ANS TYPE:
 intro 
+re_ans_type:
+[Ii]ntro
 FOCUS:
-2  diabetes meal 
+ diabetes meal
+re_focus:
+(?:[Dd]iabetes.*(?:(?:meal.*))?.*)|(?:.*(?:(?:meal.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*.*(?:(?:meal.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:meal.*))?.*)|(?:.*(?:(?:meal.*))?.*.*[Dd]iabetes.*)|(?:.*(?:(?:meal.*))?.*[Dd]iabetes.*)
 TARGET:
-type meal plan 
+type meal plan
 CHOSEN ANS: 
 when you have type 2 diabetes, taking time to plan your meals goes a long way toward controlling your blood sugar and weight.
 -------------------------------------
@@ -170,98 +227,134 @@ What is type 2 diabetes
 
 ANS TYPE:
 intro 
+re_ans_type:
+[Ii]ntro
 FOCUS:
-2  diabetes 
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[tT]yp.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[tT]yp.*)
 TARGET:
-type 
+type
 CHOSEN ANS: 
- the number of teens living with type 2 diabetes has increased in recent years. managing diabetes as a teen or adolescent can come with different challenges than an adult may face. the materials below were developed specifically for teens with diabetes.
+when you have type 2 diabetes, taking time to plan your meals goes a long way toward controlling your blood sugar and weight.
 -------------------------------------
 How to prevent diabetes insipidus?
 
 ANS TYPE:
 symptoms prevention 
+re_ans_type:
+[Ss]ymptoms|[Pp]revention
 FOCUS:
  diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[pP]rev.*insipid.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[pP]rev.*insipid.*)
 TARGET:
-prevent insipidus 
+prevent insipidus
 CHOSEN ANS: 
- given the extraordinary burden of diabetes on patients, their families, the medical community, society, and the economy, the national diabetes education program (ndep) has prepared this toolkit to provide health care professionals and teams with evidence and resources to identify, counsel, and support patients to prevent or delay the onset of type 2 diabetes.
+keeping an ideal body weight and an active lifestyle may prevent type 2 diabetes.type 1 diabetes cannot be prevented.
 -------------------------------------
 How to prevent diabetes insipidus
 
 ANS TYPE:
 symptoms prevention 
+re_ans_type:
+[Ss]ymptoms|[Pp]revention
 FOCUS:
- diabetes insipidus 
+ diabetes insipid
+re_focus:
+(?:[Dd]iabetes.*(?:(?:insipid.*))?.*)|(?:.*(?:(?:insipid.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*.*(?:(?:insipid.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:insipid.*))?.*)|(?:.*(?:(?:insipid.*))?.*.*[Dd]iabetes.*)|(?:.*(?:(?:insipid.*))?.*[Dd]iabetes.*)
 TARGET:
-prevent 
+prevent
 CHOSEN ANS: 
- given the extraordinary burden of diabetes on patients, their families, the medical community, society, and the economy, the national diabetes education program (ndep) has prepared this toolkit to provide health care professionals and teams with evidence and resources to identify, counsel, and support patients to prevent or delay the onset of type 2 diabetes.
+there is no known way to prevent congenital nephrogenic diabetes insipidus.treating the disorders that can lead to the acquired form of the condition may prevent it from developing in some cases. medications should only be used under the supervision of the health care provider.
 -------------------------------------
 How to prevent type  1 diabetes
 
 ANS TYPE:
 symptoms prevention 
+re_ans_type:
+[Ss]ymptoms|[Pp]revention
 FOCUS:
-1  diabetes 
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[pP]rev.*typ.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[pP]rev.*typ.*)
 TARGET:
-prevent type 
+prevent type
 CHOSEN ANS: 
-high blood sugarthese symptoms may be the first signs of type 1 diabetes, or they may occur when blood sugar is high:being very thirstyfeeling hungryfeeling tired all the time  having blurry eyesightfeeling numbnessor feeling tingling in your feetlosing weight without tryingurinating more oftenfor other people, these serious warning symptoms may be the first signs of type 1 diabetes, or they may happen when blood sugar is very high (diabetic ketoacidosis):deep, rapid breathingdry skin and mouthflushed facefruity breath odornausea or vomiting, inability to keep down fluidsstomach painlow blood sugarlow blood sugar (hypoglycemia) can develop quickly in people with diabetes who are taking insulin. symptoms usually appear when blood sugar level falls below 70 mg/dl. watch for:headachehungernervousnessrapid heartbeat (palpitations)shakingsweatingweakness
+keeping an ideal body weight and an active lifestyle may prevent type 2 diabetes.type 1 diabetes cannot be prevented.
 -------------------------------------
 How to cure type 1 diabetes
 
 ANS TYPE:
 treatment 
+re_ans_type:
+[Tt]reatment
 FOCUS:
-1  diabetes 
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[cC]ur.*typ.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[cC]ur.*typ.*)
 TARGET:
-cure type 
+cure type
 CHOSEN ANS: 
-because type 1 diabetes can start quickly and the symptoms can be severe, people who have just been diagnosed may need to stay in the hospital.if you have just been diagnosed with type 1 diabetes, youmay need tohave a checkup each week until you have good control over your blood sugar. your health care provider will review the results of your home blood sugar monitoring and urine testing. your provider will also look at your diary of meals, snacks, and insulin injections. it may take a few weeks to match the insulin doses to your meal and activity schedule.as the disease gets more stable, you will have fewer follow-up visits. visiting your health care provider is very important so you can monitor any long-term problems from diabetes.you are the most important person in managing your diabetes. you should know the basic steps to diabetes management:how to recognize and treat low blood sugar (hypoglycemia)how to recognize and treat high blood sugar (hyperglycemia)diabetes meal planninghow to give insulinhow to check blood glucose and urine ketoneshow to adjust insulin and food when you exercisehow to handle sick dayswhere to buy diabetes supplies and how to store theminsulininsulin lowers blood sugar by allowing it to leave the bloodstream and enter cells. everyone with type 1 diabetes must take insulin every day.insulin must be injected under the skin using a syringe, insulin pen or pump. it cannot be taken by mouth because the acid in the stomach destroys insulin.insulin types differ in how fast they start to work and how long they last. the health care provider will choose the best type of insulin for you and will tell you at what time of day to use it.sometypesof insulin may be mixed together in an injection to get the best blood glucose control. other types of insulin should never be mixed. you may need insulin shots from one to four times a day.your health care provider or diabetes nurse educator will teach you how to give insulin injections. at first, a child's injections may be given by a parent or other adult. by age 14, most children can give their own injections.people with diabetes need to know how to adjust the amount of insulin they are taking:when they exercisewhen they are sickwhen they will be eating more or less food and calorieswhen they are traveling   diet and exerciseby testing their blood sugar level, people with type 1 diabetes learn which foods and activities raise or lower their sugar level most. this helps them adjust their insulin doses to specific meals or activities to prevent blood sugar from becoming too high or low. the american diabetes association and the american dietetic association have information for planning healthy, balanced meals. it can help to talk with a registered dietitian or nutrition counselor.regular exercise helps control the amount of sugar in the blood. it also helps burn extra calories and fat to reach a healthy weight.talk toyour health care provider before starting any exercise program. people with type 1 diabetes must take special steps before, during, and after physical activity or exercise.managing your blood sugarchecking your blood sugar levelyourself and writing down the results tells you how well you are managing your diabetes. talk to your doctor and diabetes educator about how often to check.to check your blood sugar level, you use adevice called a glucose meter. usually, you prick your finger with a small needle called a lancet to get a tiny drop of blood. you place the blood on a test strip and put the strip into the meter. the meter gives you a reading that tells you the level of your blood sugar.keep a record of your blood sugar for yourself and your doctor or nurse. the numberswill help if you have problems managing your diabetes. you and your doctor should set a target goal for your blood sugar level at different times during the day. you should also plan what to do when your blood sugar is too low or high.low blood sugar is called hypoglycemia. blood sugar levels below 70 mg/dl are too low and can harm you.foot carepeople with diabetes are more likely than those without diabetes to have foot problems. diabetes damages the nerves. this can make you less able to feel pressure on the foot. you may not notice a foot injury until you get a severe infection.diabetes can also damage blood vessels. small sores or breaks in the skin may become deeper skin sores (ulcers). the affected limb may need to be amputated if these skin ulcers do not heal or become larger, deeper, or infected.to prevent problems with your feet:stop smoking if you smoke.improve control of your blood sugar.get a foot exam by your health care provider at least twice a year and learn whether you have nerve damage.check and care for your feet every day. this is very important when you already have nerve or blood vessel damage or foot problems.make sure you wear the right kind of shoes. ask your health care provider what is right for you.preventing complicationsyour doctor may prescribe medicines or other treatments to reduce your chance of developing eye disease, kidney disease, and other conditions that are common in people with diabetes. these conditions are called complications of diabetes.
+withtype 2 diabetes,the disease may be reversed with lifestyle changes, especially losing weight through exercising and eating healthier foods. also, some cases of type 2 diabetes can be improved with weight-loss surgery.there is no cure for type 1 diabetes. treating both type 1 diabetes and type 2 diabetes involves medicines, diet, and exercise to control blood sugar level.getting better control over your blood sugar, cholesterol, and blood pressure levels helps reduce the risk of kidney disease, eye disease, nervous system disease, heart attack, and stroke.to prevent diabetes complications, visit your health care provider at least two to four times a year. talk about any problems you are having. follow your health care provider's instructions on managing your diabetes.
 -------------------------------------
 How to heal type 1 diabetes
 
 ANS TYPE:
 treatment 
+re_ans_type:
+[Tt]reatment
 FOCUS:
-1  diabetes 
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[hH]eal.*typ.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[hH]eal.*typ.*)
 TARGET:
-heal type 
+heal type
 CHOSEN ANS: 
-because type 1 diabetes can start quickly and the symptoms can be severe, people who have just been diagnosed may need to stay in the hospital.if you have just been diagnosed with type 1 diabetes, youmay need tohave a checkup each week until you have good control over your blood sugar. your health care provider will review the results of your home blood sugar monitoring and urine testing. your provider will also look at your diary of meals, snacks, and insulin injections. it may take a few weeks to match the insulin doses to your meal and activity schedule.as the disease gets more stable, you will have fewer follow-up visits. visiting your health care provider is very important so you can monitor any long-term problems from diabetes.you are the most important person in managing your diabetes. you should know the basic steps to diabetes management:how to recognize and treat low blood sugar (hypoglycemia)how to recognize and treat high blood sugar (hyperglycemia)diabetes meal planninghow to give insulinhow to check blood glucose and urine ketoneshow to adjust insulin and food when you exercisehow to handle sick dayswhere to buy diabetes supplies and how to store theminsulininsulin lowers blood sugar by allowing it to leave the bloodstream and enter cells. everyone with type 1 diabetes must take insulin every day.insulin must be injected under the skin using a syringe, insulin pen or pump. it cannot be taken by mouth because the acid in the stomach destroys insulin.insulin types differ in how fast they start to work and how long they last. the health care provider will choose the best type of insulin for you and will tell you at what time of day to use it.sometypesof insulin may be mixed together in an injection to get the best blood glucose control. other types of insulin should never be mixed. you may need insulin shots from one to four times a day.your health care provider or diabetes nurse educator will teach you how to give insulin injections. at first, a child's injections may be given by a parent or other adult. by age 14, most children can give their own injections.people with diabetes need to know how to adjust the amount of insulin they are taking:when they exercisewhen they are sickwhen they will be eating more or less food and calorieswhen they are traveling   diet and exerciseby testing their blood sugar level, people with type 1 diabetes learn which foods and activities raise or lower their sugar level most. this helps them adjust their insulin doses to specific meals or activities to prevent blood sugar from becoming too high or low. the american diabetes association and the american dietetic association have information for planning healthy, balanced meals. it can help to talk with a registered dietitian or nutrition counselor.regular exercise helps control the amount of sugar in the blood. it also helps burn extra calories and fat to reach a healthy weight.talk toyour health care provider before starting any exercise program. people with type 1 diabetes must take special steps before, during, and after physical activity or exercise.managing your blood sugarchecking your blood sugar levelyourself and writing down the results tells you how well you are managing your diabetes. talk to your doctor and diabetes educator about how often to check.to check your blood sugar level, you use adevice called a glucose meter. usually, you prick your finger with a small needle called a lancet to get a tiny drop of blood. you place the blood on a test strip and put the strip into the meter. the meter gives you a reading that tells you the level of your blood sugar.keep a record of your blood sugar for yourself and your doctor or nurse. the numberswill help if you have problems managing your diabetes. you and your doctor should set a target goal for your blood sugar level at different times during the day. you should also plan what to do when your blood sugar is too low or high.low blood sugar is called hypoglycemia. blood sugar levels below 70 mg/dl are too low and can harm you.foot carepeople with diabetes are more likely than those without diabetes to have foot problems. diabetes damages the nerves. this can make you less able to feel pressure on the foot. you may not notice a foot injury until you get a severe infection.diabetes can also damage blood vessels. small sores or breaks in the skin may become deeper skin sores (ulcers). the affected limb may need to be amputated if these skin ulcers do not heal or become larger, deeper, or infected.to prevent problems with your feet:stop smoking if you smoke.improve control of your blood sugar.get a foot exam by your health care provider at least twice a year and learn whether you have nerve damage.check and care for your feet every day. this is very important when you already have nerve or blood vessel damage or foot problems.make sure you wear the right kind of shoes. ask your health care provider what is right for you.preventing complicationsyour doctor may prescribe medicines or other treatments to reduce your chance of developing eye disease, kidney disease, and other conditions that are common in people with diabetes. these conditions are called complications of diabetes.
+withtype 2 diabetes,the disease may be reversed with lifestyle changes, especially losing weight through exercising and eating healthier foods. also, some cases of type 2 diabetes can be improved with weight-loss surgery.there is no cure for type 1 diabetes. treating both type 1 diabetes and type 2 diabetes involves medicines, diet, and exercise to control blood sugar level.getting better control over your blood sugar, cholesterol, and blood pressure levels helps reduce the risk of kidney disease, eye disease, nervous system disease, heart attack, and stroke.to prevent diabetes complications, visit your health care provider at least two to four times a year. talk about any problems you are having. follow your health care provider's instructions on managing your diabetes.
 -------------------------------------
 What are the symptoms of type 1 diabetes
 
 ANS TYPE:
 symptoms 
+re_ans_type:
+[Ss]ymptoms
 FOCUS:
-1  diabetes 
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[sS]ymptom.*typ.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[sS]ymptom.*typ.*)
 TARGET:
-symptoms type 
+symptoms type
 CHOSEN ANS: 
-high blood sugarthese symptoms may be the first signs of type 1 diabetes, or they may occur when blood sugar is high:being very thirstyfeeling hungryfeeling tired all the time  having blurry eyesightfeeling numbnessor feeling tingling in your feetlosing weight without tryingurinating more oftenfor other people, these serious warning symptoms may be the first signs of type 1 diabetes, or they may happen when blood sugar is very high (diabetic ketoacidosis):deep, rapid breathingdry skin and mouthflushed facefruity breath odornausea or vomiting, inability to keep down fluidsstomach painlow blood sugarlow blood sugar (hypoglycemia) can develop quickly in people with diabetes who are taking insulin. symptoms usually appear when blood sugar level falls below 70 mg/dl. watch for:headachehungernervousnessrapid heartbeat (palpitations)shakingsweatingweakness
+high blood sugar level can cause several symptoms, including:blurry visionexcess thirstfatiguehungerurinating oftenweight lossbecause type 2 diabetes develops slowly, some people with high blood sugar have no symptoms.symptoms of type 1 diabetes develop over a short period. people may be very sick by the time they are diagnosed.after many years, diabetes can lead to other serious problems. these problems are known as diabetes complications and include:eye problems, including trouble seeing (especially at night), light sensitivity, blindness in the futurepainful sores and infections of the leg or foot, which if left untreated, leads to removal of the foot or leg nerves in the body can become damaged, causing pain, tingling, and a loss of feeling, problems digesting food, erectile dysfunctionkidney problems, which can lead to kidney failureweakened immune system, which can lead to more frequent infectionsincreased chance of having a heart attackor stroke
 -------------------------------------
 how to treat diabetes insipidus
 
 ANS TYPE:
 treatment 
+re_ans_type:
+[Tt]reatment
 FOCUS:
- diabetes insipidus 
+ diabetes insipid
+re_focus:
+(?:[Dd]iabetes.*(?:(?:insipid.*))?.*)|(?:.*(?:(?:insipid.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*.*(?:(?:insipid.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:insipid.*))?.*)|(?:.*(?:(?:insipid.*))?.*.*[Dd]iabetes.*)|(?:.*(?:(?:insipid.*))?.*[Dd]iabetes.*)
 TARGET:
-treat 
+treat
 CHOSEN ANS: 
- because gestational diabetes can hurt you and your baby, you need to start treatment quickly. treatment for gestational diabetes aims to keep blood glucose levels equal to those of pregnant women who don't have gestational diabetes. treatment for gestational diabetes always includes special meal plans and scheduled physical activity. it may also include daily blood glucose testing and insulin injections. if you're testing your blood glucose, the american diabetes association suggests the following targets for women who develop gestational diabetes during pregnancy. more or less stringent glycemic goals may be appropriate for each individual. before a meal (preprandial): 95 mg/dl or less 1-hour after a meal (postprandial): 140 mg/dl or less 2-hours after a meal (postprandial): 120 mg/dl or less you will need help from your doctor, nurse educator, and other members of your health care team so that your treatment for gestational diabetes can be changed as needed. for you as the mother-to-be, treatment for gestational diabetes helps lower the risk of a cesarean section birth that very large babies may require. sticking with your treatment for gestational diabetes will give you a healthy pregnancy and birth, and may help your baby avoid future poor health.
+the goal of treatment at first is to lower your high blood glucose levels. long-term goals are to prevent problems from diabetes.the most important way totreat and managetype 2 diabetes isactivity and nutrition.learn these skillslearning diabetes management skills will help you live well with diabetes. these skills help prevent healthproblems and the need for medical care. skills include:how to test and record your blood glucosewhat to eat and whenhow to take medications, if neededhow to recognize and treat low and high blood sugarhow to handle sick dayswhere to buy diabetes supplies and how to store them it may take several months to learn these skills. keep learning about diabetes, its complications, and how to control and live with the disease. stay up-to-date on new research and treatments.managing your blood sugarchecking your blood sugar levelsyourself and writing down the results tells you how well you are managing your diabetes. talk to your doctor and diabetes educator about how often to check.to check your blood sugar level, you use a device called a glucose meter. usually, you prick your finger with a small needle called a lancet. this gives you a tiny drop of blood. you place the blood on a test strip and put the strip into the meter. the meter gives you a reading that tells you the level of your blood sugar.yourhealth care provider or diabetes educator will help set up a testing schedule for you. your doctor will help you seta target range for your blood sugar numbers. keep these factors in mind:most people with type 2 diabetes only need to check their blood sugar once or twice a day.if your blood sugar level isunder control, you may only need to checkit a few times a week.you may test yourself when you wake up, before meals, and at bedtime.you may need to test more often when you are sick or under stress. keep a record of your blood sugar for yourself and your health care provider. based on your numbers, changes may need to be made to your meals, activity or medicines to keep your blood sugar level in the right range. diet and weight controlwork closely with your doctor, nurse, and dietitian to learn how much fat, protein, and carbohydrates you need in your diet. your meal plans should fit your lifestyle and habits and should include foods that you like.managing your weight and having a well-balanced diet are important. some people with type 2 diabetes can stop taking medicines after losing weight. this does not mean that their diabetes is cured. they still have diabetes.very obese patients whose diabetes is not well managed with diet and medicine may consider weight loss (bariatric) surgery.regular physical activityregularactivity is important for everyone. it is even more importantwhen you have diabetes. reasons why exercise is good for your health:lowers your blood sugar level without medicineburns extra calories and fat to help manage your weightimproves blood flow and blood pressureincreases your energy levelimproves your ability to handle stresstalk to your health care provider before starting any exercise program. people with type 2 diabetes may need to take special steps before, during, and after physical activity or exercise.medications to treat diabetesif diet and exercise do not help keep your blood sugar at normal or near-normal levels, your doctor may prescribe medication. since these drugs help lower your blood sugar levels in different ways, your doctor may have you take more than one drug.some of the most common types of medication are listed below. they are taken by mouth or injection.alpha-glucosidase inhibitors biguanidesdpp iv inhibitorsinjectable medicines meglitinides sulfonylureas thiazolidinediones you may need to take insulin if your blood sugar cannot be controlled with any of the above medicines. insulin must be injected under the skin using a syringe, insulin pen, or pump. it cannot be taken by mouth because the acid in the stomach destroys insulin.preventing complicationsyour doctor may prescribe medicines or other treatments to reduce your chance of developing eye disease, kidney disease, and other conditions that are common in people with diabetes. these conditions are called complications of diabetes.foot carepeople with diabetes are more likely than those without diabetesto have foot problems. diabetes damages thenerves.this can make you less able to feel pressure on the foot. you many not notice a foot injury until you get a severe infection.diabetes can also damage blood vessels. small sores or breaks in the skin may become deeper skin sores (ulcers). the affected limb may need to be amputated if these skin ulcers do not heal or become larger, deeper or infected.to prevent problems with your feet:stop smoking if you smoke.improve control of your blood sugar.get a foot exam by your health care provider at least twice a year and learnif you have nerve damage.check and care for your feet every day. this is very important when you already have nerve or blood vessel damage or foot problems. make sure you wear the right kind of shoes. ask your health care provider what is right for you.
 -------------------------------------
 What is diabetes insipidus nephrogenic
 
 ANS TYPE:
 intro 
+re_ans_type:
+[Ii]ntro
 FOCUS:
  diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[iI]nsipid.*nephrog.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[iI]nsipid.*nephrog.*)
 TARGET:
-insipidus nephrogenic 
+insipidus nephrogenic
 CHOSEN ANS: 
 nephrogenic diabetes insipidus is a disorder in which a defect in the small tubes (tubules) in the kidneys causes a person to pass a large amount of urine. the tubules normally allow water to be removed from the kidney and returned into the blood, without leaking into the urine.see also: diabetes insipidus - central
 -------------------------------------
@@ -269,19 +362,27 @@ How to prevent type 2 diabetes
 
 ANS TYPE:
 symptoms prevention 
+re_ans_type:
+[Ss]ymptoms|[Pp]revention
 FOCUS:
-2  diabetes 
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[pP]rev.*typ.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[pP]rev.*typ.*)
 TARGET:
-prevent type 
+prevent type
 CHOSEN ANS: 
- given the extraordinary burden of diabetes on patients, their families, the medical community, society, and the economy, the national diabetes education program (ndep) has prepared this toolkit to provide health care professionals and teams with evidence and resources to identify, counsel, and support patients to prevent or delay the onset of type 2 diabetes.
+keeping an ideal body weight and an active lifestyle may prevent type 2 diabetes.type 1 diabetes cannot be prevented.
 -------------------------------------
 When to contact a medical professional for gestational diabetes
 
 ANS TYPE:
 when to contact a medical professional 
+re_ans_type:
+[Ww]hen to contact a medical professional
 FOCUS:
-gestational  diabetes 
+gest diabetes 
+re_focus:
+(?:[gG]est.*[Dd]iabetes.*(?:(?:.*))?.*)|(?:.*[gG]est.*(?:(?:.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[gG]est.*(?:(?:.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:.*))?.*[gG]est.*)|(?:.*(?:(?:.*))?.*[gG]est.*[Dd]iabetes.*)|(?:.*(?:(?:.*))?.*[Dd]iabetes.*[gG]est.*)
 TARGET:
 
 CHOSEN ANS: 
@@ -291,21 +392,29 @@ When to contact a medical professional for diabetes
 
 ANS TYPE:
 when to contact a medical professional 
+re_ans_type:
+[Ww]hen to contact a medical professional
 FOCUS:
  diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[cC]ontact.*med.*profess.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[cC]ontact.*med.*profess.*)
 TARGET:
 
 CHOSEN ANS: 
-call your health care provider if you develop symptoms of diabetes insipidus.if you have diabetes insipidus, contact your health care provider if frequent urination or extreme thirst return.
+No answer found!
 -------------------------------------
 what diet do you recommend for gestational diabetes
 
 ANS TYPE:
 recommendations 
+re_ans_type:
+[Rr]ecommendations
 FOCUS:
-gestational  diabetes 
+gest diabetes 
+re_focus:
+(?:[gG]est.*[Dd]iabetes.*(?:(?:.*))?.*)|(?:.*[gG]est.*(?:(?:.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[gG]est.*(?:(?:.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:.*))?.*[gG]est.*)|(?:.*(?:(?:.*))?.*[gG]est.*[Dd]iabetes.*)|(?:.*(?:(?:.*))?.*[Dd]iabetes.*[gG]est.*)
 TARGET:
-recommend gestational 
+recommend gestational
 CHOSEN ANS: 
 the best way to improve your diet is by eating a variety of healthy foods. you should learn how to read food labels, and consult them when making food decisions. talk to your doctor or dietitian if you are a vegetarian or on some other special diet.in general, your diet should be: moderate in fat and proteinprovide controlled levels of carbohydrates through foods including fruits, vegetables, and complex carbohydrates (such as bread, cereal, pasta, and rice)lower in foods that have a lot of sugar, such as soft drinks, fruit juices, and pastriesyou will be asked to eat three small- to moderate- sized meals and one or more snacks each day. do not skip meals and snacks. keep the amount and types of food (carbohydrates, fats, and proteins) the same from day to day.carbohydratescarbohydrates should make up less than half of the calories you eat.most carbohydrates are found in starchy or sugary foods, such as bread, rice, pasta, cereal, potatoes, peas, corn, fruit, fruit juice, milk, yogurt, cookies, candy, soda, and other sweets.high-fiber, whole-grain carbohydrates are healthier choices.vegetables (such as carrots, broccoli, and spinach) add much more to your health than to your blood sugar. enjoy lots of them.carbohydrates in food are measured in grams. you can learn to count the carbohydrates in the foods that you like and that you eat.grains, beans, and startchy vegetableseat 6 or more servings a day: one serving equals 1 slice bread, 1 ounce ready-to-eat cereal, 1/2 cup cooked rice or pasta, or 1 english muffin.foods like bread, grains, beans, rice, pasta, and starchy vegetables are loaded with vitamins, minerals, fiber, and healthy carbohydrates.choosecarbohydrate sources with plenty of fiber. eat whole-grain foods such as whole-grain bread or crackers, tortillas, bran cereal, brown rice, or beans. use whole-wheat or other whole-grain flours in cooking and baking.eat more low-fat breads, such as tortillas, english muffins, and pita bread.vegetableseat 3 - 5 servings a day: one serving equals 1 cup leafy, green vegetables; 1 cup cooked or chopped raw leafy vegetables; 3/4 cup vegetable juice; or 1/2 cup of chopped vegetables, cooked or raw.choose fresh or frozen vegetables without added sauces, fats, or salt. you should opt for more dark green and deep yellow vegetables, such as spinach, broccoli, romaine, carrots, and peppers.fruitseat 2 - 4 servings a day: one serving equals 1 medium whole fruit (such as a banana, apple, or orange); 1/2 cup chopped, frozen, cooked, or canned fruit; or 3/4 cup fruit juice.choose whole fruits more often than juices. they have more fiber. citrus fruits, such as oranges, grapefruits, and tangerines, are best. opt for fruit juices without added sweeteners or syrups.choose fresh fruits and juices, which retain more of their nutritional value than frozen or canned varieties.milk and dairyeat 4 servings a day: one serving equals 1 cup milk or yogurt, 1 1/2 oz. natural cheese, or 2 oz. processed cheese.choose low-fat or nonfat milk or yogurt. yogurt has natural sugar in it, but avoid yogurt with added sugar or artificial sweeteners.dairy products are a great source of protein, calcium, and phosphorus (to keep calories and cholesterol in check, though, choose low-fat dairy products).protein (meat, fish, dry beans, eggs, and nuts)eat 2 - 3 servings a day: one serving equals 2-3 oz. cooked meat, poultry, or fish; 1/2 cup cooked beans; 1 egg; or 2 tablespoons peanut butterchoose fish and poultry more often. remove the skin from chicken and turkey. select lean cuts of beef, veal, pork or wild game.trim all visible fat from meat. bake, roast, broil, grill, or boil instead of frying.foods from this group are excellent sources of b vitamins, protein, iron, and zinc.sweetssweets are high in fat and sugar, so keep portion sizes small.eat sweets that are sugar-free.ask for extra spoons and forks and split your dessert with others.fatsgo easy on butter, margarine, salad dressing, cooking oil, and desserts. but don't cut fats and oils from your diet entirely. they provide long-term energy for growth and are essential for brain development.in general, you should limit your intake of fatty foods, especially those high in saturated fat such as hamburger, cheese, bacon, and butter.other lifestyle changesyour doctor may also suggest a safe exercise plan. walking is usually the easiest type of exercise, but swimming or other low-impact exercises can work just as well. exercise is an important way to keep blood sugar in control.
 -------------------------------------
@@ -313,19 +422,27 @@ when to contact a medical professional for type 1 diabetes
 
 ANS TYPE:
 when to contact a medical professional 
+re_ans_type:
+[Ww]hen to contact a medical professional
 FOCUS:
-1  diabetes 
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[cC]ontact.*med.*profess.*typ.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[cC]ontact.*med.*profess.*typ.*)
 TARGET:
 
 CHOSEN ANS: 
-call 911 if you have:chest pain or pressure, shortness of breath, or other signs of anginaloss of consciousnessseizurescall your health care provider or go to the emergency room if you have symptoms of diabetic ketoacidosis.also call your doctor if you have:blood sugar levels that are higher than the goals you and your doctor have setnumbness, tingling, or pain in your feet or legsproblems with your eyesightsores or infections on your feetsymptoms that your blood sugar is getting too low (feeling weak or tired, trembling, sweating, feeling irritable, having trouble thinking clearly, fast heartbeat, double or blurry vision, feeling uneasy)symptoms that your blood sugar is too high (being very thirsty, having blurry vision, having dry skin, feeling weak or tired, needing to urinate a lot)you are having blood sugar readings below 70 mg/dlyou can treat early signs of hypoglycemia at home by eating sugar or candy, or by taking glucose tablets. if signs of hypoglycemia continue or your blood glucose level stays below 60 mg/dl, go to the hospital emergency room.
+No answer found!
 -------------------------------------
 I have gestational diabetes, when should I meet with a medical pro
 
 ANS TYPE:
 when to contact a medical professional 
+re_ans_type:
+[Ww]hen to contact a medical professional
 FOCUS:
-gestational  diabetes 
+gest diabetes 
+re_focus:
+(?:[gG]est.*[Dd]iabetes.*(?:(?:.*))?.*)|(?:.*[gG]est.*(?:(?:.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[gG]est.*(?:(?:.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:.*))?.*[gG]est.*)|(?:.*(?:(?:.*))?.*[gG]est.*[Dd]iabetes.*)|(?:.*(?:(?:.*))?.*[Dd]iabetes.*[gG]est.*)
 TARGET:
 
 CHOSEN ANS: 
@@ -335,44 +452,374 @@ i am pregnant and I suspect I have diabetes, should I call a medical professiona
 
 ANS TYPE:
 when to contact a medical professional 
+re_ans_type:
+[Ww]hen to contact a medical professional
 FOCUS:
  diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[iI].*pregn.*i.*i.*i.*cal.*med.*profess.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[iI].*pregn.*i.*i.*i.*cal.*med.*profess.*)
 TARGET:
 
 CHOSEN ANS: 
-call your health care provider if you have symptoms of this disorder.
+No answer found!
 -------------------------------------
 I am a teen with diabetes, can you help me
 
 ANS TYPE:
 intro 
+re_ans_type:
+[Ii]ntro
 FOCUS:
  diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[iI].*teen.*help.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[iI].*teen.*help.*)
 TARGET:
-i teen help 
+i teen help
 CHOSEN ANS: 
- type 1 diabetes is usually diagnosed in children and young adults, and was previously known as juvenile diabetes. expecting? learn why women who have never had diabetes may be at risk during pregnancy. the numbers associated with diabetes make a strong case for devoting more resources to finding a cure.  clear up some common misunderstandings about what causes diabetes, the effects of diabetes, and how diabetes can be managed. become familiar with terms commonly used when discussing diabetes. 
-a day in the life of diabetes by jay dickman
-pulitzer prize winning photographer jay dickman, volunteered his time and talent to photograph three individuals that are living with diabetes to share their up close and personal daily lives.
- pulitzer prize winning photographer jay dickman, volunteered his time and talent to photograph three individuals that are living with diabetes to share their up close and personal daily lives. these well-known men and women have joined the association's "celebrity cabinet" to help stop diabetes. 
+diabetes is usually a lifelong (chronic) disease in which thereis ahigh level of sugar in the blood.
 -------------------------------------
 My child has diabetes, can you help me
 
 ANS TYPE:
 intro 
+re_ans_type:
+[Ii]ntro
 FOCUS:
  diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[cC]hild.*help.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[cC]hild.*help.*)
 TARGET:
-child help 
+child help
 CHOSEN ANS: 
- some women get diabetes when they are pregnant. doctors call this gestational (jes-tay-shun-al) diabetes. most of the time, it goes away after your baby is born. even if the diabetes goes away, you still have a greater chance of getting diabetes later in life. your child may also have a greater chance of being obese and getting type 2 diabetes later in life. use this tip sheet to learn what you can do for yourself and your child.
+diabetes is usually a lifelong (chronic) disease in which thereis ahigh level of sugar in the blood.
 -------------------------------------
 My baby has diabetes, what is happening exactly?
 
 ANS TYPE:
 intro 
+re_ans_type:
+[Ii]ntro
 FOCUS:
  diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[bB]aby.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[bB]aby.*)
 TARGET:
-baby 
+baby
 CHOSEN ANS: 
+diabetes is usually a lifelong (chronic) disease in which thereis ahigh level of sugar in the blood.
+-------------------------------------
+What is your outlook on gestational diabetes
+
+ANS TYPE:
+outlook 
+re_ans_type:
+[Oo]utlook
+FOCUS:
+gest diabetes 
+re_focus:
+(?:[gG]est.*[Dd]iabetes.*(?:(?:.*))?.*)|(?:.*[gG]est.*(?:(?:.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[gG]est.*(?:(?:.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:.*))?.*[gG]est.*)|(?:.*(?:(?:.*))?.*[gG]est.*[Dd]iabetes.*)|(?:.*(?:(?:.*))?.*[Dd]iabetes.*[gG]est.*)
+TARGET:
+outlook gestational
+CHOSEN ANS: 
+most women with gestational diabetes are able to control their blood sugar and avoid harm to themselves or their baby.pregnant women with gestational diabetes tend to have larger babies at birth. this can increase the chance of problems at the time of delivery, including:birth injury (trauma) because of the baby's large sizedelivery by c-sectionyour baby is more likely to have periods of low blood sugar (hypoglycemia) during the first few days of life.mothers with gestational diabetes have an increased risk for high blood pressure during pregnancy.there is a slightly increased risk of the baby dying when the mother has untreated gestational diabetes. controlling blood sugar levels reduces this risk.high blood sugar (glucose) levels often go back to normal after delivery. however, women with gestational diabetes should be watched closely after giving birth and at regular doctor's appointments to screen for signs of diabetes. many women with gestational diabetes develop diabetes within 5 - 10 years after delivery.
+-------------------------------------
+What is your perspective on gestational diabetes
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+gest diabetes 
+re_focus:
+(?:[gG]est.*[Dd]iabetes.*(?:(?:.*))?.*)|(?:.*[gG]est.*(?:(?:.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[gG]est.*(?:(?:.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:.*))?.*[gG]est.*)|(?:.*(?:(?:.*))?.*[gG]est.*[Dd]iabetes.*)|(?:.*(?:(?:.*))?.*[Dd]iabetes.*[gG]est.*)
+TARGET:
+perspective gestational
+CHOSEN ANS: 
+gestational diabetes is high blood sugar (glucose) that starts or is first diagnosed during pregnancy. eating a balanced diet is an important part of any pregnancy. diet is even more important if you have diabetes. this article discusses the diet recommendations for women with gestational diabetes who do not take insulin.
+-------------------------------------
+What is your prognosis on gestational diabetes
+
+ANS TYPE:
+outlook 
+re_ans_type:
+[Oo]utlook
+FOCUS:
+gest diabetes 
+re_focus:
+(?:[gG]est.*[Dd]iabetes.*(?:(?:.*))?.*)|(?:.*[gG]est.*(?:(?:.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[gG]est.*(?:(?:.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:.*))?.*[gG]est.*)|(?:.*(?:(?:.*))?.*[gG]est.*[Dd]iabetes.*)|(?:.*(?:(?:.*))?.*[Dd]iabetes.*[gG]est.*)
+TARGET:
+prognosis prognosis gestational
+CHOSEN ANS: 
+most women with gestational diabetes are able to control their blood sugar and avoid harm to themselves or their baby.pregnant women with gestational diabetes tend to have larger babies at birth. this can increase the chance of problems at the time of delivery, including:birth injury (trauma) because of the baby's large sizedelivery by c-sectionyour baby is more likely to have periods of low blood sugar (hypoglycemia) during the first few days of life.mothers with gestational diabetes have an increased risk for high blood pressure during pregnancy.there is a slightly increased risk of the baby dying when the mother has untreated gestational diabetes. controlling blood sugar levels reduces this risk.high blood sugar (glucose) levels often go back to normal after delivery. however, women with gestational diabetes should be watched closely after giving birth and at regular doctor's appointments to screen for signs of diabetes. many women with gestational diabetes develop diabetes within 5 - 10 years after delivery.
+-------------------------------------
+what could be the possible complications of diabetes insipidus
+
+ANS TYPE:
+possible complications 
+re_ans_type:
+[Pp]ossible complications
+FOCUS:
+ diabetes insipid
+re_focus:
+(?:[Dd]iabetes.*(?:(?:insipid.*))?.*)|(?:.*(?:(?:insipid.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*.*(?:(?:insipid.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:insipid.*))?.*)|(?:.*(?:(?:insipid.*))?.*.*[Dd]iabetes.*)|(?:.*(?:(?:insipid.*))?.*[Dd]iabetes.*)
+TARGET:
+be possible complications
+CHOSEN ANS: 
+ have you already been diagnosed with diabetes but are concerned about symptoms that may be the result of complications related to diabetes?
+-------------------------------------
+what could be the possible complications of diabetes insipidus nephrogenic
+
+ANS TYPE:
+possible complications 
+re_ans_type:
+[Pp]ossible complications
+FOCUS:
+ diabetes insipid
+re_focus:
+(?:[Dd]iabetes.*(?:(?:insipid.*))?.*)|(?:.*(?:(?:insipid.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*.*(?:(?:insipid.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:insipid.*))?.*)|(?:.*(?:(?:insipid.*))?.*.*[Dd]iabetes.*)|(?:.*(?:(?:insipid.*))?.*[Dd]iabetes.*)
+TARGET:
+be possible complications nephrogenic
+CHOSEN ANS: 
+ have you already been diagnosed with diabetes but are concerned about symptoms that may be the result of complications related to diabetes?
+-------------------------------------
+what could be the possible complications of diabetes nephrogenic insipidus
+
+ANS TYPE:
+possible complications 
+re_ans_type:
+[Pp]ossible complications
+FOCUS:
+ diabetes nephrog
+re_focus:
+(?:[Dd]iabetes.*(?:(?:nephrog.*))?.*)|(?:.*(?:(?:nephrog.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*.*(?:(?:nephrog.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:nephrog.*))?.*)|(?:.*(?:(?:nephrog.*))?.*.*[Dd]iabetes.*)|(?:.*(?:(?:nephrog.*))?.*[Dd]iabetes.*)
+TARGET:
+be possible complications nephrogenic insipidus
+CHOSEN ANS: 
+ have you already been diagnosed with diabetes but are concerned about symptoms that may be the result of complications related to diabetes?
+-------------------------------------
+can diabetes lead to a heart attack
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[lL]ead.*heart.*attack.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[lL]ead.*heart.*attack.*)
+TARGET:
+lead heart attack
+CHOSEN ANS: 
+diabetes is usually a lifelong (chronic) disease in which thereis ahigh level of sugar in the blood.
+-------------------------------------
+Which type of diabetes is common among children
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[tT]yp.*common.*childr.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[tT]yp.*common.*childr.*)
+TARGET:
+type common children
+CHOSEN ANS: 
+diabetes is usually a lifelong (chronic) disease in which thereis ahigh level of sugar in the blood.
+-------------------------------------
+I have diabetes and I am pregnant should I do an oral glucose test
+
+ANS TYPE:
+tests 
+re_ans_type:
+[Tt]ests
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[iI].*i.*pregn.*i.*or.*glucos.*test.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[iI].*i.*pregn.*i.*or.*glucos.*test.*)
+TARGET:
+i i pregnant i oral glucose test
+CHOSEN ANS: 
+a urine analysis may show high blood sugar. but a urine test alone does not diagnose diabetes.your health care provider may suspect that you have diabetes if your blood sugar level is higher than 200 mg/dl. to confirm the diagnosis, one or more of the following tests must be done.blood tests:fasting blood glucose level -- diabetes is diagnosed if it is higher than 126 mg/dl twice. levels between 100 and 126 mg/dl are called impaired fasting glucose or pre-diabetes. these levels are risk factors for type 2 diabetes.hemoglobin a1c test -- normal: less than 5.7%pre-diabetes: 5.7% - 6.4%diabetes: 6.5% or higheroral glucose tolerance test -- diabetes is diagnosed if glucose level is higher than 200 mg/dl 2 hoursafter drinking a glucose drink. (this test is used more often for type 2 diabetes.)screening for type 2 diabetes in people who have no symptoms is recommended for:overweight children who have other risk factors for diabetes, starting at age 10 and repeated every 2 yearsoverweight adults (bmi greater than 25) who have other risk factorsadults over age 45, repeated every 3 years
+-------------------------------------
+I get very thirsty, but I also urinate often, the urine is almost all water, do I have diabetes
+
+ANS TYPE:
+causes 
+re_ans_type:
+[Cc]auses
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[iI].*thirsty.*i.*urin.*urin.*wat.*i.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[iI].*thirsty.*i.*urin.*urin.*wat.*i.*)
+TARGET:
+i thirsty i urinate urine water i
+CHOSEN ANS: 
+insulin is a hormone produced by the pancreas to control blood sugar. diabetes can be caused by too little insulin, resistance to insulin, or both.to understand diabetes, it is important to first understand the normal process by which food is broken down and used by the body for energy. several things happen when food is digested:a sugar called glucose enters the bloodstream. glucose is a source of fuel for the body.an organ called the pancreas makes insulin. the role of insulin is to move glucose from the bloodstream into muscle, fat, and liver cells, where it can be used as fuel. people with diabetes have high blood sugar because their body cannot move sugar into fat, liver, and muscle cells to be stored for energy. this is because either:their pancreas does not make enough insulintheir cells do not respond to insulin normallyboth of the abovethere aretwo major types of diabetes. the causes and risk factors are different for each type:type 1 diabetes can occur at any age, but it is most often diagnosed in children, teens, or young adults. in this disease, the body makes little or no insulin. daily injections of insulin are needed. the exact cause is unknown.type 2 diabetes makes up most diabetes cases. it most often occurs in adulthood.but because of high obesity rates, teens and young adults are now being diagnosed with it. many people with type 2 diabetes do not know they have it.there are other causes of diabetes, and some patients cannot be classified as type 1 or type 2. gestational diabetes is high blood sugar that develops at any time during pregnancy in a woman who does not have diabetes.diabetes affects more than 20 million americans. over 40 million americans have pre-diabetes (which oftendevelops beforetype 2 diabetes). if your parent, brother or sister has diabetes, you may be more likely to develop diabetes.
+-------------------------------------
+How can I reduce my chances of developing type 2 diabetes?
+
+ANS TYPE:
+symptoms treatment recommendations 
+re_ans_type:
+[Ss]ymptoms|[Tt]reatment|[Rr]ecommendations
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[iI].*reduc.*chant.*typ.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[iI].*reduc.*chant.*typ.*)
+TARGET:
+i reduce chances type
+CHOSEN ANS: 
+withtype 2 diabetes,the disease may be reversed with lifestyle changes, especially losing weight through exercising and eating healthier foods. also, some cases of type 2 diabetes can be improved with weight-loss surgery.there is no cure for type 1 diabetes. treating both type 1 diabetes and type 2 diabetes involves medicines, diet, and exercise to control blood sugar level.getting better control over your blood sugar, cholesterol, and blood pressure levels helps reduce the risk of kidney disease, eye disease, nervous system disease, heart attack, and stroke.to prevent diabetes complications, visit your health care provider at least two to four times a year. talk about any problems you are having. follow your health care provider's instructions on managing your diabetes.
+-------------------------------------
+How can I lower my chances of developing type 2 diabetes?
+
+ANS TYPE:
+symptoms treatment recommendations 
+re_ans_type:
+[Ss]ymptoms|[Tt]reatment|[Rr]ecommendations
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[iI].*chant.*typ.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[iI].*chant.*typ.*)
+TARGET:
+i chances type
+CHOSEN ANS: 
+withtype 2 diabetes,the disease may be reversed with lifestyle changes, especially losing weight through exercising and eating healthier foods. also, some cases of type 2 diabetes can be improved with weight-loss surgery.there is no cure for type 1 diabetes. treating both type 1 diabetes and type 2 diabetes involves medicines, diet, and exercise to control blood sugar level.getting better control over your blood sugar, cholesterol, and blood pressure levels helps reduce the risk of kidney disease, eye disease, nervous system disease, heart attack, and stroke.to prevent diabetes complications, visit your health care provider at least two to four times a year. talk about any problems you are having. follow your health care provider's instructions on managing your diabetes.
+-------------------------------------
+What should I do if I do not wish to develop type 2 diabetes
+
+ANS TYPE:
+symptoms treatment recommendations 
+re_ans_type:
+[Ss]ymptoms|[Tt]reatment|[Rr]ecommendations
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[iI].*i.*not.*wish.*develop.*typ.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[iI].*i.*not.*wish.*develop.*typ.*)
+TARGET:
+i i not wish develop type
+CHOSEN ANS: 
+withtype 2 diabetes,the disease may be reversed with lifestyle changes, especially losing weight through exercising and eating healthier foods. also, some cases of type 2 diabetes can be improved with weight-loss surgery.there is no cure for type 1 diabetes. treating both type 1 diabetes and type 2 diabetes involves medicines, diet, and exercise to control blood sugar level.getting better control over your blood sugar, cholesterol, and blood pressure levels helps reduce the risk of kidney disease, eye disease, nervous system disease, heart attack, and stroke.to prevent diabetes complications, visit your health care provider at least two to four times a year. talk about any problems you are having. follow your health care provider's instructions on managing your diabetes.
+-------------------------------------
+Among children and teens, which diabetes is the most common
+
+ANS TYPE:
+treatment 
+re_ans_type:
+[Tt]reatment
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[cC]hildr.*teen.*common.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[cC]hildr.*teen.*common.*)
+TARGET:
+children teens common
+CHOSEN ANS: 
+withtype 2 diabetes,the disease may be reversed with lifestyle changes, especially losing weight through exercising and eating healthier foods. also, some cases of type 2 diabetes can be improved with weight-loss surgery.there is no cure for type 1 diabetes. treating both type 1 diabetes and type 2 diabetes involves medicines, diet, and exercise to control blood sugar level.getting better control over your blood sugar, cholesterol, and blood pressure levels helps reduce the risk of kidney disease, eye disease, nervous system disease, heart attack, and stroke.to prevent diabetes complications, visit your health care provider at least two to four times a year. talk about any problems you are having. follow your health care provider's instructions on managing your diabetes.
+-------------------------------------
+what are Risk Factors for Type 2 Diabetes
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[rR]isk.*fact.*typ.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[rR]isk.*fact.*typ.*)
+TARGET:
+risk factors type
+CHOSEN ANS: 
+diabetes is usually a lifelong (chronic) disease in which thereis ahigh level of sugar in the blood.
+-------------------------------------
+Fasting plasma glucose (FPG) test
+
+ANS TYPE:
+tests 
+re_ans_type:
+[Tt]ests
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[pP]lasm.*glucos.*fpg.*test.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[pP]lasm.*glucos.*fpg.*test.*)
+TARGET:
+plasma glucose fpg test
+CHOSEN ANS: 
+a urine analysis may show high blood sugar. but a urine test alone does not diagnose diabetes.your health care provider may suspect that you have diabetes if your blood sugar level is higher than 200 mg/dl. to confirm the diagnosis, one or more of the following tests must be done.blood tests:fasting blood glucose level -- diabetes is diagnosed if it is higher than 126 mg/dl twice. levels between 100 and 126 mg/dl are called impaired fasting glucose or pre-diabetes. these levels are risk factors for type 2 diabetes.hemoglobin a1c test -- normal: less than 5.7%pre-diabetes: 5.7% - 6.4%diabetes: 6.5% or higheroral glucose tolerance test -- diabetes is diagnosed if glucose level is higher than 200 mg/dl 2 hoursafter drinking a glucose drink. (this test is used more often for type 2 diabetes.)screening for type 2 diabetes in people who have no symptoms is recommended for:overweight children who have other risk factors for diabetes, starting at age 10 and repeated every 2 yearsoverweight adults (bmi greater than 25) who have other risk factorsadults over age 45, repeated every 3 years
+-------------------------------------
+FPG for gestational diabetes
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+gest diabetes 
+re_focus:
+(?:[gG]est.*[Dd]iabetes.*(?:(?:.*))?.*)|(?:.*[gG]est.*(?:(?:.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[gG]est.*(?:(?:.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:.*))?.*[gG]est.*)|(?:.*(?:(?:.*))?.*[gG]est.*[Dd]iabetes.*)|(?:.*(?:(?:.*))?.*[Dd]iabetes.*[gG]est.*)
+TARGET:
+fpg gestational
+CHOSEN ANS: 
+gestational diabetes is high blood sugar (glucose) that starts or is first diagnosed during pregnancy. eating a balanced diet is an important part of any pregnancy. diet is even more important if you have diabetes. this article discusses the diet recommendations for women with gestational diabetes who do not take insulin.
+-------------------------------------
+What should I do if my health care professional told me I have prediabetes?
+
+ANS TYPE:
+treatment recommendations 
+re_ans_type:
+[Tt]reatment|[Rr]ecommendations
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[iI].*heal.*car.*profess.*i.*prediabet.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[iI].*heal.*car.*profess.*i.*prediabet.*)
+TARGET:
+i health care professional i prediabetes
+CHOSEN ANS: 
+withtype 2 diabetes,the disease may be reversed with lifestyle changes, especially losing weight through exercising and eating healthier foods. also, some cases of type 2 diabetes can be improved with weight-loss surgery.there is no cure for type 1 diabetes. treating both type 1 diabetes and type 2 diabetes involves medicines, diet, and exercise to control blood sugar level.getting better control over your blood sugar, cholesterol, and blood pressure levels helps reduce the risk of kidney disease, eye disease, nervous system disease, heart attack, and stroke.to prevent diabetes complications, visit your health care provider at least two to four times a year. talk about any problems you are having. follow your health care provider's instructions on managing your diabetes.
+-------------------------------------
+If I had gestational diabetes when I was pregnant, how can I lower my chances of developing type 2 diabetes?
+
+ANS TYPE:
+symptoms treatment recommendations 
+re_ans_type:
+[Ss]ymptoms|[Tt]reatment|[Rr]ecommendations
+FOCUS:
+gest diabetes 
+re_focus:
+(?:[gG]est.*[Dd]iabetes.*(?:(?:.*))?.*)|(?:.*[gG]est.*(?:(?:.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[gG]est.*(?:(?:.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:.*))?.*[gG]est.*)|(?:.*(?:(?:.*))?.*[gG]est.*[Dd]iabetes.*)|(?:.*(?:(?:.*))?.*[Dd]iabetes.*[gG]est.*)
+TARGET:
+gestational i pregnant i chances type diabetes
+CHOSEN ANS: 
+ because gestational diabetes can hurt you and your baby, you need to start treatment quickly. treatment for gestational diabetes aims to keep blood glucose levels equal to those of pregnant women who don't have gestational diabetes. treatment for gestational diabetes always includes special meal plans and scheduled physical activity. it may also include daily blood glucose testing and insulin injections. if you're testing your blood glucose, the american diabetes association suggests the following targets for women who develop gestational diabetes during pregnancy. more or less stringent glycemic goals may be appropriate for each individual. before a meal (preprandial): 95 mg/dl or less 1-hour after a meal (postprandial): 140 mg/dl or less 2-hours after a meal (postprandial): 120 mg/dl or less you will need help from your doctor, nurse educator, and other members of your health care team so that your treatment for gestational diabetes can be changed as needed. for you as the mother-to-be, treatment for gestational diabetes helps lower the risk of a cesarean section birth that very large babies may require. sticking with your treatment for gestational diabetes will give you a healthy pregnancy and birth, and may help your baby avoid future poor health.
+-------------------------------------
+What is the link between diabetes, heart disease, and stroke?
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[lL]ink.*heart.*diseas.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[lL]ink.*heart.*diseas.*)
+TARGET:
+link heart disease
+CHOSEN ANS: 
+ over time, high blood glucose from diabetes can damage your blood vessels and the nerves that control your heart and blood vessels. the longer you have diabetes, the higher the chances that you will develop heart disease.1 people with diabetes tend to develop heart disease at a younger age than people without diabetes. in adults with diabetes, the most common causes of death are heart disease and stroke. adults with diabetes are nearly twice as likely to die from heart disease or stroke as people without diabetes.2 the good news is that the steps you take to manage your diabetes also help to lower your chances of having heart disease or stroke.
+-------------------------------------
+how does diabetes cause kidney disease
+ANS TYPE:
+causes 
+re_ans_type:
+[Cc]auses
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[cC]aus.*kidney.*diseas.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[cC]aus.*kidney.*diseas.*)
+TARGET:
+cause kidney disease
+CHOSEN ANS: 
+insulin is a hormone produced by the pancreas to control blood sugar. diabetes can be caused by too little insulin, resistance to insulin, or both.to understand diabetes, it is important to first understand the normal process by which food is broken down and used by the body for energy. several things happen when food is digested:a sugar called glucose enters the bloodstream. glucose is a source of fuel for the body.an organ called the pancreas makes insulin. the role of insulin is to move glucose from the bloodstream into muscle, fat, and liver cells, where it can be used as fuel. people with diabetes have high blood sugar because their body cannot move sugar into fat, liver, and muscle cells to be stored for energy. this is because either:their pancreas does not make enough insulintheir cells do not respond to insulin normallyboth of the abovethere aretwo major types of diabetes. the causes and risk factors are different for each type:type 1 diabetes can occur at any age, but it is most often diagnosed in children, teens, or young adults. in this disease, the body makes little or no insulin. daily injections of insulin are needed. the exact cause is unknown.type 2 diabetes makes up most diabetes cases. it most often occurs in adulthood.but because of high obesity rates, teens and young adults are now being diagnosed with it. many people with type 2 diabetes do not know they have it.there are other causes of diabetes, and some patients cannot be classified as type 1 or type 2. gestational diabetes is high blood sugar that develops at any time during pregnancy in a woman who does not have diabetes.diabetes affects more than 20 million americans. over 40 million americans have pre-diabetes (which oftendevelops beforetype 2 diabetes). if your parent, brother or sister has diabetes, you may be more likely to develop diabetes.
+-------------------------------------
+1204.62599993

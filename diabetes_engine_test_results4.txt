@@ -1,0 +1,420 @@
+As a diabetes 2 patient, how do you suggest, I plan my meals
+
+ANS TYPE:
+recommendations 
+re_ans_type:
+[Rr]ecommendations
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[pP]aty.*suggest.*i.*plan.*meal.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[pP]aty.*suggest.*i.*plan.*meal.*)
+TARGET:
+patient suggest i plan meals
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+Is there any support group for diabetes
+
+ANS TYPE:
+support groups 
+re_ans_type:
+[Ss]upport groups
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[sS]upport.*group.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[sS]upport.*group.*)
+TARGET:
+support group
+CHOSEN ANS: 
+american diabetes association|www.diabetes.org
+-------------------------------------
+How can diabetes be prevented
+
+ANS TYPE:
+symptoms prevention 
+re_ans_type:
+[Ss]ymptoms|[Pp]revention
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[bB]e.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[bB]e.*)
+TARGET:
+be
+CHOSEN ANS: 
+keeping an ideal body weight and an active lifestyle may prevent type 2 diabetes.type 1 diabetes cannot be prevented.
+-------------------------------------
+What is diabetes in children
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[cC]hildr.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[cC]hildr.*)
+TARGET:
+children
+CHOSEN ANS: 
+until recently, the common type of diabetes in children and teens was type 1. it was called juvenile diabetes. with type 1 diabetes, the pancreas does not make insulin. insulin is a hormone that helps glucose,or sugar, get into your cells to give them energy. without insulin, too much sugar stays in the blood.but now younger people are also getting type 2 diabetes.  type 2 diabetes used to be called adult-onset diabetes. but now it is becoming more common in children and teens, due to more obesity. with type 2 diabetes, the body does not make or use insulin well.children have a higher risk of type 2 diabetes if they are obese, have a family history of diabetes, or are not active, and do not eat well.  to lower the risk of type 2 diabetes in childrenhave them maintain a healthy weightbe sure they are physically activehave them eat smaller portions of healthy foodslimit time with the tv, computer, and videochildren and teens with type 1 diabetes may need to take insulin. type 2 diabetes may be  controlled with diet and exercise. if not, patients will need to take oral diabetes medicines or insulin.
+-------------------------------------
+What is juvenile diabetes
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+juvenil diabetes 
+re_focus:
+(?:[jJ]uvenil.*[Dd]iabetes.*(?:(?:.*))?.*)|(?:.*[jJ]uvenil.*(?:(?:.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[jJ]uvenil.*(?:(?:.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:.*))?.*[jJ]uvenil.*)|(?:.*(?:(?:.*))?.*[jJ]uvenil.*[Dd]iabetes.*)|(?:.*(?:(?:.*))?.*[Dd]iabetes.*[jJ]uvenil.*)
+TARGET:
+juvenile
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+What diet is recommended for pregnant women with diabetes
+
+ANS TYPE:
+recommendations 
+re_ans_type:
+[Rr]ecommendations
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[dD]iet.*pregn.*wom.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[dD]iet.*pregn.*wom.*)
+TARGET:
+diet pregnant women
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+What can be a diet for pregnant women with diabetes?
+
+ANS TYPE:
+recommendations 
+re_ans_type:
+[Rr]ecommendations
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[bB]e.*diet.*pregn.*wom.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[bB]e.*diet.*pregn.*wom.*)
+TARGET:
+be diet pregnant women
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+Type 2 diabetes meal plan
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+ diabetes meal
+re_focus:
+(?:[Dd]iabetes.*(?:(?:meal.*))?.*)|(?:.*(?:(?:meal.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*.*(?:(?:meal.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:meal.*))?.*)|(?:.*(?:(?:meal.*))?.*.*[Dd]iabetes.*)|(?:.*(?:(?:meal.*))?.*[Dd]iabetes.*)
+TARGET:
+type meal plan
+CHOSEN ANS: 
+ a diabetes meal plan is a guide that tells you how much and what kinds of food you can choose to eat at meals and snack times. a good meal plan should fit in with your schedule and eating habits. some meal planning tools include: the right meal plan will help you improve your blood glucose, blood pressure, and cholesterol numbers and also help keep your weight on track. whether you need to lose weight or stay where you are, your meal plan can help. people with diabetes have to take extra care to make sure that their food is balanced with insulin and oral medications (if they take them), and exercise to help manage their blood glucose levels. this might sound like a lot of work, but your doctor and/or dietitian can help you create a meal plan that is best for you. when you make healthy food choices, you will improve your overall health and you can even prevent complications such as heart disease and some cancers.
+-------------------------------------
+What is diabetes insipidus nephrogenic
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[iI]nsipid.*nephrog.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[iI]nsipid.*nephrog.*)
+TARGET:
+insipidus nephrogenic
+CHOSEN ANS: 
+nephrogenic diabetes insipidus is a disorder in which a defect in the small tubes (tubules) in the kidneys causes a person to pass a large amount of urine. the tubules normally allow water to be removed from the kidney and returned into the blood, without leaking into the urine.see also: diabetes insipidus - central
+-------------------------------------
+When to contact a medical professional for gestational diabetes
+
+ANS TYPE:
+when to contact a medical professional 
+re_ans_type:
+[Ww]hen to contact a medical professional
+FOCUS:
+gest diabetes 
+re_focus:
+(?:[gG]est.*[Dd]iabetes.*(?:(?:.*))?.*)|(?:.*[gG]est.*(?:(?:.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[gG]est.*(?:(?:.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:.*))?.*[gG]est.*)|(?:.*(?:(?:.*))?.*[gG]est.*[Dd]iabetes.*)|(?:.*(?:(?:.*))?.*[Dd]iabetes.*[gG]est.*)
+TARGET:
+
+CHOSEN ANS: 
+call your health care provider if you are pregnant and you have symptoms of diabetes.
+-------------------------------------
+When to contact a medical professional for diabetes
+
+ANS TYPE:
+when to contact a medical professional 
+re_ans_type:
+[Ww]hen to contact a medical professional
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[cC]ontact.*med.*profess.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[cC]ontact.*med.*profess.*)
+TARGET:
+
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+what diet do you recommend for gestational diabetes
+
+ANS TYPE:
+recommendations 
+re_ans_type:
+[Rr]ecommendations
+FOCUS:
+gest diabetes 
+re_focus:
+(?:[gG]est.*[Dd]iabetes.*(?:(?:.*))?.*)|(?:.*[gG]est.*(?:(?:.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[gG]est.*(?:(?:.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:.*))?.*[gG]est.*)|(?:.*(?:(?:.*))?.*[gG]est.*[Dd]iabetes.*)|(?:.*(?:(?:.*))?.*[Dd]iabetes.*[gG]est.*)
+TARGET:
+recommend gestational
+CHOSEN ANS: 
+the best way to improve your diet is by eating a variety of healthy foods. you should learn how to read food labels, and consult them when making food decisions. talk to your doctor or dietitian if you are a vegetarian or on some other special diet.in general, your diet should be: moderate in fat and proteinprovide controlled levels of carbohydrates through foods including fruits, vegetables, and complex carbohydrates (such as bread, cereal, pasta, and rice)lower in foods that have a lot of sugar, such as soft drinks, fruit juices, and pastriesyou will be asked to eat three small- to moderate- sized meals and one or more snacks each day. do not skip meals and snacks. keep the amount and types of food (carbohydrates, fats, and proteins) the same from day to day.carbohydratescarbohydrates should make up less than half of the calories you eat.most carbohydrates are found in starchy or sugary foods, such as bread, rice, pasta, cereal, potatoes, peas, corn, fruit, fruit juice, milk, yogurt, cookies, candy, soda, and other sweets.high-fiber, whole-grain carbohydrates are healthier choices.vegetables (such as carrots, broccoli, and spinach) add much more to your health than to your blood sugar. enjoy lots of them.carbohydrates in food are measured in grams. you can learn to count the carbohydrates in the foods that you like and that you eat.grains, beans, and startchy vegetableseat 6 or more servings a day: one serving equals 1 slice bread, 1 ounce ready-to-eat cereal, 1/2 cup cooked rice or pasta, or 1 english muffin.foods like bread, grains, beans, rice, pasta, and starchy vegetables are loaded with vitamins, minerals, fiber, and healthy carbohydrates.choosecarbohydrate sources with plenty of fiber. eat whole-grain foods such as whole-grain bread or crackers, tortillas, bran cereal, brown rice, or beans. use whole-wheat or other whole-grain flours in cooking and baking.eat more low-fat breads, such as tortillas, english muffins, and pita bread.vegetableseat 3 - 5 servings a day: one serving equals 1 cup leafy, green vegetables; 1 cup cooked or chopped raw leafy vegetables; 3/4 cup vegetable juice; or 1/2 cup of chopped vegetables, cooked or raw.choose fresh or frozen vegetables without added sauces, fats, or salt. you should opt for more dark green and deep yellow vegetables, such as spinach, broccoli, romaine, carrots, and peppers.fruitseat 2 - 4 servings a day: one serving equals 1 medium whole fruit (such as a banana, apple, or orange); 1/2 cup chopped, frozen, cooked, or canned fruit; or 3/4 cup fruit juice.choose whole fruits more often than juices. they have more fiber. citrus fruits, such as oranges, grapefruits, and tangerines, are best. opt for fruit juices without added sweeteners or syrups.choose fresh fruits and juices, which retain more of their nutritional value than frozen or canned varieties.milk and dairyeat 4 servings a day: one serving equals 1 cup milk or yogurt, 1 1/2 oz. natural cheese, or 2 oz. processed cheese.choose low-fat or nonfat milk or yogurt. yogurt has natural sugar in it, but avoid yogurt with added sugar or artificial sweeteners.dairy products are a great source of protein, calcium, and phosphorus (to keep calories and cholesterol in check, though, choose low-fat dairy products).protein (meat, fish, dry beans, eggs, and nuts)eat 2 - 3 servings a day: one serving equals 2-3 oz. cooked meat, poultry, or fish; 1/2 cup cooked beans; 1 egg; or 2 tablespoons peanut butterchoose fish and poultry more often. remove the skin from chicken and turkey. select lean cuts of beef, veal, pork or wild game.trim all visible fat from meat. bake, roast, broil, grill, or boil instead of frying.foods from this group are excellent sources of b vitamins, protein, iron, and zinc.sweetssweets are high in fat and sugar, so keep portion sizes small.eat sweets that are sugar-free.ask for extra spoons and forks and split your dessert with others.fatsgo easy on butter, margarine, salad dressing, cooking oil, and desserts. but don't cut fats and oils from your diet entirely. they provide long-term energy for growth and are essential for brain development.in general, you should limit your intake of fatty foods, especially those high in saturated fat such as hamburger, cheese, bacon, and butter.other lifestyle changesyour doctor may also suggest a safe exercise plan. walking is usually the easiest type of exercise, but swimming or other low-impact exercises can work just as well. exercise is an important way to keep blood sugar in control.
+-------------------------------------
+when to contact a medical professional for type 1 diabetes
+
+ANS TYPE:
+when to contact a medical professional 
+re_ans_type:
+[Ww]hen to contact a medical professional
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[cC]ontact.*med.*profess.*typ.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[cC]ontact.*med.*profess.*typ.*)
+TARGET:
+
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+I have gestational diabetes, when should I meet with a medical pro
+
+ANS TYPE:
+when to contact a medical professional 
+re_ans_type:
+[Ww]hen to contact a medical professional
+FOCUS:
+gest diabetes 
+re_focus:
+(?:[gG]est.*[Dd]iabetes.*(?:(?:.*))?.*)|(?:.*[gG]est.*(?:(?:.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[gG]est.*(?:(?:.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:.*))?.*[gG]est.*)|(?:.*(?:(?:.*))?.*[gG]est.*[Dd]iabetes.*)|(?:.*(?:(?:.*))?.*[Dd]iabetes.*[gG]est.*)
+TARGET:
+
+CHOSEN ANS: 
+call your health care provider if you are pregnant and you have symptoms of diabetes.
+-------------------------------------
+i am pregnant and I suspect I have diabetes, should I call a medical professional
+
+ANS TYPE:
+when to contact a medical professional 
+re_ans_type:
+[Ww]hen to contact a medical professional
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[iI].*pregn.*i.*i.*i.*cal.*med.*profess.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[iI].*pregn.*i.*i.*i.*cal.*med.*profess.*)
+TARGET:
+
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+I am a teen with diabetes, can you help me
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[iI].*teen.*help.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[iI].*teen.*help.*)
+TARGET:
+i teen help
+CHOSEN ANS: 
+diabetes is usually a lifelong (chronic) disease in which thereis ahigh level of sugar in the blood.
+-------------------------------------
+My child has diabetes, can you help me
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[cC]hild.*help.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[cC]hild.*help.*)
+TARGET:
+child help
+CHOSEN ANS: 
+diabetes is usually a lifelong (chronic) disease in which thereis ahigh level of sugar in the blood.
+-------------------------------------
+My baby has diabetes, what is happening exactly?
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[bB]aby.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[bB]aby.*)
+TARGET:
+baby
+CHOSEN ANS: 
+diabetes is usually a lifelong (chronic) disease in which thereis ahigh level of sugar in the blood.
+-------------------------------------
+what could be the possible complications of diabetes insipidus
+
+ANS TYPE:
+possible complications 
+re_ans_type:
+[Pp]ossible complications
+FOCUS:
+ diabetes insipid
+re_focus:
+(?:[Dd]iabetes.*(?:(?:insipid.*))?.*)|(?:.*(?:(?:insipid.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*.*(?:(?:insipid.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:insipid.*))?.*)|(?:.*(?:(?:insipid.*))?.*.*[Dd]iabetes.*)|(?:.*(?:(?:insipid.*))?.*[Dd]iabetes.*)
+TARGET:
+be possible complications
+CHOSEN ANS: 
+ have you already been diagnosed with diabetes but are concerned about symptoms that may be the result of complications related to diabetes?
+-------------------------------------
+what could be the possible complications of diabetes insipidus nephrogenic
+
+ANS TYPE:
+possible complications 
+re_ans_type:
+[Pp]ossible complications
+FOCUS:
+ diabetes insipid
+re_focus:
+(?:[Dd]iabetes.*(?:(?:insipid.*))?.*)|(?:.*(?:(?:insipid.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*.*(?:(?:insipid.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:insipid.*))?.*)|(?:.*(?:(?:insipid.*))?.*.*[Dd]iabetes.*)|(?:.*(?:(?:insipid.*))?.*[Dd]iabetes.*)
+TARGET:
+be possible complications nephrogenic
+CHOSEN ANS: 
+ have you already been diagnosed with diabetes but are concerned about symptoms that may be the result of complications related to diabetes?
+-------------------------------------
+what could be the possible complications of diabetes nephrogenic insipidus
+
+ANS TYPE:
+possible complications 
+re_ans_type:
+[Pp]ossible complications
+FOCUS:
+ diabetes nephrog
+re_focus:
+(?:[Dd]iabetes.*(?:(?:nephrog.*))?.*)|(?:.*(?:(?:nephrog.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*.*(?:(?:nephrog.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:nephrog.*))?.*)|(?:.*(?:(?:nephrog.*))?.*.*[Dd]iabetes.*)|(?:.*(?:(?:nephrog.*))?.*[Dd]iabetes.*)
+TARGET:
+be possible complications nephrogenic insipidus
+CHOSEN ANS: 
+ have you already been diagnosed with diabetes but are concerned about symptoms that may be the result of complications related to diabetes?
+-------------------------------------
+can diabetes lead to a heart attack
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[lL]ead.*heart.*attack.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[lL]ead.*heart.*attack.*)
+TARGET:
+lead heart attack
+CHOSEN ANS: 
+diabetes is usually a lifelong (chronic) disease in which thereis ahigh level of sugar in the blood.
+-------------------------------------
+Which type of diabetes is common among children
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[tT]yp.*common.*childr.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[tT]yp.*common.*childr.*)
+TARGET:
+type common children
+CHOSEN ANS: 
+diabetes is usually a lifelong (chronic) disease in which thereis ahigh level of sugar in the blood.
+-------------------------------------
+I have diabetes and I am pregnant should I do an oral glucose test
+
+ANS TYPE:
+tests 
+re_ans_type:
+[Tt]ests
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[iI].*i.*pregn.*i.*or.*glucos.*test.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[iI].*i.*pregn.*i.*or.*glucos.*test.*)
+TARGET:
+i i pregnant i oral glucose test
+CHOSEN ANS: 
+a urine analysis may show high blood sugar. but a urine test alone does not diagnose diabetes.your health care provider may suspect that you have diabetes if your blood sugar level is higher than 200 mg/dl. to confirm the diagnosis, one or more of the following tests must be done.blood tests:fasting blood glucose level -- diabetes is diagnosed if it is higher than 126 mg/dl twice. levels between 100 and 126 mg/dl are called impaired fasting glucose or pre-diabetes. these levels are risk factors for type 2 diabetes.hemoglobin a1c test -- normal: less than 5.7%pre-diabetes: 5.7% - 6.4%diabetes: 6.5% or higheroral glucose tolerance test -- diabetes is diagnosed if glucose level is higher than 200 mg/dl 2 hoursafter drinking a glucose drink. (this test is used more often for type 2 diabetes.)screening for type 2 diabetes in people who have no symptoms is recommended for:overweight children who have other risk factors for diabetes, starting at age 10 and repeated every 2 yearsoverweight adults (bmi greater than 25) who have other risk factorsadults over age 45, repeated every 3 years
+-------------------------------------
+Fasting plasma glucose (FPG) test
+
+ANS TYPE:
+tests 
+re_ans_type:
+[Tt]ests
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[pP]lasm.*glucos.*fpg.*test.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[pP]lasm.*glucos.*fpg.*test.*)
+TARGET:
+plasma glucose fpg test
+CHOSEN ANS: 
+a urine analysis may show high blood sugar. but a urine test alone does not diagnose diabetes.your health care provider may suspect that you have diabetes if your blood sugar level is higher than 200 mg/dl. to confirm the diagnosis, one or more of the following tests must be done.blood tests:fasting blood glucose level -- diabetes is diagnosed if it is higher than 126 mg/dl twice. levels between 100 and 126 mg/dl are called impaired fasting glucose or pre-diabetes. these levels are risk factors for type 2 diabetes.hemoglobin a1c test -- normal: less than 5.7%pre-diabetes: 5.7% - 6.4%diabetes: 6.5% or higheroral glucose tolerance test -- diabetes is diagnosed if glucose level is higher than 200 mg/dl 2 hoursafter drinking a glucose drink. (this test is used more often for type 2 diabetes.)screening for type 2 diabetes in people who have no symptoms is recommended for:overweight children who have other risk factors for diabetes, starting at age 10 and repeated every 2 yearsoverweight adults (bmi greater than 25) who have other risk factorsadults over age 45, repeated every 3 years
+-------------------------------------
+What should I do if my health care professional told me I have prediabetes?
+
+ANS TYPE:
+treatment recommendations 
+re_ans_type:
+[Tt]reatment|[Rr]ecommendations
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[iI].*heal.*car.*profess.*i.*prediabet.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[iI].*heal.*car.*profess.*i.*prediabet.*)
+TARGET:
+i health care professional i prediabetes
+CHOSEN ANS: 
+withtype 2 diabetes,the disease may be reversed with lifestyle changes, especially losing weight through exercising and eating healthier foods. also, some cases of type 2 diabetes can be improved with weight-loss surgery.there is no cure for type 1 diabetes. treating both type 1 diabetes and type 2 diabetes involves medicines, diet, and exercise to control blood sugar level.getting better control over your blood sugar, cholesterol, and blood pressure levels helps reduce the risk of kidney disease, eye disease, nervous system disease, heart attack, and stroke.to prevent diabetes complications, visit your health care provider at least two to four times a year. talk about any problems you are having. follow your health care provider's instructions on managing your diabetes.
+-------------------------------------
+If I had gestational diabetes when I was pregnant, how can I lower my chances of developing type 2 diabetes?
+
+ANS TYPE:
+symptoms treatment recommendations 
+re_ans_type:
+[Ss]ymptoms|[Tt]reatment|[Rr]ecommendations
+FOCUS:
+gest diabetes 
+re_focus:
+(?:[gG]est.*[Dd]iabetes.*(?:(?:.*))?.*)|(?:.*[gG]est.*(?:(?:.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[gG]est.*(?:(?:.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:.*))?.*[gG]est.*)|(?:.*(?:(?:.*))?.*[gG]est.*[Dd]iabetes.*)|(?:.*(?:(?:.*))?.*[Dd]iabetes.*[gG]est.*)
+TARGET:
+gestational i pregnant i chances type diabetes
+CHOSEN ANS: 
+ because gestational diabetes can hurt you and your baby, you need to start treatment quickly. treatment for gestational diabetes aims to keep blood glucose levels equal to those of pregnant women who don't have gestational diabetes. treatment for gestational diabetes always includes special meal plans and scheduled physical activity. it may also include daily blood glucose testing and insulin injections. if you're testing your blood glucose, the american diabetes association suggests the following targets for women who develop gestational diabetes during pregnancy. more or less stringent glycemic goals may be appropriate for each individual. before a meal (preprandial): 95 mg/dl or less 1-hour after a meal (postprandial): 140 mg/dl or less 2-hours after a meal (postprandial): 120 mg/dl or less you will need help from your doctor, nurse educator, and other members of your health care team so that your treatment for gestational diabetes can be changed as needed. for you as the mother-to-be, treatment for gestational diabetes helps lower the risk of a cesarean section birth that very large babies may require. sticking with your treatment for gestational diabetes will give you a healthy pregnancy and birth, and may help your baby avoid future poor health.
+-------------------------------------
+What is the link between diabetes, heart disease, and stroke?
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[lL]ink.*heart.*diseas.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[lL]ink.*heart.*diseas.*)
+TARGET:
+link heart disease
+CHOSEN ANS: 
+ over time, high blood glucose from diabetes can damage your blood vessels and the nerves that control your heart and blood vessels. the longer you have diabetes, the higher the chances that you will develop heart disease.1 people with diabetes tend to develop heart disease at a younger age than people without diabetes. in adults with diabetes, the most common causes of death are heart disease and stroke. adults with diabetes are nearly twice as likely to die from heart disease or stroke as people without diabetes.2 the good news is that the steps you take to manage your diabetes also help to lower your chances of having heart disease or stroke.
+-------------------------------------
+601.173000097

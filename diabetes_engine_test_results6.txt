@@ -1,0 +1,360 @@
+What is type 2 diabetes
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[tT]yp.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[tT]yp.*)
+TARGET:
+type
+CHOSEN ANS: 
+when you have type 2 diabetes, taking time to plan your meals goes a long way toward controlling your blood sugar and weight.
+-------------------------------------
+Which type of diabetes is common among children
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[tT]yp.*common.*childr.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[tT]yp.*common.*childr.*)
+TARGET:
+type common children
+CHOSEN ANS: 
+diabetes is usually a lifelong (chronic) disease in which thereis ahigh level of sugar in the blood.
+-------------------------------------
+I am a teen with diabetes, can you help me
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[iI].*teen.*help.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[iI].*teen.*help.*)
+TARGET:
+i teen help
+CHOSEN ANS: 
+diabetes is usually a lifelong (chronic) disease in which thereis ahigh level of sugar in the blood.
+-------------------------------------
+My child has diabetes, can you help me
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[cC]hild.*help.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[cC]hild.*help.*)
+TARGET:
+child help
+CHOSEN ANS: 
+diabetes is usually a lifelong (chronic) disease in which thereis ahigh level of sugar in the blood.
+-------------------------------------
+My baby has diabetes, what is happening exactly?
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[bB]aby.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[bB]aby.*)
+TARGET:
+baby
+CHOSEN ANS: 
+diabetes is usually a lifelong (chronic) disease in which thereis ahigh level of sugar in the blood.
+-------------------------------------
+As a diabetes 2 patient, how do you suggest, I plan my meals
+
+ANS TYPE:
+recommendations 
+re_ans_type:
+[Rr]ecommendations
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[pP]aty.*suggest.*i.*plan.*meal.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[pP]aty.*suggest.*i.*plan.*meal.*)
+TARGET:
+patient suggest i plan meals
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+How to treat diabetes insipidus
+
+ANS TYPE:
+treatment 
+re_ans_type:
+[Tt]reatment
+FOCUS:
+ diabetes insipid
+re_focus:
+(?:[Dd]iabetes.*(?:(?:insipid.*))?.*)|(?:.*(?:(?:insipid.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*.*(?:(?:insipid.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:insipid.*))?.*)|(?:.*(?:(?:insipid.*))?.*.*[Dd]iabetes.*)|(?:.*(?:(?:insipid.*))?.*[Dd]iabetes.*)
+TARGET:
+treat
+CHOSEN ANS: 
+the goal of treatment is to control the body's fluid levels. patients will be given a large amount of fluids. the amount of fluids given should be about equal to the amount of urine produced.if the condition is due to a certain medication, stopping the medicine may improve symptoms. never stop taking any medication without first talking to your doctor.a medicine called hydrochlorothiazide may improve symptoms. this may be used alone or in combination with other medications, including amiloride or indomethacin. although hydrochlorothiazide is a diuretic (these medications are usually used to increase urine output), in certain cases it can actually reduce urine output for people with ndi .
+-------------------------------------
+What is juvenile diabetes
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+juvenil diabetes 
+re_focus:
+(?:[jJ]uvenil.*[Dd]iabetes.*(?:(?:.*))?.*)|(?:.*[jJ]uvenil.*(?:(?:.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[jJ]uvenil.*(?:(?:.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:.*))?.*[jJ]uvenil.*)|(?:.*(?:(?:.*))?.*[jJ]uvenil.*[Dd]iabetes.*)|(?:.*(?:(?:.*))?.*[Dd]iabetes.*[jJ]uvenil.*)
+TARGET:
+juvenile
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+What diet is recommended for pregnant women with diabetes
+
+ANS TYPE:
+recommendations 
+re_ans_type:
+[Rr]ecommendations
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[dD]iet.*pregn.*wom.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[dD]iet.*pregn.*wom.*)
+TARGET:
+diet pregnant women
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+What can be a diet for pregnant women with diabetes?
+
+ANS TYPE:
+recommendations 
+re_ans_type:
+[Rr]ecommendations
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[bB]e.*diet.*pregn.*wom.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[bB]e.*diet.*pregn.*wom.*)
+TARGET:
+be diet pregnant women
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+How to prevent diabetes insipidus?
+
+ANS TYPE:
+symptoms prevention 
+re_ans_type:
+[Ss]ymptoms|[Pp]revention
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[pP]rev.*insipid.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[pP]rev.*insipid.*)
+TARGET:
+prevent insipidus
+CHOSEN ANS: 
+keeping an ideal body weight and an active lifestyle may prevent type 2 diabetes.type 1 diabetes cannot be prevented.
+-------------------------------------
+When to contact a medical professional for diabetes
+
+ANS TYPE:
+when to contact a medical professional 
+re_ans_type:
+[Ww]hen to contact a medical professional
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[cC]ontact.*med.*profess.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[cC]ontact.*med.*profess.*)
+TARGET:
+
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+when to contact a medical professional for type 1 diabetes
+
+ANS TYPE:
+when to contact a medical professional 
+re_ans_type:
+[Ww]hen to contact a medical professional
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[cC]ontact.*med.*profess.*typ.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[cC]ontact.*med.*profess.*typ.*)
+TARGET:
+
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+i am pregnant and I suspect I have diabetes, should I call a medical professional
+
+ANS TYPE:
+when to contact a medical professional 
+re_ans_type:
+[Ww]hen to contact a medical professional
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[iI].*pregn.*i.*i.*i.*cal.*med.*profess.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[iI].*pregn.*i.*i.*i.*cal.*med.*profess.*)
+TARGET:
+
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+what could be the possible complications of diabetes insipidus
+
+ANS TYPE:
+possible complications 
+re_ans_type:
+[Pp]ossible complications
+FOCUS:
+ diabetes insipid
+re_focus:
+(?:[Dd]iabetes.*(?:(?:insipid.*))?.*)|(?:.*(?:(?:insipid.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*.*(?:(?:insipid.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:insipid.*))?.*)|(?:.*(?:(?:insipid.*))?.*.*[Dd]iabetes.*)|(?:.*(?:(?:insipid.*))?.*[Dd]iabetes.*)
+TARGET:
+be possible complications
+CHOSEN ANS: 
+ have you already been diagnosed with diabetes but are concerned about symptoms that may be the result of complications related to diabetes?
+-------------------------------------
+what could be the possible complications of diabetes insipidus nephrogenic
+
+ANS TYPE:
+possible complications 
+re_ans_type:
+[Pp]ossible complications
+FOCUS:
+ diabetes insipid
+re_focus:
+(?:[Dd]iabetes.*(?:(?:insipid.*))?.*)|(?:.*(?:(?:insipid.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*.*(?:(?:insipid.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:insipid.*))?.*)|(?:.*(?:(?:insipid.*))?.*.*[Dd]iabetes.*)|(?:.*(?:(?:insipid.*))?.*[Dd]iabetes.*)
+TARGET:
+be possible complications nephrogenic
+CHOSEN ANS: 
+ have you already been diagnosed with diabetes but are concerned about symptoms that may be the result of complications related to diabetes?
+-------------------------------------
+what could be the possible complications of diabetes nephrogenic insipidus
+
+ANS TYPE:
+possible complications 
+re_ans_type:
+[Pp]ossible complications
+FOCUS:
+ diabetes nephrog
+re_focus:
+(?:[Dd]iabetes.*(?:(?:nephrog.*))?.*)|(?:.*(?:(?:nephrog.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*.*(?:(?:nephrog.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:nephrog.*))?.*)|(?:.*(?:(?:nephrog.*))?.*.*[Dd]iabetes.*)|(?:.*(?:(?:nephrog.*))?.*[Dd]iabetes.*)
+TARGET:
+be possible complications nephrogenic insipidus
+CHOSEN ANS: 
+ have you already been diagnosed with diabetes but are concerned about symptoms that may be the result of complications related to diabetes?
+-------------------------------------
+can diabetes lead to a heart attack
+
+ANS TYPE:
+causes symptoms 
+re_ans_type:
+[Cc]auses|[Ss]ymptoms
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[lL]ead.*heart.*attack.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[lL]ead.*heart.*attack.*)
+TARGET:
+lead heart attack
+CHOSEN ANS: 
+high blood sugar level can cause several symptoms, including:blurry visionexcess thirstfatiguehungerurinating oftenweight lossbecause type 2 diabetes develops slowly, some people with high blood sugar have no symptoms.symptoms of type 1 diabetes develop over a short period. people may be very sick by the time they are diagnosed.after many years, diabetes can lead to other serious problems. these problems are known as diabetes complications and include:eye problems, including trouble seeing (especially at night), light sensitivity, blindness in the futurepainful sores and infections of the leg or foot, which if left untreated, leads to removal of the foot or leg nerves in the body can become damaged, causing pain, tingling, and a loss of feeling, problems digesting food, erectile dysfunctionkidney problems, which can lead to kidney failureweakened immune system, which can lead to more frequent infectionsincreased chance of having a heart attackor stroke
+-------------------------------------
+I have diabetes and I am pregnant should I do an oral glucose test
+
+ANS TYPE:
+tests 
+re_ans_type:
+[Tt]ests
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[iI].*i.*pregn.*i.*or.*glucos.*test.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[iI].*i.*pregn.*i.*or.*glucos.*test.*)
+TARGET:
+i i pregnant i oral glucose test
+CHOSEN ANS: 
+a urine analysis may show high blood sugar. but a urine test alone does not diagnose diabetes.your health care provider may suspect that you have diabetes if your blood sugar level is higher than 200 mg/dl. to confirm the diagnosis, one or more of the following tests must be done.blood tests:fasting blood glucose level -- diabetes is diagnosed if it is higher than 126 mg/dl twice. levels between 100 and 126 mg/dl are called impaired fasting glucose or pre-diabetes. these levels are risk factors for type 2 diabetes.hemoglobin a1c test -- normal: less than 5.7%pre-diabetes: 5.7% - 6.4%diabetes: 6.5% or higheroral glucose tolerance test -- diabetes is diagnosed if glucose level is higher than 200 mg/dl 2 hoursafter drinking a glucose drink. (this test is used more often for type 2 diabetes.)screening for type 2 diabetes in people who have no symptoms is recommended for:overweight children who have other risk factors for diabetes, starting at age 10 and repeated every 2 yearsoverweight adults (bmi greater than 25) who have other risk factorsadults over age 45, repeated every 3 years
+-------------------------------------
+I get very thirsty, but I also urinate often, the urine is almost all water, do I have diabetes
+
+ANS TYPE:
+causes symptoms 
+re_ans_type:
+[Cc]auses|[Ss]ymptoms
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[iI].*thirsty.*i.*urin.*urin.*wat.*i.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[iI].*thirsty.*i.*urin.*urin.*wat.*i.*)
+TARGET:
+i thirsty i urinate urine water i
+CHOSEN ANS: 
+insulin is a hormone produced by the pancreas to control blood sugar. diabetes can be caused by too little insulin, resistance to insulin, or both.to understand diabetes, it is important to first understand the normal process by which food is broken down and used by the body for energy. several things happen when food is digested:a sugar called glucose enters the bloodstream. glucose is a source of fuel for the body.an organ called the pancreas makes insulin. the role of insulin is to move glucose from the bloodstream into muscle, fat, and liver cells, where it can be used as fuel. people with diabetes have high blood sugar because their body cannot move sugar into fat, liver, and muscle cells to be stored for energy. this is because either:their pancreas does not make enough insulintheir cells do not respond to insulin normallyboth of the abovethere aretwo major types of diabetes. the causes and risk factors are different for each type:type 1 diabetes can occur at any age, but it is most often diagnosed in children, teens, or young adults. in this disease, the body makes little or no insulin. daily injections of insulin are needed. the exact cause is unknown.type 2 diabetes makes up most diabetes cases. it most often occurs in adulthood.but because of high obesity rates, teens and young adults are now being diagnosed with it. many people with type 2 diabetes do not know they have it.there are other causes of diabetes, and some patients cannot be classified as type 1 or type 2. gestational diabetes is high blood sugar that develops at any time during pregnancy in a woman who does not have diabetes.diabetes affects more than 20 million americans. over 40 million americans have pre-diabetes (which oftendevelops beforetype 2 diabetes). if your parent, brother or sister has diabetes, you may be more likely to develop diabetes.
+-------------------------------------
+Among children and teens, which diabetes is the most common
+
+ANS TYPE:
+treatment 
+re_ans_type:
+[Tt]reatment
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[cC]hildr.*teen.*common.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[cC]hildr.*teen.*common.*)
+TARGET:
+children teens common
+CHOSEN ANS: 
+withtype 2 diabetes,the disease may be reversed with lifestyle changes, especially losing weight through exercising and eating healthier foods. also, some cases of type 2 diabetes can be improved with weight-loss surgery.there is no cure for type 1 diabetes. treating both type 1 diabetes and type 2 diabetes involves medicines, diet, and exercise to control blood sugar level.getting better control over your blood sugar, cholesterol, and blood pressure levels helps reduce the risk of kidney disease, eye disease, nervous system disease, heart attack, and stroke.to prevent diabetes complications, visit your health care provider at least two to four times a year. talk about any problems you are having. follow your health care provider's instructions on managing your diabetes.
+-------------------------------------
+what are Risk Factors for Type 2 Diabetes
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[rR]isk.*fact.*typ.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[rR]isk.*fact.*typ.*)
+TARGET:
+risk factors type
+CHOSEN ANS: 
+diabetes is usually a lifelong (chronic) disease in which thereis ahigh level of sugar in the blood.
+-------------------------------------
+Fasting plasma glucose (FPG) test
+
+ANS TYPE:
+tests 
+re_ans_type:
+[Tt]ests
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[pP]lasm.*glucos.*fpg.*test.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[pP]lasm.*glucos.*fpg.*test.*)
+TARGET:
+plasma glucose fpg test
+CHOSEN ANS: 
+a urine analysis may show high blood sugar. but a urine test alone does not diagnose diabetes.your health care provider may suspect that you have diabetes if your blood sugar level is higher than 200 mg/dl. to confirm the diagnosis, one or more of the following tests must be done.blood tests:fasting blood glucose level -- diabetes is diagnosed if it is higher than 126 mg/dl twice. levels between 100 and 126 mg/dl are called impaired fasting glucose or pre-diabetes. these levels are risk factors for type 2 diabetes.hemoglobin a1c test -- normal: less than 5.7%pre-diabetes: 5.7% - 6.4%diabetes: 6.5% or higheroral glucose tolerance test -- diabetes is diagnosed if glucose level is higher than 200 mg/dl 2 hoursafter drinking a glucose drink. (this test is used more often for type 2 diabetes.)screening for type 2 diabetes in people who have no symptoms is recommended for:overweight children who have other risk factors for diabetes, starting at age 10 and repeated every 2 yearsoverweight adults (bmi greater than 25) who have other risk factorsadults over age 45, repeated every 3 years
+-------------------------------------
+FPG for gestational diabetes
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+gest diabetes 
+re_focus:
+(?:[gG]est.*[Dd]iabetes.*(?:(?:.*))?.*)|(?:.*[gG]est.*(?:(?:.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[gG]est.*(?:(?:.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:.*))?.*[gG]est.*)|(?:.*(?:(?:.*))?.*[gG]est.*[Dd]iabetes.*)|(?:.*(?:(?:.*))?.*[Dd]iabetes.*[gG]est.*)
+TARGET:
+fpg gestational
+CHOSEN ANS: 
+gestational diabetes is high blood sugar (glucose) that starts or is first diagnosed during pregnancy. eating a balanced diet is an important part of any pregnancy. diet is even more important if you have diabetes. this article discusses the diet recommendations for women with gestational diabetes who do not take insulin.
+-------------------------------------

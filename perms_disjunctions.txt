@@ -1,0 +1,119 @@
+Python 2.7.11 (v2.7.11:6d1b6a68f775, Dec  5 2015, 20:32:19) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+============ RESTART: J:\MedWhat\diabetes_engine\DB_interface.py ============
+
+Traceback (most recent call last):
+  File "J:\MedWhat\diabetes_engine\DB_interface.py", line 31, in <module>
+    for d in look_up("Diabetes"):
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 1114, in next
+    if len(self.__data) or self._refresh():
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 1036, in _refresh
+    self.__collation))
+  File "C:\Python27\lib\site-packages\pymongo\cursor.py", line 928, in __send_message
+    helpers._check_command_response(doc['data'][0])
+  File "C:\Python27\lib\site-packages\pymongo\helpers.py", line 210, in _check_command_response
+    raise OperationFailure(msg % errmsg, code, response)
+OperationFailure: $where got bad type
+>>> def generate_permutations(l);
+SyntaxError: invalid syntax
+>>> def generate_permutations(l):
+	from itertools import permutations as perm
+	t = []
+	for i in perm(l):
+		t.append(i)
+	return i
+
+>>> generate_permutations([10,20,30,40])
+(40, 30, 20, 10)
+>>> def generate_permutations(l):
+	from itertools import permutations as perm
+	t = []
+	for i in perm(l):
+		t.append(i)
+	return t
+
+>>> generate_permutations([10,20,30,40])
+[(10, 20, 30, 40), (10, 20, 40, 30), (10, 30, 20, 40), (10, 30, 40, 20), (10, 40, 20, 30), (10, 40, 30, 20), (20, 10, 30, 40), (20, 10, 40, 30), (20, 30, 10, 40), (20, 30, 40, 10), (20, 40, 10, 30), (20, 40, 30, 10), (30, 10, 20, 40), (30, 10, 40, 20), (30, 20, 10, 40), (30, 20, 40, 10), (30, 40, 10, 20), (30, 40, 20, 10), (40, 10, 20, 30), (40, 10, 30, 20), (40, 20, 10, 30), (40, 20, 30, 10), (40, 30, 10, 20), (40, 30, 20, 10)]
+>>> def generate_disjunctions(x):
+	s = "(?:.*"
+	s = s + ".*)|(?:".join(x)
+	return s + ".*)"
+
+>>> generate_disjunctions(["a","b"])
+'(?:.*a.*)|(?:b.*)'
+>>> def generate_disjunctions(x):
+	s = "(?:.*"
+	s = s + ".*)|(?:.*".join(x)
+	return s + ".*)"
+
+>>> generate_disjunctions(["a","b"])
+'(?:.*a.*)|(?:.*b.*)'
+>>> generate_disjunctions(["a","b","c"])
+'(?:.*a.*)|(?:.*b.*)|(?:.*c.*)'
+>>> for t in generate_permutations([10,20,30,40]):
+	print ".*".join( list(t) )
+	print
+
+	
+
+Traceback (most recent call last):
+  File "<pyshell#24>", line 2, in <module>
+    print ".*".join( list(t) )
+TypeError: sequence item 0: expected string, int found
+>>> for t in generate_permutations(["10","20","30","40"]):
+	print ".*".join( list(t) )
+	print
+
+	
+10.*20.*30.*40
+
+10.*20.*40.*30
+
+10.*30.*20.*40
+
+10.*30.*40.*20
+
+10.*40.*20.*30
+
+10.*40.*30.*20
+
+20.*10.*30.*40
+
+20.*10.*40.*30
+
+20.*30.*10.*40
+
+20.*30.*40.*10
+
+20.*40.*10.*30
+
+20.*40.*30.*10
+
+30.*10.*20.*40
+
+30.*10.*40.*20
+
+30.*20.*10.*40
+
+30.*20.*40.*10
+
+30.*40.*10.*20
+
+30.*40.*20.*10
+
+40.*10.*20.*30
+
+40.*10.*30.*20
+
+40.*20.*10.*30
+
+40.*20.*30.*10
+
+40.*30.*10.*20
+
+40.*30.*20.*10
+
+>>> for t in generate_permutations(["10","20","30","40"]):
+	print ".*".join( list(t) )
+	print

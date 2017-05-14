@@ -1,0 +1,270 @@
+Common target articles features is a feature used to compute the score of a passage and it essnentially counted the number of words (or stems or synoymns of those words ) from the target that appear in the article.
+However, As can be seen below, most or all of such words might come from synnonyms of one word  
+
+Can diabetes cause a heart attack ?
+insulin is a hormone produced by the pancreas to control blood sugar. diabetes can be caused by too little insulin, resistance to insulin, or both.to understand diabetes, it is important to first understand the normal process by which food is broken down and used by the body for energy. several things happen when food is digested:a sugar called glucose enters the bloodstream. glucose is a source of fuel for the body.an organ called the pancreas makes insulin. the role of insulin is to move glucose from the bloodstream into muscle, fat, and liver cells, where it can be used as fuel. people with diabetes have high blood sugar because their body cannot move sugar into fat, liver, and muscle cells to be stored for energy. this is because either:their pancreas does not make enough insulintheir cells do not respond to insulin normallyboth of the abovethere aretwo major types of diabetes. the causes and risk factors are different for each type:type 1 diabetes can occur at any age, but it is most often diagnosed in children, teens, or young adults. in this disease, the body makes little or no insulin. daily injections of insulin are needed. the exact cause is unknown.type 2 diabetes makes up most diabetes cases. it most often occurs in adulthood.but because of high obesity rates, teens and young adults are now being diagnosed with it. many people with type 2 diabetes do not know they have it.there are other causes of diabetes, and some patients cannot be classified as type 1 or type 2. gestational diabetes is high blood sugar that develops at any time during pregnancy in a woman who does not have diabetes.diabetes affects more than 20 million americans. over 40 million americans have pre-diabetes (which oftendevelops beforetype 2 diabetes). if your parent, brother or sister has diabetes, you may be more likely to develop diabetes.
+Common Target Articles: 
+[u'do', u'make', 'cause', u'have']
+________________________________________________________________________
+high blood sugar level can cause several symptoms, including:blurry visionexcess thirstfatiguehungerurinating oftenweight lossbecause type 2 diabetes develops slowly, some people with high blood sugar have no symptoms.symptoms of type 1 diabetes develop over a short period. people may be very sick by the time they are diagnosed.after many years, diabetes can lead to other serious problems. these problems are known as diabetes complications and include:eye problems, including trouble seeing (especially at night), light sensitivity, blindness in the futurepainful sores and infections of the leg or foot, which if left untreated, leads to removal of the foot or leg nerves in the body can become damaged, causing pain, tingling, and a loss of feeling, problems digesting food, erectile dysfunctionkidney problems, which can lead to kidney failureweakened immune system, which can lead to more frequent infectionsincreased chance of having a heart attackor stroke
+Common Target Articles: 
+['heart', 'cause', u'have']
+_______________________________________________________________________
+
+and this situation does not disntinguish between passages bearing words/syns from one word  from those bearing  words/syns
+from many words from the target.
+
+In order to rank later type of passages higher, I decided to ascribe a higher score to a target word by computing the CTA as follows:
+
+a_types= ("".join(list_types) ).lower()
+CTA  = 0
+for w in (commons_target_articles):
+     if w in a_types:
+         continue
+     if w in target:
+         CTA = CTA + 20
+     else:
+         CTA = CTA + 1 
+This has improved the accuracy and has yielded the following results:
+
+
+what causes gestational  diabetes
+
+ANS TYPE:
+causes symptoms 
+re_ans_type:
+[Cc]auses|[Ss]ymptoms
+FOCUS:
+gest diabetes 
+re_focus:
+(?:[gG]est.*[Dd]iabetes.*(?:(?:.*))?.*)|(?:.*[gG]est.*(?:(?:.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[gG]est.*(?:(?:.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:.*))?.*[gG]est.*)|(?:.*(?:(?:.*))?.*[gG]est.*[Dd]iabetes.*)|(?:.*(?:(?:.*))?.*[Dd]iabetes.*[gG]est.*)
+TARGET:
+gestational
+CHOSEN ANS: 
+pregnancy hormones can block insulin from doing its job. when this happens, glucose levels may increase in a pregnant woman's blood.you are at greater risk for gestational diabetes if you:are older than 25 when you are pregnanthave a family history of diabetesgave birth to a baby that weighed more than 9 pounds or had a birth defecthave high blood pressurehave too much amniotic fluidhave had an unexplained miscarriage or stillbirthwere overweight before your pregnancy
+-------------------------------------
+what are the symptoms of gestational diabetes
+
+ANS TYPE:
+symptoms 
+re_ans_type:
+[Ss]ymptoms
+FOCUS:
+gest diabetes 
+re_focus:
+(?:[gG]est.*[Dd]iabetes.*(?:(?:.*))?.*)|(?:.*[gG]est.*(?:(?:.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[gG]est.*(?:(?:.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:.*))?.*[gG]est.*)|(?:.*(?:(?:.*))?.*[gG]est.*[Dd]iabetes.*)|(?:.*(?:(?:.*))?.*[Dd]iabetes.*[gG]est.*)
+TARGET:
+symptoms gestational
+CHOSEN ANS: 
+ gestational diabetes affects the mother in late pregnancy, after the baby's body has been formed, but while the baby is busy growing. because of this, gestational diabetes does not cause the kinds of birth defects sometimes seen in babies whose mothers had diabetes before pregnancy. however, untreated or poorly controlled gestational diabetes can hurt your baby. when you have gestational diabetes, your pancreas works overtime to produce insulin, but the insulin does not lower your blood glucose levels. although insulin does not cross the placenta, glucose and other nutrients do. so extra blood glucose goes through the placenta, giving the baby high blood glucose levels. this causes the baby's pancreas to make extra insulin to get rid of the blood glucose. since the baby is getting more energy than it needs to grow and develop, the extra energy is stored as fat. this can lead to macrosomia, or a "fat" baby. babies with macrosomia face health problems of their own, including damage to their shoulders during birth. because of the extra insulin made by the baby's pancreas, newborns may have very low blood glucose levels at birth and are also at higher risk for breathing problems. babies with excess insulin become children who are at risk for obesity and adults who are at risk for type 2 diabetes.
+-------------------------------------
+how to prevent gestational diabetes
+
+ANS TYPE:
+symptoms prevention 
+re_ans_type:
+[Ss]ymptoms|[Pp]revention
+FOCUS:
+gest diabetes 
+re_focus:
+(?:[gG]est.*[Dd]iabetes.*(?:(?:.*))?.*)|(?:.*[gG]est.*(?:(?:.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[gG]est.*(?:(?:.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:.*))?.*[gG]est.*)|(?:.*(?:(?:.*))?.*[gG]est.*[Dd]iabetes.*)|(?:.*(?:(?:.*))?.*[Dd]iabetes.*[gG]est.*)
+TARGET:
+prevent gestational
+CHOSEN ANS: 
+beginning prenatal care early and having regular prenatal visits helps improve your health and the health of your baby. having prenatal screening at 24 - 28 weeks into the pregnancy will help detect gestational diabetes early.if you are overweight, decreasing your body mass index (bmi) to a normal range before you get pregnant will decrease your risk of developing gestational diabetes.
+-------------------------------------
+what is diabetes insipidus
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[iI]nsipid.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[iI]nsipid.*)
+TARGET:
+insipidus
+CHOSEN ANS: 
+nephrogenic diabetes insipidus is a disorder in which a defect in the small tubes (tubules) in the kidneys causes a person to pass a large amount of urine. the tubules normally allow water to be removed from the kidney and returned into the blood, without leaking into the urine.see also: diabetes insipidus - central
+-------------------------------------
+how to treat type 1 diabetes
+
+ANS TYPE:
+treatment 
+re_ans_type:
+[Tt]reatment
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[tT]re.*typ.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[tT]re.*typ.*)
+TARGET:
+treat type
+CHOSEN ANS: 
+withtype 2 diabetes,the disease may be reversed with lifestyle changes, especially losing weight through exercising and eating healthier foods. also, some cases of type 2 diabetes can be improved with weight-loss surgery.there is no cure for type 1 diabetes. treating both type 1 diabetes and type 2 diabetes involves medicines, diet, and exercise to control blood sugar level.getting better control over your blood sugar, cholesterol, and blood pressure levels helps reduce the risk of kidney disease, eye disease, nervous system disease, heart attack, and stroke.to prevent diabetes complications, visit your health care provider at least two to four times a year. talk about any problems you are having. follow your health care provider's instructions on managing your diabetes.
+-------------------------------------
+how to cure type 1 diabetes
+
+ANS TYPE:
+treatment 
+re_ans_type:
+[Tt]reatment
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[cC]ur.*typ.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[cC]ur.*typ.*)
+TARGET:
+cure type
+CHOSEN ANS: 
+withtype 2 diabetes,the disease may be reversed with lifestyle changes, especially losing weight through exercising and eating healthier foods. also, some cases of type 2 diabetes can be improved with weight-loss surgery.there is no cure for type 1 diabetes. treating both type 1 diabetes and type 2 diabetes involves medicines, diet, and exercise to control blood sugar level.getting better control over your blood sugar, cholesterol, and blood pressure levels helps reduce the risk of kidney disease, eye disease, nervous system disease, heart attack, and stroke.to prevent diabetes complications, visit your health care provider at least two to four times a year. talk about any problems you are having. follow your health care provider's instructions on managing your diabetes.
+-------------------------------------
+how are diabetes and heart disease linked
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[hH]eart.*diseas.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[hH]eart.*diseas.*)
+TARGET:
+heart disease
+CHOSEN ANS: 
+ over time, high blood glucose from diabetes can damage your blood vessels and the nerves that control your heart and blood vessels. the longer you have diabetes, the higher the chances that you will develop heart disease.1 people with diabetes tend to develop heart disease at a younger age than people without diabetes. in adults with diabetes, the most common causes of death are heart disease and stroke. adults with diabetes are nearly twice as likely to die from heart disease or stroke as people without diabetes.2 the good news is that the steps you take to manage your diabetes also help to lower your chances of having heart disease or stroke.
+-------------------------------------
+how are diabetes and vision linked
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[vV]is.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[vV]is.*)
+TARGET:
+vision
+CHOSEN ANS: 
+diabetes is usually a lifelong (chronic) disease in which thereis ahigh level of sugar in the blood.
+-------------------------------------
+can diabetes cause heart disease
+
+ANS TYPE:
+causes symptoms 
+re_ans_type:
+[Cc]auses|[Ss]ymptoms
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[cC]aus.*heart.*diseas.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[cC]aus.*heart.*diseas.*)
+TARGET:
+cause heart disease
+CHOSEN ANS: 
+high blood sugar level can cause several symptoms, including:blurry visionexcess thirstfatiguehungerurinating oftenweight lossbecause type 2 diabetes develops slowly, some people with high blood sugar have no symptoms.symptoms of type 1 diabetes develop over a short period. people may be very sick by the time they are diagnosed.after many years, diabetes can lead to other serious problems. these problems are known as diabetes complications and include:eye problems, including trouble seeing (especially at night), light sensitivity, blindness in the futurepainful sores and infections of the leg or foot, which if left untreated, leads to removal of the foot or leg nerves in the body can become damaged, causing pain, tingling, and a loss of feeling, problems digesting food, erectile dysfunctionkidney problems, which can lead to kidney failureweakened immune system, which can lead to more frequent infectionsincreased chance of having a heart attackor stroke
+-------------------------------------
+can diabetes lead to gum disease
+
+ANS TYPE:
+causes symptoms 
+re_ans_type:
+[Cc]auses|[Ss]ymptoms
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[lL]ead.*gum.*diseas.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[lL]ead.*gum.*diseas.*)
+TARGET:
+lead gum disease
+CHOSEN ANS: 
+high blood sugar level can cause several symptoms, including:blurry visionexcess thirstfatiguehungerurinating oftenweight lossbecause type 2 diabetes develops slowly, some people with high blood sugar have no symptoms.symptoms of type 1 diabetes develop over a short period. people may be very sick by the time they are diagnosed.after many years, diabetes can lead to other serious problems. these problems are known as diabetes complications and include:eye problems, including trouble seeing (especially at night), light sensitivity, blindness in the futurepainful sores and infections of the leg or foot, which if left untreated, leads to removal of the foot or leg nerves in the body can become damaged, causing pain, tingling, and a loss of feeling, problems digesting food, erectile dysfunctionkidney problems, which can lead to kidney failureweakened immune system, which can lead to more frequent infectionsincreased chance of having a heart attackor stroke
+-------------------------------------
+can diabetes cause gum disease
+
+ANS TYPE:
+causes symptoms 
+re_ans_type:
+[Cc]auses|[Ss]ymptoms
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[cC]aus.*gum.*diseas.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[cC]aus.*gum.*diseas.*)
+TARGET:
+cause gum disease
+CHOSEN ANS: 
+insulin is a hormone produced by the pancreas to control blood sugar. diabetes can be caused by too little insulin, resistance to insulin, or both.to understand diabetes, it is important to first understand the normal process by which food is broken down and used by the body for energy. several things happen when food is digested:a sugar called glucose enters the bloodstream. glucose is a source of fuel for the body.an organ called the pancreas makes insulin. the role of insulin is to move glucose from the bloodstream into muscle, fat, and liver cells, where it can be used as fuel. people with diabetes have high blood sugar because their body cannot move sugar into fat, liver, and muscle cells to be stored for energy. this is because either:their pancreas does not make enough insulintheir cells do not respond to insulin normallyboth of the abovethere aretwo major types of diabetes. the causes and risk factors are different for each type:type 1 diabetes can occur at any age, but it is most often diagnosed in children, teens, or young adults. in this disease, the body makes little or no insulin. daily injections of insulin are needed. the exact cause is unknown.type 2 diabetes makes up most diabetes cases. it most often occurs in adulthood.but because of high obesity rates, teens and young adults are now being diagnosed with it. many people with type 2 diabetes do not know they have it.there are other causes of diabetes, and some patients cannot be classified as type 1 or type 2. gestational diabetes is high blood sugar that develops at any time during pregnancy in a woman who does not have diabetes.diabetes affects more than 20 million americans. over 40 million americans have pre-diabetes (which oftendevelops beforetype 2 diabetes). if your parent, brother or sister has diabetes, you may be more likely to develop diabetes.
+-------------------------------------
+what is diabetes in children
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[cC]hildr.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[cC]hildr.*)
+TARGET:
+children
+CHOSEN ANS: 
+until recently, the common type of diabetes in children and teens was type 1. it was called juvenile diabetes. with type 1 diabetes, the pancreas does not make insulin. insulin is a hormone that helps glucose,or sugar, get into your cells to give them energy. without insulin, too much sugar stays in the blood.but now younger people are also getting type 2 diabetes.  type 2 diabetes used to be called adult-onset diabetes. but now it is becoming more common in children and teens, due to more obesity. with type 2 diabetes, the body does not make or use insulin well.children have a higher risk of type 2 diabetes if they are obese, have a family history of diabetes, or are not active, and do not eat well.  to lower the risk of type 2 diabetes in childrenhave them maintain a healthy weightbe sure they are physically activehave them eat smaller portions of healthy foodslimit time with the tv, computer, and videochildren and teens with type 1 diabetes may need to take insulin. type 2 diabetes may be  controlled with diet and exercise. if not, patients will need to take oral diabetes medicines or insulin.
+-------------------------------------
+how are heart stroke and diabetes related
+
+ANS TYPE:
+references 
+re_ans_type:
+[Rr]eferences
+FOCUS:
+ diabetes rel
+re_focus:
+(?:[Dd]iabetes.*(?:(?:rel.*))?.*)|(?:.*(?:(?:rel.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*.*(?:(?:rel.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:rel.*))?.*)|(?:.*(?:(?:rel.*))?.*.*[Dd]iabetes.*)|(?:.*(?:(?:rel.*))?.*[Dd]iabetes.*)
+TARGET:
+heart stroke
+CHOSEN ANS: 
+ for diabetes-related questions or to request a diabetes information packet, email us at askada@diabetes.org. in order to better serve you, please provide your name and address along with your request. you can also call our center for information and community support at 1-800-diabetes (800-342-2383). our hours of operation are monday to friday, 8:30 a.m. to 8:00 p.m. et. note: our diabetes information representatives cannot perform diagnosis or recommend medical treatment. they are able to provide general information about diabetes and its management.
+-------------------------------------
+can diabetes lead to a heart stroke
+
+ANS TYPE:
+causes symptoms 
+re_ans_type:
+[Cc]auses|[Ss]ymptoms
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[lL]ead.*heart.*stroke.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[lL]ead.*heart.*stroke.*)
+TARGET:
+lead heart stroke
+CHOSEN ANS: 
+high blood sugar level can cause several symptoms, including:blurry visionexcess thirstfatiguehungerurinating oftenweight lossbecause type 2 diabetes develops slowly, some people with high blood sugar have no symptoms.symptoms of type 1 diabetes develop over a short period. people may be very sick by the time they are diagnosed.after many years, diabetes can lead to other serious problems. these problems are known as diabetes complications and include:eye problems, including trouble seeing (especially at night), light sensitivity, blindness in the futurepainful sores and infections of the leg or foot, which if left untreated, leads to removal of the foot or leg nerves in the body can become damaged, causing pain, tingling, and a loss of feeling, problems digesting food, erectile dysfunctionkidney problems, which can lead to kidney failureweakened immune system, which can lead to more frequent infectionsincreased chance of having a heart attackor stroke
+-------------------------------------
+can diabetes lead to a heart attack
+
+ANS TYPE:
+causes symptoms 
+re_ans_type:
+[Cc]auses|[Ss]ymptoms
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[lL]ead.*heart.*attack.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[lL]ead.*heart.*attack.*)
+TARGET:
+lead heart attack
+CHOSEN ANS: 
+high blood sugar level can cause several symptoms, including:blurry visionexcess thirstfatiguehungerurinating oftenweight lossbecause type 2 diabetes develops slowly, some people with high blood sugar have no symptoms.symptoms of type 1 diabetes develop over a short period. people may be very sick by the time they are diagnosed.after many years, diabetes can lead to other serious problems. these problems are known as diabetes complications and include:eye problems, including trouble seeing (especially at night), light sensitivity, blindness in the futurepainful sores and infections of the leg or foot, which if left untreated, leads to removal of the foot or leg nerves in the body can become damaged, causing pain, tingling, and a loss of feeling, problems digesting food, erectile dysfunctionkidney problems, which can lead to kidney failureweakened immune system, which can lead to more frequent infectionsincreased chance of having a heart attackor stroke
+-------------------------------------
+can diabetes cause a heart attack
+ANS TYPE:
+causes symptoms 
+re_ans_type:
+[Cc]auses|[Ss]ymptoms
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[cC]aus.*heart.*attack.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[cC]aus.*heart.*attack.*)
+TARGET:
+cause heart attack
+CHOSEN ANS: 
+high blood sugar level can cause several symptoms, including:blurry visionexcess thirstfatiguehungerurinating oftenweight lossbecause type 2 diabetes develops slowly, some people with high blood sugar have no symptoms.symptoms of type 1 diabetes develop over a short period. people may be very sick by the time they are diagnosed.after many years, diabetes can lead to other serious problems. these problems are known as diabetes complications and include:eye problems, including trouble seeing (especially at night), light sensitivity, blindness in the futurepainful sores and infections of the leg or foot, which if left untreated, leads to removal of the foot or leg nerves in the body can become damaged, causing pain, tingling, and a loss of feeling, problems digesting food, erectile dysfunctionkidney problems, which can lead to kidney failureweakened immune system, which can lead to more frequent infectionsincreased chance of having a heart attackor stroke
+-------------------------------------
+200.284999847

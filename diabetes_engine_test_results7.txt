@@ -1,0 +1,45 @@
+how does diabetes cause kidney disease
+
+ANS TYPE:
+causes 
+re_ans_type:
+[Cc]auses
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[cC]aus.*kidney.*diseas.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[cC]aus.*kidney.*diseas.*)
+TARGET:
+cause kidney disease
+CHOSEN ANS: 
+ when our bodies digest the protein we eat, the process creates waste products. in the kidneys, millions of tiny blood vessels (capillaries) with even tinier holes in them act as filters. as blood flows through the blood vessels, small molecules such as waste products squeeze through the holes. these waste products become part of the urine. useful substances, such as protein and red blood cells, are too big to pass through the holes in the filter and stay in the blood. diabetes can damage this system. high levels of blood glucose make the kidneys filter too much blood. all this extra work is hard on the filters. after many years, they start to leak and useful protein is lost in the urine. having small amounts of protein in the urine is called microalbuminuria. when kidney disease is diagnosed early, during microalbuminuria, several treatments may keep kidney disease from getting worse. having larger amounts of protein in the urine is called macroalbuminuria. when kidney disease is caught later during macroalbuminuria, end-stage renal disease, or esrd, usually follows. in time, the stress of overwork causes the kidneys to lose their filtering ability. waste products then start to build up in the blood. finally, the kidneys fail. this failure, esrd, is very serious. a person with esrd needs to have a kidney transplant or to have the blood filtered by machine (dialysis).
+-------------------------------------
+can diabetes cause blindness
+
+ANS TYPE:
+causes recommendations 
+re_ans_type:
+[Cc]auses|[Rr]ecommendations
+FOCUS:
+ diabetes 
+re_focus:
+(?:^[Dd]iabetes$.*)|(?:.*[dD]iabet.*caus.*blind.*.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*[dD]iabet.*caus.*blind.*)
+TARGET:
+diabetes cause blindness
+CHOSEN ANS: 
+insulin is a hormone produced by the pancreas to control blood sugar. diabetes can be caused by too little insulin, resistance to insulin, or both.to understand diabetes, it is important to first understand the normal process by which food is broken down and used by the body for energy. several things happen when food is digested:a sugar called glucose enters the bloodstream. glucose is a source of fuel for the body.an organ called the pancreas makes insulin. the role of insulin is to move glucose from the bloodstream into muscle, fat, and liver cells, where it can be used as fuel. people with diabetes have high blood sugar because their body cannot move sugar into fat, liver, and muscle cells to be stored for energy. this is because either:their pancreas does not make enough insulintheir cells do not respond to insulin normallyboth of the abovethere aretwo major types of diabetes. the causes and risk factors are different for each type:type 1 diabetes can occur at any age, but it is most often diagnosed in children, teens, or young adults. in this disease, the body makes little or no insulin. daily injections of insulin are needed. the exact cause is unknown.type 2 diabetes makes up most diabetes cases. it most often occurs in adulthood.but because of high obesity rates, teens and young adults are now being diagnosed with it. many people with type 2 diabetes do not know they have it.there are other causes of diabetes, and some patients cannot be classified as type 1 or type 2. gestational diabetes is high blood sugar that develops at any time during pregnancy in a woman who does not have diabetes.diabetes affects more than 20 million americans. over 40 million americans have pre-diabetes (which oftendevelops beforetype 2 diabetes). if your parent, brother or sister has diabetes, you may be more likely to develop diabetes.
+-------------------------------------
+how does diabetes affect thirst
+ANS TYPE:
+symptoms 
+re_ans_type:
+[Ss]ymptoms
+FOCUS:
+ diabetes affect
+re_focus:
+(?:[Dd]iabetes.*(?:(?:affect.*))?.*)|(?:.*(?:(?:affect.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*.*(?:(?:affect.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:affect.*))?.*)|(?:.*(?:(?:affect.*))?.*.*[Dd]iabetes.*)|(?:.*(?:(?:affect.*))?.*[Dd]iabetes.*)
+TARGET:
+thirst
+CHOSEN ANS: 
+ too much glucose, also called sugar, in your blood from diabetes can damage four parts of your eye: retina. the retina is the tissue that lines the back of your eye. the retina converts light coming into your eye into visual messages through the optic nerve to your brain. the macula is the small, sensitive, center part of the retina that gives sharp, detailed vision. vitreous gel. the vitreous gel is a clear, colorless mass that fills the rear of your eye, between the retina and lens.
+-------------------------------------
+106.58100009

@@ -1,21 +1,6 @@
-###############################################
-## Diabetes engine
-## Akshay Surendra Phadnis
-
-##Dependencies:
-
-##Python 2.7
-
-##NLTK library
-##PyMongo Library
-
-##diabetes_questions.csv # a csv file bearing one diabetes related question in each row
-
-
-##
-##
-###############################################
-
+from DB_interface import *
+from pprint import pprint as show
+from multiprocessing import Pool
 from re import findall
 from nltk.stem.lancaster import LancasterStemmer
 from nltk import pos_tag , word_tokenize
@@ -23,22 +8,20 @@ from nltk.corpus import wordnet as wn
 from pprint import pprint
 import csv
 import sys
-
-
+from multiprocessing import Process
+import time
 
 
 st = LancasterStemmer()
-def generate_permutations(l):
-	from itertools import permutations as perm
-	t = []
-	for i in perm(l):
-		t.append(i)
-	return t
-def generate_disjunctions(x):
-	s = "(?:"
-	s = s + ".*)|(?:.*".join(x)
-	return s + ".*)"
-    
+
+def remove_tags(s):
+    """ string -> string
+        Return the input string after removing <p> and </p> tags from the string 
+    """
+    from bs4 import BeautifulSoup as bs
+    return str(bs(s,"html.parser").get_text().encode('utf-8'))
+
+
 def obtain_synonyms(word):
     """
     string -> list of strings
@@ -50,12 +33,6 @@ def obtain_synonyms(word):
             for lemma in synset.lemmas():
                      synonyms.append(lemma.name())
     return synonyms
-
-def re_capitalize(s):
-        if s == "":
-                return s
-        return "["+s[0].lower() + s[0].upper() + "]" + s[1:]
-                
 def idf(w,N,D):
     """string*number*string -> number
         w = word whos score is sought
@@ -95,7 +72,7 @@ def collect_diabetes_questions(filename):
 
     return (common_diabetes_questions,N, questions)
 
-def get_query(q, common_diabetes_questions,N, generate_re_focus = True):
+def get_query(q, common_diabetes_questions,N):
     """
      string*string*int -> ( list of strings,string,string, list of tuples bearing words and tags)
      Takes in a question and a large corpus regarding diabetes as another string and number of questions in the corpus
@@ -127,10 +104,7 @@ def get_query(q, common_diabetes_questions,N, generate_re_focus = True):
         
     except ValueError:
         #if it is not there assume the index to be 0
-            if "diabetes" in q:
-                diabetes_index = q.split(' ').index("diabetes")
-            else:
-                     diabetes_index = 0
+        diabetes_index = 0
         
     ##Identifying focus and targets
     word_index = 0
@@ -138,7 +112,7 @@ def get_query(q, common_diabetes_questions,N, generate_re_focus = True):
     target = ""
     suffix = ""
     for w, t in questionWords_and_tags:
-       
+
         
         #words like no, not, nothing, will be in the target
         #to account for negation
@@ -150,16 +124,14 @@ def get_query(q, common_diabetes_questions,N, generate_re_focus = True):
             prefix = prefix + w + " "
         if word_index == diabetes_index + 1 and t == "JJ":
             suffix = suffix + w + " "
-            #print w
             
         # Any Verb  (tagged'JJ')  or a number (tagged'CD') appearing before  "diabetes" within 3 words
         ## will also be a part of prefix
-        if diabetes_index > word_index and diabetes_index - word_index<= 3 and ( t == 'VBN' or   t == 'CD') and len(w) > 2:
+        if diabetes_index > word_index and diabetes_index - word_index<= 3 and ( t == 'VBN' or   t == 'CD'):
             prefix =prefix + w + " "
 
-        if diabetes_index < word_index and diabetes_index - word_index<= 3 and ( t == 'VBN' or   t == 'CD' or t == "VBP") and len(w) > 2:
+        if diabetes_index < word_index and diabetes_index - word_index<= 3 and ( t == 'VBN' or   t == 'CD' or t == "VBP"):
             suffix =suffix + w + " "
-            
 
 
         ## Any word other than "diabetes" , if it is a noun  (tagged'NN' or 'NNS')  or adjective  (tagged'JJ')
@@ -171,43 +143,16 @@ def get_query(q, common_diabetes_questions,N, generate_re_focus = True):
         
         word_index = word_index+ 1
         
-    
+
     ## Get rid of trailing space, if any
-   
-    prefix = st.stem(prefix.strip(" "))
-    suffix = st.stem(suffix.strip(" "))
-    
-    target_words =target.split(' ')
-    
-
-    
-    target = target.strip(' ')
-  
-    if len(suffix) <= 2:
-            suffix = ""
-    if len(prefix) <= 2:
-            prefix = ""
-    focus = prefix  + " diabetes " + suffix
-    
-    if generate_re_focus:
-           
-            if suffix == "" and prefix == "":
-                st_target = ".*".join( [  st.stem(tw.strip(" "))  for tw in target_words ] )  #<---
-                target_perms = [".*".join( list(t) ).strip(".*") for t in generate_permutations([ "["+ st_target[0].lower() + st_target[0].upper() + "]" + st_target[1:],"[Dd]iabetes"]) ]
-                     
-                if target != "" and target.strip(' '):
-                     re_focus = generate_disjunctions( ["^[Dd]iabetes$"]+ target_perms )
-                     
-                else:
-                        re_focus = "^[Dd]iabetes$" 
-            else:
-                  
-                     re_focus = generate_disjunctions( [".*".join( list(t) ).strip(".*") for t in generate_permutations([ re_capitalize( prefix ),"[Dd]iabetes", "(?:"+generate_disjunctions(suffix.split(" "))+")?" ])] )
-            
-    	
-  
-
-    
+    target.strip(" ")
+    if "diabetes" in q:
+        mid = " diabetes "
+    else:
+        mid = ""
+    focus = prefix + mid + suffix
+    ##print "Focus: ", focus
+    ##print "Target: ", target
     ##pprint(questionWords_and_tags)
 
 
@@ -224,7 +169,6 @@ def get_query(q, common_diabetes_questions,N, generate_re_focus = True):
 
     ##CAUSES
     syn_causes = obtain_synonyms("causes")
-    syn_causes.extend ( obtain_synonyms("lead") )
     re_cause = ".+(?:cause)"
     for w in syn_causes:
         if idf(w,N,common_diabetes_questions) > 1:
@@ -236,7 +180,6 @@ def get_query(q, common_diabetes_questions,N, generate_re_focus = True):
     
     if findall(re_cause,q ) != []:
         ans_types.append( "causes" )
-        ans_types.append( "symptoms" )
 
 
     ##SYMPTOMS    
@@ -402,48 +345,17 @@ def get_query(q, common_diabetes_questions,N, generate_re_focus = True):
     re_com = re_com + ".+"
     if findall(re_com,q ) != []:
         ans_types.append( "possible complications")
-
-    #ans_types.append("intro")
-
-
+        
     ##INTRO
     if ans_types == []:
         ans_types = ["intro"]
 
         
    
-    if generate_re_focus:                     
-            return (ans_types, focus, re_focus,target, questionWords_and_tags)
-    else:
-            return (ans_types, focus,target, questionWords_and_tags)
+                         
+    return (ans_types, focus,target, questionWords_and_tags)
 
 
-def proximity2(q, passage):
-    """
-    string*string -> int
-    Takes in a question and a passage and returns
-    a quantity indicating how close to each other do the words from the question
-    appear in the passage
-    """
-    questionWords = q.split(" ")
-    n = len(questionWords)
-        
-    proximity = 0
-    i = 0
-    while i < n-1:
-            try:
-                proximity = proximity + ( abs(passage.index(questionWords[i+1]) - passage.index(questionWords[i])) )
-                i = i + 1
-            except ValueError:
-                    i = i + 1
-                    continue
-            
-        
-    if proximity  == 0:
-        return 0
-    
-    return 1.0/proximity
-    
 def proximity(q, passage):
     """
     string*string -> int
@@ -475,156 +387,213 @@ def proximity(q, passage):
     
     return 1.0/proximity
 
-def remove_tags(s):
-    """ string -> string
-        Return the input string after removing <p> and </p> tags from the string 
-    """
-    from bs4 import BeautifulSoup as bs
-    return str(bs(s,"html.parser").get_text().encode('utf-8'))
-    
-def extract_information(q,list_types,focus,target, common_diabetes_questions_as_a_string, N, articles):
-    """
-    
-    Given the ans types, focus and target, along with the name of the file bearing
+##i = 0
+##for row_dic in articles:
+##    i = i + 1
 
-    the dataset, retreieve the ans pertaining to the query formed by the first three arguments
-    """
-    max_score = -1*float('inf')
-    max_overlap_target= -1*float('inf')
-    best_ans = ""
+db = get_db()
+articles = get_articles(db)
+
+candidate_answers = []
+
+
+
+
+def f(x):
+    return articles.next()["article_section"].lower()
+
+def g(x):
     
-  
-    #check to see if the focus appears some where in the name of an article
-    focusWords = (focus).split(" ")
-    
-    #collect synonyms of words in focus
-    focusWords2 = []
-    for w in focusWords:
-        focusWords2.extend(obtain_synonyms(w))
+    row_dic  = articles.next()
+    show(row_dic)
+    print
+    title_words = row_dic["article_title"].split(' ')
+    title_syns = []
+    for w in title_words:
+        if w != '-':
+            title_syns.append(w)
+            title_syns.append(st.stem(w) )
+            title_syns.extend( obtain_synonyms(w) )
+            title_syns.extend( obtain_synonyms(st.stem(w) ))
+    title_syns2 = []
+    for w in title_syns:
+        title_syns2.append(st.stem(w))
+    title_syns.extend(title_syns2)    
+    #we are going to have one key to each article from the pass on data in parse_file()
+
+    P_q_article_title = proximity(q,row_dic["article_title"])
+     
+    raw_common_words = list ( set(title_syns).intersection(set(focusWords)) )
+    common_words = []
+    for i in raw_common_words:
+        if not i == '':
+            common_words.append(i)
         
-    #collect word roots of words in focus
-    focusWords3 = []
-    for w in focusWords2:
-        focusWords3.append(st.stem(w))
+
+    num_common_words_focus_title = len(common_words)
+
+    #focus is just one word
+    if num_common_words_focus_title > 0:
         
-    focusWords.extend(focusWords2)
-    focusWords.extend(focusWords3)
+        #if there the article title indeed pertains to the focus
+        #procure the entire row about that article, as a dictionary
+        article = row_dic["article_section"]
+               
+     
+          #once the ans type has atleast a partial match,
+          # we use the following metrics to score the candidate passage
+
+          #number of words in common with the target
+          #article = article.lower()
+        article = remove_tags(article.lower().replace(u'\xa0', '').replace(u'\0xe2', u'').decode('latin1').encode("utf8")) #<----------------------------
+
+        articleWordsSet =  set(article.split(' '))
 
 
-    targetWords = (target).split(" ")
-    
-    #collect synonyms of words in target
-    targetWords2 = []
-    for w in targetWords:
-        targetWords2.extend(obtain_synonyms(w))
-        
-    #collect word roots of words in target    
-    targetWords3 = []
-    for w in targetWords:
-        targetWords3.append(st.stem(w))
-
-    targetWords.extend(targetWords2)
-    targetWords.extend(targetWords3)
-
-   
-    
-    candidate_answers = []
-    
-    for row_dic in articles:
-            
-            article_title = row_dic["article_title"].lower()
-            title_words = article_title.split(' ')
-            title_syns = []
-            
-            for w in title_words:
-                if w != '-':
-                    title_syns.append(w)
-                    title_syns.append(st.stem(w) )
-                    title_syns.extend( obtain_synonyms(w) )
-                    title_syns.extend( obtain_synonyms(st.stem(w) ))
-            title_syns2 = []
-            for w in title_syns:
-                title_syns2.append(st.stem(w))
-            title_syns.extend(title_syns2)
-
-            raw_common_words = list ( set(title_syns).intersection(set(focusWords)) )
-            common_words = []
-            for i in raw_common_words:
-                if not i == '':
-                    common_words.append(i)
-                
-
-            num_common_words_focus_title = len(common_words)
           
-            #we are going to have one key to each article from the pass on data in parse_file()
+        commons_target_articles =  list( articleWordsSet.intersection(set(targetWords)) )
+          
+        while '' in commons_target_articles:
+              commons_target_articles.remove('')
+              
+        CTA = len(commons_target_articles)
+        #CTA = proximity((' '.join(commons_target_articles)).encode('utf-8'), article)
+        #CTA = len(commons_target_articles)
+        
+        #how close do the words inside the question appear in the article
+        P_q_article = proximity(q, article)
+        
+        ans_category =  row_dic["section_title"]
+        ans_category =  ans_category.lower()
+        overlap_section_title_ans_type =  len( set(ans_category.split(' ')).intersection(set(list_types)))
 
-            P_q_article_title = proximity2(q, article_title)
-                
-            #if there the article title indeed pertains to the focus
-            #procure the entire row about that article, as a dictionary
-            article = row_dic["article_section"]
-                   
-         
-            #once the ans type has atleast a partial match,
-            # we use the following metrics to score the candidate passage
-
-            #number of words in common with the target
-            #article = article.lower()
-            article = remove_tags(article.lower().replace(u'\xa0', '').replace(u'\0xe2', u'').decode('latin1').encode("utf8")) #<----------------------------
-
-            articleWordsSet =  set(article.split(' '))
+        for ans_type in list_types:
+            #for each ans type (causes, recommendations, intro) obtained from the query
+            #check which one that is atleast (exact matches for cases like causes and causes and partial for intro and _intro_) a partial match 
+            #to the section title
             
-              
-            commons_target_articles =  list( articleWordsSet.intersection(set(targetWords)) )
-              
-            while '' in commons_target_articles:
-                  commons_target_articles.remove('')
+                               
+            if ans_type in ans_category :
+                 
+
+                  list_types_candidatePassage, focus_candidatePassage,target_candidatePassage, candidatePassage_and_tags = get_query(article, common_diabetes_questions_as_a_string,N) #treat each candidate passage as a question
+        
+                  overlap_focii = len( set(focus_candidatePassage).intersection(set(focusWords)))
+                  overlap_targets = len( set(target_candidatePassage).intersection(set( targetWords)))
+                  overlap_anstypes = len( set(list_types_candidatePassage).intersection(set(list_types)))
                   
-            CTA2 = proximity(" ".join(targetWords),article )#len(commons_target_articles)
+
+    ##                          pprint(article)
+    ##
+    ##                          print "num_common_words_focus_title ", 1*num_common_words_focus_title
+    ##                          print "CTA ", 1000.0*P_q_article_title*(CTA+1)  
+    ##                          print "P_q_article_title ", 1000.0*P_q_article_title*(CTA+1)  
+    ##                          print "P_q_article", P_q_article
+    ##                          print "overlap_focii ", overlap_focii
+    ##                          print "overlap_targets ", overlap_targets
+    ##                          print "overlap_anstypes ", overlap_anstypes 
+    ##                          print "overlap_section_title_ans_type ", overlap_section_title_ans_type == 1
+                  #score =  overlap_targets + overlap_focii   + overlap_anstypes
+                  score =  num_common_words_focus_title+ 1000.0*P_q_article_title*(CTA/100.0+1)  + P_q_article +  overlap_targets + overlap_focii   + overlap_anstypes
+                  #score =  10*num_common_words_focus_title + 1*CTA+ P + overlap_focii  + overlap_targets + (overlap_anstypes==1) + (overlap_section_title_ans_type == 1)
+                  #When there is no target, CTA willbe zero and CTA*P will make the score 0, therefore, N+ P is chosen
+                  #score =  10*num_common_words_focus_title+ 1000*P_q_article_title  + P_q_article + CTA
+                  print "SCORE: ", score
+                  candidate_answers.append( (score,1.0/P_q_article_title,article) )
+                  #print "________________________________________________________"
+    
+start_time = time.time()
+q = "What causes gestational diabetes"
+common_diabetes_questions_as_a_string, N, questions = collect_diabetes_questions("diabetes_questions.csv")
+list_types,focus,target ,words_tags  = get_query(q,common_diabetes_questions_as_a_string,N )
+#check to see if the focus appears some where in the name of an article
+focusWords = (focus).split(" ")
+
+re_focus = ".*"
+for fw in focusWords:
+    if fw!= '':
+        #print "fw: ", fw
+        re_focus = re_focus + fw  +".*"
+        #print re_focus
+        #print
+#print re_focus
+re_ans_type = ""
+for at in list_types:
+    #print "at: ", at
+    first_letter = at[0]
+    re_ans_type =  re_ans_type + "["+first_letter.upper()+first_letter.lower()+"]" + at[1:] + "|"
+re_ans_type =  re_ans_type.strip("|")
+##print
+##print re_ans_type
+##print db.articles.find({"article_title":{"$regex":re_focus}, "section_title":{"$regex":re_ans_type}}).count()
+##
 
 
-            a_types= ("".join(list_types) ).lower()
-            CTA  = 0
-            for w in (commons_target_articles):
-                    if w in a_types:
-                            continue
-                    if w in target:
-                            CTA = CTA + 20
-                    else:
-                             CTA = CTA + 1
-                    
-           
-            #how close do the words inside the question appear in the article
-            P_q_article = proximity2(q, article)
-           
-            ans_category =  row_dic["section_title"]
-            ans_category =  ans_category.lower()
-            overlap_section_title_ans_type =  len( set(ans_category.split(' ')).intersection(set(list_types)))
+targetWords = (target).split(" ")
 
-            list_types_candidatePassage, focus_candidatePassage,target_candidatePassage, candidatePassage_and_tags = get_query(article, common_diabetes_questions_as_a_string,N,generate_re_focus = False) #treat each candidate passage as a question
-            overlap_focii = len( set(focus_candidatePassage).intersection(set(focusWords)))
-            overlap_targets = len( set(target_candidatePassage).intersection(set( targetWords)))
-            overlap_anstypes = len( set(list_types_candidatePassage).intersection(set(list_types)))
-            #P_article_title*(CTA/100.0+1) #+ P_q_article_title*(CTA/100.0+1) #P_q_article
-            score =    10*CTA + num_common_words_focus_title   +  overlap_targets + overlap_focii #  + overlap_anstypes
+#collect synonyms of words in target
+targetWords2 = []
+for w in targetWords:
+    targetWords2.extend(obtain_synonyms(w))
+    
+#collect word roots of words in target    
+targetWords3 = []
+for w in targetWords:
+    targetWords3.append(st.stem(w))
 
-##            if score > max_score:
-##                    max_score = score
-##                    max_overlap_target = overlap_targets
-##                    best_ans = article
-##                    
-##            elif score == max_score:
-##                 if overlap_targets >= max_overlap_target:
-##                         best_ans = article
-##                    
-            
-            
-           
-            candidate_answers.append( (score,overlap_targets,article) )
-                      
-          
-    #return the passage with the highest score
-    if candidate_answers == []:
-        return "No answer found!"
-   
-    return max( candidate_answers )[2]
+targetWords.extend(targetWords2)
+targetWords.extend(targetWords3)   #collect synonyms of words in focus
+focusWords2 = []
+for w in focusWords:
+    focusWords2.extend(obtain_synonyms(w))
+    
+#collect word roots of words in focus
+focusWords3 = []
+for w in focusWords2:
+    focusWords3.append(st.stem(w))
+    
+focusWords.extend(focusWords2)
+focusWords.extend(focusWords3)
+
+
+targetWords = (target).split(" ")
+
+#collect synonyms of words in target
+targetWords2 = []
+for w in targetWords:
+    targetWords2.extend(obtain_synonyms(w))
+    
+#collect word roots of words in target    
+targetWords3 = []
+for w in targetWords:
+    targetWords3.append(st.stem(w))
+
+targetWords.extend(targetWords2)
+targetWords.extend(targetWords3)
+##for i in range(3000):
+##    g()
+#print candidate_answers
+#g()
+
+articles = db.articles.find({"article_title":{"$regex":re_focus}, "section_title":{"$regex":re_ans_type}})
+
+g(1)
+##p = Pool(10)
+##ob= p.map_async(g, range(100) )
+##print ob.get()
+##show( ob )
+
+elapsed_time = time.time() - start_time
+print elapsed_time
+##    p = Process(target=f, args=(1,2,3))
+##    p.start()
+##    p.join()
+##    show( f(4) )
+##    show( f(5) )
+##    show( f(6) )
+
+
+#!!!
+###Try using queries like
+
+###

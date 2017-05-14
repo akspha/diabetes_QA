@@ -1,0 +1,425 @@
+-------------------------------------
+As a diabetes 2 patient, how do you suggest, I plan my meals
+
+ANS TYPE:
+recommendations 
+re_ans_type:
+[Rr]ecommendations
+FOCUS:
+ diabetes 2 do
+re_focus:
+(?: )?[Dd]iabetes(?: )? 2 do
+TARGET:
+patient suggest i plan meals 
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+
+Is there any support group for diabetes
+
+ANS TYPE:
+support groups 
+re_ans_type:
+[Ss]upport groups
+FOCUS:
+ diabetes 
+re_focus:
+^(?: )?[Dd]iabetes(?: )?$
+TARGET:
+support group 
+CHOSEN ANS: 
+No answer found!
+
+-------------------------------------
+How can diabetes be prevented
+
+ANS TYPE:
+symptoms prevention 
+re_ans_type:
+[Ss]ymptoms|[Pp]revention
+FOCUS:
+ diabetes prevented
+re_focus:
+(?: )?[Dd]iabetes(?: )?(?:[Pp]revented)
+TARGET:
+be 
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+What is diabetes in children
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+ diabetes 
+re_focus:
+^(?: )?[Dd]iabetes(?: )?$
+TARGET:
+children 
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+What is juvenile diabetes
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+juvenile diabetes 
+re_focus:
+[Jj]uvenile(?: )?[Dd]iabetes(?: )?
+TARGET:
+juvenile 
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+What diet is recommended for pregnant women with diabetes
+
+ANS TYPE:
+recommendations 
+re_ans_type:
+[Rr]ecommendations
+FOCUS:
+ diabetes 
+re_focus:
+^(?: )?[Dd]iabetes(?: )?$
+TARGET:
+diet pregnant women 
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+What can be a diet for pregnant women with diabetes?
+
+ANS TYPE:
+recommendations 
+re_ans_type:
+[Rr]ecommendations
+FOCUS:
+ diabetes 
+re_focus:
+^(?: )?[Dd]iabetes(?: )?$
+TARGET:
+be diet pregnant women 
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+Type 2 diabetes meal plan
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+2 diabetes meal
+re_focus:
+2(?: )?[Dd]iabetes(?: )?(?:[Mm]eal)
+TARGET:
+type meal plan 
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+
+What is diabetes insipidus nephrogenic
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+ diabetes 
+re_focus:
+^(?: )?[Dd]iabetes(?: )?$
+TARGET:
+insipidus nephrogenic 
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+When to contact a medical professional for gestational diabetes
+
+ANS TYPE:
+when to contact a medical professional 
+re_ans_type:
+[Ww]hen to contact a medical professional
+FOCUS:
+gestational diabetes 
+re_focus:
+[Gg]estational(?: )?[Dd]iabetes(?: )?
+TARGET:
+
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+When to contact a medical professional for diabetes
+
+ANS TYPE:
+when to contact a medical professional 
+re_ans_type:
+[Ww]hen to contact a medical professional
+FOCUS:
+ diabetes 
+re_focus:
+^(?: )?[Dd]iabetes(?: )?$
+TARGET:
+
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+what diet do you recommend for gestational diabetes
+
+ANS TYPE:
+recommendations 
+re_ans_type:
+[Rr]ecommendations
+FOCUS:
+gestational diabetes 
+re_focus:
+[Gg]estational(?: )?[Dd]iabetes(?: )?
+TARGET:
+recommend gestational 
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+when to contact a medical professional for type 1 diabetes
+
+ANS TYPE:
+when to contact a medical professional 
+re_ans_type:
+[Ww]hen to contact a medical professional
+FOCUS:
+1 diabetes 
+re_focus:
+1(?: )?[Dd]iabetes(?: )?
+TARGET:
+
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+I have gestational diabetes, when should I meet with a medical pro
+
+ANS TYPE:
+when to contact a medical professional 
+re_ans_type:
+[Ww]hen to contact a medical professional
+FOCUS:
+gestational diabetes 
+re_focus:
+[Gg]estational(?: )?[Dd]iabetes(?: )?
+TARGET:
+
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+i am pregnant and I suspect I have diabetes, should I call a medical professional
+
+ANS TYPE:
+when to contact a medical professional 
+re_ans_type:
+[Ww]hen to contact a medical professional
+FOCUS:
+ diabetes 
+re_focus:
+^(?: )?[Dd]iabetes(?: )?$
+TARGET:
+
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+I am a teen with diabetes, can you help me
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+ diabetes 
+re_focus:
+^(?: )?[Dd]iabetes(?: )?$
+TARGET:
+i teen help 
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+My child has diabetes, can you help me
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+ diabetes 
+re_focus:
+^(?: )?[Dd]iabetes(?: )?$
+TARGET:
+child help 
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+My baby has diabetes, what is happening exactly?
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+ diabetes 
+re_focus:
+^(?: )?[Dd]iabetes(?: )?$
+TARGET:
+baby 
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+
+what could be the possible complications of diabetes insipidus
+
+ANS TYPE:
+possible complications 
+re_ans_type:
+[Pp]ossible complications
+FOCUS:
+ diabetes insipidus
+re_focus:
+(?: )?[Dd]iabetes(?: )?(?:[Ii]nsipidus)
+TARGET:
+be possible complications 
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+what could be the possible complications of diabetes insipidus nephrogenic
+
+ANS TYPE:
+possible complications 
+re_ans_type:
+[Pp]ossible complications
+FOCUS:
+ diabetes insipidus
+re_focus:
+(?: )?[Dd]iabetes(?: )?(?:[Ii]nsipidus)
+TARGET:
+be possible complications nephrogenic 
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+what could be the possible complications of diabetes nephrogenic insipidus
+
+ANS TYPE:
+possible complications 
+re_ans_type:
+[Pp]ossible complications
+FOCUS:
+ diabetes nephrogenic
+re_focus:
+(?: )?[Dd]iabetes(?: )?(?:[Nn]ephrogenic)
+TARGET:
+be possible complications nephrogenic insipidus 
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+can diabetes lead to a heart attack
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+ diabetes 
+re_focus:
+^(?: )?[Dd]iabetes(?: )?$
+TARGET:
+lead heart attack 
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+Which type of diabetes is common among children
+
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+ diabetes 
+re_focus:
+^(?: )?[Dd]iabetes(?: )?$
+TARGET:
+type common children 
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+I have diabetes and I am pregnant should I do an oral glucose test
+
+ANS TYPE:
+tests 
+re_ans_type:
+[Tt]ests
+FOCUS:
+ diabetes am do
+re_focus:
+(?: )?[Dd]iabetes(?: )?(?:[Aa]m do)
+TARGET:
+i i pregnant i oral glucose test 
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+Fasting plasma glucose (FPG) test
+
+ANS TYPE:
+tests 
+re_ans_type:
+[Tt]ests
+FOCUS:
+ diabetes 
+re_focus:
+^$
+TARGET:
+plasma glucose fpg test 
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+
+What should I do if my health care professional told me I have prediabetes?
+
+ANS TYPE:
+treatment recommendations 
+re_ans_type:
+[Tt]reatment|[Rr]ecommendations
+FOCUS:
+ diabetes do have
+re_focus:
+(?: )?[Dd]iabetes(?: )?(?:[Dd]o have)
+TARGET:
+i health care professional i prediabetes 
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+If I had gestational diabetes when I was pregnant, how can I lower my chances of developing type 2 diabetes?
+
+ANS TYPE:
+symptoms treatment recommendations 
+re_ans_type:
+[Ss]ymptoms|[Tt]reatment|[Rr]ecommendations
+FOCUS:
+i gestational diabetes 2
+re_focus:
+[Ii] gestational(?: )?[Dd]iabetes(?: )?
+TARGET:
+gestational i pregnant i chances type diabetes 
+CHOSEN ANS: 
+No answer found!
+-------------------------------------
+What is the link between diabetes, heart disease, and stroke?
+ANS TYPE:
+intro 
+re_ans_type:
+[Ii]ntro
+FOCUS:
+ diabetes 
+re_focus:
+^(?: )?[Dd]iabetes(?: )?$
+TARGET:
+link heart disease 
+CHOSEN ANS: 
+No answer found!
+-------------------------------------

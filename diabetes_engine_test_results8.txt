@@ -1,0 +1,15 @@
+Can diabetes causin vision defects
+ANS TYPE:
+causes symptoms 
+re_ans_type:
+[Cc]auses|[Ss]ymptoms
+FOCUS:
+ diabetes causin
+re_focus:
+(?:[Dd]iabetes.*(?:(?:causin.*))?.*)|(?:.*(?:(?:causin.*))?.*[Dd]iabetes.*)|(?:.*[Dd]iabetes.*.*(?:(?:causin.*))?.*)|(?:.*[Dd]iabetes.*(?:(?:causin.*))?.*)|(?:.*(?:(?:causin.*))?.*.*[Dd]iabetes.*)|(?:.*(?:(?:causin.*))?.*[Dd]iabetes.*)
+TARGET:
+causin vision defects
+CHOSEN ANS: 
+nephrogenic diabetes insipidus (ndi) occurs when the kidney tubules do not respond to a chemical in the body called antidiuretic hormone (adh), also called vasopressin. adh normally tells the kidneys to make the urine more concentrated.as a result of the defect, the kidneys release an excessive amount of water into the urine, producing a large quantity of very dilute urine. this makes you produce large amounts of urine.ndi is rare. congenital diabetes insipidus is present at birth as a result of defect passed down through families that usually affects men. however, women can pass the gene on to their children.most commonly, ndi develops because of other reasons. this is called an acquired disorder. factors that can trigger the acquired form of this condition include:blockage in the urinary tracthigh calcium levelslow potassium levelsuse of certain drugs (lithium, demeclocycline, amphotericin b)
+-------------------------------------
+145.48300004
